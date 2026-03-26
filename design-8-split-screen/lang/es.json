@@ -1,0 +1,223 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "product": "TurnosMedicos",
+    "services": "Servicios",
+    "pricing": "Precios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "login": "Ingresar"
+  },
+  "hero": {
+    "badge": "Soluciones digitales para la salud",
+    "title": "Transformamos la <span class=\"hero__title-accent\">gestión médica</span> con tecnología",
+    "description": "Plataforma integral de software médico que simplifica la administración de turnos, pacientes y consultorios. La solución que los profesionales de la salud estaban esperando.",
+    "cta": {
+      "primary": "Comenzar ahora",
+      "secondary": "Ver demo"
+    },
+    "stats": {
+      "doctors": {
+        "number": "2,500+",
+        "label": "Profesionales activos"
+      },
+      "appointments": {
+        "number": "150K+",
+        "label": "Turnos mensuales"
+      },
+      "satisfaction": {
+        "number": "98%",
+        "label": "Satisfacción"
+      }
+    }
+  },
+  "product": {
+    "label": "Producto estrella",
+    "title": "TurnosMedicos",
+    "description": "Sistema de gestión de turnos online diseñado específicamente para profesionales de la salud. Optimiza tu agenda, reduce ausencias y mejora la experiencia de tus pacientes.",
+    "features": {
+      "calendar": "Agenda inteligente con sincronización en tiempo real",
+      "reminders": "Recordatorios automáticos por WhatsApp y email",
+      "portal": "Portal de turnos 24/7 para pacientes",
+      "analytics": "Reportes y analytics de productividad"
+    },
+    "cta": {
+      "primary": "Acceder a TurnosMedicos",
+      "secondary": "Ver características"
+    },
+    "mockup": {
+      "url": "login.turnosmedicos.com",
+      "tabs": {
+        "calendar": "Calendario",
+        "patients": "Pacientes",
+        "reports": "Reportes"
+      }
+    }
+  },
+  "services": {
+    "label": "Nuestros servicios",
+    "title": "Soluciones completas para tu consultorio",
+    "subtitle": "Ofrecemos un ecosistema integral de herramientas digitales diseñadas para optimizar cada aspecto de la práctica médica.",
+    "items": {
+      "appointments": {
+        "title": "Gestión de Turnos",
+        "description": "Sistema avanzado de programación y gestión de citas médicas con confirmación automática y recordatorios inteligentes.",
+        "features": ["Agenda multicanal", "Confirmación automática", "Lista de espera inteligente"]
+      },
+      "patients": {
+        "title": "Historias Clínicas",
+        "description": "Digitalización completa de historias clínicas con acceso seguro, búsqueda avanzada y cumplimiento normativo.",
+        "features": ["Ficha digital completa", "Búsqueda inteligente", "Cumplimiento HIPAA"]
+      },
+      "billing": {
+        "title": "Facturación Médica",
+        "description": "Automatización del proceso de facturación con integración a obras sociales y prepagas argentinas.",
+        "features": ["Factura electrónica", "Liquidación OOSS", "Reportes financieros"]
+      },
+      "telemedicine": {
+        "title": "Telemedicina",
+        "description": "Plataforma de videoconsultas segura e integrada con tu agenda y fichas de pacientes.",
+        "features": ["Videollamadas HD", "Recetas digitales", "Integración total"]
+      }
+    }
+  },
+  "pricing": {
+    "label": "Planes y precios",
+    "title": "Planes flexibles para cada necesidad",
+    "description": "Elige el plan que mejor se adapte al tamaño de tu práctica. Todos incluyen soporte técnico y actualizaciones.",
+    "benefits": {
+      "trial": "14 días de prueba gratis",
+      "cancel": "Cancela cuando quieras",
+      "support": "Soporte técnico incluido"
+    },
+    "plans": {
+      "starter": {
+        "name": "Inicial",
+        "price": "$15.000",
+        "period": "/mes",
+        "features": ["1 profesional", "500 turnos/mes", "Agenda básica", "Soporte email"]
+      },
+      "professional": {
+        "name": "Profesional",
+        "price": "$35.000",
+        "period": "/mes",
+        "badge": "Popular",
+        "features": ["5 profesionales", "Turnos ilimitados", "Historia clínica", "Soporte prioritario"]
+      },
+      "enterprise": {
+        "name": "Empresa",
+        "price": "Consultar",
+        "period": "",
+        "features": ["Ilimitados", "API personalizada", "Integraciones", "Soporte dedicado"]
+      }
+    },
+    "cta": "Elegir plan"
+  },
+  "about": {
+    "label": "Sobre nosotros",
+    "title": "Innovación al servicio de la salud",
+    "description": "Somos un equipo de profesionales apasionados por la tecnología y comprometidos con mejorar la atención médica en Argentina. Desde 2018, desarrollamos soluciones que simplifican la gestión de consultorios.",
+    "stats": {
+      "years": {
+        "number": "6+",
+        "label": "Años de experiencia"
+      },
+      "clients": {
+        "number": "500+",
+        "label": "Clientes satisfechos"
+      },
+      "uptime": {
+        "number": "99.9%",
+        "label": "Disponibilidad"
+      },
+      "support": {
+        "number": "24/7",
+        "label": "Soporte técnico"
+      }
+    },
+    "values": {
+      "innovation": {
+        "title": "Innovación",
+        "description": "Tecnología de vanguardia"
+      },
+      "security": {
+        "title": "Seguridad",
+        "description": "Datos protegidos"
+      },
+      "simplicity": {
+        "title": "Simplicidad",
+        "description": "Fácil de usar"
+      },
+      "support": {
+        "title": "Soporte",
+        "description": "Siempre disponibles"
+      }
+    }
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "Hablemos de tu proyecto",
+    "description": "Estamos aquí para ayudarte a digitalizar tu consultorio. Contáctanos y un especialista te asesorará sin compromiso.",
+    "info": {
+      "email": {
+        "label": "Email",
+        "value": "hola@doctore.ar"
+      },
+      "phone": {
+        "label": "Teléfono",
+        "value": "+54 11 5555-0123"
+      },
+      "address": {
+        "label": "Ubicación",
+        "value": "Buenos Aires, Argentina"
+      }
+    },
+    "form": {
+      "name": "Tu nombre",
+      "email": "Tu email",
+      "phone": "Teléfono (opcional)",
+      "specialty": "Especialidad",
+      "message": "¿Cómo podemos ayudarte?",
+      "submit": "Enviar mensaje",
+      "success": "¡Mensaje enviado!"
+    }
+  },
+  "footer": {
+    "description": "Soluciones tecnológicas innovadoras para la gestión integral de consultorios médicos en Argentina.",
+    "columns": {
+      "product": {
+        "title": "Producto",
+        "links": {
+          "features": "Características",
+          "pricing": "Precios",
+          "demo": "Demo",
+          "updates": "Actualizaciones"
+        }
+      },
+      "company": {
+        "title": "Empresa",
+        "links": {
+          "about": "Nosotros",
+          "blog": "Blog",
+          "careers": "Carreras",
+          "contact": "Contacto"
+        }
+      },
+      "support": {
+        "title": "Soporte",
+        "links": {
+          "help": "Centro de ayuda",
+          "docs": "Documentación",
+          "status": "Estado del sistema",
+          "api": "API"
+        }
+      }
+    },
+    "legal": {
+      "privacy": "Privacidad",
+      "terms": "Términos",
+      "cookies": "Cookies"
+    },
+    "copyright": "© 2024 Doctore.ar. Todos los derechos reservados."
+  }
+}

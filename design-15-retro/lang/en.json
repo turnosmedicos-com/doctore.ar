@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "home": "Home",
+    "product": "Product",
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login"
+  },
+  "hero": {
+    "badge": "Medical Software",
+    "title": "Medical management",
+    "titleAccent": "simple and modern",
+    "description": "Optimize your practice with digital tools designed especially for healthcare professionals. Appointments, medical records and more, all in one place.",
+    "cta": {
+      "primary": "Get Started",
+      "secondary": "View Demo"
+    }
+  },
+  "turnosmedicos": {
+    "badge": "Star Product",
+    "title": "TurnosMedicos",
+    "description": "The most complete appointment management system for medical offices. Automate your bookings, reduce no-shows and improve your patients' experience.",
+    "features": {
+      "f1": "Online scheduling 24/7",
+      "f2": "Automatic reminders",
+      "f3": "Digital medical records",
+      "f4": "Reports and analytics"
+    },
+    "cta": {
+      "primary": "Access TurnosMedicos",
+      "secondary": "Learn More"
+    },
+    "mockup": {
+      "url": "login.turnosmedicos.com",
+      "patient1": "Maria Garcia",
+      "time1": "09:00 - General consultation",
+      "status1": "Confirmed",
+      "patient2": "Juan Perez",
+      "time2": "10:30 - Check-up",
+      "status2": "Pending"
+    }
+  },
+  "services": {
+    "badge": "Solutions",
+    "title": "Services we offer",
+    "subtitle": "Everything you need to modernize your medical practice",
+    "items": {
+      "s1": {
+        "title": "Appointment Management",
+        "description": "Complete scheduling system with automatic confirmations and reminders via WhatsApp and email."
+      },
+      "s2": {
+        "title": "Medical Records",
+        "description": "Secure digital medical records, accessible from any device with complete confidentiality."
+      },
+      "s3": {
+        "title": "Billing",
+        "description": "Invoice and receipt issuance integrated with Argentine health insurance providers."
+      },
+      "s4": {
+        "title": "Technical Support",
+        "description": "Personalized assistance to resolve any questions or technical issues."
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Plans",
+    "title": "Transparent pricing",
+    "subtitle": "No surprises or hidden costs. Choose the plan that best fits your practice.",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Ideal to get started",
+        "price": "$15,000",
+        "period": "/month",
+        "features": {
+          "f1": "Up to 100 appointments/month",
+          "f2": "1 professional",
+          "f3": "Email reminders",
+          "f4": "Email support"
+        },
+        "cta": "Start Free"
+      },
+      "professional": {
+        "name": "Professional",
+        "description": "Most popular",
+        "badge": "Recommended",
+        "price": "$35,000",
+        "period": "/month",
+        "features": {
+          "f1": "Unlimited appointments",
+          "f2": "Up to 5 professionals",
+          "f3": "WhatsApp + Email",
+          "f4": "Medical records",
+          "f5": "Basic billing",
+          "f6": "Priority support"
+        },
+        "cta": "Choose Plan"
+      }
+    }
+  },
+  "about": {
+    "title": "About",
+    "titleAccent": "doctore.ar",
+    "description": "We are an Argentine team dedicated to developing technological solutions for the healthcare sector. Our mission is to simplify medical management so that professionals can focus on what they do best: caring for patients.",
+    "stats": {
+      "s1": {
+        "value": "500+",
+        "label": "Practices"
+      },
+      "s2": {
+        "value": "50K+",
+        "label": "Appts/month"
+      },
+      "s3": {
+        "value": "99.9%",
+        "label": "Uptime"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "We're here to help. Write to us and we'll respond as soon as possible.",
+    "methods": {
+      "email": {
+        "label": "Email",
+        "value": "hello@doctore.ar"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+54 11 1234-5678"
+      },
+      "location": {
+        "label": "Location",
+        "value": "Buenos Aires, Argentina"
+      }
+    },
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "message": "Message",
+      "messagePlaceholder": "How can we help you?",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "tagline": "Technology for healthcare, made in Argentina.",
+    "links": {
+      "title": "Links",
+      "home": "Home",
+      "services": "Services",
+      "pricing": "Pricing",
+      "contact": "Contact"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "cookies": "Cookies"
+    },
+    "social": {
+      "title": "Follow Us"
+    },
+    "copyright": "2024 doctore.ar. All rights reserved.",
+    "privacyLink": "Privacy Policy",
+    "termsLink": "Terms of Service"
+  }
+}

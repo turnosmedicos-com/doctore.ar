@@ -1,0 +1,221 @@
+{
+  "lang": "en",
+  "meta": {
+    "title": "Doctore.ar - Digital Solutions for Healthcare Professionals",
+    "description": "We transform your medical practice management with cutting-edge technology. Online appointments, digital health records and more."
+  },
+  "nav": {
+    "home": "Home",
+    "product": "TurnosMedicos",
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "langSwitch": "ES"
+  },
+  "hero": {
+    "badge": "Leading platform in Argentina",
+    "title": "The new era of digital health",
+    "subtitle": "Technology solutions that flow with your medical practice. Appointment management, health records and more, all in one place.",
+    "cta": "Get started",
+    "ctaSecondary": "Watch demo",
+    "scroll": "Discover more",
+    "illustration": {
+      "doctor": "Dr. Martinez",
+      "specialty": "Cardiology",
+      "time1": "09:00",
+      "time2": "10:30",
+      "time3": "12:00",
+      "available": "Available",
+      "booked": "Booked"
+    }
+  },
+  "product": {
+    "badge": "Star Product",
+    "title": "TurnosMedicos",
+    "subtitle": "The most complete appointment management system in the market",
+    "description": "Simplify your practice administration with our intuitive platform. Your patients book online, you focus on what matters: their health.",
+    "features": {
+      "calendar": "Smart 24/7 scheduling",
+      "reminders": "Automatic reminders",
+      "payments": "Integrated payments",
+      "reports": "Detailed reports",
+      "multiLocation": "Multi-location",
+      "whatsapp": "WhatsApp integration"
+    },
+    "cta": "Access TurnosMedicos",
+    "ctaSecondary": "Learn more",
+    "mockup": {
+      "patients": "Patients",
+      "appointments": "Appointments",
+      "satisfaction": "Satisfaction"
+    }
+  },
+  "services": {
+    "badge": "Our Services",
+    "title": "Everything you need for your practice",
+    "description": "Comprehensive solutions specifically designed for healthcare professionals in Argentina.",
+    "items": {
+      "appointments": {
+        "title": "Appointment Management",
+        "description": "Complete online booking system with automatic confirmations and WhatsApp reminders."
+      },
+      "records": {
+        "title": "Health Records",
+        "description": "Secure digitization of medical records with quick access and regulatory compliance."
+      },
+      "billing": {
+        "title": "Billing",
+        "description": "Electronic invoicing, insurance management and integrated prepaid health plans."
+      },
+      "telemedicine": {
+        "title": "Telemedicine",
+        "description": "Virtual consultations with HD video, virtual waiting room and electronic prescriptions."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "description": "Dashboards with key metrics, patient trends and revenue projections."
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Dedicated support team available whenever you need them, every day."
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Plans & Pricing",
+    "title": "Choose the perfect plan for your practice",
+    "description": "Flexible plans that adapt to your practice size. No long-term contracts.",
+    "monthly": "month",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "4,990",
+        "features": [
+          "Up to 100 appointments/month",
+          "1 professional",
+          "SMS reminders",
+          "Email support"
+        ]
+      },
+      "professional": {
+        "name": "Professional",
+        "price": "9,990",
+        "badge": "Most popular",
+        "features": [
+          "Unlimited appointments",
+          "Up to 5 professionals",
+          "Digital health records",
+          "Telemedicine included",
+          "Priority support"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "24,990",
+        "features": [
+          "Everything above",
+          "Unlimited professionals",
+          "Multi-branch",
+          "Custom API",
+          "Dedicated account manager"
+        ]
+      }
+    },
+    "cta": "Start free trial"
+  },
+  "about": {
+    "badge": "About Us",
+    "title": "Transforming digital health in Argentina",
+    "description": "We are a team passionate about technology and health. Since 2020, we help medical professionals optimize their practices with innovative and accessible solutions.",
+    "stats": {
+      "doctors": "500+",
+      "doctorsLabel": "Doctors",
+      "patients": "50K+",
+      "patientsLabel": "Patients",
+      "appointments": "200K+",
+      "appointmentsLabel": "Appointments"
+    },
+    "values": {
+      "innovation": {
+        "title": "Constant Innovation",
+        "description": "We continuously update our platform with the latest technologies."
+      },
+      "security": {
+        "title": "Security First",
+        "description": "Encrypted data and full compliance with health regulations."
+      },
+      "support": {
+        "title": "Human Support",
+        "description": "Local team that understands the needs of the Argentine health system."
+      }
+    }
+  },
+  "contact": {
+    "badge": "Contact Us",
+    "title": "We're here to help",
+    "description": "Have questions? Our team is ready to assist you and find the best solution for your practice.",
+    "info": {
+      "email": {
+        "label": "Email",
+        "value": "hello@doctore.ar"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+54 11 1234-5678"
+      },
+      "address": {
+        "label": "Address",
+        "value": "Buenos Aires, Argentina"
+      }
+    },
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "message": "Message",
+      "messagePlaceholder": "How can we help you?",
+      "submit": "Send message"
+    }
+  },
+  "footer": {
+    "description": "Digital solutions for healthcare professionals. Simplifying medical practice management across Argentina.",
+    "columns": {
+      "product": {
+        "title": "Product",
+        "links": {
+          "features": "Features",
+          "pricing": "Pricing",
+          "integrations": "Integrations",
+          "updates": "Updates"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "links": {
+          "about": "About Us",
+          "blog": "Blog",
+          "careers": "Careers",
+          "press": "Press"
+        }
+      },
+      "support": {
+        "title": "Support",
+        "links": {
+          "help": "Help Center",
+          "docs": "Documentation",
+          "status": "System Status",
+          "contact": "Contact"
+        }
+      }
+    },
+    "legal": {
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "cookies": "Cookies"
+    },
+    "copyright": "2024 Doctore.ar. All rights reserved."
+  }
+}

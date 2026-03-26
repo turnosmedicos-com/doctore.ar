@@ -1,0 +1,209 @@
+/* ==========================================================================
+   Design 14 - Nature/Organic Theme
+   CSS Variables - Nature-Inspired, Organic Shapes, Calming Aesthetic
+   ========================================================================== */
+
+:root {
+  /* ========================================================================
+     COLOR PALETTE - Nature-Inspired with Primary Blue
+     ======================================================================== */
+
+  /* Primary Colors */
+  --color-primary: #0ea5e9;
+  --color-primary-light: #38bdf8;
+  --color-primary-dark: #0284c7;
+  --color-primary-50: #f0f9ff;
+  --color-primary-100: #e0f2fe;
+  --color-primary-200: #bae6fd;
+
+  /* Nature Greens */
+  --color-green: #10b981;
+  --color-green-light: #34d399;
+  --color-green-dark: #059669;
+  --color-green-50: #ecfdf5;
+  --color-green-100: #d1fae5;
+  --color-green-200: #a7f3d0;
+
+  /* Earth Tones */
+  --color-earth: #a3926b;
+  --color-earth-light: #c4b896;
+  --color-earth-dark: #7d6f4e;
+  --color-sand: #f5f0e6;
+  --color-bark: #6b5343;
+  --color-moss: #4a7c59;
+  --color-sage: #9caf88;
+  --color-olive: #7d8b6a;
+
+  /* Accent Colors */
+  --color-leaf: #22c55e;
+  --color-forest: #166534;
+  --color-mint: #a7f3d0;
+  --color-sky: #7dd3fc;
+  --color-sunset: #fbbf24;
+
+  /* Neutrals - Warm */
+  --color-white: #ffffff;
+  --color-cream: #fefdfb;
+  --color-neutral-50: #faf9f7;
+  --color-neutral-100: #f5f3f0;
+  --color-neutral-200: #e8e5e0;
+  --color-neutral-300: #d6d2cb;
+  --color-neutral-400: #a8a29e;
+  --color-neutral-500: #78716c;
+  --color-neutral-600: #57534e;
+  --color-neutral-700: #44403c;
+  --color-neutral-800: #292524;
+  --color-neutral-900: #1c1917;
+
+  /* Semantic Colors */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+  --color-info: #0ea5e9;
+
+  /* ========================================================================
+     TYPOGRAPHY
+     ======================================================================== */
+
+  /* Font Families */
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Font Sizes - Fluid Typography */
+  --font-size-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+  --font-size-sm: clamp(0.875rem, 0.8rem + 0.375vw, 1rem);
+  --font-size-base: clamp(1rem, 0.925rem + 0.375vw, 1.125rem);
+  --font-size-lg: clamp(1.125rem, 1rem + 0.625vw, 1.375rem);
+  --font-size-xl: clamp(1.25rem, 1.1rem + 0.75vw, 1.625rem);
+  --font-size-2xl: clamp(1.5rem, 1.25rem + 1.25vw, 2.25rem);
+  --font-size-3xl: clamp(1.875rem, 1.5rem + 1.875vw, 3rem);
+  --font-size-4xl: clamp(2.25rem, 1.75rem + 2.5vw, 4rem);
+  --font-size-5xl: clamp(3rem, 2.25rem + 3.75vw, 5.5rem);
+
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Line Heights */
+  --line-height-tight: 1.2;
+  --line-height-snug: 1.35;
+  --line-height-normal: 1.6;
+  --line-height-relaxed: 1.75;
+
+  /* Letter Spacing */
+  --letter-spacing-tight: -0.025em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.025em;
+  --letter-spacing-wider: 0.05em;
+
+  /* ========================================================================
+     SPACING - Natural, Breathing Room
+     ======================================================================== */
+
+  --space-3xs: clamp(0.25rem, 0.2rem + 0.25vw, 0.375rem);
+  --space-2xs: clamp(0.5rem, 0.4rem + 0.5vw, 0.75rem);
+  --space-xs: clamp(0.75rem, 0.6rem + 0.75vw, 1.125rem);
+  --space-sm: clamp(1rem, 0.85rem + 0.75vw, 1.5rem);
+  --space-md: clamp(1.5rem, 1.25rem + 1.25vw, 2.25rem);
+  --space-lg: clamp(2rem, 1.5rem + 2.5vw, 3.5rem);
+  --space-xl: clamp(3rem, 2.25rem + 3.75vw, 5rem);
+  --space-2xl: clamp(4rem, 3rem + 5vw, 7rem);
+  --space-3xl: clamp(6rem, 4.5rem + 7.5vw, 10rem);
+
+  /* ========================================================================
+     ORGANIC SHAPES - Border Radius
+     ======================================================================== */
+
+  --radius-sm: 0.75rem;
+  --radius-md: 1.25rem;
+  --radius-lg: 2rem;
+  --radius-xl: 3rem;
+  --radius-2xl: 4rem;
+  --radius-full: 9999px;
+
+  /* Organic Blob Shapes */
+  --blob-1: 60% 40% 70% 30% / 50% 60% 40% 50%;
+  --blob-2: 40% 60% 30% 70% / 60% 40% 60% 40%;
+  --blob-3: 70% 30% 50% 50% / 40% 70% 30% 60%;
+  --blob-4: 50% 50% 40% 60% / 70% 30% 70% 30%;
+  --blob-5: 30% 70% 60% 40% / 50% 50% 50% 50%;
+
+  /* Leaf Shapes */
+  --leaf-1: 80% 20% 80% 20% / 20% 80% 20% 80%;
+  --leaf-2: 90% 10% 90% 10% / 10% 90% 10% 90%;
+
+  /* ========================================================================
+     SHADOWS - Soft, Natural
+     ======================================================================== */
+
+  --shadow-xs: 0 1px 2px rgba(28, 25, 23, 0.04);
+  --shadow-sm: 0 2px 4px rgba(28, 25, 23, 0.06), 0 1px 2px rgba(28, 25, 23, 0.04);
+  --shadow-md: 0 4px 8px rgba(28, 25, 23, 0.08), 0 2px 4px rgba(28, 25, 23, 0.04);
+  --shadow-lg: 0 8px 24px rgba(28, 25, 23, 0.1), 0 4px 8px rgba(28, 25, 23, 0.06);
+  --shadow-xl: 0 16px 48px rgba(28, 25, 23, 0.12), 0 8px 16px rgba(28, 25, 23, 0.08);
+  --shadow-2xl: 0 24px 64px rgba(28, 25, 23, 0.14), 0 12px 24px rgba(28, 25, 23, 0.1);
+
+  /* Colored Shadows */
+  --shadow-primary: 0 8px 24px rgba(14, 165, 233, 0.2);
+  --shadow-green: 0 8px 24px rgba(16, 185, 129, 0.2);
+  --shadow-earth: 0 8px 24px rgba(163, 146, 107, 0.2);
+
+  /* ========================================================================
+     TRANSITIONS - Smooth, Natural
+     ======================================================================== */
+
+  --transition-fast: 150ms ease-out;
+  --transition-base: 250ms ease-out;
+  --transition-slow: 400ms ease-out;
+  --transition-slower: 600ms ease-out;
+
+  /* Organic Easing */
+  --ease-organic: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-flow: cubic-bezier(0.65, 0, 0.35, 1);
+
+  /* ========================================================================
+     LAYOUT
+     ======================================================================== */
+
+  --container-max: 1280px;
+  --container-padding: clamp(1.25rem, 4vw, 2.5rem);
+
+  /* Header */
+  --header-height: 5rem;
+  --header-height-scrolled: 4rem;
+
+  /* Z-Index Scale */
+  --z-base: 0;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-overlay: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+
+  /* ========================================================================
+     GRADIENTS - Natural
+     ======================================================================== */
+
+  --gradient-nature: linear-gradient(135deg, var(--color-green-50) 0%, var(--color-primary-50) 50%, var(--color-cream) 100%);
+  --gradient-earth: linear-gradient(135deg, var(--color-sand) 0%, var(--color-cream) 100%);
+  --gradient-sky: linear-gradient(180deg, var(--color-primary-50) 0%, var(--color-white) 100%);
+  --gradient-forest: linear-gradient(135deg, var(--color-green-dark) 0%, var(--color-moss) 100%);
+  --gradient-leaf: linear-gradient(135deg, var(--color-green-light) 0%, var(--color-green) 100%);
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  --gradient-organic: radial-gradient(ellipse at 30% 20%, var(--color-green-50) 0%, transparent 50%),
+                      radial-gradient(ellipse at 70% 80%, var(--color-primary-50) 0%, transparent 50%);
+}
+
+/* ========================================================================
+   DARK MODE (Optional - Nature themes typically stay light)
+   ======================================================================== */
+
+@media (prefers-color-scheme: dark) {
+  :root.auto-theme {
+    /* Keep light theme for nature aesthetic */
+  }
+}

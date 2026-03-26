@@ -1,0 +1,281 @@
+/* ============================================
+   DOCTORE.AR - Medical Trust Design
+   CSS Variables / Design Tokens
+   ============================================ */
+
+:root {
+  /* ===========================================
+     COLOR PALETTE - TurnosMedicos Compatible
+     =========================================== */
+
+  /* Primary Colors */
+  --color-primary: #0ea5e9;
+  --color-primary-light: #38bdf8;
+  --color-primary-dark: #0284c7;
+  --color-primary-50: #f0f9ff;
+  --color-primary-100: #e0f2fe;
+  --color-primary-200: #bae6fd;
+  --color-primary-500: #0ea5e9;
+  --color-primary-600: #0284c7;
+  --color-primary-700: #0369a1;
+
+  /* Secondary Colors */
+  --color-secondary: #14b8a6;
+  --color-secondary-light: #2dd4bf;
+  --color-secondary-dark: #0d9488;
+  --color-secondary-50: #f0fdfa;
+  --color-secondary-100: #ccfbf1;
+  --color-secondary-500: #14b8a6;
+  --color-secondary-600: #0d9488;
+
+  /* Warm Medical Accents */
+  --color-accent-warm: #f97316;
+  --color-accent-warm-light: #fb923c;
+  --color-accent-rose: #f43f5e;
+  --color-accent-rose-light: #fb7185;
+  --color-accent-amber: #f59e0b;
+  --color-accent-amber-light: #fbbf24;
+  --color-accent-purple: #8b5cf6;
+  --color-accent-purple-light: #a78bfa;
+
+  /* Soft Healthcare Colors */
+  --color-healthcare-mint: #a7f3d0;
+  --color-healthcare-sky: #bae6fd;
+  --color-healthcare-lavender: #ddd6fe;
+  --color-healthcare-peach: #fed7aa;
+  --color-healthcare-blush: #fecdd3;
+
+  /* Surface Colors */
+  --color-surface: #f8fafc;
+  --color-surface-white: #ffffff;
+  --color-surface-warm: #fffbf7;
+  --color-surface-light: #f1f5f9;
+  --color-surface-muted: #e2e8f0;
+
+  /* Text Colors */
+  --color-text: #0f172a;
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-muted: #64748b;
+  --color-text-light: #94a3b8;
+  --color-text-inverse: #ffffff;
+
+  /* Semantic Colors */
+  --color-success: #22c55e;
+  --color-success-light: #86efac;
+  --color-warning: #eab308;
+  --color-warning-light: #fde047;
+  --color-error: #ef4444;
+  --color-error-light: #fca5a5;
+  --color-info: #3b82f6;
+  --color-info-light: #93c5fd;
+
+  /* ===========================================
+     TYPOGRAPHY
+     =========================================== */
+
+  /* Font Families */
+  --font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  --font-family-heading: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Font Sizes - Mobile First */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --font-size-6xl: 3.75rem;
+
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  /* Line Heights */
+  --line-height-tight: 1.25;
+  --line-height-snug: 1.375;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.625;
+  --line-height-loose: 2;
+
+  /* Letter Spacing */
+  --letter-spacing-tight: -0.025em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.025em;
+  --letter-spacing-wider: 0.05em;
+
+  /* ===========================================
+     SPACING
+     =========================================== */
+
+  --spacing-0: 0;
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-10: 2.5rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+  --spacing-24: 6rem;
+  --spacing-32: 8rem;
+
+  /* Section Spacing */
+  --section-padding-y: var(--spacing-16);
+  --section-padding-y-lg: var(--spacing-24);
+  --container-padding-x: var(--spacing-4);
+
+  /* ===========================================
+     BORDERS & RADIUS - Soft Medical Feel
+     =========================================== */
+
+  --border-width: 1px;
+  --border-width-2: 2px;
+  --border-width-3: 3px;
+
+  /* Soft, rounded corners for medical trust */
+  --border-radius-sm: 0.5rem;
+  --border-radius: 0.75rem;
+  --border-radius-md: 1rem;
+  --border-radius-lg: 1.25rem;
+  --border-radius-xl: 1.5rem;
+  --border-radius-2xl: 2rem;
+  --border-radius-3xl: 2.5rem;
+  --border-radius-full: 9999px;
+
+  /* Border Colors */
+  --border-color: #e2e8f0;
+  --border-color-light: #f1f5f9;
+  --border-color-dark: #cbd5e1;
+  --border-color-primary: var(--color-primary);
+
+  /* ===========================================
+     SHADOWS - Soft, Gentle Shadows
+     =========================================== */
+
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+  --shadow-sm: 0 2px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 2px -1px rgba(0, 0, 0, 0.03);
+  --shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.06), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 8px 16px -4px rgba(0, 0, 0, 0.08), 0 4px 8px -4px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 16px 32px -8px rgba(0, 0, 0, 0.1), 0 8px 16px -8px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 24px 48px -12px rgba(0, 0, 0, 0.12), 0 12px 24px -12px rgba(0, 0, 0, 0.06);
+  --shadow-2xl: 0 32px 64px -16px rgba(0, 0, 0, 0.14);
+
+  /* Colored Shadows for Cards */
+  --shadow-primary: 0 8px 24px -4px rgba(14, 165, 233, 0.2);
+  --shadow-secondary: 0 8px 24px -4px rgba(20, 184, 166, 0.2);
+  --shadow-warm: 0 8px 24px -4px rgba(249, 115, 22, 0.15);
+
+  /* ===========================================
+     TRANSITIONS
+     =========================================== */
+
+  --transition-fast: 150ms ease;
+  --transition-base: 200ms ease;
+  --transition-slow: 300ms ease;
+  --transition-slower: 500ms ease;
+
+  /* Easing Functions */
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* ===========================================
+     LAYOUT
+     =========================================== */
+
+  --container-max-width: 1280px;
+  --container-narrow: 720px;
+  --container-wide: 1440px;
+
+  /* Z-Index Scale */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fixed: 300;
+  --z-modal-backdrop: 400;
+  --z-modal: 500;
+  --z-popover: 600;
+  --z-tooltip: 700;
+
+  /* ===========================================
+     GRADIENTS - Soft Healthcare Gradients
+     =========================================== */
+
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  --gradient-secondary: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-secondary-dark) 100%);
+  --gradient-warm: linear-gradient(135deg, var(--color-accent-warm-light) 0%, var(--color-accent-warm) 100%);
+
+  /* Soft Background Gradients */
+  --gradient-hero: linear-gradient(180deg, var(--color-surface-warm) 0%, var(--color-surface) 100%);
+  --gradient-section: linear-gradient(180deg, var(--color-surface) 0%, var(--color-surface-white) 100%);
+  --gradient-card: linear-gradient(180deg, var(--color-surface-white) 0%, var(--color-surface-light) 100%);
+
+  /* Medical Trust Gradients */
+  --gradient-medical: linear-gradient(135deg, var(--color-primary-50) 0%, var(--color-secondary-50) 100%);
+  --gradient-trust: linear-gradient(135deg, var(--color-healthcare-sky) 0%, var(--color-healthcare-mint) 100%);
+  --gradient-calm: linear-gradient(180deg, #f0f9ff 0%, #f0fdfa 50%, #fffbf7 100%);
+
+  /* ===========================================
+     COMPONENT-SPECIFIC TOKENS
+     =========================================== */
+
+  /* Navigation */
+  --nav-height: 4rem;
+  --nav-height-lg: 5rem;
+  --nav-background: rgba(255, 255, 255, 0.95);
+  --nav-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+
+  /* Buttons */
+  --btn-padding-y: var(--spacing-3);
+  --btn-padding-x: var(--spacing-6);
+  --btn-border-radius: var(--border-radius-full);
+  --btn-font-weight: var(--font-weight-semibold);
+
+  /* Cards */
+  --card-padding: var(--spacing-6);
+  --card-border-radius: var(--border-radius-xl);
+  --card-shadow: var(--shadow-md);
+
+  /* Forms */
+  --input-padding-y: var(--spacing-3);
+  --input-padding-x: var(--spacing-4);
+  --input-border-radius: var(--border-radius-md);
+  --input-border-color: var(--border-color);
+  --input-focus-ring: 0 0 0 3px rgba(14, 165, 233, 0.2);
+}
+
+/* ===========================================
+   RESPONSIVE ADJUSTMENTS
+   =========================================== */
+
+@media (min-width: 640px) {
+  :root {
+    --container-padding-x: var(--spacing-6);
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --section-padding-y: var(--spacing-20);
+    --section-padding-y-lg: var(--spacing-32);
+    --container-padding-x: var(--spacing-8);
+    --nav-height: var(--nav-height-lg);
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --container-padding-x: var(--spacing-10);
+  }
+}

@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="doctore.ar - Soluciones tecnologicas innovadoras para profesionales de la salud. Gestion de turnos, historiales clinicos y mas.">
+  <meta name="keywords" content="turnos medicos, gestion consultorio, software medico, argentina, salud digital">
+  <meta name="author" content="doctore.ar">
+  <meta name="theme-color" content="#0ea5e9">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="doctore.ar - Plataforma de Gestion Medica">
+  <meta property="og:description" content="Soluciones tecnologicas innovadoras para profesionales de la salud.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://doctore.ar">
+
+  <title>doctore.ar - Plataforma de Gestion Medica</title>
+
+  <!-- Preconnect to external resources -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏥</text></svg>">
+</head>
+<body>
+  <!-- Page Loader -->
+  <div class="page-loader" aria-hidden="true">
+    <div class="page-loader__spinner"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container nav__container">
+      <a href="#" class="nav__logo" aria-label="doctore.ar - Inicio">
+        <span class="nav__logo-icon">🏥</span>
+        <span>doctore.ar</span>
+      </a>
+
+      <ul class="nav__menu">
+        <li><a href="#inicio" class="nav__link" data-i18n="nav.home">Inicio</a></li>
+        <li><a href="#turnosmedicos" class="nav__link" data-i18n="nav.product">Producto</a></li>
+        <li><a href="#servicios" class="nav__link" data-i18n="nav.services">Servicios</a></li>
+        <li><a href="#precios" class="nav__link" data-i18n="nav.pricing">Precios</a></li>
+        <li><a href="#nosotros" class="nav__link" data-i18n="nav.about">Nosotros</a></li>
+        <li><a href="#contacto" class="nav__link" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button class="nav__lang-toggle" aria-label="Cambiar idioma">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          </svg>
+          <span class="nav__lang-text">ES</span>
+        </button>
+
+        <a href="https://login.turnosmedicos.com" class="btn btn--primary btn--sm nav__cta" data-i18n="nav.login">
+          Iniciar Sesion
+        </a>
+
+        <button class="nav__mobile-toggle" aria-label="Abrir menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="nav__mobile-menu" aria-hidden="true">
+      <a href="#inicio" class="nav__link" data-i18n="nav.home">Inicio</a>
+      <a href="#turnosmedicos" class="nav__link" data-i18n="nav.product">Producto</a>
+      <a href="#servicios" class="nav__link" data-i18n="nav.services">Servicios</a>
+      <a href="#precios" class="nav__link" data-i18n="nav.pricing">Precios</a>
+      <a href="#nosotros" class="nav__link" data-i18n="nav.about">Nosotros</a>
+      <a href="#contacto" class="nav__link" data-i18n="nav.contact">Contacto</a>
+      <a href="https://login.turnosmedicos.com" class="btn btn--primary" data-i18n="nav.login">
+        Iniciar Sesion
+      </a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+      <div class="hero__bg-shapes" aria-hidden="true">
+        <div class="hero__shape hero__shape--1"></div>
+        <div class="hero__shape hero__shape--2"></div>
+        <div class="hero__shape hero__shape--3"></div>
+        <div class="hero__shape hero__shape--4"></div>
+      </div>
+
+      <div class="container hero__container">
+        <div class="hero__content">
+          <div class="hero__badge">
+            <span class="hero__badge-dot"></span>
+            <span data-i18n="hero.badge">Plataforma de Gestion Medica</span>
+          </div>
+
+          <h1 class="hero__title">
+            <span data-i18n="hero.title1">Transforma tu</span>
+            <br>
+            <span class="hero__title-highlight" data-i18n="hero.title2">consultorio medico</span>
+            <br>
+            <span class="hero__title-typing" data-i18n="hero.title3">con tecnologia</span>
+          </h1>
+
+          <p class="hero__description" data-i18n="hero.description">
+            Soluciones digitales innovadoras para profesionales de la salud. Gestiona turnos, pacientes e historiales clinicos desde una unica plataforma.
+          </p>
+
+          <div class="hero__cta">
+            <a href="#contacto" class="btn btn--primary btn--lg">
+              <span data-i18n="hero.cta_primary">Comenzar Ahora</span>
+              <span class="btn__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </span>
+            </a>
+            <a href="#turnosmedicos" class="btn btn--outline btn--lg" data-i18n="hero.cta_secondary">
+              Ver Demo
+            </a>
+          </div>
+
+          <div class="hero__stats">
+            <div class="hero__stat">
+              <div class="hero__stat-value" data-counter="500">0</div>
+              <div class="hero__stat-label" data-i18n="hero.stat1_label">Profesionales activos</div>
+            </div>
+            <div class="hero__stat">
+              <div class="hero__stat-value" data-counter="50000">0</div>
+              <div class="hero__stat-label" data-i18n="hero.stat2_label">Turnos gestionados</div>
+            </div>
+            <div class="hero__stat">
+              <div class="hero__stat-value">99.9%</div>
+              <div class="hero__stat-label" data-i18n="hero.stat3_label">Tiempo activo</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="hero__image-wrapper">
+            <div class="hero__image">
+              <span class="hero__image-placeholder">📊</span>
+            </div>
+          </div>
+
+          <div class="hero__floating-card hero__floating-card--1">
+            <div class="hero__floating-icon hero__floating-icon--primary">📅</div>
+            <div>
+              <div class="hero__floating-text">+15 turnos</div>
+              <div class="hero__floating-subtext">Esta semana</div>
+            </div>
+          </div>
+
+          <div class="hero__floating-card hero__floating-card--2">
+            <div class="hero__floating-icon hero__floating-icon--secondary">✓</div>
+            <div>
+              <div class="hero__floating-text">Confirmado</div>
+              <div class="hero__floating-subtext">14:30 - Dr. Martinez</div>
+            </div>
+          </div>
+
+          <div class="hero__floating-card hero__floating-card--3">
+            <div class="hero__floating-icon hero__floating-icon--accent">⭐</div>
+            <div>
+              <div class="hero__floating-text">4.9 Rating</div>
+              <div class="hero__floating-subtext">500+ reviews</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__scroll-indicator" aria-hidden="true">
+        <span data-i18n="hero.scroll">Desplazar</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </div>
+    </section>
+
+    <!-- TurnosMedicos Section -->
+    <section id="turnosmedicos" class="turnosmedicos section">
+      <div class="turnosmedicos__bg" aria-hidden="true">
+        <div class="turnosmedicos__bg-grid"></div>
+      </div>
+
+      <div class="container">
+        <header class="turnosmedicos__header animate-on-scroll">
+          <span class="turnosmedicos__label">
+            <span>⭐</span>
+            <span data-i18n="turnosmedicos.label">Producto Estrella</span>
+          </span>
+          <h2 class="turnosmedicos__title" data-i18n="turnosmedicos.title">TurnosMedicos</h2>
+          <p class="turnosmedicos__subtitle" data-i18n="turnosmedicos.subtitle">
+            El sistema de gestion de turnos mas completo para consultorios y clinicas. Optimiza tu agenda y mejora la experiencia de tus pacientes.
+          </p>
+        </header>
+
+        <div class="turnosmedicos__content">
+          <div class="turnosmedicos__features">
+            <article class="turnosmedicos__feature animate-on-scroll from-left stagger-1">
+              <div class="turnosmedicos__feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+              </div>
+              <div class="turnosmedicos__feature-content">
+                <h3 class="turnosmedicos__feature-title" data-i18n="turnosmedicos.feature1_title">Agenda Inteligente</h3>
+                <p class="turnosmedicos__feature-text" data-i18n="turnosmedicos.feature1_text">
+                  Gestion automatizada de turnos con recordatorios y confirmaciones automaticas.
+                </p>
+              </div>
+            </article>
+
+            <article class="turnosmedicos__feature animate-on-scroll from-left stagger-2">
+              <div class="turnosmedicos__feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+              </div>
+              <div class="turnosmedicos__feature-content">
+                <h3 class="turnosmedicos__feature-title" data-i18n="turnosmedicos.feature2_title">Historial Clinico Digital</h3>
+                <p class="turnosmedicos__feature-text" data-i18n="turnosmedicos.feature2_text">
+                  Acceso seguro a la informacion de pacientes desde cualquier dispositivo.
+                </p>
+              </div>
+            </article>
+
+            <article class="turnosmedicos__feature animate-on-scroll from-left stagger-3">
+              <div class="turnosmedicos__feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+              </div>
+              <div class="turnosmedicos__feature-content">
+                <h3 class="turnosmedicos__feature-title" data-i18n="turnosmedicos.feature3_title">Reportes y Estadisticas</h3>
+                <p class="turnosmedicos__feature-text" data-i18n="turnosmedicos.feature3_text">
+                  Analiza el rendimiento de tu consultorio con metricas en tiempo real.
+                </p>
+              </div>
+            </article>
+
+            <article class="turnosmedicos__feature animate-on-scroll from-left stagger-4">
+              <div class="turnosmedicos__feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 16 12 12 8 16"></polyline>
+                  <line x1="12" y1="12" x2="12" y2="21"></line>
+                  <path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"></path>
+                  <polyline points="16 16 12 12 8 16"></polyline>
+                </svg>
+              </div>
+              <div class="turnosmedicos__feature-content">
+                <h3 class="turnosmedicos__feature-title" data-i18n="turnosmedicos.feature4_title">Integraciones</h3>
+                <p class="turnosmedicos__feature-text" data-i18n="turnosmedicos.feature4_text">
+                  Conecta con obras sociales, laboratorios y otros sistemas de salud.
+                </p>
+              </div>
+            </article>
+
+            <div class="turnosmedicos__cta animate-on-scroll from-left stagger-5">
+              <a href="https://login.turnosmedicos.com" class="btn btn--primary btn--lg">
+                <span data-i18n="turnosmedicos.cta_primary">Acceder a TurnosMedicos</span>
+                <span class="btn__icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </span>
+              </a>
+              <a href="#servicios" class="btn btn--ghost" data-i18n="turnosmedicos.cta_secondary">
+                Conocer mas
+              </a>
+            </div>
+          </div>
+
+          <div class="turnosmedicos__preview animate-on-scroll from-right">
+            <div class="turnosmedicos__mockup">
+              <div class="turnosmedicos__mockup-header">
+                <span class="turnosmedicos__mockup-dot turnosmedicos__mockup-dot--red"></span>
+                <span class="turnosmedicos__mockup-dot turnosmedicos__mockup-dot--yellow"></span>
+                <span class="turnosmedicos__mockup-dot turnosmedicos__mockup-dot--green"></span>
+                <span class="turnosmedicos__mockup-url">login.turnosmedicos.com</span>
+              </div>
+              <div class="turnosmedicos__mockup-content">
+                <div class="turnosmedicos__mockup-row">
+                  <div class="turnosmedicos__mockup-sidebar">
+                    <div class="turnosmedicos__mockup-sidebar-item"></div>
+                    <div class="turnosmedicos__mockup-sidebar-item"></div>
+                    <div class="turnosmedicos__mockup-sidebar-item"></div>
+                  </div>
+                  <div class="turnosmedicos__mockup-main">
+                    <div class="turnosmedicos__mockup-card"></div>
+                    <div class="turnosmedicos__mockup-card"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="turnosmedicos__float turnosmedicos__float--1">
+              <div class="turnosmedicos__float-icon turnosmedicos__float-icon--check">✓</div>
+              <div>
+                <div class="hero__floating-text" data-i18n="turnosmedicos.float1_text">Turno confirmado</div>
+                <div class="hero__floating-subtext" data-i18n="turnosmedicos.float1_subtext">Maria G. - 15:30hs</div>
+              </div>
+            </div>
+
+            <div class="turnosmedicos__float turnosmedicos__float--2">
+              <div class="turnosmedicos__float-icon turnosmedicos__float-icon--calendar">📅</div>
+              <div>
+                <div class="hero__floating-text" data-i18n="turnosmedicos.float2_text">+23 turnos</div>
+                <div class="hero__floating-subtext" data-i18n="turnosmedicos.float2_subtext">Esta semana</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services section">
+      <div class="container">
+        <header class="animate-on-scroll">
+          <h2 class="section-title" data-i18n="services.title">Nuestros Servicios</h2>
+          <p class="section-subtitle" data-i18n="services.subtitle">
+            Soluciones integrales para digitalizar y optimizar la gestion de tu practica medica.
+          </p>
+        </header>
+
+        <div class="services__grid">
+          <article class="service-card animate-on-scroll stagger-1">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </div>
+            <h3 class="service-card__title" data-i18n="services.service1_title">Desarrollo Web</h3>
+            <p class="service-card__description" data-i18n="services.service1_text">
+              Sitios web profesionales y personalizados para profesionales de la salud.
+            </p>
+            <a href="#contacto" class="service-card__link">
+              <span data-i18n="services.service1_link">Saber mas</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </article>
+
+          <article class="service-card animate-on-scroll stagger-2">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="service-card__title" data-i18n="services.service2_title">Apps Moviles</h3>
+            <p class="service-card__description" data-i18n="services.service2_text">
+              Aplicaciones nativas para iOS y Android con todas las funcionalidades.
+            </p>
+            <a href="#contacto" class="service-card__link">
+              <span data-i18n="services.service2_link">Saber mas</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </article>
+
+          <article class="service-card animate-on-scroll stagger-3">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+              </svg>
+            </div>
+            <h3 class="service-card__title" data-i18n="services.service3_title">Telemedicina</h3>
+            <p class="service-card__description" data-i18n="services.service3_text">
+              Plataforma de videoconsultas integrada con tu sistema de gestion.
+            </p>
+            <a href="#contacto" class="service-card__link">
+              <span data-i18n="services.service3_link">Saber mas</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </article>
+
+          <article class="service-card animate-on-scroll stagger-4">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                <line x1="1" y1="10" x2="23" y2="10"></line>
+              </svg>
+            </div>
+            <h3 class="service-card__title" data-i18n="services.service4_title">Facturacion Electronica</h3>
+            <p class="service-card__description" data-i18n="services.service4_text">
+              Gestion automatizada de facturacion y cobros a obras sociales.
+            </p>
+            <a href="#contacto" class="service-card__link">
+              <span data-i18n="services.service4_link">Saber mas</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </article>
+
+          <article class="service-card animate-on-scroll stagger-5">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path>
+              </svg>
+            </div>
+            <h3 class="service-card__title" data-i18n="services.service5_title">Marketing Digital</h3>
+            <p class="service-card__description" data-i18n="services.service5_text">
+              Estrategias de posicionamiento para atraer nuevos pacientes.
+            </p>
+            <a href="#contacto" class="service-card__link">
+              <span data-i18n="services.service5_link">Saber mas</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </article>
+
+          <article class="service-card animate-on-scroll stagger-6">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </div>
+            <h3 class="service-card__title" data-i18n="services.service6_title">Soporte 24/7</h3>
+            <p class="service-card__description" data-i18n="services.service6_text">
+              Asistencia tecnica permanente para garantizar la continuidad operativa.
+            </p>
+            <a href="#contacto" class="service-card__link">
+              <span data-i18n="services.service6_link">Saber mas</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="precios" class="pricing section">
+      <div class="container">
+        <header class="animate-on-scroll">
+          <h2 class="section-title" data-i18n="pricing.title">Planes y Precios</h2>
+          <p class="section-subtitle" data-i18n="pricing.subtitle">
+            Elige el plan que mejor se adapte a las necesidades de tu consultorio.
+          </p>
+        </header>
+
+        <div class="pricing__toggle animate-on-scroll">
+          <span class="pricing__toggle-label active" data-i18n="pricing.monthly">Mensual</span>
+          <button class="pricing__toggle-switch" aria-label="Toggle pricing period"></button>
+          <span class="pricing__toggle-label" data-i18n="pricing.annual">Anual</span>
+          <span class="pricing__save" data-i18n="pricing.save">Ahorra 20%</span>
+        </div>
+
+        <div class="pricing__grid">
+          <!-- Basic Plan -->
+          <article class="pricing-card animate-on-scroll stagger-1">
+            <div class="pricing-card__header">
+              <h3 class="pricing-card__name" data-i18n="pricing.plan1_name">Basico</h3>
+              <div class="pricing-card__price" data-price-monthly>
+                <span class="pricing-card__currency">$</span>
+                <span class="pricing-card__amount" data-i18n="pricing.plan1_price">4.999</span>
+                <span class="pricing-card__period">/mes</span>
+              </div>
+              <div class="pricing-card__price" data-price-annual style="display: none;">
+                <span class="pricing-card__currency">$</span>
+                <span class="pricing-card__amount" data-i18n="pricing.plan1_price_annual">3.999</span>
+                <span class="pricing-card__period">/mes</span>
+              </div>
+              <p class="pricing-card__description" data-i18n="pricing.plan1_description">Ideal para consultorios individuales</p>
+            </div>
+            <ul class="pricing-card__features">
+              <li class="pricing-card__feature">
+                <span class="pricing-card__feature-icon">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span data-i18n="pricing.plan1_feature1">Hasta 100 turnos/mes</span>
+              </li>
+              <li class="pricing-card__feature">
+                <span class="pricing-card__feature-icon">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span data-i18n="pricing.plan1_feature2">1 profesional</span>
+              </li>
+              <li class="pricing-card__feature">
+                <span class="pricing-card__feature-icon">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span data-i18n="pricing.plan1_feature3">Recordatorios SMS</span>
+              </li>
+              <li class="pricing-card__feature">
+                <span class="pricing-card__feature-icon">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span data-i18n="pricing.plan1_feature4">Soporte por email</span>
+              </li>
+            </ul>
+            <a href="#contacto" class="btn btn--outline pricing-card__cta" data-i18n="pricing.plan1_cta">Comenzar</a>
+          </article>
+
+          <!-- Professional Plan -->
+          <article class="pricing-card pricing-card--featured animate-on-scroll stagger-2">
+            <span class="pricing-card__badge" data-i18n="pricing.plan2_badge">Mas Popular</span>
+            <div class="pricing-card__header">
+              <h3 class="pricing-card__name" data-i18n="pricing.plan2_name">Profesional</h3>
+              <div class="pricing-card__price" data-price-monthly>
+                <span class="pricing-card__currency">$</span>
+                <span class="pricing-card__amount" data-i18n="pricing.plan2_price">9.999</span>
+                <span class="pricing-card__period">/mes</span>
+              </div>
+              <div class="pricing-card__price" data-price-annual style="display: none;">
+                <span class="pricing-card__currency">$</span>
+                <span class="pricing-card__amount" data-i18n="pricing.plan2_price_annual">7.999</span>
+                <span class="pricing-card__period">/mes</span>
+              </div>
+              <p class="pricing-card__description" data-i18n="pricing.plan2_description">Para consultorios en crecimiento</p>
+            </div>
+            <ul class="pricing-card__features">
+              <li class="pricing-card__feature">
+                <span class="pricing-card__feature-icon">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span data-i18n="pricing.plan2_feature1">Turnos ilimitados</span>
+              </li>
+              <li class="pricing-card__feature">
+                <span class="pricing-card__feature-icon">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span data-i18n="pricing.plan2_feature2">Hasta 5 profesionales</span>
+              </li>
+              <li class="pricing-card__feature">
+                <span class="pricing-card__feature-icon">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span data-i18n="pricing.plan2_feature3">Historial clinico digital</span>
+              </li>
+              <li class="pricing-card__feature">
+                <span class="pricing-card__feature-icon">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span data-i18n="pricing.plan2_feature4">Reportes avanzados</span>
+              </li>
+              <li class="pricing-card__feature">
+                <span class="pricing-card__feature-icon">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span data-i18n="pricing.plan2_feature5">Soporte prioritario</span>
+              </li>
+            </ul>
+            <a href="#contacto" class="btn btn--primary pricing-card__cta" data-i18n="pricing.plan2_cta">Comenzar</a>
+          </article>
+
+          <!-- Enterprise Plan -->
+          <article class="pricing-card animate-on-scroll stagger-3">
+            <div class="pricing-card__header">
+              <h3 class="pricing-card__name" data-i18n="pricing.plan3_name">Enterprise</h3>
+              <div class="pricing-card__price">
+                <span class="pricing-card__amount" data-i18n="pricing.plan3_price">Personalizado</span>
+              </div>
+              <p class="pricing-card__description" data-i18n="pricing.plan3_description">Para clinicas y centros medicos</p>
+            </div>
+            <ul class="pricing-card__features">
+              <li class="pricing-card__feature">
+                <span class="pricing-card__feature-icon">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span data-i18n="pricing.plan3_feature1">Todo lo de Profesional</span>
+              </li>
+              <li class="pricing-card__feature">
+                <span class="pricing-card__feature-icon">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span data-i18n="pricing.plan3_feature2">Profesionales ilimitados</span>
+              </li>
+              <li class="pricing-card__feature">
+                <span class="pricing-card__feature-icon">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span data-i18n="pricing.plan3_feature3">Integraciones custom</span>
+              </li>
+              <li class="pricing-card__feature">
+                <span class="pricing-card__feature-icon">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span data-i18n="pricing.plan3_feature4">API dedicada</span>
+              </li>
+              <li class="pricing-card__feature">
+                <span class="pricing-card__feature-icon">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span data-i18n="pricing.plan3_feature5">Gerente de cuenta</span>
+              </li>
+            </ul>
+            <a href="#contacto" class="btn btn--secondary pricing-card__cta" data-i18n="pricing.plan3_cta">Contactar</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about section">
+      <div class="container about__container">
+        <div class="about__image-wrapper animate-on-scroll from-left">
+          <div class="about__image">
+            <div class="about__image-placeholder">👨‍⚕️👩‍⚕️</div>
+          </div>
+          <div class="about__stats-card">
+            <div class="about__stats-card-value" data-i18n="about.stats_value">10+</div>
+            <div class="about__stats-card-label" data-i18n="about.stats_label">Anos de experiencia</div>
+          </div>
+        </div>
+
+        <div class="about__content animate-on-scroll from-right">
+          <span class="about__label" data-i18n="about.label">Sobre Nosotros</span>
+          <h2 class="about__title" data-i18n="about.title">Innovacion al servicio de la salud</h2>
+          <p class="about__text" data-i18n="about.text">
+            En doctore.ar combinamos tecnologia de vanguardia con un profundo conocimiento del sector salud para desarrollar soluciones que realmente mejoran la practica medica diaria.
+          </p>
+
+          <ul class="about__list">
+            <li class="about__list-item">
+              <span class="about__list-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </span>
+              <span data-i18n="about.list1">Equipo especializado en software medico</span>
+            </li>
+            <li class="about__list-item">
+              <span class="about__list-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </span>
+              <span data-i18n="about.list2">Mas de 10 anos de experiencia</span>
+            </li>
+            <li class="about__list-item">
+              <span class="about__list-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </span>
+              <span data-i18n="about.list3">Certificaciones en seguridad de datos</span>
+            </li>
+            <li class="about__list-item">
+              <span class="about__list-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </span>
+              <span data-i18n="about.list4">Soporte local y personalizado</span>
+            </li>
+          </ul>
+
+          <a href="#contacto" class="btn btn--primary" data-i18n="about.cta">Conocer al equipo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact section">
+      <div class="container contact__container">
+        <div class="contact__info animate-on-scroll from-left">
+          <h2 class="contact__title" data-i18n="contact.title">Contactanos</h2>
+          <p class="contact__text" data-i18n="contact.text">
+            Estamos aqui para ayudarte. Envianos un mensaje y te responderemos a la brevedad.
+          </p>
+
+          <div class="contact__methods">
+            <div class="contact__method">
+              <div class="contact__method-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact__method-content">
+                <span class="contact__method-label" data-i18n="contact.method1_label">Email</span>
+                <span class="contact__method-value" data-i18n="contact.method1_value">info@doctore.ar</span>
+              </div>
+            </div>
+
+            <div class="contact__method">
+              <div class="contact__method-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="contact__method-content">
+                <span class="contact__method-label" data-i18n="contact.method2_label">Telefono</span>
+                <span class="contact__method-value" data-i18n="contact.method2_value">+54 11 5555-0000</span>
+              </div>
+            </div>
+
+            <div class="contact__method">
+              <div class="contact__method-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact__method-content">
+                <span class="contact__method-label" data-i18n="contact.method3_label">Direccion</span>
+                <span class="contact__method-value" data-i18n="contact.method3_value">Buenos Aires, Argentina</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact__form animate-on-scroll from-right">
+          <div class="contact__form-grid">
+            <div class="contact__form-group">
+              <label class="contact__form-label" for="name" data-i18n="contact.form_name">Nombre</label>
+              <input type="text" id="name" name="name" class="contact__form-input" required data-i18n-placeholder="contact.form_name_placeholder" placeholder="Tu nombre">
+            </div>
+
+            <div class="contact__form-group">
+              <label class="contact__form-label" for="email" data-i18n="contact.form_email">Email</label>
+              <input type="email" id="email" name="email" class="contact__form-input" required data-i18n-placeholder="contact.form_email_placeholder" placeholder="tu@email.com">
+            </div>
+
+            <div class="contact__form-group">
+              <label class="contact__form-label" for="phone" data-i18n="contact.form_phone">Telefono</label>
+              <input type="tel" id="phone" name="phone" class="contact__form-input" data-i18n-placeholder="contact.form_phone_placeholder" placeholder="+54 11 5555-0000">
+            </div>
+
+            <div class="contact__form-group">
+              <label class="contact__form-label" for="specialty" data-i18n="contact.form_specialty">Especialidad</label>
+              <input type="text" id="specialty" name="specialty" class="contact__form-input" data-i18n-placeholder="contact.form_specialty_placeholder" placeholder="Tu especialidad medica">
+            </div>
+
+            <div class="contact__form-group contact__form-group--full">
+              <label class="contact__form-label" for="message" data-i18n="contact.form_message">Mensaje</label>
+              <textarea id="message" name="message" class="contact__form-textarea" required data-i18n-placeholder="contact.form_message_placeholder" placeholder="Como podemos ayudarte?"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--lg contact__form-submit" data-i18n="contact.form_submit">
+              Enviar Mensaje
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#" class="footer__logo">
+            <span class="footer__logo-icon">🏥</span>
+            <span>doctore.ar</span>
+          </a>
+          <p class="footer__description" data-i18n="footer.description">
+            Soluciones tecnologicas innovadoras para profesionales de la salud en Argentina.
+          </p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Twitter">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+              </svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__column-title" data-i18n="footer.product_title">Producto</h4>
+          <ul class="footer__links">
+            <li><a href="https://login.turnosmedicos.com" class="footer__link" data-i18n="footer.product_link1">TurnosMedicos</a></li>
+            <li><a href="#turnosmedicos" class="footer__link" data-i18n="footer.product_link2">Caracteristicas</a></li>
+            <li><a href="#precios" class="footer__link" data-i18n="footer.product_link3">Precios</a></li>
+            <li><a href="#" class="footer__link" data-i18n="footer.product_link4">Integraciones</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__column-title" data-i18n="footer.company_title">Empresa</h4>
+          <ul class="footer__links">
+            <li><a href="#nosotros" class="footer__link" data-i18n="footer.company_link1">Sobre nosotros</a></li>
+            <li><a href="#" class="footer__link" data-i18n="footer.company_link2">Equipo</a></li>
+            <li><a href="#" class="footer__link" data-i18n="footer.company_link3">Carreras</a></li>
+            <li><a href="#" class="footer__link" data-i18n="footer.company_link4">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__column-title" data-i18n="footer.support_title">Soporte</h4>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link" data-i18n="footer.support_link1">Centro de ayuda</a></li>
+            <li><a href="#" class="footer__link" data-i18n="footer.support_link2">Documentacion</a></li>
+            <li><a href="#" class="footer__link" data-i18n="footer.support_link3">Estado del sistema</a></li>
+            <li><a href="#contacto" class="footer__link" data-i18n="footer.support_link4">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright" data-i18n="footer.copyright">2024 doctore.ar. Todos los derechos reservados.</p>
+        <div class="footer__legal">
+          <a href="#" class="footer__legal-link" data-i18n="footer.privacy">Privacidad</a>
+          <a href="#" class="footer__legal-link" data-i18n="footer.terms">Terminos</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top" aria-label="Volver arriba">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

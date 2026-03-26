@@ -1,0 +1,200 @@
+/* ============================================
+   NEUMORPHISM DESIGN SYSTEM - CSS VARIABLES
+   Based on TurnosMedicos tokens
+   ============================================ */
+
+:root {
+  /* ========== COLORS ========== */
+
+  /* Brand Colors */
+  --color-primary: #0ea5e9;
+  --color-primary-light: #38bdf8;
+  --color-primary-dark: #0284c7;
+  --color-secondary: #14b8a6;
+  --color-secondary-light: #2dd4bf;
+  --color-secondary-dark: #0d9488;
+
+  /* Neumorphic Base Colors */
+  --color-background: #e0e5ec;
+  --color-background-alt: #d1d9e6;
+  --color-surface: #e0e5ec;
+
+  /* Shadow Colors for Neumorphism */
+  --shadow-light: #ffffff;
+  --shadow-dark: #a3b1c6;
+  --shadow-light-rgba: rgba(255, 255, 255, 0.8);
+  --shadow-dark-rgba: rgba(163, 177, 198, 0.6);
+
+  /* Text Colors */
+  --color-text-primary: #2d3748;
+  --color-text-secondary: #4a5568;
+  --color-text-muted: #718096;
+  --color-text-light: #a0aec0;
+  --color-text-on-primary: #ffffff;
+
+  /* State Colors */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+  --color-info: #3b82f6;
+
+  /* ========== TYPOGRAPHY ========== */
+
+  --font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-family-heading: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Font Sizes - Mobile First */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --font-size-6xl: 3.75rem;
+
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  /* Line Heights */
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+
+  /* Letter Spacing */
+  --letter-spacing-tight: -0.025em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.025em;
+
+  /* ========== SPACING ========== */
+
+  --spacing-0: 0;
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-10: 2.5rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+  --spacing-24: 6rem;
+  --spacing-32: 8rem;
+
+  /* ========== BORDERS ========== */
+
+  --border-radius-sm: 0.5rem;
+  --border-radius-md: 0.75rem;
+  --border-radius-lg: 1rem;
+  --border-radius-xl: 1.5rem;
+  --border-radius-2xl: 2rem;
+  --border-radius-full: 9999px;
+
+  /* ========== NEUMORPHIC SHADOWS ========== */
+
+  /* Raised/Convex Elements (buttons, cards) */
+  --shadow-neumorphic-raised:
+    8px 8px 16px var(--shadow-dark-rgba),
+    -8px -8px 16px var(--shadow-light-rgba);
+
+  --shadow-neumorphic-raised-sm:
+    4px 4px 8px var(--shadow-dark-rgba),
+    -4px -4px 8px var(--shadow-light-rgba);
+
+  --shadow-neumorphic-raised-lg:
+    12px 12px 24px var(--shadow-dark-rgba),
+    -12px -12px 24px var(--shadow-light-rgba);
+
+  /* Pressed/Inset Elements (inputs, pressed buttons) */
+  --shadow-neumorphic-inset:
+    inset 4px 4px 8px var(--shadow-dark-rgba),
+    inset -4px -4px 8px var(--shadow-light-rgba);
+
+  --shadow-neumorphic-inset-sm:
+    inset 2px 2px 4px var(--shadow-dark-rgba),
+    inset -2px -2px 4px var(--shadow-light-rgba);
+
+  --shadow-neumorphic-inset-lg:
+    inset 6px 6px 12px var(--shadow-dark-rgba),
+    inset -6px -6px 12px var(--shadow-light-rgba);
+
+  /* Flat Elements (neutral state) */
+  --shadow-neumorphic-flat:
+    3px 3px 6px var(--shadow-dark-rgba),
+    -3px -3px 6px var(--shadow-light-rgba);
+
+  /* ========== TRANSITIONS ========== */
+
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 350ms ease;
+  --transition-shadow: box-shadow 200ms ease;
+
+  /* ========== Z-INDEX ========== */
+
+  --z-index-dropdown: 100;
+  --z-index-sticky: 200;
+  --z-index-fixed: 300;
+  --z-index-modal-backdrop: 400;
+  --z-index-modal: 500;
+  --z-index-popover: 600;
+  --z-index-tooltip: 700;
+
+  /* ========== CONTAINER ========== */
+
+  --container-max-width: 1200px;
+  --container-padding: var(--spacing-4);
+
+  /* ========== COMPONENT SPECIFIC ========== */
+
+  /* Navigation */
+  --nav-height: 70px;
+  --nav-height-scrolled: 60px;
+
+  /* Cards */
+  --card-padding: var(--spacing-6);
+  --card-padding-lg: var(--spacing-8);
+
+  /* Buttons */
+  --button-padding-x: var(--spacing-6);
+  --button-padding-y: var(--spacing-3);
+  --button-padding-x-lg: var(--spacing-8);
+  --button-padding-y-lg: var(--spacing-4);
+
+  /* Form Elements */
+  --input-padding-x: var(--spacing-4);
+  --input-padding-y: var(--spacing-3);
+  --input-height: 48px;
+}
+
+/* ========== RESPONSIVE BREAKPOINTS ========== */
+
+@media (min-width: 640px) {
+  :root {
+    --container-padding: var(--spacing-6);
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --font-size-4xl: 2.5rem;
+    --font-size-5xl: 3.5rem;
+    --font-size-6xl: 4.5rem;
+    --container-padding: var(--spacing-8);
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --container-padding: var(--spacing-10);
+  }
+}

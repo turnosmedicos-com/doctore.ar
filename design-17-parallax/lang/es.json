@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "product": "Producto",
+    "services": "Servicios",
+    "pricing": "Precios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "login": "Ingresar"
+  },
+  "hero": {
+    "badge": "Soluciones Digitales para Salud",
+    "title": "Transformamos la Gestión de tu Consultorio Médico",
+    "description": "Plataforma integral que simplifica la administración de turnos, pacientes y facturación para profesionales de la salud.",
+    "cta_primary": "Comenzar Ahora",
+    "cta_secondary": "Ver Demo",
+    "scroll": "Descubre más"
+  },
+  "turnosmedicos": {
+    "badge": "Producto Estrella",
+    "title": "TurnosMedicos: Gestión Inteligente de Citas",
+    "description": "Sistema completo para la administración de turnos médicos con confirmaciones automáticas, recordatorios por WhatsApp y panel de control intuitivo.",
+    "feature_1": "Agenda online disponible 24/7 para tus pacientes",
+    "feature_2": "Confirmaciones y recordatorios automáticos por WhatsApp",
+    "feature_3": "Panel de control con métricas y reportes en tiempo real",
+    "feature_4": "Integración con sistemas de facturación y obras sociales",
+    "cta_primary": "Acceder a TurnosMedicos",
+    "cta_secondary": "Solicitar Demo",
+    "mockup": {
+      "patient_1": "María García",
+      "patient_2": "Juan Pérez",
+      "patient_3": "Ana Rodríguez",
+      "time_1": "09:00 - Consulta General",
+      "time_2": "09:30 - Control",
+      "time_3": "10:00 - Primera Consulta",
+      "status_confirmed": "Confirmado",
+      "status_pending": "Pendiente"
+    }
+  },
+  "services": {
+    "label": "Nuestros Servicios",
+    "title": "Soluciones Completas para tu Práctica Médica",
+    "subtitle": "Ofrecemos herramientas digitales diseñadas específicamente para profesionales de la salud.",
+    "service_1": {
+      "title": "Gestión de Turnos",
+      "description": "Sistema inteligente de agendamiento con recordatorios automáticos y confirmaciones vía WhatsApp."
+    },
+    "service_2": {
+      "title": "Historia Clínica Digital",
+      "description": "Registros médicos electrónicos seguros con acceso desde cualquier dispositivo."
+    },
+    "service_3": {
+      "title": "Facturación Integrada",
+      "description": "Automatización de facturación para obras sociales y pacientes particulares."
+    },
+    "service_4": {
+      "title": "Telemedicina",
+      "description": "Plataforma de videoconsultas integrada con tu agenda y sistema de turnos."
+    },
+    "service_5": {
+      "title": "Reportes y Analíticas",
+      "description": "Métricas detalladas sobre tu práctica para tomar mejores decisiones."
+    },
+    "service_6": {
+      "title": "App para Pacientes",
+      "description": "Aplicación móvil para que tus pacientes gestionen sus turnos y accedan a su historial."
+    }
+  },
+  "pricing": {
+    "label": "Planes y Precios",
+    "title": "Elige el Plan Ideal para tu Consultorio",
+    "subtitle": "Planes flexibles que se adaptan al tamaño de tu práctica médica.",
+    "plan_1": {
+      "name": "Inicial",
+      "description": "Para consultorios pequeños",
+      "price": "15.000",
+      "period": "/mes",
+      "feature_1": "Hasta 100 turnos mensuales",
+      "feature_2": "1 profesional",
+      "feature_3": "Recordatorios por email",
+      "feature_4": "Soporte por email",
+      "cta": "Comenzar"
+    },
+    "plan_2": {
+      "name": "Profesional",
+      "description": "El más elegido",
+      "price": "35.000",
+      "period": "/mes",
+      "feature_1": "Turnos ilimitados",
+      "feature_2": "Hasta 3 profesionales",
+      "feature_3": "WhatsApp + Email",
+      "feature_4": "Historia clínica digital",
+      "feature_5": "Soporte prioritario",
+      "cta": "Comenzar"
+    },
+    "plan_3": {
+      "name": "Clínica",
+      "description": "Para centros médicos",
+      "price": "75.000",
+      "period": "/mes",
+      "feature_1": "Todo ilimitado",
+      "feature_2": "Profesionales ilimitados",
+      "feature_3": "Facturación integrada",
+      "feature_4": "API personalizada",
+      "feature_5": "Soporte 24/7",
+      "cta": "Contactar"
+    },
+    "currency": "ARS"
+  },
+  "about": {
+    "label": "Sobre Nosotros",
+    "title": "Innovación en Salud Digital desde Argentina",
+    "description": "Somos un equipo apasionado por la tecnología y la salud. Desarrollamos soluciones que simplifican la vida de los profesionales médicos, permitiéndoles enfocarse en lo que realmente importa: sus pacientes.",
+    "stat_1": {
+      "value": "500+",
+      "label": "Profesionales activos"
+    },
+    "stat_2": {
+      "value": "50K+",
+      "label": "Turnos gestionados"
+    },
+    "stat_3": {
+      "value": "98%",
+      "label": "Satisfacción"
+    },
+    "stat_4": {
+      "value": "24/7",
+      "label": "Disponibilidad"
+    }
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "Hablemos sobre tu Proyecto",
+    "subtitle": "Estamos aquí para ayudarte a digitalizar tu práctica médica.",
+    "info": {
+      "email_label": "Email",
+      "email_value": "info@doctore.ar",
+      "phone_label": "Teléfono",
+      "phone_value": "+54 11 1234-5678",
+      "location_label": "Ubicación",
+      "location_value": "Buenos Aires, Argentina"
+    },
+    "form": {
+      "name_label": "Nombre",
+      "name_placeholder": "Tu nombre completo",
+      "email_label": "Email",
+      "email_placeholder": "tu@email.com",
+      "phone_label": "Teléfono",
+      "phone_placeholder": "+54 11 1234-5678",
+      "specialty_label": "Especialidad",
+      "specialty_placeholder": "Tu especialidad médica",
+      "message_label": "Mensaje",
+      "message_placeholder": "Cuéntanos sobre tu consultorio y necesidades...",
+      "submit": "Enviar Mensaje"
+    }
+  },
+  "footer": {
+    "description": "Soluciones tecnológicas innovadoras para profesionales de la salud en Argentina.",
+    "products": "Productos",
+    "company": "Empresa",
+    "legal": "Legal",
+    "product_1": "TurnosMedicos",
+    "product_2": "Historia Clínica",
+    "product_3": "Facturación",
+    "product_4": "Telemedicina",
+    "company_1": "Nosotros",
+    "company_2": "Blog",
+    "company_3": "Carreras",
+    "company_4": "Contacto",
+    "legal_1": "Privacidad",
+    "legal_2": "Términos",
+    "legal_3": "Cookies",
+    "copyright": "2024 doctore.ar. Todos los derechos reservados.",
+    "privacy": "Privacidad",
+    "terms": "Términos"
+  }
+}

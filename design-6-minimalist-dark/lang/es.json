@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "lang": "es",
+    "title": "doctore.ar - Soluciones Digitales para la Salud",
+    "description": "Transformamos la gestión de consultorios médicos con tecnología simple y elegante. TurnosMedicos: el sistema de turnos que tu práctica necesita."
+  },
+  "nav": {
+    "home": "Inicio",
+    "product": "Producto",
+    "services": "Servicios",
+    "pricing": "Precios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "login": "Ingresar"
+  },
+  "hero": {
+    "label": "Tecnología para la salud",
+    "title": "Gestión médica <strong>simple y elegante</strong>",
+    "subtitle": "Soluciones digitales diseñadas para que te concentres en lo que importa: tus pacientes. Sin complicaciones, sin distracciones.",
+    "cta_primary": "Comenzar ahora",
+    "cta_secondary": "Ver demo",
+    "stats": {
+      "professionals": {
+        "number": "500+",
+        "label": "Profesionales"
+      },
+      "appointments": {
+        "number": "50K+",
+        "label": "Turnos mensuales"
+      },
+      "uptime": {
+        "number": "99.9%",
+        "label": "Disponibilidad"
+      }
+    }
+  },
+  "product": {
+    "label": "Producto estrella",
+    "title": "TurnosMedicos",
+    "subtitle": "El sistema de gestión de turnos más intuitivo del mercado. Diseñado por médicos, para médicos.",
+    "features": [
+      "Agenda inteligente con gestión de disponibilidad",
+      "Recordatorios automáticos por WhatsApp y email",
+      "Portal de pacientes para autogestión de turnos",
+      "Reportes y estadísticas en tiempo real",
+      "Integración con calendarios existentes",
+      "Soporte técnico dedicado"
+    ],
+    "cta": "Acceder a TurnosMedicos",
+    "badge": "Confirmado"
+  },
+  "services": {
+    "label": "Servicios",
+    "title": "Lo que hacemos",
+    "subtitle": "Soluciones integrales para la transformación digital de tu práctica médica.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Gestión de Turnos",
+        "description": "Sistema completo de agendamiento con confirmaciones automáticas, listas de espera y gestión de cancelaciones."
+      },
+      {
+        "number": "02",
+        "title": "Comunicación con Pacientes",
+        "description": "Automatiza recordatorios, confirmaciones y seguimientos a través de múltiples canales de comunicación."
+      },
+      {
+        "number": "03",
+        "title": "Análisis y Reportes",
+        "description": "Dashboards intuitivos con métricas clave para optimizar la gestión de tu consultorio."
+      },
+      {
+        "number": "04",
+        "title": "Integración de Sistemas",
+        "description": "Conectamos con tu software actual de historia clínica, facturación y otros sistemas."
+      },
+      {
+        "number": "05",
+        "title": "Desarrollo a Medida",
+        "description": "Soluciones personalizadas adaptadas a las necesidades específicas de tu práctica."
+      },
+      {
+        "number": "06",
+        "title": "Soporte y Capacitación",
+        "description": "Acompañamiento continuo y capacitación para que aproveches al máximo nuestras herramientas."
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Precios",
+    "title": "Planes simples y transparentes",
+    "subtitle": "Sin sorpresas, sin costos ocultos. Elegí el plan que mejor se adapte a tu práctica.",
+    "plans": [
+      {
+        "name": "Básico",
+        "price": "4.900",
+        "currency": "ARS",
+        "period": "/mes",
+        "description": "Ideal para consultorios individuales que están comenzando.",
+        "features": [
+          "Hasta 100 turnos por mes",
+          "1 profesional",
+          "Recordatorios por email",
+          "Soporte por email",
+          "Reportes básicos"
+        ],
+        "cta": "Comenzar gratis"
+      },
+      {
+        "name": "Profesional",
+        "price": "9.900",
+        "currency": "ARS",
+        "period": "/mes",
+        "description": "Para consultorios en crecimiento con múltiples profesionales.",
+        "features": [
+          "Turnos ilimitados",
+          "Hasta 5 profesionales",
+          "WhatsApp + Email",
+          "Soporte prioritario",
+          "Reportes avanzados",
+          "Integraciones"
+        ],
+        "cta": "Comenzar prueba",
+        "featured": true,
+        "badge": "Popular"
+      },
+      {
+        "name": "Institucional",
+        "price": "Consultar",
+        "currency": "",
+        "period": "",
+        "description": "Para clínicas y centros médicos con necesidades avanzadas.",
+        "features": [
+          "Todo lo anterior",
+          "Profesionales ilimitados",
+          "API personalizada",
+          "Soporte dedicado",
+          "SLA garantizado",
+          "Desarrollo a medida"
+        ],
+        "cta": "Contactar ventas"
+      }
+    ]
+  },
+  "about": {
+    "label": "Nosotros",
+    "title": "Simplificando la salud digital",
+    "text1": "En doctore.ar creemos que la tecnología debe simplificar, no complicar. Nacimos de la frustración de ver a profesionales de la salud luchando con sistemas complejos y poco intuitivos.",
+    "text2": "Nuestro enfoque es diferente: diseñamos cada función pensando en el usuario final, eliminando la fricción y creando experiencias que se sienten naturales desde el primer uso.",
+    "values": [
+      {
+        "number": "01",
+        "title": "Simplicidad",
+        "description": "Menos es más. Cada función tiene un propósito claro."
+      },
+      {
+        "number": "02",
+        "title": "Confiabilidad",
+        "description": "Sistemas robustos que funcionan cuando los necesitás."
+      },
+      {
+        "number": "03",
+        "title": "Innovación",
+        "description": "Mejora continua basada en feedback real."
+      },
+      {
+        "number": "04",
+        "title": "Humanidad",
+        "description": "Tecnología al servicio de las personas, no al revés."
+      }
+    ],
+    "cards": [
+      {
+        "icon": "code",
+        "title": "Tecnología moderna",
+        "description": "Stack actualizado, arquitectura escalable y seguridad de primer nivel."
+      },
+      {
+        "icon": "users",
+        "title": "Equipo dedicado",
+        "description": "Profesionales apasionados por mejorar la experiencia de salud."
+      },
+      {
+        "icon": "shield",
+        "title": "Datos seguros",
+        "description": "Cumplimiento de normativas de protección de datos de salud."
+      },
+      {
+        "icon": "heart",
+        "title": "Soporte humano",
+        "description": "Personas reales ayudándote cuando lo necesitás."
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "Hablemos",
+    "subtitle": "Estamos acá para ayudarte. Escribinos y te respondemos en menos de 24 horas.",
+    "info": {
+      "email": {
+        "label": "Email",
+        "value": "hola@doctore.ar"
+      },
+      "phone": {
+        "label": "Teléfono",
+        "value": "+54 11 5555-0000"
+      },
+      "location": {
+        "label": "Ubicación",
+        "value": "Buenos Aires, Argentina"
+      }
+    },
+    "form": {
+      "name": {
+        "label": "Nombre",
+        "placeholder": "Tu nombre"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "tu@email.com"
+      },
+      "message": {
+        "label": "Mensaje",
+        "placeholder": "Contanos cómo podemos ayudarte..."
+      },
+      "submit": "Enviar mensaje"
+    }
+  },
+  "footer": {
+    "tagline": "Soluciones digitales elegantes para la gestión de consultorios médicos.",
+    "nav": {
+      "product": {
+        "title": "Producto",
+        "links": [
+          { "text": "TurnosMedicos", "href": "#product" },
+          { "text": "Características", "href": "#services" },
+          { "text": "Precios", "href": "#pricing" },
+          { "text": "Integraciones", "href": "#" }
+        ]
+      },
+      "company": {
+        "title": "Empresa",
+        "links": [
+          { "text": "Nosotros", "href": "#about" },
+          { "text": "Blog", "href": "#" },
+          { "text": "Carreras", "href": "#" },
+          { "text": "Contacto", "href": "#contact" }
+        ]
+      },
+      "legal": {
+        "title": "Legal",
+        "links": [
+          { "text": "Privacidad", "href": "#" },
+          { "text": "Términos", "href": "#" },
+          { "text": "Cookies", "href": "#" }
+        ]
+      }
+    },
+    "copyright": "2024 doctore.ar. Todos los derechos reservados."
+  }
+}

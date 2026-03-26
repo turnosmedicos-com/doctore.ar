@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plataforma integral para la gestion de consultorios medicos. Turnos, facturacion, red de derivaciones y consultoria para profesionales de la salud.">
+  <meta name="theme-color" content="#0ea5e9">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="doctore.ar - Transformamos tu Consultorio Medico">
+  <meta property="og:description" content="Plataforma integral para la gestion de consultorios medicos.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://doctore.ar">
+
+  <title>doctore.ar - Transformamos tu Consultorio Medico</title>
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container nav__container">
+      <a href="#" class="nav__logo" aria-label="doctore.ar Home">
+        <div class="nav__logo-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+          </svg>
+        </div>
+        <span class="nav__logo-text">doctore.ar</span>
+      </a>
+
+      <div class="nav__actions">
+        <div class="nav__lang-switch" role="group" aria-label="Language selection">
+          <button class="nav__lang-btn active" data-lang="es" aria-label="Espanol">ES</button>
+          <button class="nav__lang-btn" data-lang="en" aria-label="English">EN</button>
+        </div>
+        <a href="https://login.turnosmedicos.com" class="btn btn-primary nav__cta" data-i18n="nav.cta">Comenzar Ahora</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Progress Indicator -->
+  <aside class="progress-indicator" aria-label="Page navigation">
+    <ul class="progress-indicator__list">
+      <li>
+        <button class="progress-indicator__dot active" data-section="hero" data-label="Inicio" aria-label="Go to hero section"></button>
+      </li>
+      <li>
+        <button class="progress-indicator__dot" data-section="problem" data-label="Desafios" aria-label="Go to problem section"></button>
+      </li>
+      <li>
+        <button class="progress-indicator__dot" data-section="solution" data-label="Solucion" aria-label="Go to solution section"></button>
+      </li>
+      <li>
+        <button class="progress-indicator__dot" data-section="turnosmedicos" data-label="TurnosMedicos" aria-label="Go to TurnosMedicos section"></button>
+      </li>
+      <li>
+        <button class="progress-indicator__dot" data-section="services" data-label="Servicios" aria-label="Go to services section"></button>
+      </li>
+      <li>
+        <button class="progress-indicator__dot" data-section="transformation" data-label="Transformacion" aria-label="Go to transformation section"></button>
+      </li>
+      <li>
+        <button class="progress-indicator__dot" data-section="pricing" data-label="Planes" aria-label="Go to pricing section"></button>
+      </li>
+      <li>
+        <button class="progress-indicator__dot" data-section="cta" data-label="Comenzar" aria-label="Go to call to action section"></button>
+      </li>
+    </ul>
+  </aside>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="section hero">
+      <div class="container">
+        <div class="hero__content">
+          <div class="hero__badge reveal">
+            <svg class="hero__badge-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+            <span data-i18n="hero.badge">Una nueva era para tu consultorio</span>
+          </div>
+
+          <h1 class="heading-display hero__title reveal delay-1">
+            <span data-i18n="hero.title">Tu practica medica merece algo mejor</span>
+          </h1>
+
+          <p class="text-lead hero__subtitle reveal delay-2" data-i18n="hero.subtitle">
+            Sabemos lo dificil que es equilibrar la atencion de pacientes con la gestion administrativa. Es hora de cambiar eso.
+          </p>
+
+          <div class="hero__actions reveal delay-3">
+            <a href="#problem" class="btn btn-primary btn-large" data-i18n="hero.cta_primary">Descubri Como</a>
+            <a href="#turnosmedicos" class="btn btn-secondary btn-large" data-i18n="hero.cta_secondary">Ver Demo</a>
+          </div>
+        </div>
+
+        <div class="hero__scroll-hint">
+          <span data-i18n="hero.scroll_hint">Descubri la historia</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 5v14M19 12l-7 7-7-7"/>
+          </svg>
+        </div>
+      </div>
+      <div class="section__connector"></div>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problem" class="section problem">
+      <div class="container">
+        <header class="problem__header">
+          <span class="problem__chapter reveal" data-i18n="problem.chapter">Capitulo 1: El Desafio</span>
+          <h2 class="heading-1 problem__title reveal delay-1" data-i18n="problem.title">Los desafios que enfrentas a diario</h2>
+          <p class="text-lead reveal delay-2" data-i18n="problem.subtitle">Como profesional de la salud, tu tiempo es valioso. Sin embargo, gran parte de tu dia se pierde en tareas que te alejan de lo que realmente importa.</p>
+        </header>
+
+        <div class="problem__grid">
+          <article class="problem__card reveal">
+            <div class="problem__card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+                <line x1="10" y1="14" x2="14" y2="18"/>
+                <line x1="14" y1="14" x2="10" y2="18"/>
+              </svg>
+            </div>
+            <h3 class="problem__card-title" data-i18n="problem.card1_title">Turnos que se pierden</h3>
+            <p class="problem__card-text" data-i18n="problem.card1_text">Llamadas perdidas, cancelaciones de ultimo momento y una agenda que parece incontrolable.</p>
+          </article>
+
+          <article class="problem__card reveal delay-1">
+            <div class="problem__card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="1" x2="12" y2="23"/>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+              </svg>
+            </div>
+            <h3 class="problem__card-title" data-i18n="problem.card2_title">Facturacion compleja</h3>
+            <p class="problem__card-text" data-i18n="problem.card2_text">Obras sociales, monotributo, retenciones. La contabilidad consume horas valiosas de tu semana.</p>
+          </article>
+
+          <article class="problem__card reveal delay-2">
+            <div class="problem__card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </div>
+            <h3 class="problem__card-title" data-i18n="problem.card3_title">Derivaciones sin red</h3>
+            <p class="problem__card-text" data-i18n="problem.card3_text">Necesitas derivar pacientes pero no conoces especialistas de confianza en otras areas.</p>
+          </article>
+
+          <article class="problem__card reveal delay-3">
+            <div class="problem__card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                <line x1="12" y1="17" x2="12.01" y2="17"/>
+              </svg>
+            </div>
+            <h3 class="problem__card-title" data-i18n="problem.card4_title">Gestion sin guia</h3>
+            <p class="problem__card-text" data-i18n="problem.card4_text">Tomar decisiones de negocio sin datos ni asesoria profesional puede ser abrumador.</p>
+          </article>
+
+          <article class="problem__card reveal delay-4">
+            <div class="problem__card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+            </div>
+            <h3 class="problem__card-title" data-i18n="problem.card5_title">Tecnologia fragmentada</h3>
+            <p class="problem__card-text" data-i18n="problem.card5_text">Multiples herramientas que no se comunican entre si, generando trabajo duplicado.</p>
+          </article>
+
+          <article class="problem__card reveal delay-5">
+            <div class="problem__card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="20" x2="12" y2="10"/>
+                <line x1="18" y1="20" x2="18" y2="4"/>
+                <line x1="6" y1="20" x2="6" y2="16"/>
+              </svg>
+            </div>
+            <h3 class="problem__card-title" data-i18n="problem.card6_title">Crecimiento estancado</h3>
+            <p class="problem__card-text" data-i18n="problem.card6_text">Queres crecer pero no sabes por donde empezar o que estrategias implementar.</p>
+          </article>
+        </div>
+      </div>
+      <div class="section__connector"></div>
+    </section>
+
+    <!-- Solution Intro Section -->
+    <section id="solution" class="section solution-intro">
+      <div class="container">
+        <div class="solution-intro__content">
+          <div class="solution-intro__text-content">
+            <span class="solution-intro__chapter reveal" data-i18n="solution.chapter">Capitulo 2: Te Entendemos</span>
+            <h2 class="heading-1 solution-intro__title reveal delay-1" data-i18n="solution.title">Porque entendemos tus desafios</h2>
+            <p class="text-lead solution-intro__text reveal delay-2" data-i18n="solution.text">Somos un equipo que ha trabajado codo a codo con profesionales de la salud. Conocemos los dolores de cabeza de la gestion medica porque los hemos vivido junto a ustedes.</p>
+
+            <ul class="solution-intro__list reveal delay-3">
+              <li class="solution-intro__list-item">
+                <span class="solution-intro__list-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                </span>
+                <span data-i18n="solution.item1">Disenado por y para profesionales de la salud</span>
+              </li>
+              <li class="solution-intro__list-item">
+                <span class="solution-intro__list-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                </span>
+                <span data-i18n="solution.item2">Soluciones probadas en consultorios reales</span>
+              </li>
+              <li class="solution-intro__list-item">
+                <span class="solution-intro__list-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                </span>
+                <span data-i18n="solution.item3">Soporte humano que entiende tu realidad</span>
+              </li>
+              <li class="solution-intro__list-item">
+                <span class="solution-intro__list-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                </span>
+                <span data-i18n="solution.item4">Evolucion constante basada en tu feedback</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="solution-intro__image reveal-right">
+            <div class="solution-intro__image-placeholder" role="img" aria-label="Equipo de doctore.ar trabajando con medicos">
+              Imagen: Equipo colaborando con profesionales de la salud
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section__connector"></div>
+    </section>
+
+    <!-- TurnosMedicos Section -->
+    <section id="turnosmedicos" class="section turnosmedicos">
+      <div class="container">
+        <div class="turnosmedicos__content">
+          <span class="turnosmedicos__chapter reveal" data-i18n="turnosmedicos.chapter">Capitulo 3: Tu Nuevo Aliado</span>
+          <h2 class="heading-1 turnosmedicos__title reveal delay-1" data-i18n="turnosmedicos.title">Conoce TurnosMedicos</h2>
+          <p class="text-lead turnosmedicos__subtitle reveal delay-2" data-i18n="turnosmedicos.subtitle">El sistema de gestion de turnos que transforma la manera en que manejas tu agenda. Simple, intuitivo y disenado para que vos te enfoques en tus pacientes.</p>
+
+          <div class="turnosmedicos__mockup reveal-scale delay-2">
+            <div class="turnosmedicos__mockup-image">
+              <div class="turnosmedicos__mockup-placeholder">
+                <div class="turnosmedicos__mockup-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                    <line x1="16" y1="2" x2="16" y2="6"/>
+                    <line x1="8" y1="2" x2="8" y2="6"/>
+                    <line x1="3" y1="10" x2="21" y2="10"/>
+                  </svg>
+                </div>
+                <span class="turnosmedicos__mockup-text">TurnosMedicos Dashboard</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="turnosmedicos__features">
+            <div class="turnosmedicos__feature reveal delay-1">
+              <div class="turnosmedicos__feature-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                  <line x1="16" y1="2" x2="16" y2="6"/>
+                  <line x1="8" y1="2" x2="8" y2="6"/>
+                  <line x1="3" y1="10" x2="21" y2="10"/>
+                </svg>
+              </div>
+              <div class="turnosmedicos__feature-content">
+                <h3 class="turnosmedicos__feature-title" data-i18n="turnosmedicos.feature1_title">Agenda Inteligente</h3>
+                <p class="turnosmedicos__feature-text" data-i18n="turnosmedicos.feature1_text">Gestion automatizada de turnos</p>
+              </div>
+            </div>
+
+            <div class="turnosmedicos__feature reveal delay-2">
+              <div class="turnosmedicos__feature-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+                  <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+                </svg>
+              </div>
+              <div class="turnosmedicos__feature-content">
+                <h3 class="turnosmedicos__feature-title" data-i18n="turnosmedicos.feature2_title">Recordatorios</h3>
+                <p class="turnosmedicos__feature-text" data-i18n="turnosmedicos.feature2_text">Notificaciones automaticas</p>
+              </div>
+            </div>
+
+            <div class="turnosmedicos__feature reveal delay-3">
+              <div class="turnosmedicos__feature-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                  <polyline points="14 2 14 8 20 8"/>
+                  <line x1="16" y1="13" x2="8" y2="13"/>
+                  <line x1="16" y1="17" x2="8" y2="17"/>
+                  <polyline points="10 9 9 9 8 9"/>
+                </svg>
+              </div>
+              <div class="turnosmedicos__feature-content">
+                <h3 class="turnosmedicos__feature-title" data-i18n="turnosmedicos.feature3_title">Historial Clinico</h3>
+                <p class="turnosmedicos__feature-text" data-i18n="turnosmedicos.feature3_text">Fichas digitales organizadas</p>
+              </div>
+            </div>
+
+            <div class="turnosmedicos__feature reveal delay-4">
+              <div class="turnosmedicos__feature-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="18" y1="20" x2="18" y2="10"/>
+                  <line x1="12" y1="20" x2="12" y2="4"/>
+                  <line x1="6" y1="20" x2="6" y2="14"/>
+                </svg>
+              </div>
+              <div class="turnosmedicos__feature-content">
+                <h3 class="turnosmedicos__feature-title" data-i18n="turnosmedicos.feature4_title">Reportes</h3>
+                <p class="turnosmedicos__feature-text" data-i18n="turnosmedicos.feature4_text">Estadisticas de tu practica</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="turnosmedicos__cta reveal delay-3">
+            <a href="https://login.turnosmedicos.com" class="btn btn-primary btn-large" data-i18n="turnosmedicos.cta">Acceder a TurnosMedicos</a>
+            <p class="turnosmedicos__cta-note" data-i18n="turnosmedicos.cta_note">Proba gratis por 14 dias, sin tarjeta de credito</p>
+          </div>
+        </div>
+      </div>
+      <div class="section__connector"></div>
+    </section>
+
+    <!-- Services Journey Section -->
+    <section id="services" class="section services-journey">
+      <div class="container">
+        <header class="services-journey__header">
+          <span class="services-journey__chapter reveal" data-i18n="services.chapter">Capitulo 4: El Camino Completo</span>
+          <h2 class="heading-1 services-journey__title reveal delay-1" data-i18n="services.title">Tu camino hacia una practica exitosa</h2>
+          <p class="text-lead reveal delay-2" data-i18n="services.subtitle">Mas alla de los turnos, te acompanamos en cada aspecto de tu crecimiento profesional.</p>
+        </header>
+
+        <div class="services-journey__steps">
+          <!-- Step 1: Network -->
+          <article class="services-journey__step">
+            <div class="services-journey__step-content reveal-left">
+              <span class="services-journey__step-number" data-i18n="services.step1_number">1</span>
+              <h3 class="heading-2 services-journey__step-title" data-i18n="services.step1_title">Red de Derivaciones Profesionales</h3>
+              <p class="text-body services-journey__step-text" data-i18n="services.step1_text">Conectate con especialistas de confianza. Nuestra red verificada te permite derivar pacientes con tranquilidad, sabiendo que recibiran atencion de calidad.</p>
+              <div class="services-journey__step-features">
+                <span class="services-journey__step-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="services.step1_feature1">Especialistas verificados</span>
+                </span>
+                <span class="services-journey__step-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="services.step1_feature2">Seguimiento de derivaciones</span>
+                </span>
+                <span class="services-journey__step-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="services.step1_feature3">Comunicacion directa</span>
+                </span>
+              </div>
+            </div>
+            <div class="services-journey__step-image reveal-right">
+              <div class="services-journey__step-image-placeholder">
+                <div class="services-journey__step-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                    <circle cx="9" cy="7" r="4"/>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Step 2: Accounting -->
+          <article class="services-journey__step">
+            <div class="services-journey__step-content reveal-right">
+              <span class="services-journey__step-number" data-i18n="services.step2_number">2</span>
+              <h3 class="heading-2 services-journey__step-title" data-i18n="services.step2_title">Contabilidad Especializada en Salud</h3>
+              <p class="text-body services-journey__step-text" data-i18n="services.step2_text">Dejanos la parte contable. Nuestro equipo conoce las particularidades de la facturacion medica, obras sociales y regimenes fiscales del sector salud.</p>
+              <div class="services-journey__step-features">
+                <span class="services-journey__step-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="services.step2_feature1">Facturacion a obras sociales</span>
+                </span>
+                <span class="services-journey__step-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="services.step2_feature2">Liquidacion de honorarios</span>
+                </span>
+                <span class="services-journey__step-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="services.step2_feature3">Declaraciones fiscales</span>
+                </span>
+              </div>
+            </div>
+            <div class="services-journey__step-image reveal-left">
+              <div class="services-journey__step-image-placeholder">
+                <div class="services-journey__step-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="1" x2="12" y2="23"/>
+                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Step 3: Consulting -->
+          <article class="services-journey__step">
+            <div class="services-journey__step-content reveal-left">
+              <span class="services-journey__step-number" data-i18n="services.step3_number">3</span>
+              <h3 class="heading-2 services-journey__step-title" data-i18n="services.step3_title">Consultoria para tu Crecimiento</h3>
+              <p class="text-body services-journey__step-text" data-i18n="services.step3_text">Porque tu consultorio es tambien un emprendimiento. Te ayudamos a tomar decisiones estrategicas con datos y experiencia para hacer crecer tu practica.</p>
+              <div class="services-journey__step-features">
+                <span class="services-journey__step-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="services.step3_feature1">Analisis de rentabilidad</span>
+                </span>
+                <span class="services-journey__step-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="services.step3_feature2">Estrategias de crecimiento</span>
+                </span>
+                <span class="services-journey__step-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="services.step3_feature3">Marketing medico etico</span>
+                </span>
+              </div>
+            </div>
+            <div class="services-journey__step-image reveal-right">
+              <div class="services-journey__step-image-placeholder">
+                <div class="services-journey__step-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="20" x2="12" y2="10"/>
+                    <line x1="18" y1="20" x2="18" y2="4"/>
+                    <line x1="6" y1="20" x2="6" y2="16"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="section__connector"></div>
+    </section>
+
+    <!-- Transformation Section -->
+    <section id="transformation" class="section transformation">
+      <div class="container">
+        <header class="transformation__header">
+          <span class="transformation__chapter reveal" data-i18n="transformation.chapter">Capitulo 5: La Transformacion</span>
+          <h2 class="heading-1 transformation__title reveal delay-1" data-i18n="transformation.title">El cambio que vas a experimentar</h2>
+          <p class="text-lead reveal delay-2" data-i18n="transformation.subtitle">Mira como tu dia a dia puede transformarse cuando tenes las herramientas correctas.</p>
+        </header>
+
+        <div class="transformation__comparison">
+          <article class="transformation__card transformation__card--before reveal-left">
+            <span class="transformation__card-label" data-i18n="transformation.before_label">Antes</span>
+            <ul class="transformation__card-list">
+              <li class="transformation__card-item">
+                <span class="transformation__card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                  </svg>
+                </span>
+                <span data-i18n="transformation.before_item1">Horas perdidas en llamadas y confirmaciones</span>
+              </li>
+              <li class="transformation__card-item">
+                <span class="transformation__card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                  </svg>
+                </span>
+                <span data-i18n="transformation.before_item2">Estres por la facturacion y los numeros</span>
+              </li>
+              <li class="transformation__card-item">
+                <span class="transformation__card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                  </svg>
+                </span>
+                <span data-i18n="transformation.before_item3">Derivaciones a ciegas sin seguimiento</span>
+              </li>
+              <li class="transformation__card-item">
+                <span class="transformation__card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                  </svg>
+                </span>
+                <span data-i18n="transformation.before_item4">Decisiones basadas en intuicion</span>
+              </li>
+              <li class="transformation__card-item">
+                <span class="transformation__card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                  </svg>
+                </span>
+                <span data-i18n="transformation.before_item5">Sensacion de trabajar solo</span>
+              </li>
+            </ul>
+          </article>
+
+          <div class="transformation__arrow reveal-scale delay-2">
+            <div class="transformation__arrow-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </div>
+          </div>
+
+          <article class="transformation__card transformation__card--after reveal-right">
+            <span class="transformation__card-label" data-i18n="transformation.after_label">Despues</span>
+            <ul class="transformation__card-list">
+              <li class="transformation__card-item">
+                <span class="transformation__card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                </span>
+                <span data-i18n="transformation.after_item1">Agenda automatizada y organizada</span>
+              </li>
+              <li class="transformation__card-item">
+                <span class="transformation__card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                </span>
+                <span data-i18n="transformation.after_item2">Contabilidad manejada por expertos</span>
+              </li>
+              <li class="transformation__card-item">
+                <span class="transformation__card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                </span>
+                <span data-i18n="transformation.after_item3">Red de colegas de confianza</span>
+              </li>
+              <li class="transformation__card-item">
+                <span class="transformation__card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                </span>
+                <span data-i18n="transformation.after_item4">Datos claros para decidir mejor</span>
+              </li>
+              <li class="transformation__card-item">
+                <span class="transformation__card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                </span>
+                <span data-i18n="transformation.after_item5">Comunidad de apoyo profesional</span>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+      <div class="section__connector"></div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section pricing">
+      <div class="container">
+        <header class="pricing__header">
+          <span class="pricing__chapter reveal" data-i18n="pricing.chapter">Capitulo 6: Tu Inversion</span>
+          <h2 class="heading-1 pricing__title reveal delay-1" data-i18n="pricing.title">Planes pensados para vos</h2>
+          <p class="text-lead reveal delay-2" data-i18n="pricing.subtitle">Sin letra chica, sin sorpresas. Elegi el plan que mejor se adapte a tu practica.</p>
+        </header>
+
+        <div class="pricing__cards">
+          <!-- Plan 1: Inicio -->
+          <article class="pricing__card reveal">
+            <div class="pricing__card-header">
+              <h3 class="pricing__card-name" data-i18n="pricing.plan1_name">Inicio</h3>
+              <p class="pricing__card-description" data-i18n="pricing.plan1_description">Ideal para consultorios nuevos</p>
+            </div>
+            <div class="pricing__card-price">
+              <span class="pricing__card-price-value" data-i18n="pricing.plan1_price">Gratis</span>
+              <span class="pricing__card-price-period" data-i18n="pricing.plan1_period">para siempre</span>
+            </div>
+            <div class="pricing__card-features">
+              <ul class="pricing__card-features-list">
+                <li class="pricing__card-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="pricing.plan1_feature1">Hasta 50 turnos por mes</span>
+                </li>
+                <li class="pricing__card-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="pricing.plan1_feature2">Agenda basica</span>
+                </li>
+                <li class="pricing__card-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="pricing.plan1_feature3">Recordatorios por email</span>
+                </li>
+                <li class="pricing__card-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="pricing.plan1_feature4">Soporte por email</span>
+                </li>
+              </ul>
+            </div>
+            <a href="https://login.turnosmedicos.com" class="btn btn-secondary pricing__card-cta" data-i18n="pricing.plan1_cta">Comenzar Gratis</a>
+          </article>
+
+          <!-- Plan 2: Profesional (Featured) -->
+          <article class="pricing__card pricing__card--featured reveal delay-1">
+            <span class="pricing__card-badge" data-i18n="pricing.plan2_badge">Popular</span>
+            <div class="pricing__card-header">
+              <h3 class="pricing__card-name" data-i18n="pricing.plan2_name">Profesional</h3>
+              <p class="pricing__card-description" data-i18n="pricing.plan2_description">Para consultorios en crecimiento</p>
+            </div>
+            <div class="pricing__card-price">
+              <span class="pricing__card-price-value" data-i18n="pricing.plan2_price">$4.900</span>
+              <span class="pricing__card-price-period" data-i18n="pricing.plan2_period">por mes</span>
+            </div>
+            <div class="pricing__card-features">
+              <ul class="pricing__card-features-list">
+                <li class="pricing__card-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="pricing.plan2_feature1">Turnos ilimitados</span>
+                </li>
+                <li class="pricing__card-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="pricing.plan2_feature2">Agenda inteligente</span>
+                </li>
+                <li class="pricing__card-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="pricing.plan2_feature3">WhatsApp + Email</span>
+                </li>
+                <li class="pricing__card-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="pricing.plan2_feature4">Historial clinico</span>
+                </li>
+                <li class="pricing__card-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="pricing.plan2_feature5">Reportes avanzados</span>
+                </li>
+                <li class="pricing__card-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="pricing.plan2_feature6">Soporte prioritario</span>
+                </li>
+              </ul>
+            </div>
+            <a href="https://login.turnosmedicos.com" class="btn btn-primary pricing__card-cta" data-i18n="pricing.plan2_cta">Elegir Plan</a>
+          </article>
+
+          <!-- Plan 3: Integral -->
+          <article class="pricing__card reveal delay-2">
+            <div class="pricing__card-header">
+              <h3 class="pricing__card-name" data-i18n="pricing.plan3_name">Integral</h3>
+              <p class="pricing__card-description" data-i18n="pricing.plan3_description">La solucion completa</p>
+            </div>
+            <div class="pricing__card-price">
+              <span class="pricing__card-price-value" data-i18n="pricing.plan3_price">$12.900</span>
+              <span class="pricing__card-price-period" data-i18n="pricing.plan3_period">por mes</span>
+            </div>
+            <div class="pricing__card-features">
+              <ul class="pricing__card-features-list">
+                <li class="pricing__card-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="pricing.plan3_feature1">Todo de Profesional</span>
+                </li>
+                <li class="pricing__card-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="pricing.plan3_feature2">Red de derivaciones</span>
+                </li>
+                <li class="pricing__card-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="pricing.plan3_feature3">Contabilidad incluida</span>
+                </li>
+                <li class="pricing__card-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="pricing.plan3_feature4">Consultoria mensual</span>
+                </li>
+                <li class="pricing__card-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="pricing.plan3_feature5">Multiples sedes</span>
+                </li>
+                <li class="pricing__card-feature">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span data-i18n="pricing.plan3_feature6">Soporte dedicado</span>
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="btn btn-secondary pricing__card-cta" data-i18n="pricing.plan3_cta">Contactar Ventas</a>
+          </article>
+        </div>
+
+        <p class="pricing__note reveal" data-i18n="pricing.note">Todos los precios en pesos argentinos. IVA incluido. Cancela cuando quieras.</p>
+      </div>
+      <div class="section__connector"></div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="section cta-section">
+      <div class="container">
+        <div class="cta-section__content">
+          <h2 class="heading-1 cta-section__title reveal" data-i18n="cta.title">Tu historia de exito comienza hoy</h2>
+          <p class="cta-section__text reveal delay-1" data-i18n="cta.text">Unite a los cientos de profesionales que ya transformaron su practica medica. El primer paso es el mas importante.</p>
+
+          <div class="cta-section__actions reveal delay-2">
+            <a href="https://login.turnosmedicos.com" class="btn btn-large cta-section__btn-primary" data-i18n="cta.primary">Comenzar Ahora</a>
+            <a href="#" class="btn btn-large cta-section__btn-secondary" data-i18n="cta.secondary">Agendar Demo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <div class="footer__logo-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+              </svg>
+            </div>
+            <span class="footer__logo-text">doctore.ar</span>
+          </div>
+          <p class="footer__tagline" data-i18n="footer.tagline">Transformamos la gestion de consultorios medicos con tecnologia, comunidad y conocimiento.</p>
+        </div>
+
+        <div class="footer__links">
+          <div class="footer__column">
+            <h4 class="footer__column-title" data-i18n="footer.products_title">Productos</h4>
+            <ul class="footer__column-list">
+              <li><a href="https://login.turnosmedicos.com" class="footer__column-link" data-i18n="footer.products_turnosmedicos">TurnosMedicos</a></li>
+              <li><a href="#" class="footer__column-link" data-i18n="footer.products_network">Red de Derivaciones</a></li>
+              <li><a href="#" class="footer__column-link" data-i18n="footer.products_accounting">Contabilidad</a></li>
+              <li><a href="#" class="footer__column-link" data-i18n="footer.products_consulting">Consultoria</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__column">
+            <h4 class="footer__column-title" data-i18n="footer.company_title">Empresa</h4>
+            <ul class="footer__column-list">
+              <li><a href="#" class="footer__column-link" data-i18n="footer.company_about">Sobre Nosotros</a></li>
+              <li><a href="#" class="footer__column-link" data-i18n="footer.company_blog">Blog</a></li>
+              <li><a href="#" class="footer__column-link" data-i18n="footer.company_careers">Trabaja con Nosotros</a></li>
+              <li><a href="#" class="footer__column-link" data-i18n="footer.company_contact">Contacto</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__column">
+            <h4 class="footer__column-title" data-i18n="footer.support_title">Soporte</h4>
+            <ul class="footer__column-list">
+              <li><a href="#" class="footer__column-link" data-i18n="footer.support_help">Centro de Ayuda</a></li>
+              <li><a href="#" class="footer__column-link" data-i18n="footer.support_docs">Documentacion</a></li>
+              <li><a href="#" class="footer__column-link" data-i18n="footer.support_status">Estado del Sistema</a></li>
+              <li><a href="#" class="footer__column-link" data-i18n="footer.support_api">API</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">
+          &copy; <script>document.write(new Date().getFullYear())</script> <span data-i18n="footer.copyright">doctore.ar. Todos los derechos reservados.</span>
+        </p>
+        <div class="footer__legal">
+          <a href="#" class="footer__legal-link" data-i18n="footer.privacy">Privacidad</a>
+          <a href="#" class="footer__legal-link" data-i18n="footer.terms">Terminos</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

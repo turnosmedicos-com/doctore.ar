@@ -1,0 +1,193 @@
+{
+  "lang": "en",
+  "meta": {
+    "title": "Doctore.ar - Digital Healthcare Solutions",
+    "description": "We transform medical practice management with cutting-edge technology. TurnosMedicos, our flagship product."
+  },
+  "nav": {
+    "home": "Home",
+    "product": "TurnosMedicos",
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login"
+  },
+  "hero": {
+    "badge": "Healthcare Innovation",
+    "title": "Medical management <span class=\"text-gradient\">simplified</span>",
+    "description": "We develop technological solutions that transform how healthcare professionals manage their practices.",
+    "cta_primary": "Get Started",
+    "cta_secondary": "View Demo"
+  },
+  "product": {
+    "badge": "Flagship Product",
+    "title": "TurnosMedicos",
+    "description": "Comprehensive appointment management system designed specifically for healthcare professionals. Optimize your schedule, reduce no-shows, and improve your patients' experience.",
+    "features": {
+      "agenda": "Smart scheduling 24/7",
+      "reminders": "Automatic reminders",
+      "history": "Patient history",
+      "reports": "Reports & analytics"
+    },
+    "cta_primary": "Access TurnosMedicos",
+    "cta_secondary": "Learn More"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Complete solutions to digitize and optimize your medical practice",
+    "items": {
+      "development": {
+        "title": "Custom Development",
+        "description": "We create personalized applications that perfectly adapt to your practice's unique needs."
+      },
+      "consulting": {
+        "title": "Digital Consulting",
+        "description": "We advise you on the digital transformation of your medical practice with proven strategies."
+      },
+      "integration": {
+        "title": "System Integration",
+        "description": "We connect all your digital tools to create an efficient and unified ecosystem."
+      },
+      "support": {
+        "title": "Technical Support",
+        "description": "Continuous technical assistance to ensure optimal operation of your systems."
+      },
+      "training": {
+        "title": "Training",
+        "description": "Training programs so your team can get the most out of every tool."
+      },
+      "security": {
+        "title": "Data Security",
+        "description": "Advanced medical information protection complying with all current regulations."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Plans & Pricing",
+    "subtitle": "Choose the plan that best fits your medical practice",
+    "period": "/month",
+    "popular": "Most Popular",
+    "cta": "Get Started",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "price": "29",
+        "features": {
+          "appointments": "Up to 100 appointments/month",
+          "reminders": "SMS reminders",
+          "calendar": "Online calendar",
+          "support": "Email support",
+          "reports": "Basic reports",
+          "integration": "No integrations"
+        }
+      },
+      "professional": {
+        "name": "Professional",
+        "price": "59",
+        "features": {
+          "appointments": "Unlimited appointments",
+          "reminders": "SMS + WhatsApp",
+          "calendar": "Multi-calendar",
+          "support": "Priority support",
+          "reports": "Advanced reports",
+          "integration": "API available"
+        }
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "99",
+        "features": {
+          "appointments": "Unlimited appointments",
+          "reminders": "All channels",
+          "calendar": "Multi-location",
+          "support": "24/7 support",
+          "reports": "Full analytics",
+          "integration": "Custom integrations"
+        }
+      }
+    }
+  },
+  "about": {
+    "title": "About <span class=\"text-gradient\">Us</span>",
+    "text1": "At Doctore.ar we are dedicated to creating innovative technological solutions for the healthcare sector. Our team combines software development experience with a deep understanding of the medical sector's needs.",
+    "text2": "We believe technology should simplify the lives of healthcare professionals, allowing them to focus on what really matters: caring for their patients.",
+    "values": {
+      "innovation": "Constant innovation",
+      "quality": "Guaranteed quality",
+      "security": "Maximum security",
+      "support": "Dedicated support"
+    },
+    "stats": {
+      "clients": "Clients",
+      "appointments": "Appts/month",
+      "satisfaction": "Satisfaction"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "We're here to help. Contact us and discover how we can transform your medical practice.",
+    "methods": {
+      "email": {
+        "label": "Email",
+        "value": "info@doctore.ar"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+54 11 5555-0123"
+      },
+      "location": {
+        "label": "Location",
+        "value": "Buenos Aires, Argentina"
+      }
+    },
+    "form": {
+      "name": "Full name",
+      "name_placeholder": "Your name",
+      "email": "Email address",
+      "email_placeholder": "you@email.com",
+      "subject": "Subject",
+      "subject_placeholder": "How can we help you?",
+      "message": "Message",
+      "message_placeholder": "Write your message here...",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "description": "Transforming medical practice management with innovative technology.",
+    "columns": {
+      "product": {
+        "title": "Product",
+        "links": {
+          "features": "Features",
+          "pricing": "Pricing",
+          "demo": "Demo",
+          "updates": "Updates"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "links": {
+          "about": "About",
+          "blog": "Blog",
+          "careers": "Careers",
+          "contact": "Contact"
+        }
+      },
+      "support": {
+        "title": "Support",
+        "links": {
+          "help": "Help Center",
+          "docs": "Documentation",
+          "status": "System Status",
+          "api": "API"
+        }
+      }
+    },
+    "legal": {
+      "privacy": "Privacy",
+      "terms": "Terms"
+    },
+    "copyright": "Doctore.ar. All rights reserved."
+  }
+}

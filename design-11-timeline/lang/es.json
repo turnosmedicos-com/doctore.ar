@@ -1,0 +1,187 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "product": "TurnosMedicos",
+    "services": "Servicios",
+    "pricing": "Precios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "login": "Iniciar Sesion"
+  },
+  "hero": {
+    "badge": "Tu viaje digital comienza aqui",
+    "title": "Transforma tu ",
+    "titleGradient": "Consultorio Medico",
+    "description": "Acompanamos tu evolucion digital paso a paso. Desde la gestion de turnos hasta la historia clinica completa, te guiamos en cada etapa del proceso.",
+    "cta": "Comenzar el viaje",
+    "ctaSecondary": "Ver recorrido",
+    "scrollHint": "Explora nuestra historia"
+  },
+  "heroTimeline": {
+    "step1Title": "Registro",
+    "step1Text": "Crea tu cuenta",
+    "step2Title": "Configuracion",
+    "step2Text": "Personaliza tu consultorio",
+    "step3Title": "Operacion",
+    "step3Text": "Gestiona tus turnos"
+  },
+  "product": {
+    "badge": "Producto Estrella",
+    "title": "TurnosMedicos",
+    "subtitle": "El sistema de gestion de turnos mas completo de Argentina. Simplifica tu agenda, mejora la experiencia de tus pacientes.",
+    "feature1Title": "Agenda Inteligente",
+    "feature1Desc": "Sincronizacion automatica con Google Calendar y recordatorios por WhatsApp.",
+    "feature2Title": "Turnos Online 24/7",
+    "feature2Desc": "Tus pacientes reservan cuando quieran, desde cualquier dispositivo.",
+    "feature3Title": "Panel de Control",
+    "feature3Desc": "Estadisticas en tiempo real, reportes y gestion centralizada.",
+    "cta": "Acceder a TurnosMedicos",
+    "calendarMonth": "Marzo 2024"
+  },
+  "services": {
+    "title": "Tu Recorrido Digital",
+    "subtitle": "Cada paso te acerca a una gestion medica mas eficiente. Sigue el camino hacia la transformacion digital.",
+    "step1": {
+      "number": "1",
+      "title": "Consultoria Digital",
+      "phase": "Fase de Descubrimiento",
+      "description": "Analizamos las necesidades de tu consultorio y disenamos una estrategia personalizada de transformacion digital.",
+      "tags": ["Analisis", "Estrategia", "Planificacion"]
+    },
+    "step2": {
+      "number": "2",
+      "title": "Gestion de Turnos",
+      "phase": "Fase de Implementacion",
+      "description": "Implementamos TurnosMedicos para automatizar tu agenda y mejorar la comunicacion con tus pacientes.",
+      "tags": ["Automatizacion", "Agenda", "Comunicacion"]
+    },
+    "step3": {
+      "number": "3",
+      "title": "Historia Clinica Digital",
+      "phase": "Fase de Expansion",
+      "description": "Digitalizamos los registros medicos con seguridad, cumpliendo todas las normativas de salud.",
+      "tags": ["Seguridad", "Normativas", "Digitalizacion"]
+    },
+    "step4": {
+      "number": "4",
+      "title": "Integraciones",
+      "phase": "Fase de Optimizacion",
+      "description": "Conectamos con sistemas de facturacion, obras sociales y laboratorios para un flujo de trabajo integrado.",
+      "tags": ["APIs", "Facturacion", "Obras Sociales"]
+    },
+    "step5": {
+      "number": "5",
+      "title": "Soporte Continuo",
+      "phase": "Fase de Crecimiento",
+      "description": "Te acompanamos con capacitacion continua, actualizaciones y soporte tecnico personalizado.",
+      "tags": ["Capacitacion", "Actualizaciones", "Soporte"]
+    }
+  },
+  "pricing": {
+    "title": "Planes que Crecen Contigo",
+    "subtitle": "Elige el plan que mejor se adapte a la etapa de tu consultorio. Siempre puedes escalar cuando lo necesites.",
+    "starter": {
+      "name": "Inicial",
+      "description": "Perfecto para comenzar tu viaje digital",
+      "price": "Gratis",
+      "period": "",
+      "features": [
+        "Hasta 50 turnos/mes",
+        "1 profesional",
+        "Recordatorios basicos",
+        "Soporte por email"
+      ]
+    },
+    "professional": {
+      "badge": "Mas Popular",
+      "name": "Profesional",
+      "description": "Para consultorios en crecimiento",
+      "price": "$4.999",
+      "period": "/mes",
+      "features": [
+        "Turnos ilimitados",
+        "Hasta 5 profesionales",
+        "WhatsApp + Email",
+        "Historia clinica basica",
+        "Reportes avanzados",
+        "Soporte prioritario"
+      ]
+    },
+    "enterprise": {
+      "name": "Empresarial",
+      "description": "Solucion completa para clinicas",
+      "price": "Personalizado",
+      "period": "",
+      "features": [
+        "Todo lo de Profesional",
+        "Profesionales ilimitados",
+        "Integraciones custom",
+        "API dedicada",
+        "Soporte 24/7",
+        "Gerente de cuenta"
+      ]
+    },
+    "cta": "Elegir plan"
+  },
+  "about": {
+    "label": "Nuestra Historia",
+    "title": "Pioneros en Salud Digital Argentina",
+    "description": "Desde 2018, hemos acompanado a cientos de profesionales de la salud en su transformacion digital. Cada consultorio tiene su propia historia, y nosotros somos parte de ella.",
+    "milestone1Title": "Fundacion en Cordoba",
+    "milestone1Desc": "Iniciamos con la vision de modernizar la salud",
+    "milestone2Title": "Expansion Nacional",
+    "milestone2Desc": "Llegamos a todas las provincias argentinas",
+    "milestone3Title": "Innovacion Continua",
+    "milestone3Desc": "Lideramos la adopcion de IA en salud",
+    "stat1Value": "500+",
+    "stat1Label": "Consultorios Activos",
+    "stat2Value": "1M+",
+    "stat2Label": "Turnos Gestionados",
+    "stat3Value": "99.9%",
+    "stat3Label": "Uptime Garantizado",
+    "stat4Value": "4.9/5",
+    "stat4Label": "Satisfaccion"
+  },
+  "contact": {
+    "title": "Inicia tu Transformacion",
+    "subtitle": "Estamos listos para acompanarte en cada paso del camino. Contactanos y comienza tu viaje digital hoy.",
+    "method1Title": "Email",
+    "method1Desc": "Respuesta en menos de 24 horas",
+    "method1Link": "hola@doctore.ar",
+    "method2Title": "WhatsApp",
+    "method2Desc": "Chat directo con nuestro equipo",
+    "method2Link": "+54 351 123 4567",
+    "method3Title": "Oficina",
+    "method3Desc": "Visitanos en Cordoba",
+    "method3Link": "Nueva Cordoba, Cordoba, Argentina",
+    "formName": "Nombre completo",
+    "formEmail": "Email",
+    "formPhone": "Telefono",
+    "formMessage": "Mensaje",
+    "formSubmit": "Enviar mensaje",
+    "formNamePlaceholder": "Tu nombre",
+    "formEmailPlaceholder": "tu@email.com",
+    "formPhonePlaceholder": "+54 9 351 XXX XXXX",
+    "formMessagePlaceholder": "Contanos sobre tu consultorio y como podemos ayudarte..."
+  },
+  "footer": {
+    "description": "Soluciones digitales para profesionales de la salud en Argentina. Transformamos la manera en que gestionas tu consultorio.",
+    "columnProduct": "Producto",
+    "columnCompany": "Empresa",
+    "columnLegal": "Legal",
+    "linkFeatures": "Caracteristicas",
+    "linkPricing": "Precios",
+    "linkIntegrations": "Integraciones",
+    "linkChangelog": "Novedades",
+    "linkAbout": "Nosotros",
+    "linkCareers": "Empleos",
+    "linkBlog": "Blog",
+    "linkContact": "Contacto",
+    "linkPrivacy": "Privacidad",
+    "linkTerms": "Terminos",
+    "linkCookies": "Cookies",
+    "copyright": "2024 doctore.ar. Todos los derechos reservados.",
+    "privacy": "Politica de Privacidad",
+    "terms": "Terminos de Servicio"
+  }
+}

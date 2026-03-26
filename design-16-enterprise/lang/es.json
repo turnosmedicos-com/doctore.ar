@@ -1,0 +1,290 @@
+{
+    "meta": {
+        "lang": "es",
+        "title": "Doctore.ar | Soluciones Empresariales de Salud Digital",
+        "description": "Plataforma integral de gestión médica para grandes organizaciones. Seguridad, escalabilidad y cumplimiento normativo garantizado."
+    },
+    "nav": {
+        "home": "Inicio",
+        "turnosmedicos": "TurnosMedicos",
+        "services": "Servicios",
+        "pricing": "Planes",
+        "about": "Nosotros",
+        "contact": "Contacto",
+        "login": "Iniciar Sesión",
+        "demo": "Solicitar Demo"
+    },
+    "hero": {
+        "badge": "Plataforma Certificada ISO 27001",
+        "title": "Infraestructura Digital para la",
+        "titleHighlight": "Salud Corporativa",
+        "description": "Soluciones enterprise de gestión médica diseñadas para grandes organizaciones. Seguridad de nivel bancario, escalabilidad ilimitada y soporte 24/7.",
+        "cta": {
+            "primary": "Agendar Demostración",
+            "secondary": "Contactar Ventas"
+        },
+        "trust": {
+            "text": "Más de 500 organizaciones confían en nosotros",
+            "logos": ["Logo 1", "Logo 2", "Logo 3", "Logo 4", "Logo 5"]
+        },
+        "badge2": "Uptime 99.99%"
+    },
+    "turnos": {
+        "badge": "Producto Destacado",
+        "title": "TurnosMedicos Enterprise",
+        "subtitle": "Sistema de gestión de turnos líder en el mercado, diseñado para instituciones de salud de alta complejidad y redes médicas corporativas.",
+        "features": [
+            {
+                "title": "Gestión Centralizada",
+                "description": "Panel unificado para coordinar múltiples sedes, especialidades y profesionales desde una única interfaz."
+            },
+            {
+                "title": "Integración Total",
+                "description": "APIs robustas para integrar con sistemas HIS, ERP, facturación y obras sociales sin fricciones."
+            },
+            {
+                "title": "Seguridad Empresarial",
+                "description": "Encriptación de datos, cumplimiento HIPAA, auditoría completa y control de accesos granular."
+            },
+            {
+                "title": "Reportes Avanzados",
+                "description": "Analytics en tiempo real, KPIs personalizables y exportación a múltiples formatos para toma de decisiones."
+            }
+        ],
+        "cta": {
+            "primary": "Acceder a TurnosMedicos",
+            "secondary": "Ver Características"
+        },
+        "stats": [
+            { "value": "2M+", "label": "Turnos Gestionados" },
+            { "value": "500+", "label": "Instituciones" },
+            { "value": "99.99%", "label": "Disponibilidad" },
+            { "value": "24/7", "label": "Soporte Técnico" }
+        ]
+    },
+    "services": {
+        "subtitle": "SOLUCIONES INTEGRALES",
+        "title": "Servicios Diseñados para Escalar",
+        "description": "Ofrecemos una suite completa de herramientas digitales que se adaptan a las necesidades de su organización.",
+        "items": [
+            {
+                "title": "Historia Clínica Digital",
+                "description": "Sistema de historias clínicas electrónicas con interoperabilidad total y acceso seguro desde cualquier dispositivo.",
+                "features": ["Interoperabilidad HL7/FHIR", "Acceso multi-dispositivo", "Firma digital integrada"]
+            },
+            {
+                "title": "Telemedicina Corporativa",
+                "description": "Plataforma de consultas virtuales con grabación, prescripción electrónica y gestión de salas de espera virtual.",
+                "features": ["Video HD encriptado", "Sala de espera virtual", "Prescripción electrónica"]
+            },
+            {
+                "title": "Gestión de Recursos",
+                "description": "Control integral de personal, equipamiento médico, consultorios y recursos hospitalarios en tiempo real.",
+                "features": ["Planificación de turnos", "Control de inventario", "Mantenimiento preventivo"]
+            },
+            {
+                "title": "Facturación Automatizada",
+                "description": "Sistema de facturación integrado con obras sociales, prepagas y facturación electrónica AFIP.",
+                "features": ["Liquidación automática", "Integración AFIP", "Reportes financieros"]
+            },
+            {
+                "title": "Business Intelligence",
+                "description": "Dashboards ejecutivos con métricas clave, predicciones basadas en IA y alertas personalizables.",
+                "features": ["Dashboards en tiempo real", "Predicciones con IA", "Alertas automáticas"]
+            },
+            {
+                "title": "Integración Empresarial",
+                "description": "Conectamos su ecosistema tecnológico existente mediante APIs REST, webhooks y conectores nativos.",
+                "features": ["API REST completa", "Webhooks configurables", "SSO/SAML"]
+            }
+        ]
+    },
+    "pricing": {
+        "subtitle": "PLANES CORPORATIVOS",
+        "title": "Inversión Clara, Retorno Garantizado",
+        "description": "Planes flexibles adaptados al tamaño y necesidades de su organización.",
+        "plans": [
+            {
+                "name": "Professional",
+                "description": "Para clínicas medianas",
+                "price": "89.990",
+                "currency": "ARS",
+                "period": "/mes",
+                "features": [
+                    { "text": "Hasta 10 profesionales", "included": true },
+                    { "text": "3 sedes incluidas", "included": true },
+                    { "text": "Turnos ilimitados", "included": true },
+                    { "text": "Historia clínica digital", "included": true },
+                    { "text": "Soporte en horario laboral", "included": true },
+                    { "text": "Integraciones básicas", "included": true },
+                    { "text": "API personalizada", "included": false },
+                    { "text": "Account manager dedicado", "included": false }
+                ],
+                "cta": "Comenzar Ahora"
+            },
+            {
+                "name": "Enterprise",
+                "description": "Para grandes instituciones",
+                "price": "249.990",
+                "currency": "ARS",
+                "period": "/mes",
+                "badge": "Más Popular",
+                "features": [
+                    { "text": "Profesionales ilimitados", "included": true },
+                    { "text": "Sedes ilimitadas", "included": true },
+                    { "text": "Turnos ilimitados", "included": true },
+                    { "text": "Suite completa de módulos", "included": true },
+                    { "text": "Soporte 24/7 prioritario", "included": true },
+                    { "text": "Todas las integraciones", "included": true },
+                    { "text": "API personalizada", "included": true },
+                    { "text": "Account manager dedicado", "included": true }
+                ],
+                "cta": "Contactar Ventas"
+            },
+            {
+                "name": "Healthcare Network",
+                "description": "Para redes de salud",
+                "price": "Personalizado",
+                "currency": "",
+                "period": "",
+                "features": [
+                    { "text": "Infraestructura dedicada", "included": true },
+                    { "text": "Personalización completa", "included": true },
+                    { "text": "SLA 99.99% garantizado", "included": true },
+                    { "text": "Implementación on-premise", "included": true },
+                    { "text": "Equipo de soporte exclusivo", "included": true },
+                    { "text": "Desarrollo a medida", "included": true },
+                    { "text": "Capacitación in-company", "included": true },
+                    { "text": "Consultoría estratégica", "included": true }
+                ],
+                "cta": "Solicitar Propuesta"
+            }
+        ]
+    },
+    "clients": {
+        "title": "Organizaciones que confían en nosotros"
+    },
+    "about": {
+        "subtitle": "SOBRE NOSOTROS",
+        "title": "Transformando la Salud Digital en Argentina",
+        "description": "Desde 2018, ayudamos a instituciones de salud a digitalizar sus operaciones con soluciones robustas, seguras y escalables. Nuestro equipo combina experiencia en tecnología y salud para crear herramientas que realmente funcionan.",
+        "values": [
+            {
+                "title": "Seguridad Primero",
+                "text": "Cumplimos con los más altos estándares internacionales de seguridad y privacidad de datos de salud."
+            },
+            {
+                "title": "Innovación Constante",
+                "text": "Investigamos y desarrollamos continuamente para mantenernos a la vanguardia tecnológica."
+            },
+            {
+                "title": "Soporte Dedicado",
+                "text": "Equipo técnico especializado disponible 24/7 para garantizar la continuidad operativa."
+            },
+            {
+                "title": "Escalabilidad",
+                "text": "Arquitectura diseñada para crecer con su organización sin comprometer el rendimiento."
+            }
+        ],
+        "certifications": {
+            "title": "Certificaciones y Cumplimiento",
+            "items": [
+                "ISO 27001",
+                "HIPAA Compliant",
+                "SOC 2 Type II",
+                "GDPR Ready"
+            ]
+        }
+    },
+    "contact": {
+        "subtitle": "CONTACTO",
+        "title": "Hablemos de su Proyecto",
+        "description": "Complete el formulario y un especialista se pondrá en contacto en menos de 24 horas hábiles.",
+        "form": {
+            "firstName": "Nombre",
+            "lastName": "Apellido",
+            "email": "Email corporativo",
+            "phone": "Teléfono",
+            "company": "Organización",
+            "employees": "Cantidad de empleados",
+            "employeesOptions": [
+                "Seleccionar...",
+                "1-50",
+                "51-200",
+                "201-500",
+                "501-1000",
+                "1000+"
+            ],
+            "message": "Mensaje",
+            "messagePlaceholder": "Cuéntenos sobre su proyecto y necesidades...",
+            "submit": "Enviar Solicitud"
+        },
+        "info": {
+            "email": {
+                "label": "Email de ventas",
+                "value": "enterprise@doctore.ar"
+            },
+            "phone": {
+                "label": "Línea corporativa",
+                "value": "+54 11 5555-0100"
+            },
+            "address": {
+                "label": "Oficinas centrales",
+                "value": "Av. del Libertador 1234, CABA"
+            }
+        },
+        "schedule": {
+            "title": "Horario de atención",
+            "items": [
+                { "day": "Lunes - Viernes", "time": "9:00 - 18:00" },
+                { "day": "Sábados", "time": "9:00 - 13:00" },
+                { "day": "Domingos", "time": "Cerrado" }
+            ]
+        }
+    },
+    "footer": {
+        "description": "Soluciones enterprise de salud digital para instituciones que buscan excelencia operativa y cumplimiento normativo.",
+        "nav": {
+            "solutions": {
+                "title": "Soluciones",
+                "links": [
+                    "TurnosMedicos",
+                    "Historia Clínica",
+                    "Telemedicina",
+                    "Facturación",
+                    "Business Intelligence"
+                ]
+            },
+            "company": {
+                "title": "Empresa",
+                "links": [
+                    "Sobre Nosotros",
+                    "Casos de Éxito",
+                    "Partners",
+                    "Carreras",
+                    "Prensa"
+                ]
+            },
+            "resources": {
+                "title": "Recursos",
+                "links": [
+                    "Documentación",
+                    "API Reference",
+                    "Status",
+                    "Blog",
+                    "Soporte"
+                ]
+            }
+        },
+        "contact": {
+            "title": "Contacto"
+        },
+        "copyright": "© 2024 Doctore.ar. Todos los derechos reservados.",
+        "legal": [
+            "Términos de Servicio",
+            "Política de Privacidad",
+            "Seguridad",
+            "Cookies"
+        ]
+    }
+}

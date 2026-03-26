@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "lang": "es",
+    "title": "doctore.ar - Tecnologia para la Salud",
+    "description": "Soluciones tecnologicas innovadoras para profesionales de la salud. Software de gestion de turnos, redes medicas y mas."
+  },
+  "nav": {
+    "product": "Producto",
+    "services": "Servicios",
+    "pricing": "Precios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "login": "Ingresar"
+  },
+  "hero": {
+    "badge": "Tecnologia de ultima generacion",
+    "title_1": "El futuro de la",
+    "title_2": "gestion medica",
+    "title_3": "esta aqui",
+    "description": "Potenciamos a profesionales de la salud con software de vanguardia. Automatiza, optimiza y escala tu practica medica con tecnologia de clase mundial.",
+    "cta_primary": "Comenzar ahora",
+    "cta_secondary": "Ver demo",
+    "stat_1_value": "10K+",
+    "stat_1_label": "Profesionales activos",
+    "stat_2_value": "500K+",
+    "stat_2_label": "Turnos gestionados",
+    "stat_3_value": "99.9%",
+    "stat_3_label": "Uptime garantizado"
+  },
+  "product": {
+    "label": "Producto principal",
+    "title": "TurnosMedicos",
+    "description": "Sistema integral de gestion de turnos disenado para maximizar la eficiencia de tu consultorio. Interfaz intuitiva, automatizacion inteligente y analiticas avanzadas.",
+    "feature_1": "Agenda inteligente",
+    "feature_2": "Recordatorios automaticos",
+    "feature_3": "Panel analitico",
+    "feature_4": "Multi-consultorio",
+    "cta": "Acceder a TurnosMedicos",
+    "mock_url": "login.turnosmedicos.com",
+    "mock_month": "Marzo 2024",
+    "mock_sidebar_1": "Dashboard",
+    "mock_sidebar_2": "Calendario",
+    "mock_sidebar_3": "Pacientes",
+    "mock_sidebar_4": "Reportes",
+    "mock_appointment_1_time": "09:00",
+    "mock_appointment_1_name": "Maria Garcia",
+    "mock_appointment_2_time": "10:30",
+    "mock_appointment_2_name": "Juan Rodriguez",
+    "mock_appointment_3_time": "14:00",
+    "mock_appointment_3_name": "Ana Martinez"
+  },
+  "services": {
+    "title": "Servicios integrales",
+    "subtitle": "Soluciones tecnologicas completas para cada aspecto de tu practica profesional",
+    "network": {
+      "title": "Red Medica",
+      "description": "Conecta con una red de profesionales de la salud. Deriva pacientes, comparte conocimientos y crece junto a colegas de tu especialidad.",
+      "link": "Explorar red"
+    },
+    "accounting": {
+      "title": "Contabilidad Medica",
+      "description": "Gestion contable especializada para profesionales de la salud. Facturacion electronica, liquidaciones de obras sociales y reportes fiscales automatizados.",
+      "link": "Ver soluciones"
+    },
+    "consulting": {
+      "title": "Consultoria IT",
+      "description": "Asesoramiento tecnologico personalizado para tu consultorio. Implementacion, integraciones y soporte tecnico continuo de expertos.",
+      "link": "Agendar consulta"
+    }
+  },
+  "pricing": {
+    "title": "Planes transparentes",
+    "subtitle": "Elige el plan que mejor se adapte al tamano de tu practica. Sin costos ocultos, sin sorpresas.",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "popular": "Popular",
+    "starter": {
+      "name": "Starter",
+      "description": "Ideal para consultorios individuales",
+      "price": "0",
+      "period": "/mes",
+      "feature_1": "Hasta 50 turnos/mes",
+      "feature_2": "1 profesional",
+      "feature_3": "Recordatorios por email",
+      "feature_4": "Soporte por email",
+      "cta": "Comenzar gratis"
+    },
+    "professional": {
+      "name": "Professional",
+      "description": "Para consultorios en crecimiento",
+      "price": "4,900",
+      "period": "/mes",
+      "feature_1": "Turnos ilimitados",
+      "feature_2": "Hasta 5 profesionales",
+      "feature_3": "WhatsApp + Email",
+      "feature_4": "Reportes avanzados",
+      "feature_5": "Soporte prioritario",
+      "cta": "Elegir Professional"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Solucion completa para clinicas",
+      "price": "12,900",
+      "period": "/mes",
+      "feature_1": "Todo de Professional",
+      "feature_2": "Profesionales ilimitados",
+      "feature_3": "API personalizada",
+      "feature_4": "Integraciones custom",
+      "feature_5": "Account manager dedicado",
+      "cta": "Contactar ventas"
+    }
+  },
+  "about": {
+    "label": "Sobre nosotros",
+    "title": "Innovacion al servicio de la salud",
+    "text_1": "En doctore.ar creemos que la tecnologia debe simplificar, no complicar. Desarrollamos soluciones que permiten a los profesionales de la salud enfocarse en lo que mejor saben hacer: cuidar a sus pacientes.",
+    "text_2": "Nuestro equipo combina experiencia en desarrollo de software con profundo conocimiento del sector salud, creando herramientas que realmente resuelven problemas reales.",
+    "highlight_1_value": "2018",
+    "highlight_1_label": "Ano de fundacion",
+    "highlight_2_value": "50+",
+    "highlight_2_label": "Especialidades",
+    "highlight_3_value": "24/7",
+    "highlight_3_label": "Soporte tecnico",
+    "highlight_4_value": "100%",
+    "highlight_4_label": "Cloud nativo"
+  },
+  "contact": {
+    "title": "Hablemos",
+    "description": "Estamos listos para ayudarte a transformar tu practica medica. Contactanos y descubre como podemos potenciar tu consultorio.",
+    "email_label": "Email",
+    "email_value": "hola@doctore.ar",
+    "phone_label": "Telefono",
+    "phone_value": "+54 11 5555-0123",
+    "location_label": "Ubicacion",
+    "location_value": "Buenos Aires, Argentina",
+    "form_name": "Nombre",
+    "form_name_placeholder": "Tu nombre completo",
+    "form_email": "Email",
+    "form_email_placeholder": "tu@email.com",
+    "form_subject": "Asunto",
+    "form_subject_placeholder": "Como podemos ayudarte?",
+    "form_message": "Mensaje",
+    "form_message_placeholder": "Cuentanos sobre tu consultorio y tus necesidades...",
+    "form_submit": "Enviar mensaje"
+  },
+  "footer": {
+    "description": "Soluciones tecnologicas innovadoras para profesionales de la salud.",
+    "product_title": "Producto",
+    "product_link_1": "TurnosMedicos",
+    "product_link_2": "Funcionalidades",
+    "product_link_3": "Integraciones",
+    "product_link_4": "API",
+    "company_title": "Empresa",
+    "company_link_1": "Sobre nosotros",
+    "company_link_2": "Blog",
+    "company_link_3": "Carreras",
+    "company_link_4": "Prensa",
+    "legal_title": "Legal",
+    "legal_link_1": "Privacidad",
+    "legal_link_2": "Terminos",
+    "legal_link_3": "Cookies",
+    "legal_link_4": "Licencias",
+    "copyright": "2024 doctore.ar. Todos los derechos reservados."
+  }
+}

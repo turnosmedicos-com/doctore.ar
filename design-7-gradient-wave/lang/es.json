@@ -1,0 +1,221 @@
+{
+  "lang": "es",
+  "meta": {
+    "title": "Doctore.ar - Soluciones Digitales para Profesionales de la Salud",
+    "description": "Transformamos la gestion de tu consultorio medico con tecnologia de vanguardia. Turnos online, historias clinicas digitales y mas."
+  },
+  "nav": {
+    "home": "Inicio",
+    "product": "TurnosMedicos",
+    "services": "Servicios",
+    "pricing": "Precios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "login": "Ingresar",
+    "langSwitch": "EN"
+  },
+  "hero": {
+    "badge": "Plataforma lider en Argentina",
+    "title": "La nueva era de la salud digital",
+    "subtitle": "Soluciones tecnologicas que fluyen con tu practica medica. Gestion de turnos, historias clinicas y mas, todo en un solo lugar.",
+    "cta": "Comenzar ahora",
+    "ctaSecondary": "Ver demo",
+    "scroll": "Descubri mas",
+    "illustration": {
+      "doctor": "Dr. Martinez",
+      "specialty": "Cardiologia",
+      "time1": "09:00",
+      "time2": "10:30",
+      "time3": "12:00",
+      "available": "Disponible",
+      "booked": "Reservado"
+    }
+  },
+  "product": {
+    "badge": "Producto Estrella",
+    "title": "TurnosMedicos",
+    "subtitle": "El sistema de gestion de turnos mas completo del mercado",
+    "description": "Simplifica la administracion de tu consultorio con nuestra plataforma intuitiva. Tus pacientes reservan online, vos te concentras en lo que importa: su salud.",
+    "features": {
+      "calendar": "Agenda inteligente 24/7",
+      "reminders": "Recordatorios automaticos",
+      "payments": "Pagos integrados",
+      "reports": "Reportes detallados",
+      "multiLocation": "Multi-consultorio",
+      "whatsapp": "Integracion WhatsApp"
+    },
+    "cta": "Acceder a TurnosMedicos",
+    "ctaSecondary": "Conocer mas",
+    "mockup": {
+      "patients": "Pacientes",
+      "appointments": "Turnos",
+      "satisfaction": "Satisfaccion"
+    }
+  },
+  "services": {
+    "badge": "Nuestros Servicios",
+    "title": "Todo lo que necesitas para tu consultorio",
+    "description": "Soluciones integrales disenadas especificamente para profesionales de la salud en Argentina.",
+    "items": {
+      "appointments": {
+        "title": "Gestion de Turnos",
+        "description": "Sistema completo de reservas online con confirmaciones automaticas y recordatorios por WhatsApp."
+      },
+      "records": {
+        "title": "Historias Clinicas",
+        "description": "Digitalizacion segura de historias clinicas con acceso rapido y cumplimiento de normativas."
+      },
+      "billing": {
+        "title": "Facturacion",
+        "description": "Emision de facturas electronicas, gestion de obras sociales y prepagas integrada."
+      },
+      "telemedicine": {
+        "title": "Telemedicina",
+        "description": "Consultas virtuales con video HD, sala de espera virtual y prescripcion electronica."
+      },
+      "analytics": {
+        "title": "Analitica",
+        "description": "Dashboards con metricas clave, tendencias de pacientes y proyecciones de ingresos."
+      },
+      "support": {
+        "title": "Soporte 24/7",
+        "description": "Equipo de soporte dedicado disponible cuando lo necesites, todos los dias."
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Planes y Precios",
+    "title": "Elige el plan perfecto para tu consultorio",
+    "description": "Planes flexibles que se adaptan al tamano de tu practica. Sin contratos a largo plazo.",
+    "monthly": "mes",
+    "plans": {
+      "starter": {
+        "name": "Inicial",
+        "price": "4.990",
+        "features": [
+          "Hasta 100 turnos/mes",
+          "1 profesional",
+          "Recordatorios SMS",
+          "Soporte por email"
+        ]
+      },
+      "professional": {
+        "name": "Profesional",
+        "price": "9.990",
+        "badge": "Mas popular",
+        "features": [
+          "Turnos ilimitados",
+          "Hasta 5 profesionales",
+          "Historia clinica digital",
+          "Telemedicina incluida",
+          "Soporte prioritario"
+        ]
+      },
+      "enterprise": {
+        "name": "Empresarial",
+        "price": "24.990",
+        "features": [
+          "Todo lo anterior",
+          "Profesionales ilimitados",
+          "Multi-sucursal",
+          "API personalizada",
+          "Gerente de cuenta dedicado"
+        ]
+      }
+    },
+    "cta": "Comenzar prueba gratis"
+  },
+  "about": {
+    "badge": "Sobre Nosotros",
+    "title": "Transformando la salud digital en Argentina",
+    "description": "Somos un equipo apasionado por la tecnologia y la salud. Desde 2020, ayudamos a profesionales medicos a optimizar sus consultorios con soluciones innovadoras y accesibles.",
+    "stats": {
+      "doctors": "500+",
+      "doctorsLabel": "Medicos",
+      "patients": "50K+",
+      "patientsLabel": "Pacientes",
+      "appointments": "200K+",
+      "appointmentsLabel": "Turnos"
+    },
+    "values": {
+      "innovation": {
+        "title": "Innovacion Constante",
+        "description": "Actualizamos nuestra plataforma continuamente con las ultimas tecnologias."
+      },
+      "security": {
+        "title": "Seguridad Primero",
+        "description": "Datos encriptados y cumplimiento total de normativas de salud."
+      },
+      "support": {
+        "title": "Soporte Humano",
+        "description": "Equipo local que entiende las necesidades del sistema de salud argentino."
+      }
+    }
+  },
+  "contact": {
+    "badge": "Contactanos",
+    "title": "Estamos para ayudarte",
+    "description": "Tenes preguntas? Nuestro equipo esta listo para asistirte y encontrar la mejor solucion para tu consultorio.",
+    "info": {
+      "email": {
+        "label": "Email",
+        "value": "hola@doctore.ar"
+      },
+      "phone": {
+        "label": "Telefono",
+        "value": "+54 11 1234-5678"
+      },
+      "address": {
+        "label": "Direccion",
+        "value": "Buenos Aires, Argentina"
+      }
+    },
+    "form": {
+      "name": "Nombre completo",
+      "namePlaceholder": "Tu nombre",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Como podemos ayudarte?",
+      "submit": "Enviar mensaje"
+    }
+  },
+  "footer": {
+    "description": "Soluciones digitales para profesionales de la salud. Simplificando la gestion de consultorios medicos en toda Argentina.",
+    "columns": {
+      "product": {
+        "title": "Producto",
+        "links": {
+          "features": "Funcionalidades",
+          "pricing": "Precios",
+          "integrations": "Integraciones",
+          "updates": "Actualizaciones"
+        }
+      },
+      "company": {
+        "title": "Empresa",
+        "links": {
+          "about": "Nosotros",
+          "blog": "Blog",
+          "careers": "Empleos",
+          "press": "Prensa"
+        }
+      },
+      "support": {
+        "title": "Soporte",
+        "links": {
+          "help": "Centro de ayuda",
+          "docs": "Documentacion",
+          "status": "Estado del sistema",
+          "contact": "Contacto"
+        }
+      }
+    },
+    "legal": {
+      "privacy": "Privacidad",
+      "terms": "Terminos",
+      "cookies": "Cookies"
+    },
+    "copyright": "2024 Doctore.ar. Todos los derechos reservados."
+  }
+}

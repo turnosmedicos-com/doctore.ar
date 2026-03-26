@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "title": "Doctore.ar - Digital Healthcare Solutions",
+    "description": "We transform medical practice management with cutting-edge technology. TurnosMedicos, our flagship product, revolutionizes appointment scheduling."
+  },
+  "nav": {
+    "home": "Home",
+    "turnosmedicos": "TurnosMedicos",
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login"
+  },
+  "hero": {
+    "date": "The digital revolution in healthcare",
+    "title": "DOCTORE",
+    "subtitle": "Where technology and medicine converge to transform the healthcare experience",
+    "intro": "At Doctore.ar we develop technological solutions that simplify medical management and improve the experience for both professionals and patients. Our editorial approach to innovation allows us to create tools that truly make a difference.",
+    "stats": {
+      "clinics": {
+        "number": "500+",
+        "label": "Active clinics"
+      },
+      "appointments": {
+        "number": "50K",
+        "label": "Monthly appointments"
+      },
+      "satisfaction": {
+        "number": "98%",
+        "label": "Satisfaction"
+      }
+    }
+  },
+  "product": {
+    "label": "Star Product",
+    "headline": "TurnosMedicos",
+    "subheadline": "The appointment management system that is redefining medical administration in Argentina",
+    "features": {
+      "calendar": {
+        "icon": "C",
+        "title": "Smart Calendar",
+        "description": "Visual appointment management with daily, weekly and monthly views. Automatic schedule optimization."
+      },
+      "notifications": {
+        "icon": "N",
+        "title": "Automatic Notifications",
+        "description": "Reminders via WhatsApp, SMS and email. Reduce no-shows by up to 70%."
+      },
+      "patients": {
+        "icon": "P",
+        "title": "Patient Management",
+        "description": "Digital clinical records, patient files and complete follow-up."
+      },
+      "reports": {
+        "icon": "R",
+        "title": "Reports & Analytics",
+        "description": "Detailed statistics of your practice. Make data-driven decisions."
+      }
+    },
+    "cta": {
+      "title": "Start today",
+      "text": "Try TurnosMedicos free for 14 days. No commitment, no credit card required.",
+      "button": "Access TurnosMedicos"
+    }
+  },
+  "services": {
+    "label": "Our Services",
+    "title": "Comprehensive Solutions",
+    "intro": "A complete ecosystem of tools designed to modernize every aspect of your medical practice",
+    "items": {
+      "appointments": {
+        "number": "01",
+        "title": "Appointment Management",
+        "description": "Complete system for managing appointments, schedules and availability for multiple professionals."
+      },
+      "records": {
+        "number": "02",
+        "title": "Digital Medical Records",
+        "description": "Secure, accessible medical documentation compliant with current health regulations."
+      },
+      "telemedicine": {
+        "number": "03",
+        "title": "Telemedicine",
+        "description": "Integrated virtual consultations with HD video calls, screen sharing and recording."
+      },
+      "billing": {
+        "number": "04",
+        "title": "Billing",
+        "description": "Automatic invoice generation, integration with insurance companies and health plans."
+      },
+      "analytics": {
+        "number": "05",
+        "title": "Analytics",
+        "description": "Dashboard with key metrics, custom reports and data export."
+      },
+      "integrations": {
+        "number": "06",
+        "title": "Integrations",
+        "description": "Connection with laboratory systems, pharmacies and other healthcare providers."
+      }
+    }
+  },
+  "pricing": {
+    "label": "Plans & Pricing",
+    "title": "Transparent Investment",
+    "subtitle": "Choose the plan that best fits your practice's needs",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "$15",
+        "period": "per month",
+        "features": [
+          "1 professional",
+          "Up to 200 appointments/month",
+          "Email reminders",
+          "Email support",
+          "Basic calendar"
+        ],
+        "button": "Get Started"
+      },
+      "professional": {
+        "name": "Professional",
+        "price": "$35",
+        "period": "per month",
+        "badge": "Most Popular",
+        "features": [
+          "Up to 5 professionals",
+          "Unlimited appointments",
+          "WhatsApp + Email + SMS",
+          "Digital medical records",
+          "Advanced reports",
+          "Priority support"
+        ],
+        "button": "Choose Plan"
+      },
+      "clinic": {
+        "name": "Clinic",
+        "price": "$75",
+        "period": "per month",
+        "features": [
+          "Unlimited professionals",
+          "Multi-location",
+          "Telemedicine included",
+          "Custom API",
+          "Integrated billing",
+          "Account manager"
+        ],
+        "button": "Contact Us"
+      }
+    }
+  },
+  "about": {
+    "label": "About Us",
+    "title": "Our Story",
+    "quote": "We believe technology should simplify, not complicate. Every line of code we write has a purpose: to improve healthcare.",
+    "paragraphs": [
+      "Doctore.ar was born in 2020, in the midst of a pandemic that accelerated the digital transformation of the healthcare sector. A group of developers and medical professionals came together with a clear vision: to create tools that truly solve the everyday problems of Argentine medical practices.",
+      "Since then, we have grown organically, listening to our users and constantly improving. TurnosMedicos, our flagship product, is the result of thousands of hours of development, testing and feedback from healthcare professionals.",
+      "Today we are a team of 25 people distributed throughout the country, united by the passion to modernize healthcare in Argentina. We work with individual practices, clinics and health centers of all specialties.",
+      "Our commitment is simple: develop accessible, secure and easy-to-use technology. Because when doctors can focus on what they do best, patients receive better care."
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's Talk",
+    "text": "We're here to answer your questions and help you find the perfect solution for your practice.",
+    "details": {
+      "email": {
+        "icon": "@",
+        "text": "info@doctore.ar"
+      },
+      "phone": {
+        "icon": "T",
+        "text": "+54 11 5555-0000"
+      },
+      "address": {
+        "icon": "D",
+        "text": "Buenos Aires, Argentina"
+      }
+    },
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your full name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "you@email.com"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell us about your practice and how we can help..."
+      },
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "description": "Transforming healthcare management in Argentina with innovative technology and a user-centered approach.",
+    "columns": {
+      "product": {
+        "title": "Product",
+        "links": ["TurnosMedicos", "Features", "Pricing", "Integrations"]
+      },
+      "company": {
+        "title": "Company",
+        "links": ["About", "Blog", "Careers", "Press"]
+      },
+      "legal": {
+        "title": "Legal",
+        "links": ["Privacy", "Terms", "Security", "GDPR"]
+      }
+    },
+    "copyright": "2024 Doctore.ar. All rights reserved.",
+    "social": {
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram"
+    }
+  }
+}

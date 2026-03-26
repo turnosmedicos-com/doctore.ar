@@ -1,0 +1,246 @@
+/* ==========================================================================
+   DESIGN 15 - RETRO MODERN
+   CSS Variables / Design Tokens
+   Based on TurnosMedicos tokens with retro color accents
+   ========================================================================== */
+
+:root {
+  /* ========================================================================
+     COLOR PALETTE - Retro Modern
+     ======================================================================== */
+
+  /* Primary Colors - Retro Teal */
+  --color-primary-50: #e6f5f3;
+  --color-primary-100: #b3e2db;
+  --color-primary-200: #80cfc3;
+  --color-primary-300: #4dbcab;
+  --color-primary-400: #26ad99;
+  --color-primary-500: #1a9e87;
+  --color-primary-600: #178e79;
+  --color-primary-700: #137a68;
+  --color-primary-800: #0f6657;
+  --color-primary-900: #094439;
+
+  /* Secondary Colors - Coral */
+  --color-secondary-50: #fef0ed;
+  --color-secondary-100: #fcd5cc;
+  --color-secondary-200: #f9b8a8;
+  --color-secondary-300: #f69a84;
+  --color-secondary-400: #f47d60;
+  --color-secondary-500: #e86f50;
+  --color-secondary-600: #d45a3d;
+  --color-secondary-700: #b8482f;
+  --color-secondary-800: #9a3823;
+  --color-secondary-900: #6b2518;
+
+  /* Accent Colors - Mustard */
+  --color-accent-50: #fdf8e6;
+  --color-accent-100: #faedb3;
+  --color-accent-200: #f7e180;
+  --color-accent-300: #f4d54d;
+  --color-accent-400: #f1c926;
+  --color-accent-500: #e5b80a;
+  --color-accent-600: #c99f08;
+  --color-accent-700: #a68306;
+  --color-accent-800: #836705;
+  --color-accent-900: #5a4703;
+
+  /* Neutral Colors - Warm tones */
+  --color-neutral-50: #faf9f7;
+  --color-neutral-100: #f5f3ef;
+  --color-neutral-200: #ebe7e0;
+  --color-neutral-300: #d9d3c8;
+  --color-neutral-400: #b8b0a0;
+  --color-neutral-500: #968d7b;
+  --color-neutral-600: #756c5c;
+  --color-neutral-700: #564f42;
+  --color-neutral-800: #3a352c;
+  --color-neutral-900: #1f1c18;
+
+  /* Background Colors */
+  --color-bg-primary: #faf9f7;
+  --color-bg-secondary: #f5f3ef;
+  --color-bg-tertiary: #ebe7e0;
+  --color-bg-dark: #1f1c18;
+  --color-bg-cream: #fff8f0;
+
+  /* Text Colors */
+  --color-text-primary: #1f1c18;
+  --color-text-secondary: #564f42;
+  --color-text-tertiary: #756c5c;
+  --color-text-inverse: #faf9f7;
+  --color-text-accent: #e86f50;
+
+  /* Semantic Colors */
+  --color-success: #1a9e87;
+  --color-warning: #e5b80a;
+  --color-error: #d45a3d;
+  --color-info: #4dbcab;
+
+  /* ========================================================================
+     TYPOGRAPHY
+     ======================================================================== */
+
+  /* Font Family */
+  --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-family-display: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Font Sizes - Mobile First */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --font-size-6xl: 3.75rem;
+
+  /* Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  /* Line Heights */
+  --line-height-tight: 1.1;
+  --line-height-snug: 1.25;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+
+  /* Letter Spacing */
+  --letter-spacing-tight: -0.02em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.025em;
+  --letter-spacing-wider: 0.05em;
+  --letter-spacing-retro: 0.1em;
+
+  /* ========================================================================
+     SPACING
+     ======================================================================== */
+
+  --spacing-0: 0;
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-10: 2.5rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+  --spacing-24: 6rem;
+  --spacing-32: 8rem;
+
+  /* ========================================================================
+     BORDERS - Retro Style (Chunky)
+     ======================================================================== */
+
+  --border-width-thin: 1px;
+  --border-width-regular: 2px;
+  --border-width-medium: 3px;
+  --border-width-thick: 4px;
+  --border-width-chunky: 5px;
+
+  --border-radius-none: 0;
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-xl: 16px;
+  --border-radius-2xl: 24px;
+  --border-radius-full: 9999px;
+  --border-radius-retro: 20px;
+
+  /* ========================================================================
+     SHADOWS - Offset Style (Retro)
+     ======================================================================== */
+
+  --shadow-offset-sm: 3px 3px 0;
+  --shadow-offset-md: 5px 5px 0;
+  --shadow-offset-lg: 8px 8px 0;
+  --shadow-offset-xl: 12px 12px 0;
+
+  --shadow-color-primary: var(--color-primary-700);
+  --shadow-color-secondary: var(--color-secondary-600);
+  --shadow-color-accent: var(--color-accent-600);
+  --shadow-color-dark: var(--color-neutral-800);
+  --shadow-color-neutral: var(--color-neutral-400);
+
+  /* ========================================================================
+     TRANSITIONS
+     ======================================================================== */
+
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 350ms ease;
+  --transition-bounce: 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+  /* ========================================================================
+     Z-INDEX
+     ======================================================================== */
+
+  --z-index-dropdown: 100;
+  --z-index-sticky: 200;
+  --z-index-fixed: 300;
+  --z-index-modal-backdrop: 400;
+  --z-index-modal: 500;
+  --z-index-popover: 600;
+  --z-index-tooltip: 700;
+
+  /* ========================================================================
+     LAYOUT
+     ======================================================================== */
+
+  --container-max-width: 1200px;
+  --container-padding: var(--spacing-4);
+  --section-padding-y: var(--spacing-16);
+  --header-height: 70px;
+
+  /* ========================================================================
+     PATTERNS - Retro Style
+     ======================================================================== */
+
+  --pattern-dots: radial-gradient(var(--color-neutral-300) 1.5px, transparent 1.5px);
+  --pattern-dots-size: 20px 20px;
+
+  --pattern-lines: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 5px,
+    var(--color-neutral-200) 5px,
+    var(--color-neutral-200) 6px
+  );
+
+  --pattern-grid: linear-gradient(var(--color-neutral-200) 1px, transparent 1px),
+                  linear-gradient(90deg, var(--color-neutral-200) 1px, transparent 1px);
+  --pattern-grid-size: 30px 30px;
+}
+
+/* ========================================================================
+   RESPONSIVE TYPOGRAPHY SCALING
+   ======================================================================== */
+
+@media (min-width: 768px) {
+  :root {
+    --font-size-3xl: 2.25rem;
+    --font-size-4xl: 3rem;
+    --font-size-5xl: 4rem;
+    --font-size-6xl: 5rem;
+    --container-padding: var(--spacing-6);
+    --section-padding-y: var(--spacing-20);
+    --header-height: 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --font-size-5xl: 4.5rem;
+    --font-size-6xl: 6rem;
+    --container-padding: var(--spacing-8);
+    --section-padding-y: var(--spacing-24);
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "turnosmedicos": "TurnosMedicos",
+    "services": "Servicios",
+    "pricing": "Precios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "login": "Iniciar Sesion",
+    "getStarted": "Comenzar"
+  },
+  "hero": {
+    "badge": "Plataforma de Gestion Medica",
+    "title": "Gestion Inteligente para tu",
+    "titleHighlight": "Consultorio",
+    "description": "Optimiza la administracion de tu practica medica con herramientas avanzadas de gestion de turnos, pacientes y facturacion. Todo en un solo lugar.",
+    "cta": "Comenzar Ahora",
+    "ctaSecondary": "Ver Demo",
+    "stats": {
+      "appointments": {
+        "label": "Turnos Gestionados",
+        "value": "125,430",
+        "change": "+12.5%"
+      },
+      "patients": {
+        "label": "Pacientes Activos",
+        "value": "8,942",
+        "change": "+8.3%"
+      },
+      "satisfaction": {
+        "label": "Satisfaccion",
+        "value": "98.7%",
+        "change": "+2.1%"
+      }
+    }
+  },
+  "turnosmedicos": {
+    "label": "Producto Estrella",
+    "title": "El Sistema de Turnos mas Completo de Argentina",
+    "description": "TurnosMedicos es nuestra solucion insignia para la gestion de turnos medicos. Diseñado especificamente para profesionales de la salud en Argentina.",
+    "features": [
+      "Agenda online 24/7 para tus pacientes",
+      "Recordatorios automaticos por WhatsApp",
+      "Integracion con obras sociales",
+      "Reportes y estadisticas en tiempo real",
+      "Soporte tecnico dedicado"
+    ],
+    "cta": "Acceder a TurnosMedicos",
+    "loginLink": "Ya tienes cuenta?",
+    "loginAction": "Inicia sesion aqui"
+  },
+  "services": {
+    "label": "Nuestros Servicios",
+    "title": "Soluciones Completas para tu Consultorio",
+    "subtitle": "Herramientas profesionales diseñadas para optimizar cada aspecto de tu practica medica",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "Gestion de Turnos",
+        "description": "Sistema inteligente de agendamiento con confirmaciones automaticas y recordatorios.",
+        "metric": "15K+",
+        "metricLabel": "turnos/mes",
+        "progress": 92,
+        "progressLabel": "Eficiencia"
+      },
+      {
+        "icon": "users",
+        "title": "Historias Clinicas",
+        "description": "Almacenamiento seguro y acceso rapido a todos los registros de tus pacientes.",
+        "metric": "50K+",
+        "metricLabel": "registros",
+        "progress": 88,
+        "progressLabel": "Digitalizacion"
+      },
+      {
+        "icon": "chart",
+        "title": "Facturacion Electronica",
+        "description": "Emision de facturas y gestion de cobros integrada con AFIP y obras sociales.",
+        "metric": "$2M+",
+        "metricLabel": "facturado",
+        "progress": 95,
+        "progressLabel": "Automatizacion"
+      },
+      {
+        "icon": "bell",
+        "title": "Notificaciones",
+        "description": "Sistema de alertas multicanal: WhatsApp, SMS, email y push notifications.",
+        "metric": "98%",
+        "metricLabel": "entrega",
+        "progress": 98,
+        "progressLabel": "Tasa de Apertura"
+      },
+      {
+        "icon": "shield",
+        "title": "Seguridad de Datos",
+        "description": "Encriptacion de grado bancario y cumplimiento de normativas de salud.",
+        "metric": "100%",
+        "metricLabel": "seguro",
+        "progress": 100,
+        "progressLabel": "Compliance"
+      },
+      {
+        "icon": "support",
+        "title": "Soporte 24/7",
+        "description": "Equipo de soporte tecnico disponible en todo momento para asistirte.",
+        "metric": "< 5min",
+        "metricLabel": "respuesta",
+        "progress": 96,
+        "progressLabel": "Satisfaccion"
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Planes y Precios",
+    "title": "Elige el Plan Ideal para tu Consultorio",
+    "subtitle": "Sin costos ocultos. Cancela cuando quieras.",
+    "plans": [
+      {
+        "name": "Inicial",
+        "description": "Perfecto para consultorios pequeños",
+        "price": "4,990",
+        "currency": "$",
+        "period": "/mes",
+        "stats": {
+          "appointments": "100",
+          "appointmentsLabel": "turnos/mes",
+          "users": "1",
+          "usersLabel": "usuario"
+        },
+        "features": [
+          "Agenda online basica",
+          "Recordatorios por email",
+          "Soporte por email",
+          "Reportes mensuales"
+        ],
+        "cta": "Comenzar Gratis"
+      },
+      {
+        "name": "Profesional",
+        "description": "Para consultorios en crecimiento",
+        "price": "9,990",
+        "currency": "$",
+        "period": "/mes",
+        "badge": "Popular",
+        "featured": true,
+        "stats": {
+          "appointments": "500",
+          "appointmentsLabel": "turnos/mes",
+          "users": "5",
+          "usersLabel": "usuarios"
+        },
+        "features": [
+          "Todo del plan Inicial",
+          "Recordatorios WhatsApp",
+          "Historias clinicas",
+          "Facturacion electronica",
+          "Soporte prioritario"
+        ],
+        "cta": "Elegir Profesional"
+      },
+      {
+        "name": "Clinica",
+        "description": "Para clinicas y centros medicos",
+        "price": "24,990",
+        "currency": "$",
+        "period": "/mes",
+        "stats": {
+          "appointments": "Ilimitados",
+          "appointmentsLabel": "turnos/mes",
+          "users": "Ilimitados",
+          "usersLabel": "usuarios"
+        },
+        "features": [
+          "Todo del plan Profesional",
+          "Multi-sucursales",
+          "API personalizada",
+          "Reportes avanzados",
+          "Soporte dedicado 24/7"
+        ],
+        "cta": "Contactar Ventas"
+      }
+    ]
+  },
+  "about": {
+    "label": "Sobre Nosotros",
+    "title": "Transformando la Salud Digital en Argentina",
+    "text": "Somos un equipo apasionado de desarrolladores y profesionales de la salud comprometidos con modernizar la gestion medica en Argentina. Desde 2018, hemos ayudado a miles de profesionales a optimizar sus consultorios.",
+    "stats": [
+      {
+        "value": "5+",
+        "label": "Anos de Experiencia"
+      },
+      {
+        "value": "2,500+",
+        "label": "Profesionales"
+      },
+      {
+        "value": "1M+",
+        "label": "Turnos Gestionados"
+      },
+      {
+        "value": "98%",
+        "label": "Satisfaccion"
+      }
+    ],
+    "team": [
+      {
+        "name": "Dr. Martin Rodriguez",
+        "role": "CEO & Co-fundador",
+        "initials": "MR",
+        "status": "Disponible"
+      },
+      {
+        "name": "Lic. Ana Garcia",
+        "role": "Directora de Producto",
+        "initials": "AG",
+        "status": "En reunion"
+      },
+      {
+        "name": "Ing. Carlos Lopez",
+        "role": "CTO",
+        "initials": "CL",
+        "status": "Disponible"
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "Hablemos de tu Proyecto",
+    "subtitle": "Estamos aqui para ayudarte a transformar tu consultorio",
+    "info": {
+      "email": {
+        "label": "Email",
+        "value": "hola@doctore.ar"
+      },
+      "phone": {
+        "label": "Telefono",
+        "value": "+54 11 5555-0100"
+      },
+      "address": {
+        "label": "Oficina",
+        "value": "Buenos Aires, Argentina"
+      },
+      "hours": {
+        "label": "Horario",
+        "value": "Lun - Vie: 9:00 - 18:00"
+      }
+    },
+    "form": {
+      "title": "Enviar Mensaje",
+      "status": "Online",
+      "name": "Nombre Completo",
+      "namePlaceholder": "Tu nombre",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "subject": "Asunto",
+      "subjectPlaceholder": "En que podemos ayudarte?",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuentanos mas sobre tu consulta...",
+      "submit": "Enviar Mensaje"
+    }
+  },
+  "footer": {
+    "description": "Soluciones tecnologicas para profesionales de la salud en Argentina.",
+    "columns": {
+      "product": {
+        "title": "Producto",
+        "links": [
+          "TurnosMedicos",
+          "Historias Clinicas",
+          "Facturacion",
+          "Integraciones"
+        ]
+      },
+      "company": {
+        "title": "Empresa",
+        "links": [
+          "Nosotros",
+          "Equipo",
+          "Carreras",
+          "Blog"
+        ]
+      },
+      "support": {
+        "title": "Soporte",
+        "links": [
+          "Centro de Ayuda",
+          "Contacto",
+          "Status",
+          "API Docs"
+        ]
+      }
+    },
+    "copyright": "2024 doctore.ar. Todos los derechos reservados."
+  }
+}

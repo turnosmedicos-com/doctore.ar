@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "home": "Home",
+    "product": "Product",
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login"
+  },
+  "hero": {
+    "badge": "Digital Health Solutions",
+    "title": "Transform Your Medical Practice Management",
+    "description": "Comprehensive platform that simplifies appointment scheduling, patient management, and billing for healthcare professionals.",
+    "cta_primary": "Get Started",
+    "cta_secondary": "Watch Demo",
+    "scroll": "Discover more"
+  },
+  "turnosmedicos": {
+    "badge": "Star Product",
+    "title": "TurnosMedicos: Smart Appointment Management",
+    "description": "Complete system for medical appointment management with automatic confirmations, WhatsApp reminders, and intuitive dashboard.",
+    "feature_1": "Online scheduling available 24/7 for your patients",
+    "feature_2": "Automatic confirmations and reminders via WhatsApp",
+    "feature_3": "Dashboard with real-time metrics and reports",
+    "feature_4": "Integration with billing systems and insurance",
+    "cta_primary": "Access TurnosMedicos",
+    "cta_secondary": "Request Demo",
+    "mockup": {
+      "patient_1": "Mary Johnson",
+      "patient_2": "John Smith",
+      "patient_3": "Anna Williams",
+      "time_1": "09:00 - General Consultation",
+      "time_2": "09:30 - Follow-up",
+      "time_3": "10:00 - First Visit",
+      "status_confirmed": "Confirmed",
+      "status_pending": "Pending"
+    }
+  },
+  "services": {
+    "label": "Our Services",
+    "title": "Complete Solutions for Your Medical Practice",
+    "subtitle": "We offer digital tools specifically designed for healthcare professionals.",
+    "service_1": {
+      "title": "Appointment Management",
+      "description": "Smart scheduling system with automatic reminders and WhatsApp confirmations."
+    },
+    "service_2": {
+      "title": "Digital Medical Records",
+      "description": "Secure electronic medical records accessible from any device."
+    },
+    "service_3": {
+      "title": "Integrated Billing",
+      "description": "Billing automation for insurance companies and private patients."
+    },
+    "service_4": {
+      "title": "Telemedicine",
+      "description": "Video consultation platform integrated with your schedule and appointment system."
+    },
+    "service_5": {
+      "title": "Reports & Analytics",
+      "description": "Detailed metrics about your practice to make better decisions."
+    },
+    "service_6": {
+      "title": "Patient App",
+      "description": "Mobile app for your patients to manage appointments and access their history."
+    }
+  },
+  "pricing": {
+    "label": "Plans & Pricing",
+    "title": "Choose the Ideal Plan for Your Practice",
+    "subtitle": "Flexible plans that adapt to the size of your medical practice.",
+    "plan_1": {
+      "name": "Starter",
+      "description": "For small practices",
+      "price": "15,000",
+      "period": "/month",
+      "feature_1": "Up to 100 monthly appointments",
+      "feature_2": "1 professional",
+      "feature_3": "Email reminders",
+      "feature_4": "Email support",
+      "cta": "Get Started"
+    },
+    "plan_2": {
+      "name": "Professional",
+      "description": "Most popular",
+      "price": "35,000",
+      "period": "/month",
+      "feature_1": "Unlimited appointments",
+      "feature_2": "Up to 3 professionals",
+      "feature_3": "WhatsApp + Email",
+      "feature_4": "Digital medical records",
+      "feature_5": "Priority support",
+      "cta": "Get Started"
+    },
+    "plan_3": {
+      "name": "Clinic",
+      "description": "For medical centers",
+      "price": "75,000",
+      "period": "/month",
+      "feature_1": "Everything unlimited",
+      "feature_2": "Unlimited professionals",
+      "feature_3": "Integrated billing",
+      "feature_4": "Custom API",
+      "feature_5": "24/7 support",
+      "cta": "Contact Us"
+    },
+    "currency": "ARS"
+  },
+  "about": {
+    "label": "About Us",
+    "title": "Digital Health Innovation from Argentina",
+    "description": "We are a team passionate about technology and healthcare. We develop solutions that simplify the lives of medical professionals, allowing them to focus on what really matters: their patients.",
+    "stat_1": {
+      "value": "500+",
+      "label": "Active professionals"
+    },
+    "stat_2": {
+      "value": "50K+",
+      "label": "Appointments managed"
+    },
+    "stat_3": {
+      "value": "98%",
+      "label": "Satisfaction"
+    },
+    "stat_4": {
+      "value": "24/7",
+      "label": "Availability"
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's Talk About Your Project",
+    "subtitle": "We're here to help you digitize your medical practice.",
+    "info": {
+      "email_label": "Email",
+      "email_value": "info@doctore.ar",
+      "phone_label": "Phone",
+      "phone_value": "+54 11 1234-5678",
+      "location_label": "Location",
+      "location_value": "Buenos Aires, Argentina"
+    },
+    "form": {
+      "name_label": "Name",
+      "name_placeholder": "Your full name",
+      "email_label": "Email",
+      "email_placeholder": "your@email.com",
+      "phone_label": "Phone",
+      "phone_placeholder": "+54 11 1234-5678",
+      "specialty_label": "Specialty",
+      "specialty_placeholder": "Your medical specialty",
+      "message_label": "Message",
+      "message_placeholder": "Tell us about your practice and needs...",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "description": "Innovative technology solutions for healthcare professionals in Argentina.",
+    "products": "Products",
+    "company": "Company",
+    "legal": "Legal",
+    "product_1": "TurnosMedicos",
+    "product_2": "Medical Records",
+    "product_3": "Billing",
+    "product_4": "Telemedicine",
+    "company_1": "About Us",
+    "company_2": "Blog",
+    "company_3": "Careers",
+    "company_4": "Contact",
+    "legal_1": "Privacy",
+    "legal_2": "Terms",
+    "legal_3": "Cookies",
+    "copyright": "2024 doctore.ar. All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  }
+}

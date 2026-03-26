@@ -1,0 +1,187 @@
+{
+  "nav": {
+    "home": "Home",
+    "product": "TurnosMedicos",
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login"
+  },
+  "hero": {
+    "badge": "Your digital journey starts here",
+    "title": "Transform your ",
+    "titleGradient": "Medical Practice",
+    "description": "We accompany your digital evolution step by step. From appointment management to complete medical records, we guide you through every stage of the process.",
+    "cta": "Start the journey",
+    "ctaSecondary": "View roadmap",
+    "scrollHint": "Explore our story"
+  },
+  "heroTimeline": {
+    "step1Title": "Registration",
+    "step1Text": "Create your account",
+    "step2Title": "Setup",
+    "step2Text": "Customize your practice",
+    "step3Title": "Operation",
+    "step3Text": "Manage your appointments"
+  },
+  "product": {
+    "badge": "Star Product",
+    "title": "TurnosMedicos",
+    "subtitle": "The most complete appointment management system in Argentina. Simplify your schedule, improve your patients' experience.",
+    "feature1Title": "Smart Calendar",
+    "feature1Desc": "Automatic sync with Google Calendar and WhatsApp reminders.",
+    "feature2Title": "24/7 Online Booking",
+    "feature2Desc": "Your patients book whenever they want, from any device.",
+    "feature3Title": "Control Panel",
+    "feature3Desc": "Real-time statistics, reports, and centralized management.",
+    "cta": "Access TurnosMedicos",
+    "calendarMonth": "March 2024"
+  },
+  "services": {
+    "title": "Your Digital Journey",
+    "subtitle": "Each step brings you closer to more efficient medical management. Follow the path to digital transformation.",
+    "step1": {
+      "number": "1",
+      "title": "Digital Consulting",
+      "phase": "Discovery Phase",
+      "description": "We analyze your practice's needs and design a personalized digital transformation strategy.",
+      "tags": ["Analysis", "Strategy", "Planning"]
+    },
+    "step2": {
+      "number": "2",
+      "title": "Appointment Management",
+      "phase": "Implementation Phase",
+      "description": "We implement TurnosMedicos to automate your schedule and improve patient communication.",
+      "tags": ["Automation", "Schedule", "Communication"]
+    },
+    "step3": {
+      "number": "3",
+      "title": "Digital Medical Records",
+      "phase": "Expansion Phase",
+      "description": "We digitize medical records with security, complying with all health regulations.",
+      "tags": ["Security", "Compliance", "Digitization"]
+    },
+    "step4": {
+      "number": "4",
+      "title": "Integrations",
+      "phase": "Optimization Phase",
+      "description": "We connect with billing systems, insurance providers, and labs for an integrated workflow.",
+      "tags": ["APIs", "Billing", "Insurance"]
+    },
+    "step5": {
+      "number": "5",
+      "title": "Continuous Support",
+      "phase": "Growth Phase",
+      "description": "We accompany you with continuous training, updates, and personalized technical support.",
+      "tags": ["Training", "Updates", "Support"]
+    }
+  },
+  "pricing": {
+    "title": "Plans that Grow with You",
+    "subtitle": "Choose the plan that best fits your practice's stage. You can always scale when you need it.",
+    "starter": {
+      "name": "Starter",
+      "description": "Perfect to start your digital journey",
+      "price": "Free",
+      "period": "",
+      "features": [
+        "Up to 50 appointments/month",
+        "1 professional",
+        "Basic reminders",
+        "Email support"
+      ]
+    },
+    "professional": {
+      "badge": "Most Popular",
+      "name": "Professional",
+      "description": "For growing practices",
+      "price": "$4,999",
+      "period": "/month",
+      "features": [
+        "Unlimited appointments",
+        "Up to 5 professionals",
+        "WhatsApp + Email",
+        "Basic medical records",
+        "Advanced reports",
+        "Priority support"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Complete solution for clinics",
+      "price": "Custom",
+      "period": "",
+      "features": [
+        "Everything in Professional",
+        "Unlimited professionals",
+        "Custom integrations",
+        "Dedicated API",
+        "24/7 support",
+        "Account manager"
+      ]
+    },
+    "cta": "Choose plan"
+  },
+  "about": {
+    "label": "Our Story",
+    "title": "Pioneers in Argentine Digital Health",
+    "description": "Since 2018, we have accompanied hundreds of healthcare professionals in their digital transformation. Each practice has its own story, and we are part of it.",
+    "milestone1Title": "Founded in Cordoba",
+    "milestone1Desc": "We started with the vision to modernize healthcare",
+    "milestone2Title": "National Expansion",
+    "milestone2Desc": "We reached all Argentine provinces",
+    "milestone3Title": "Continuous Innovation",
+    "milestone3Desc": "Leading AI adoption in healthcare",
+    "stat1Value": "500+",
+    "stat1Label": "Active Practices",
+    "stat2Value": "1M+",
+    "stat2Label": "Appointments Managed",
+    "stat3Value": "99.9%",
+    "stat3Label": "Guaranteed Uptime",
+    "stat4Value": "4.9/5",
+    "stat4Label": "Satisfaction"
+  },
+  "contact": {
+    "title": "Start Your Transformation",
+    "subtitle": "We're ready to accompany you every step of the way. Contact us and start your digital journey today.",
+    "method1Title": "Email",
+    "method1Desc": "Response in less than 24 hours",
+    "method1Link": "hello@doctore.ar",
+    "method2Title": "WhatsApp",
+    "method2Desc": "Direct chat with our team",
+    "method2Link": "+54 351 123 4567",
+    "method3Title": "Office",
+    "method3Desc": "Visit us in Cordoba",
+    "method3Link": "Nueva Cordoba, Cordoba, Argentina",
+    "formName": "Full name",
+    "formEmail": "Email",
+    "formPhone": "Phone",
+    "formMessage": "Message",
+    "formSubmit": "Send message",
+    "formNamePlaceholder": "Your name",
+    "formEmailPlaceholder": "your@email.com",
+    "formPhonePlaceholder": "+54 9 351 XXX XXXX",
+    "formMessagePlaceholder": "Tell us about your practice and how we can help you..."
+  },
+  "footer": {
+    "description": "Digital solutions for healthcare professionals in Argentina. We transform the way you manage your practice.",
+    "columnProduct": "Product",
+    "columnCompany": "Company",
+    "columnLegal": "Legal",
+    "linkFeatures": "Features",
+    "linkPricing": "Pricing",
+    "linkIntegrations": "Integrations",
+    "linkChangelog": "Changelog",
+    "linkAbout": "About",
+    "linkCareers": "Careers",
+    "linkBlog": "Blog",
+    "linkContact": "Contact",
+    "linkPrivacy": "Privacy",
+    "linkTerms": "Terms",
+    "linkCookies": "Cookies",
+    "copyright": "2024 doctore.ar. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

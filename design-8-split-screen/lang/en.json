@@ -1,0 +1,223 @@
+{
+  "nav": {
+    "home": "Home",
+    "product": "TurnosMedicos",
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login"
+  },
+  "hero": {
+    "badge": "Digital healthcare solutions",
+    "title": "Transforming <span class=\"hero__title-accent\">medical management</span> with technology",
+    "description": "Comprehensive medical software platform that simplifies appointment scheduling, patient management, and clinic operations. The solution healthcare professionals have been waiting for.",
+    "cta": {
+      "primary": "Get started",
+      "secondary": "Watch demo"
+    },
+    "stats": {
+      "doctors": {
+        "number": "2,500+",
+        "label": "Active professionals"
+      },
+      "appointments": {
+        "number": "150K+",
+        "label": "Monthly appointments"
+      },
+      "satisfaction": {
+        "number": "98%",
+        "label": "Satisfaction rate"
+      }
+    }
+  },
+  "product": {
+    "label": "Star product",
+    "title": "TurnosMedicos",
+    "description": "Online appointment management system designed specifically for healthcare professionals. Optimize your schedule, reduce no-shows, and improve your patients' experience.",
+    "features": {
+      "calendar": "Smart calendar with real-time synchronization",
+      "reminders": "Automatic reminders via WhatsApp and email",
+      "portal": "24/7 patient booking portal",
+      "analytics": "Productivity reports and analytics"
+    },
+    "cta": {
+      "primary": "Access TurnosMedicos",
+      "secondary": "View features"
+    },
+    "mockup": {
+      "url": "login.turnosmedicos.com",
+      "tabs": {
+        "calendar": "Calendar",
+        "patients": "Patients",
+        "reports": "Reports"
+      }
+    }
+  },
+  "services": {
+    "label": "Our services",
+    "title": "Complete solutions for your practice",
+    "subtitle": "We offer a comprehensive ecosystem of digital tools designed to optimize every aspect of medical practice.",
+    "items": {
+      "appointments": {
+        "title": "Appointment Management",
+        "description": "Advanced scheduling and appointment management system with automatic confirmation and smart reminders.",
+        "features": ["Multi-channel scheduling", "Automatic confirmation", "Smart waitlist"]
+      },
+      "patients": {
+        "title": "Medical Records",
+        "description": "Complete digitization of medical records with secure access, advanced search, and regulatory compliance.",
+        "features": ["Complete digital records", "Smart search", "HIPAA compliant"]
+      },
+      "billing": {
+        "title": "Medical Billing",
+        "description": "Billing process automation with integration to Argentine health insurance providers and prepaid plans.",
+        "features": ["Electronic invoicing", "Insurance claims", "Financial reports"]
+      },
+      "telemedicine": {
+        "title": "Telemedicine",
+        "description": "Secure video consultation platform integrated with your calendar and patient records.",
+        "features": ["HD video calls", "Digital prescriptions", "Full integration"]
+      }
+    }
+  },
+  "pricing": {
+    "label": "Plans and pricing",
+    "title": "Flexible plans for every need",
+    "description": "Choose the plan that best fits your practice size. All include technical support and updates.",
+    "benefits": {
+      "trial": "14-day free trial",
+      "cancel": "Cancel anytime",
+      "support": "Technical support included"
+    },
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "$29",
+        "period": "/month",
+        "features": ["1 professional", "500 appointments/mo", "Basic calendar", "Email support"]
+      },
+      "professional": {
+        "name": "Professional",
+        "price": "$79",
+        "period": "/month",
+        "badge": "Popular",
+        "features": ["5 professionals", "Unlimited appointments", "Medical records", "Priority support"]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Contact us",
+        "period": "",
+        "features": ["Unlimited", "Custom API", "Integrations", "Dedicated support"]
+      }
+    },
+    "cta": "Choose plan"
+  },
+  "about": {
+    "label": "About us",
+    "title": "Innovation at the service of health",
+    "description": "We are a team of professionals passionate about technology and committed to improving healthcare in Argentina. Since 2018, we develop solutions that simplify clinic management.",
+    "stats": {
+      "years": {
+        "number": "6+",
+        "label": "Years of experience"
+      },
+      "clients": {
+        "number": "500+",
+        "label": "Happy clients"
+      },
+      "uptime": {
+        "number": "99.9%",
+        "label": "Uptime"
+      },
+      "support": {
+        "number": "24/7",
+        "label": "Technical support"
+      }
+    },
+    "values": {
+      "innovation": {
+        "title": "Innovation",
+        "description": "Cutting-edge technology"
+      },
+      "security": {
+        "title": "Security",
+        "description": "Protected data"
+      },
+      "simplicity": {
+        "title": "Simplicity",
+        "description": "Easy to use"
+      },
+      "support": {
+        "title": "Support",
+        "description": "Always available"
+      }
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's talk about your project",
+    "description": "We're here to help you digitize your practice. Contact us and a specialist will advise you with no obligation.",
+    "info": {
+      "email": {
+        "label": "Email",
+        "value": "hello@doctore.ar"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+54 11 5555-0123"
+      },
+      "address": {
+        "label": "Location",
+        "value": "Buenos Aires, Argentina"
+      }
+    },
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "phone": "Phone (optional)",
+      "specialty": "Specialty",
+      "message": "How can we help you?",
+      "submit": "Send message",
+      "success": "Message sent!"
+    }
+  },
+  "footer": {
+    "description": "Innovative technology solutions for comprehensive medical practice management in Argentina.",
+    "columns": {
+      "product": {
+        "title": "Product",
+        "links": {
+          "features": "Features",
+          "pricing": "Pricing",
+          "demo": "Demo",
+          "updates": "Updates"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "links": {
+          "about": "About us",
+          "blog": "Blog",
+          "careers": "Careers",
+          "contact": "Contact"
+        }
+      },
+      "support": {
+        "title": "Support",
+        "links": {
+          "help": "Help center",
+          "docs": "Documentation",
+          "status": "System status",
+          "api": "API"
+        }
+      }
+    },
+    "legal": {
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "cookies": "Cookies"
+    },
+    "copyright": "© 2024 Doctore.ar. All rights reserved."
+  }
+}

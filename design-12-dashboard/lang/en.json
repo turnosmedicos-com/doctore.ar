@@ -1,0 +1,296 @@
+{
+  "nav": {
+    "home": "Home",
+    "turnosmedicos": "TurnosMedicos",
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Log In",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "badge": "Medical Management Platform",
+    "title": "Smart Management for your",
+    "titleHighlight": "Practice",
+    "description": "Optimize your medical practice administration with advanced appointment, patient, and billing management tools. Everything in one place.",
+    "cta": "Get Started Now",
+    "ctaSecondary": "View Demo",
+    "stats": {
+      "appointments": {
+        "label": "Appointments Managed",
+        "value": "125,430",
+        "change": "+12.5%"
+      },
+      "patients": {
+        "label": "Active Patients",
+        "value": "8,942",
+        "change": "+8.3%"
+      },
+      "satisfaction": {
+        "label": "Satisfaction",
+        "value": "98.7%",
+        "change": "+2.1%"
+      }
+    }
+  },
+  "turnosmedicos": {
+    "label": "Star Product",
+    "title": "The Most Complete Appointment System in Argentina",
+    "description": "TurnosMedicos is our flagship solution for medical appointment management. Specifically designed for healthcare professionals in Argentina.",
+    "features": [
+      "24/7 online scheduling for your patients",
+      "Automatic WhatsApp reminders",
+      "Health insurance integration",
+      "Real-time reports and statistics",
+      "Dedicated technical support"
+    ],
+    "cta": "Access TurnosMedicos",
+    "loginLink": "Already have an account?",
+    "loginAction": "Log in here"
+  },
+  "services": {
+    "label": "Our Services",
+    "title": "Complete Solutions for your Practice",
+    "subtitle": "Professional tools designed to optimize every aspect of your medical practice",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "Appointment Management",
+        "description": "Smart scheduling system with automatic confirmations and reminders.",
+        "metric": "15K+",
+        "metricLabel": "appts/month",
+        "progress": 92,
+        "progressLabel": "Efficiency"
+      },
+      {
+        "icon": "users",
+        "title": "Medical Records",
+        "description": "Secure storage and quick access to all your patient records.",
+        "metric": "50K+",
+        "metricLabel": "records",
+        "progress": 88,
+        "progressLabel": "Digitization"
+      },
+      {
+        "icon": "chart",
+        "title": "Electronic Billing",
+        "description": "Invoice generation and payment management integrated with tax authorities.",
+        "metric": "$2M+",
+        "metricLabel": "invoiced",
+        "progress": 95,
+        "progressLabel": "Automation"
+      },
+      {
+        "icon": "bell",
+        "title": "Notifications",
+        "description": "Multi-channel alert system: WhatsApp, SMS, email and push notifications.",
+        "metric": "98%",
+        "metricLabel": "delivery",
+        "progress": 98,
+        "progressLabel": "Open Rate"
+      },
+      {
+        "icon": "shield",
+        "title": "Data Security",
+        "description": "Bank-grade encryption and healthcare compliance.",
+        "metric": "100%",
+        "metricLabel": "secure",
+        "progress": 100,
+        "progressLabel": "Compliance"
+      },
+      {
+        "icon": "support",
+        "title": "24/7 Support",
+        "description": "Technical support team available at all times to assist you.",
+        "metric": "< 5min",
+        "metricLabel": "response",
+        "progress": 96,
+        "progressLabel": "Satisfaction"
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Plans & Pricing",
+    "title": "Choose the Ideal Plan for your Practice",
+    "subtitle": "No hidden costs. Cancel anytime.",
+    "plans": [
+      {
+        "name": "Starter",
+        "description": "Perfect for small practices",
+        "price": "4,990",
+        "currency": "$",
+        "period": "/month",
+        "stats": {
+          "appointments": "100",
+          "appointmentsLabel": "appts/month",
+          "users": "1",
+          "usersLabel": "user"
+        },
+        "features": [
+          "Basic online scheduling",
+          "Email reminders",
+          "Email support",
+          "Monthly reports"
+        ],
+        "cta": "Start Free"
+      },
+      {
+        "name": "Professional",
+        "description": "For growing practices",
+        "price": "9,990",
+        "currency": "$",
+        "period": "/month",
+        "badge": "Popular",
+        "featured": true,
+        "stats": {
+          "appointments": "500",
+          "appointmentsLabel": "appts/month",
+          "users": "5",
+          "usersLabel": "users"
+        },
+        "features": [
+          "Everything in Starter",
+          "WhatsApp reminders",
+          "Medical records",
+          "Electronic billing",
+          "Priority support"
+        ],
+        "cta": "Choose Professional"
+      },
+      {
+        "name": "Clinic",
+        "description": "For clinics and medical centers",
+        "price": "24,990",
+        "currency": "$",
+        "period": "/month",
+        "stats": {
+          "appointments": "Unlimited",
+          "appointmentsLabel": "appts/month",
+          "users": "Unlimited",
+          "usersLabel": "users"
+        },
+        "features": [
+          "Everything in Professional",
+          "Multi-location",
+          "Custom API",
+          "Advanced reports",
+          "Dedicated 24/7 support"
+        ],
+        "cta": "Contact Sales"
+      }
+    ]
+  },
+  "about": {
+    "label": "About Us",
+    "title": "Transforming Digital Health in Argentina",
+    "text": "We are a passionate team of developers and healthcare professionals committed to modernizing medical management in Argentina. Since 2018, we have helped thousands of professionals optimize their practices.",
+    "stats": [
+      {
+        "value": "5+",
+        "label": "Years of Experience"
+      },
+      {
+        "value": "2,500+",
+        "label": "Professionals"
+      },
+      {
+        "value": "1M+",
+        "label": "Appointments Managed"
+      },
+      {
+        "value": "98%",
+        "label": "Satisfaction"
+      }
+    ],
+    "team": [
+      {
+        "name": "Dr. Martin Rodriguez",
+        "role": "CEO & Co-founder",
+        "initials": "MR",
+        "status": "Available"
+      },
+      {
+        "name": "Lic. Ana Garcia",
+        "role": "Product Director",
+        "initials": "AG",
+        "status": "In meeting"
+      },
+      {
+        "name": "Eng. Carlos Lopez",
+        "role": "CTO",
+        "initials": "CL",
+        "status": "Available"
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's Talk About Your Project",
+    "subtitle": "We're here to help you transform your practice",
+    "info": {
+      "email": {
+        "label": "Email",
+        "value": "hello@doctore.ar"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+54 11 5555-0100"
+      },
+      "address": {
+        "label": "Office",
+        "value": "Buenos Aires, Argentina"
+      },
+      "hours": {
+        "label": "Hours",
+        "value": "Mon - Fri: 9:00 AM - 6:00 PM"
+      }
+    },
+    "form": {
+      "title": "Send Message",
+      "status": "Online",
+      "name": "Full Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can we help you?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us more about your inquiry...",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "description": "Technology solutions for healthcare professionals in Argentina.",
+    "columns": {
+      "product": {
+        "title": "Product",
+        "links": [
+          "TurnosMedicos",
+          "Medical Records",
+          "Billing",
+          "Integrations"
+        ]
+      },
+      "company": {
+        "title": "Company",
+        "links": [
+          "About Us",
+          "Team",
+          "Careers",
+          "Blog"
+        ]
+      },
+      "support": {
+        "title": "Support",
+        "links": [
+          "Help Center",
+          "Contact",
+          "Status",
+          "API Docs"
+        ]
+      }
+    },
+    "copyright": "2024 doctore.ar. All rights reserved."
+  }
+}

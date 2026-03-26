@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "lang": "en",
+    "title": "doctore.ar - Digital Healthcare Solutions",
+    "description": "We transform medical practice management with simple and elegant technology. TurnosMedicos: the appointment system your practice needs."
+  },
+  "nav": {
+    "home": "Home",
+    "product": "Product",
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login"
+  },
+  "hero": {
+    "label": "Healthcare Technology",
+    "title": "Medical management <strong>simple and elegant</strong>",
+    "subtitle": "Digital solutions designed so you can focus on what matters: your patients. No complications, no distractions.",
+    "cta_primary": "Get started",
+    "cta_secondary": "View demo",
+    "stats": {
+      "professionals": {
+        "number": "500+",
+        "label": "Professionals"
+      },
+      "appointments": {
+        "number": "50K+",
+        "label": "Monthly appointments"
+      },
+      "uptime": {
+        "number": "99.9%",
+        "label": "Uptime"
+      }
+    }
+  },
+  "product": {
+    "label": "Star product",
+    "title": "TurnosMedicos",
+    "subtitle": "The most intuitive appointment management system on the market. Designed by doctors, for doctors.",
+    "features": [
+      "Smart scheduling with availability management",
+      "Automatic reminders via WhatsApp and email",
+      "Patient portal for self-service booking",
+      "Real-time reports and statistics",
+      "Integration with existing calendars",
+      "Dedicated technical support"
+    ],
+    "cta": "Access TurnosMedicos",
+    "badge": "Confirmed"
+  },
+  "services": {
+    "label": "Services",
+    "title": "What we do",
+    "subtitle": "Comprehensive solutions for the digital transformation of your medical practice.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Appointment Management",
+        "description": "Complete scheduling system with automatic confirmations, waiting lists, and cancellation management."
+      },
+      {
+        "number": "02",
+        "title": "Patient Communication",
+        "description": "Automate reminders, confirmations, and follow-ups through multiple communication channels."
+      },
+      {
+        "number": "03",
+        "title": "Analytics & Reports",
+        "description": "Intuitive dashboards with key metrics to optimize your practice management."
+      },
+      {
+        "number": "04",
+        "title": "System Integration",
+        "description": "We connect with your current EHR, billing, and other existing systems."
+      },
+      {
+        "number": "05",
+        "title": "Custom Development",
+        "description": "Tailored solutions adapted to the specific needs of your practice."
+      },
+      {
+        "number": "06",
+        "title": "Support & Training",
+        "description": "Ongoing assistance and training to help you get the most out of our tools."
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Pricing",
+    "title": "Simple and transparent plans",
+    "subtitle": "No surprises, no hidden costs. Choose the plan that best fits your practice.",
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "4,900",
+        "currency": "ARS",
+        "period": "/month",
+        "description": "Ideal for individual practices just getting started.",
+        "features": [
+          "Up to 100 appointments per month",
+          "1 professional",
+          "Email reminders",
+          "Email support",
+          "Basic reports"
+        ],
+        "cta": "Start free"
+      },
+      {
+        "name": "Professional",
+        "price": "9,900",
+        "currency": "ARS",
+        "period": "/month",
+        "description": "For growing practices with multiple professionals.",
+        "features": [
+          "Unlimited appointments",
+          "Up to 5 professionals",
+          "WhatsApp + Email",
+          "Priority support",
+          "Advanced reports",
+          "Integrations"
+        ],
+        "cta": "Start trial",
+        "featured": true,
+        "badge": "Popular"
+      },
+      {
+        "name": "Enterprise",
+        "price": "Contact us",
+        "currency": "",
+        "period": "",
+        "description": "For clinics and medical centers with advanced needs.",
+        "features": [
+          "Everything above",
+          "Unlimited professionals",
+          "Custom API",
+          "Dedicated support",
+          "Guaranteed SLA",
+          "Custom development"
+        ],
+        "cta": "Contact sales"
+      }
+    ]
+  },
+  "about": {
+    "label": "About us",
+    "title": "Simplifying digital healthcare",
+    "text1": "At doctore.ar we believe technology should simplify, not complicate. We were born from the frustration of seeing healthcare professionals struggling with complex and unintuitive systems.",
+    "text2": "Our approach is different: we design every feature with the end user in mind, eliminating friction and creating experiences that feel natural from the first use.",
+    "values": [
+      {
+        "number": "01",
+        "title": "Simplicity",
+        "description": "Less is more. Every feature has a clear purpose."
+      },
+      {
+        "number": "02",
+        "title": "Reliability",
+        "description": "Robust systems that work when you need them."
+      },
+      {
+        "number": "03",
+        "title": "Innovation",
+        "description": "Continuous improvement based on real feedback."
+      },
+      {
+        "number": "04",
+        "title": "Humanity",
+        "description": "Technology at the service of people, not the other way around."
+      }
+    ],
+    "cards": [
+      {
+        "icon": "code",
+        "title": "Modern technology",
+        "description": "Updated stack, scalable architecture, and top-level security."
+      },
+      {
+        "icon": "users",
+        "title": "Dedicated team",
+        "description": "Professionals passionate about improving the healthcare experience."
+      },
+      {
+        "icon": "shield",
+        "title": "Secure data",
+        "description": "Compliance with healthcare data protection regulations."
+      },
+      {
+        "icon": "heart",
+        "title": "Human support",
+        "description": "Real people helping you when you need it."
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's talk",
+    "subtitle": "We're here to help. Write to us and we'll respond in less than 24 hours.",
+    "info": {
+      "email": {
+        "label": "Email",
+        "value": "hello@doctore.ar"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+54 11 5555-0000"
+      },
+      "location": {
+        "label": "Location",
+        "value": "Buenos Aires, Argentina"
+      }
+    },
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "you@email.com"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell us how we can help..."
+      },
+      "submit": "Send message"
+    }
+  },
+  "footer": {
+    "tagline": "Elegant digital solutions for medical practice management.",
+    "nav": {
+      "product": {
+        "title": "Product",
+        "links": [
+          { "text": "TurnosMedicos", "href": "#product" },
+          { "text": "Features", "href": "#services" },
+          { "text": "Pricing", "href": "#pricing" },
+          { "text": "Integrations", "href": "#" }
+        ]
+      },
+      "company": {
+        "title": "Company",
+        "links": [
+          { "text": "About", "href": "#about" },
+          { "text": "Blog", "href": "#" },
+          { "text": "Careers", "href": "#" },
+          { "text": "Contact", "href": "#contact" }
+        ]
+      },
+      "legal": {
+        "title": "Legal",
+        "links": [
+          { "text": "Privacy", "href": "#" },
+          { "text": "Terms", "href": "#" },
+          { "text": "Cookies", "href": "#" }
+        ]
+      }
+    },
+    "copyright": "2024 doctore.ar. All rights reserved."
+  }
+}

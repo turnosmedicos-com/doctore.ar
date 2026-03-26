@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "title": "doctore.ar - Soluciones Tecnológicas para Consultorios Médicos",
+    "description": "Transformamos la gestión de consultorios médicos con tecnología inteligente. TurnosMedicos, redes, contabilidad y consultoría."
+  },
+  "nav": {
+    "product": "TurnosMedicos",
+    "services": "Servicios",
+    "pricing": "Precios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "login": "Iniciar Sesión"
+  },
+  "hero": {
+    "badge": "Soluciones tecnológicas para medicina",
+    "title": "Tu consultorio,",
+    "titleHighlight": "simplificado",
+    "description": "Potenciamos consultorios médicos con tecnología inteligente. Gestión de turnos, infraestructura de red, contabilidad y asesoramiento integral para que te enfoques en lo que mejor haces: cuidar a tus pacientes.",
+    "cta": "Comenzar Ahora",
+    "ctaSecondary": "Conocer Más",
+    "stats": {
+      "clinics": "Consultorios",
+      "appointments": "Turnos Gestionados",
+      "satisfaction": "Satisfacción"
+    }
+  },
+  "product": {
+    "badge": "Producto Estrella",
+    "title": "TurnosMedicos",
+    "description": "El sistema de gestión de turnos más completo para profesionales de la salud. Automatiza tu agenda, reduce ausencias y mejora la experiencia de tus pacientes.",
+    "features": {
+      "calendar": {
+        "title": "Agenda Inteligente",
+        "text": "Gestión visual de turnos con recordatorios automáticos por WhatsApp y email."
+      },
+      "patients": {
+        "title": "Historial de Pacientes",
+        "text": "Fichas médicas digitales con historial completo y acceso rápido."
+      },
+      "reports": {
+        "title": "Reportes y Estadísticas",
+        "text": "Análisis detallado de tu consultorio para tomar mejores decisiones."
+      },
+      "multiuser": {
+        "title": "Multi-profesional",
+        "text": "Ideal para consultorios con múltiples profesionales y especialidades."
+      }
+    },
+    "cta": "Acceder a TurnosMedicos",
+    "ctaDemo": "Ver Demostración"
+  },
+  "services": {
+    "subtitle": "Nuestros Servicios",
+    "title": "Soluciones integrales para tu consultorio",
+    "description": "Más allá del software, ofrecemos un ecosistema completo de servicios para optimizar cada aspecto de tu práctica médica.",
+    "network": {
+      "title": "Instalación de Redes",
+      "description": "Diseño e implementación de infraestructura de red. Conectividad segura y confiable para tu consultorio.",
+      "link": "Más información"
+    },
+    "accounting": {
+      "title": "Contabilidad y Gestión",
+      "description": "Servicios contables especializados para profesionales de la salud. Facturación, impuestos y administración.",
+      "link": "Más información"
+    },
+    "consulting": {
+      "title": "Consultoría",
+      "description": "Asesoramiento integral para optimizar procesos, mejorar rentabilidad y hacer crecer tu práctica médica.",
+      "link": "Más información"
+    }
+  },
+  "pricing": {
+    "subtitle": "Precios",
+    "title": "Planes transparentes y accesibles",
+    "description": "Elige el plan que mejor se adapte a tu consultorio. Sin costos ocultos, sin sorpresas.",
+    "period": "/mes",
+    "plans": {
+      "starter": {
+        "name": "Inicial",
+        "price": "15.000",
+        "description": "Ideal para consultorios individuales",
+        "features": [
+          "1 profesional",
+          "Hasta 200 turnos/mes",
+          "Recordatorios por email",
+          "Historial de pacientes",
+          "Soporte por email"
+        ],
+        "cta": "Comenzar"
+      },
+      "professional": {
+        "name": "Profesional",
+        "price": "35.000",
+        "description": "Para consultorios en crecimiento",
+        "badge": "Más Popular",
+        "features": [
+          "Hasta 3 profesionales",
+          "Turnos ilimitados",
+          "WhatsApp + Email",
+          "Reportes avanzados",
+          "Soporte prioritario",
+          "Integraciones"
+        ],
+        "cta": "Comenzar"
+      },
+      "enterprise": {
+        "name": "Clínica",
+        "price": "75.000",
+        "description": "Solución completa para clínicas",
+        "features": [
+          "Profesionales ilimitados",
+          "Multi-sucursal",
+          "API personalizada",
+          "Facturación integrada",
+          "Soporte 24/7",
+          "Capacitación incluida"
+        ],
+        "cta": "Contactar"
+      }
+    }
+  },
+  "about": {
+    "subtitle": "Sobre Nosotros",
+    "title": "Tecnología con propósito médico",
+    "text1": "En doctore.ar entendemos los desafíos únicos que enfrentan los profesionales de la salud. Nacimos con la misión de simplificar la gestión de consultorios médicos, permitiendo que los profesionales se concentren en lo más importante: sus pacientes.",
+    "text2": "Nuestro equipo combina experiencia en tecnología y conocimiento del sector salud para crear soluciones que realmente funcionan.",
+    "values": {
+      "innovation": {
+        "title": "Innovación Continua",
+        "text": "Actualizamos constantemente nuestras soluciones con las últimas tecnologías."
+      },
+      "support": {
+        "title": "Soporte Dedicado",
+        "text": "Equipo local que entiende tus necesidades y habla tu idioma."
+      },
+      "security": {
+        "title": "Seguridad Primero",
+        "text": "Protección de datos conforme a normativas de salud vigentes."
+      }
+    }
+  },
+  "contact": {
+    "subtitle": "Contacto",
+    "title": "Hablemos sobre tu consultorio",
+    "description": "Estamos listos para ayudarte a transformar la gestión de tu práctica médica. Contáctanos y te responderemos a la brevedad.",
+    "methods": {
+      "email": {
+        "label": "Email",
+        "value": "info@doctore.ar"
+      },
+      "phone": {
+        "label": "Teléfono",
+        "value": "+54 11 1234-5678"
+      },
+      "location": {
+        "label": "Ubicación",
+        "value": "Buenos Aires, Argentina"
+      }
+    },
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre completo",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "phone": "Teléfono",
+      "phonePlaceholder": "+54 11 xxxx-xxxx",
+      "specialty": "Especialidad",
+      "specialtyPlaceholder": "Tu especialidad médica",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanos sobre tu consultorio y cómo podemos ayudarte...",
+      "submit": "Enviar Mensaje"
+    }
+  },
+  "footer": {
+    "description": "Soluciones tecnológicas integrales para consultorios médicos. Simplificamos tu gestión para que te enfoques en tus pacientes.",
+    "columns": {
+      "product": {
+        "title": "Producto",
+        "links": {
+          "features": "Características",
+          "pricing": "Precios",
+          "demo": "Demo",
+          "updates": "Actualizaciones"
+        }
+      },
+      "services": {
+        "title": "Servicios",
+        "links": {
+          "network": "Redes",
+          "accounting": "Contabilidad",
+          "consulting": "Consultoría",
+          "support": "Soporte"
+        }
+      },
+      "company": {
+        "title": "Empresa",
+        "links": {
+          "about": "Nosotros",
+          "blog": "Blog",
+          "careers": "Trabajá con nosotros",
+          "contact": "Contacto"
+        }
+      }
+    },
+    "copyright": "© 2024 doctore.ar. Todos los derechos reservados.",
+    "legal": {
+      "privacy": "Privacidad",
+      "terms": "Términos"
+    }
+  }
+}

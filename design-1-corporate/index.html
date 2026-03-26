@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Transformamos la gestión de consultorios médicos con tecnología inteligente. TurnosMedicos, redes, contabilidad y consultoría.">
+  <meta name="theme-color" content="#0ea5e9">
+
+  <title>doctore.ar - Soluciones Tecnológicas para Consultorios Médicos</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%230ea5e9'/%3E%3Cstop offset='100%25' stop-color='%2314b8a6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='20' fill='url(%23g)'/%3E%3Ctext x='50' y='68' font-family='Arial' font-size='50' font-weight='bold' text-anchor='middle' fill='white'%3Ed%3C/text%3E%3C/svg%3E">
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       Navigation
+       ======================================================================== -->
+  <nav class="nav">
+    <div class="container nav__container">
+      <!-- Logo -->
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+          </svg>
+        </span>
+        doctore.ar
+      </a>
+
+      <!-- Desktop Menu -->
+      <ul class="nav__menu">
+        <li><a href="#product" class="nav__link" data-i18n="nav.product">TurnosMedicos</a></li>
+        <li><a href="#services" class="nav__link" data-i18n="nav.services">Servicios</a></li>
+        <li><a href="#pricing" class="nav__link" data-i18n="nav.pricing">Precios</a></li>
+        <li><a href="#about" class="nav__link" data-i18n="nav.about">Nosotros</a></li>
+        <li><a href="#contact" class="nav__link" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+
+      <!-- Actions -->
+      <div class="nav__actions">
+        <!-- Language Switcher -->
+        <div class="nav__lang">
+          <button class="nav__lang-btn nav__lang-btn--active" data-lang="es">ES</button>
+          <button class="nav__lang-btn" data-lang="en">EN</button>
+        </div>
+        <!-- Login Button -->
+        <a href="https://login.turnosmedicos.com" class="btn btn--primary btn--sm" data-i18n="nav.login">Iniciar Sesión</a>
+      </div>
+
+      <!-- Mobile Toggle -->
+      <button class="nav__mobile-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="nav__mobile-menu">
+      <ul class="nav__mobile-links">
+        <li><a href="#product" class="nav__mobile-link" data-i18n="nav.product">TurnosMedicos</a></li>
+        <li><a href="#services" class="nav__mobile-link" data-i18n="nav.services">Servicios</a></li>
+        <li><a href="#pricing" class="nav__mobile-link" data-i18n="nav.pricing">Precios</a></li>
+        <li><a href="#about" class="nav__mobile-link" data-i18n="nav.about">Nosotros</a></li>
+        <li><a href="#contact" class="nav__mobile-link" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+      <div style="margin-top: var(--spacing-6);">
+        <a href="https://login.turnosmedicos.com" class="btn btn--primary" style="width: 100%;" data-i18n="nav.login">Iniciar Sesión</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========================================================================
+       Hero Section
+       ======================================================================== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-pattern"></div>
+    <div class="container hero__container">
+      <div class="hero__content">
+        <div class="hero__badge">
+          <span class="hero__badge-dot"></span>
+          <span data-i18n="hero.badge">Soluciones tecnológicas para medicina</span>
+        </div>
+
+        <h1 class="hero__title">
+          <span data-i18n="hero.title">Tu consultorio,</span>
+          <span class="hero__title-highlight" data-i18n="hero.titleHighlight">simplificado</span>
+        </h1>
+
+        <p class="hero__description" data-i18n="hero.description">
+          Potenciamos consultorios médicos con tecnología inteligente. Gestión de turnos, infraestructura de red, contabilidad y asesoramiento integral para que te enfoques en lo que mejor haces: cuidar a tus pacientes.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary btn--lg" data-i18n="hero.cta">Comenzar Ahora</a>
+          <a href="#product" class="btn btn--outline btn--lg" data-i18n="hero.ctaSecondary">Conocer Más</a>
+        </div>
+
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <div class="hero__stat-value">150+</div>
+            <div class="hero__stat-label" data-i18n="hero.stats.clinics">Consultorios</div>
+          </div>
+          <div class="hero__stat">
+            <div class="hero__stat-value">50K+</div>
+            <div class="hero__stat-label" data-i18n="hero.stats.appointments">Turnos Gestionados</div>
+          </div>
+          <div class="hero__stat">
+            <div class="hero__stat-value">98%</div>
+            <div class="hero__stat-label" data-i18n="hero.stats.satisfaction">Satisfacción</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       TurnosMedicos Section (Star Product)
+       ======================================================================== -->
+  <section class="section section--large product" id="product">
+    <div class="container product__container">
+      <div class="product__content animate-on-scroll">
+        <span class="product__badge" data-i18n="product.badge">Producto Estrella</span>
+        <h2 class="product__title" data-i18n="product.title">TurnosMedicos</h2>
+        <p class="product__description" data-i18n="product.description">
+          El sistema de gestión de turnos más completo para profesionales de la salud. Automatiza tu agenda, reduce ausencias y mejora la experiencia de tus pacientes.
+        </p>
+
+        <div class="product__features stagger-children">
+          <div class="product__feature">
+            <svg class="product__feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+            <p class="product__feature-text">
+              <strong data-i18n="product.features.calendar.title">Agenda Inteligente</strong> -
+              <span data-i18n="product.features.calendar.text">Gestión visual de turnos con recordatorios automáticos por WhatsApp y email.</span>
+            </p>
+          </div>
+
+          <div class="product__feature">
+            <svg class="product__feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+            <p class="product__feature-text">
+              <strong data-i18n="product.features.patients.title">Historial de Pacientes</strong> -
+              <span data-i18n="product.features.patients.text">Fichas médicas digitales con historial completo y acceso rápido.</span>
+            </p>
+          </div>
+
+          <div class="product__feature">
+            <svg class="product__feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="20" x2="18" y2="10"/>
+              <line x1="12" y1="20" x2="12" y2="4"/>
+              <line x1="6" y1="20" x2="6" y2="14"/>
+            </svg>
+            <p class="product__feature-text">
+              <strong data-i18n="product.features.reports.title">Reportes y Estadísticas</strong> -
+              <span data-i18n="product.features.reports.text">Análisis detallado de tu consultorio para tomar mejores decisiones.</span>
+            </p>
+          </div>
+
+          <div class="product__feature">
+            <svg class="product__feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+              <path d="M2 17l10 5 10-5"/>
+              <path d="M2 12l10 5 10-5"/>
+            </svg>
+            <p class="product__feature-text">
+              <strong data-i18n="product.features.multiuser.title">Multi-profesional</strong> -
+              <span data-i18n="product.features.multiuser.text">Ideal para consultorios con múltiples profesionales y especialidades.</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="product__actions">
+          <a href="https://login.turnosmedicos.com" class="btn btn--primary btn--lg" data-i18n="product.cta">Acceder a TurnosMedicos</a>
+          <a href="#contact" class="btn btn--outline" data-i18n="product.ctaDemo">Ver Demostración</a>
+        </div>
+      </div>
+
+      <div class="product__visual animate-on-scroll">
+        <div class="product__glow"></div>
+        <div class="product__mockup">
+          <div class="product__mockup-screen">
+            <div class="product__mockup-header">
+              <span class="product__mockup-dot product__mockup-dot--red"></span>
+              <span class="product__mockup-dot product__mockup-dot--yellow"></span>
+              <span class="product__mockup-dot product__mockup-dot--green"></span>
+            </div>
+            <div class="product__mockup-content">
+              <div class="product__mockup-row">
+                <div class="product__mockup-avatar"></div>
+                <div class="product__mockup-text">
+                  <div class="product__mockup-line"></div>
+                  <div class="product__mockup-line product__mockup-line--short"></div>
+                </div>
+                <span class="product__mockup-badge">09:00</span>
+              </div>
+              <div class="product__mockup-row">
+                <div class="product__mockup-avatar" style="background: linear-gradient(135deg, #14b8a6, #0d9488);"></div>
+                <div class="product__mockup-text">
+                  <div class="product__mockup-line"></div>
+                  <div class="product__mockup-line product__mockup-line--short"></div>
+                </div>
+                <span class="product__mockup-badge">10:30</span>
+              </div>
+              <div class="product__mockup-row">
+                <div class="product__mockup-avatar" style="background: linear-gradient(135deg, #8b5cf6, #6366f1);"></div>
+                <div class="product__mockup-text">
+                  <div class="product__mockup-line"></div>
+                  <div class="product__mockup-line product__mockup-line--short"></div>
+                </div>
+                <span class="product__mockup-badge">11:00</span>
+              </div>
+              <div class="product__mockup-row">
+                <div class="product__mockup-avatar" style="background: linear-gradient(135deg, #f59e0b, #d97706);"></div>
+                <div class="product__mockup-text">
+                  <div class="product__mockup-line"></div>
+                  <div class="product__mockup-line product__mockup-line--short"></div>
+                </div>
+                <span class="product__mockup-badge">14:00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Services Section
+       ======================================================================== -->
+  <section class="section section--large services" id="services">
+    <div class="container">
+      <div class="section__header animate-on-scroll">
+        <span class="section__subtitle" data-i18n="services.subtitle">Nuestros Servicios</span>
+        <h2 class="section__title" data-i18n="services.title">Soluciones integrales para tu consultorio</h2>
+        <p class="section__description" data-i18n="services.description">
+          Más allá del software, ofrecemos un ecosistema completo de servicios para optimizar cada aspecto de tu práctica médica.
+        </p>
+      </div>
+
+      <div class="services__grid stagger-children">
+        <!-- Network Installation -->
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="4" y="4" width="16" height="16" rx="2" ry="2"/>
+              <rect x="9" y="9" width="6" height="6"/>
+              <line x1="9" y1="1" x2="9" y2="4"/>
+              <line x1="15" y1="1" x2="15" y2="4"/>
+              <line x1="9" y1="20" x2="9" y2="23"/>
+              <line x1="15" y1="20" x2="15" y2="23"/>
+              <line x1="20" y1="9" x2="23" y2="9"/>
+              <line x1="20" y1="14" x2="23" y2="14"/>
+              <line x1="1" y1="9" x2="4" y2="9"/>
+              <line x1="1" y1="14" x2="4" y2="14"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title" data-i18n="services.network.title">Instalación de Redes</h3>
+          <p class="service-card__description" data-i18n="services.network.description">
+            Diseño e implementación de infraestructura de red. Conectividad segura y confiable para tu consultorio.
+          </p>
+          <a href="#contact" class="service-card__link">
+            <span data-i18n="services.network.link">Más información</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Accounting -->
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="1" x2="12" y2="23"/>
+              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title" data-i18n="services.accounting.title">Contabilidad y Gestión</h3>
+          <p class="service-card__description" data-i18n="services.accounting.description">
+            Servicios contables especializados para profesionales de la salud. Facturación, impuestos y administración.
+          </p>
+          <a href="#contact" class="service-card__link">
+            <span data-i18n="services.accounting.link">Más información</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Consulting -->
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="16" x2="12" y2="12"/>
+              <line x1="12" y1="8" x2="12.01" y2="8"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title" data-i18n="services.consulting.title">Consultoría</h3>
+          <p class="service-card__description" data-i18n="services.consulting.description">
+            Asesoramiento integral para optimizar procesos, mejorar rentabilidad y hacer crecer tu práctica médica.
+          </p>
+          <a href="#contact" class="service-card__link">
+            <span data-i18n="services.consulting.link">Más información</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Pricing Section
+       ======================================================================== -->
+  <section class="section section--large pricing" id="pricing">
+    <div class="container">
+      <div class="section__header animate-on-scroll">
+        <span class="section__subtitle" data-i18n="pricing.subtitle">Precios</span>
+        <h2 class="section__title" data-i18n="pricing.title">Planes transparentes y accesibles</h2>
+        <p class="section__description" data-i18n="pricing.description">
+          Elige el plan que mejor se adapte a tu consultorio. Sin costos ocultos, sin sorpresas.
+        </p>
+      </div>
+
+      <div class="pricing__grid stagger-children">
+        <!-- Starter Plan -->
+        <div class="pricing-card">
+          <div class="pricing-card__header">
+            <h3 class="pricing-card__name" data-i18n="pricing.plans.starter.name">Inicial</h3>
+            <div class="pricing-card__price">
+              <span class="pricing-card__currency">$</span>
+              <span class="pricing-card__amount" data-i18n="pricing.plans.starter.price">15.000</span>
+            </div>
+            <span class="pricing-card__period" data-i18n="pricing.period">/mes</span>
+            <p class="pricing-card__description" data-i18n="pricing.plans.starter.description">Ideal para consultorios individuales</p>
+          </div>
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span data-i18n="pricing.plans.starter.features.0">1 profesional</span>
+            </li>
+            <li class="pricing-card__feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span data-i18n="pricing.plans.starter.features.1">Hasta 200 turnos/mes</span>
+            </li>
+            <li class="pricing-card__feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span data-i18n="pricing.plans.starter.features.2">Recordatorios por email</span>
+            </li>
+            <li class="pricing-card__feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span data-i18n="pricing.plans.starter.features.3">Historial de pacientes</span>
+            </li>
+            <li class="pricing-card__feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span data-i18n="pricing.plans.starter.features.4">Soporte por email</span>
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn--outline pricing-card__action" data-i18n="pricing.plans.starter.cta">Comenzar</a>
+        </div>
+
+        <!-- Professional Plan (Featured) -->
+        <div class="pricing-card pricing-card--featured">
+          <span class="pricing-card__badge" data-i18n="pricing.plans.professional.badge">Más Popular</span>
+          <div class="pricing-card__header">
+            <h3 class="pricing-card__name" data-i18n="pricing.plans.professional.name">Profesional</h3>
+            <div class="pricing-card__price">
+              <span class="pricing-card__currency">$</span>
+              <span class="pricing-card__amount" data-i18n="pricing.plans.professional.price">35.000</span>
+            </div>
+            <span class="pricing-card__period" data-i18n="pricing.period">/mes</span>
+            <p class="pricing-card__description" data-i18n="pricing.plans.professional.description">Para consultorios en crecimiento</p>
+          </div>
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span data-i18n="pricing.plans.professional.features.0">Hasta 3 profesionales</span>
+            </li>
+            <li class="pricing-card__feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span data-i18n="pricing.plans.professional.features.1">Turnos ilimitados</span>
+            </li>
+            <li class="pricing-card__feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span data-i18n="pricing.plans.professional.features.2">WhatsApp + Email</span>
+            </li>
+            <li class="pricing-card__feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span data-i18n="pricing.plans.professional.features.3">Reportes avanzados</span>
+            </li>
+            <li class="pricing-card__feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span data-i18n="pricing.plans.professional.features.4">Soporte prioritario</span>
+            </li>
+            <li class="pricing-card__feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span data-i18n="pricing.plans.professional.features.5">Integraciones</span>
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn--primary pricing-card__action" data-i18n="pricing.plans.professional.cta">Comenzar</a>
+        </div>
+
+        <!-- Enterprise Plan -->
+        <div class="pricing-card">
+          <div class="pricing-card__header">
+            <h3 class="pricing-card__name" data-i18n="pricing.plans.enterprise.name">Clínica</h3>
+            <div class="pricing-card__price">
+              <span class="pricing-card__currency">$</span>
+              <span class="pricing-card__amount" data-i18n="pricing.plans.enterprise.price">75.000</span>
+            </div>
+            <span class="pricing-card__period" data-i18n="pricing.period">/mes</span>
+            <p class="pricing-card__description" data-i18n="pricing.plans.enterprise.description">Solución completa para clínicas</p>
+          </div>
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span data-i18n="pricing.plans.enterprise.features.0">Profesionales ilimitados</span>
+            </li>
+            <li class="pricing-card__feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span data-i18n="pricing.plans.enterprise.features.1">Multi-sucursal</span>
+            </li>
+            <li class="pricing-card__feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span data-i18n="pricing.plans.enterprise.features.2">API personalizada</span>
+            </li>
+            <li class="pricing-card__feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span data-i18n="pricing.plans.enterprise.features.3">Facturación integrada</span>
+            </li>
+            <li class="pricing-card__feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span data-i18n="pricing.plans.enterprise.features.4">Soporte 24/7</span>
+            </li>
+            <li class="pricing-card__feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span data-i18n="pricing.plans.enterprise.features.5">Capacitación incluida</span>
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn--outline pricing-card__action" data-i18n="pricing.plans.enterprise.cta">Contactar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       About Section
+       ======================================================================== -->
+  <section class="section section--large about" id="about">
+    <div class="container about__container">
+      <div class="about__content animate-on-scroll">
+        <span class="section__subtitle" data-i18n="about.subtitle">Sobre Nosotros</span>
+        <h2 class="about__title" data-i18n="about.title">Tecnología con propósito médico</h2>
+        <p class="about__text" data-i18n="about.text1">
+          En doctore.ar entendemos los desafíos únicos que enfrentan los profesionales de la salud. Nacimos con la misión de simplificar la gestión de consultorios médicos, permitiendo que los profesionales se concentren en lo más importante: sus pacientes.
+        </p>
+        <p class="about__text" data-i18n="about.text2">
+          Nuestro equipo combina experiencia en tecnología y conocimiento del sector salud para crear soluciones que realmente funcionan.
+        </p>
+
+        <div class="about__values stagger-children">
+          <div class="about__value">
+            <div class="about__value-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+              </svg>
+            </div>
+            <div class="about__value-content">
+              <h4 class="about__value-title" data-i18n="about.values.innovation.title">Innovación Continua</h4>
+              <p class="about__value-text" data-i18n="about.values.innovation.text">Actualizamos constantemente nuestras soluciones con las últimas tecnologías.</p>
+            </div>
+          </div>
+
+          <div class="about__value">
+            <div class="about__value-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+            </div>
+            <div class="about__value-content">
+              <h4 class="about__value-title" data-i18n="about.values.support.title">Soporte Dedicado</h4>
+              <p class="about__value-text" data-i18n="about.values.support.text">Equipo local que entiende tus necesidades y habla tu idioma.</p>
+            </div>
+          </div>
+
+          <div class="about__value">
+            <div class="about__value-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+              </svg>
+            </div>
+            <div class="about__value-content">
+              <h4 class="about__value-title" data-i18n="about.values.security.title">Seguridad Primero</h4>
+              <p class="about__value-text" data-i18n="about.values.security.text">Protección de datos conforme a normativas de salud vigentes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about__visual animate-on-scroll">
+        <div class="about__image-container">
+          <div class="about__image">
+            <div class="about__image-placeholder">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+              <span>Equipo doctore.ar</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Contact Section
+       ======================================================================== -->
+  <section class="section section--large contact" id="contact">
+    <div class="container contact__container">
+      <div class="contact__info animate-on-scroll">
+        <span class="section__subtitle" data-i18n="contact.subtitle">Contacto</span>
+        <h2 class="contact__title" data-i18n="contact.title">Hablemos sobre tu consultorio</h2>
+        <p class="contact__text" data-i18n="contact.description">
+          Estamos listos para ayudarte a transformar la gestión de tu práctica médica. Contáctanos y te responderemos a la brevedad.
+        </p>
+
+        <div class="contact__methods">
+          <div class="contact__method">
+            <div class="contact__method-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div class="contact__method-content">
+              <span class="contact__method-label" data-i18n="contact.methods.email.label">Email</span>
+              <span class="contact__method-value" data-i18n="contact.methods.email.value">info@doctore.ar</span>
+            </div>
+          </div>
+
+          <div class="contact__method">
+            <div class="contact__method-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <div class="contact__method-content">
+              <span class="contact__method-label" data-i18n="contact.methods.phone.label">Teléfono</span>
+              <span class="contact__method-value" data-i18n="contact.methods.phone.value">+54 11 1234-5678</span>
+            </div>
+          </div>
+
+          <div class="contact__method">
+            <div class="contact__method-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div class="contact__method-content">
+              <span class="contact__method-label" data-i18n="contact.methods.location.label">Ubicación</span>
+              <span class="contact__method-value" data-i18n="contact.methods.location.value">Buenos Aires, Argentina</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact__form-wrapper animate-on-scroll">
+        <form class="contact__form" action="#" method="POST">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-group__label" for="name" data-i18n="contact.form.name">Nombre</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-group__input"
+                data-i18n="contact.form.namePlaceholder"
+                data-i18n-attr="placeholder"
+                placeholder="Tu nombre completo"
+                required
+              >
+            </div>
+            <div class="form-group">
+              <label class="form-group__label" for="email" data-i18n="contact.form.email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-group__input"
+                data-i18n="contact.form.emailPlaceholder"
+                data-i18n-attr="placeholder"
+                placeholder="tu@email.com"
+                required
+              >
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-group__label" for="phone" data-i18n="contact.form.phone">Teléfono</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                class="form-group__input"
+                data-i18n="contact.form.phonePlaceholder"
+                data-i18n-attr="placeholder"
+                placeholder="+54 11 xxxx-xxxx"
+              >
+            </div>
+            <div class="form-group">
+              <label class="form-group__label" for="specialty" data-i18n="contact.form.specialty">Especialidad</label>
+              <input
+                type="text"
+                id="specialty"
+                name="specialty"
+                class="form-group__input"
+                data-i18n="contact.form.specialtyPlaceholder"
+                data-i18n-attr="placeholder"
+                placeholder="Tu especialidad médica"
+              >
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-group__label" for="message" data-i18n="contact.form.message">Mensaje</label>
+            <textarea
+              id="message"
+              name="message"
+              class="form-group__textarea"
+              data-i18n="contact.form.messagePlaceholder"
+              data-i18n-attr="placeholder"
+              placeholder="Cuéntanos sobre tu consultorio y cómo podemos ayudarte..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--lg" data-i18n="contact.form.submit">Enviar Mensaje</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Footer
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__brand">
+        <a href="#" class="footer__logo">
+          <span class="footer__logo-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+            </svg>
+          </span>
+          doctore.ar
+        </a>
+        <p class="footer__description" data-i18n="footer.description">
+          Soluciones tecnológicas integrales para consultorios médicos. Simplificamos tu gestión para que te enfoques en tus pacientes.
+        </p>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+              <rect x="2" y="9" width="4" height="12"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="Twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+            </svg>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__links">
+        <div class="footer__column">
+          <h4 class="footer__column-title" data-i18n="footer.columns.product.title">Producto</h4>
+          <ul class="footer__column-links">
+            <li><a href="#product" class="footer__link" data-i18n="footer.columns.product.links.features">Características</a></li>
+            <li><a href="#pricing" class="footer__link" data-i18n="footer.columns.product.links.pricing">Precios</a></li>
+            <li><a href="#" class="footer__link" data-i18n="footer.columns.product.links.demo">Demo</a></li>
+            <li><a href="#" class="footer__link" data-i18n="footer.columns.product.links.updates">Actualizaciones</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__column-title" data-i18n="footer.columns.services.title">Servicios</h4>
+          <ul class="footer__column-links">
+            <li><a href="#services" class="footer__link" data-i18n="footer.columns.services.links.network">Redes</a></li>
+            <li><a href="#services" class="footer__link" data-i18n="footer.columns.services.links.accounting">Contabilidad</a></li>
+            <li><a href="#services" class="footer__link" data-i18n="footer.columns.services.links.consulting">Consultoría</a></li>
+            <li><a href="#contact" class="footer__link" data-i18n="footer.columns.services.links.support">Soporte</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__column-title" data-i18n="footer.columns.company.title">Empresa</h4>
+          <ul class="footer__column-links">
+            <li><a href="#about" class="footer__link" data-i18n="footer.columns.company.links.about">Nosotros</a></li>
+            <li><a href="#" class="footer__link" data-i18n="footer.columns.company.links.blog">Blog</a></li>
+            <li><a href="#" class="footer__link" data-i18n="footer.columns.company.links.careers">Trabajá con nosotros</a></li>
+            <li><a href="#contact" class="footer__link" data-i18n="footer.columns.company.links.contact">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="footer__bottom">
+        <p class="footer__copyright" data-i18n="footer.copyright">© 2024 doctore.ar. Todos los derechos reservados.</p>
+        <div class="footer__legal">
+          <a href="#" class="footer__legal-link" data-i18n="footer.legal.privacy">Privacidad</a>
+          <a href="#" class="footer__legal-link" data-i18n="footer.legal.terms">Términos</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="./js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "title": "doctore.ar - Technology Solutions for Medical Offices",
+    "description": "We transform medical office management with smart technology. TurnosMedicos, networks, accounting, and consulting."
+  },
+  "nav": {
+    "product": "TurnosMedicos",
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login"
+  },
+  "hero": {
+    "badge": "Technology solutions for healthcare",
+    "title": "Your practice,",
+    "titleHighlight": "simplified",
+    "description": "We empower medical offices with smart technology. Appointment management, network infrastructure, accounting, and comprehensive consulting so you can focus on what you do best: caring for your patients.",
+    "cta": "Get Started",
+    "ctaSecondary": "Learn More",
+    "stats": {
+      "clinics": "Clinics",
+      "appointments": "Appointments Managed",
+      "satisfaction": "Satisfaction"
+    }
+  },
+  "product": {
+    "badge": "Star Product",
+    "title": "TurnosMedicos",
+    "description": "The most complete appointment management system for healthcare professionals. Automate your schedule, reduce no-shows, and improve your patients' experience.",
+    "features": {
+      "calendar": {
+        "title": "Smart Calendar",
+        "text": "Visual appointment management with automatic reminders via WhatsApp and email."
+      },
+      "patients": {
+        "title": "Patient Records",
+        "text": "Digital medical files with complete history and quick access."
+      },
+      "reports": {
+        "title": "Reports & Statistics",
+        "text": "Detailed analysis of your practice to make better decisions."
+      },
+      "multiuser": {
+        "title": "Multi-professional",
+        "text": "Ideal for offices with multiple professionals and specialties."
+      }
+    },
+    "cta": "Access TurnosMedicos",
+    "ctaDemo": "View Demo"
+  },
+  "services": {
+    "subtitle": "Our Services",
+    "title": "Comprehensive solutions for your practice",
+    "description": "Beyond software, we offer a complete ecosystem of services to optimize every aspect of your medical practice.",
+    "network": {
+      "title": "Network Installation",
+      "description": "Design and implementation of network infrastructure. Secure and reliable connectivity for your office.",
+      "link": "Learn more"
+    },
+    "accounting": {
+      "title": "Accounting & Management",
+      "description": "Specialized accounting services for healthcare professionals. Billing, taxes, and administration.",
+      "link": "Learn more"
+    },
+    "consulting": {
+      "title": "Consulting",
+      "description": "Comprehensive advice to optimize processes, improve profitability, and grow your medical practice.",
+      "link": "Learn more"
+    }
+  },
+  "pricing": {
+    "subtitle": "Pricing",
+    "title": "Transparent and accessible plans",
+    "description": "Choose the plan that best fits your practice. No hidden costs, no surprises.",
+    "period": "/month",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "15",
+        "description": "Ideal for individual practices",
+        "features": [
+          "1 professional",
+          "Up to 200 appointments/month",
+          "Email reminders",
+          "Patient history",
+          "Email support"
+        ],
+        "cta": "Get Started"
+      },
+      "professional": {
+        "name": "Professional",
+        "price": "35",
+        "description": "For growing practices",
+        "badge": "Most Popular",
+        "features": [
+          "Up to 3 professionals",
+          "Unlimited appointments",
+          "WhatsApp + Email",
+          "Advanced reports",
+          "Priority support",
+          "Integrations"
+        ],
+        "cta": "Get Started"
+      },
+      "enterprise": {
+        "name": "Clinic",
+        "price": "75",
+        "description": "Complete solution for clinics",
+        "features": [
+          "Unlimited professionals",
+          "Multi-location",
+          "Custom API",
+          "Integrated billing",
+          "24/7 support",
+          "Training included"
+        ],
+        "cta": "Contact Us"
+      }
+    }
+  },
+  "about": {
+    "subtitle": "About Us",
+    "title": "Technology with medical purpose",
+    "text1": "At doctore.ar we understand the unique challenges healthcare professionals face. We were born with the mission to simplify medical office management, allowing professionals to focus on what matters most: their patients.",
+    "text2": "Our team combines technology expertise and healthcare sector knowledge to create solutions that truly work.",
+    "values": {
+      "innovation": {
+        "title": "Continuous Innovation",
+        "text": "We constantly update our solutions with the latest technologies."
+      },
+      "support": {
+        "title": "Dedicated Support",
+        "text": "Local team that understands your needs and speaks your language."
+      },
+      "security": {
+        "title": "Security First",
+        "text": "Data protection compliant with current healthcare regulations."
+      }
+    }
+  },
+  "contact": {
+    "subtitle": "Contact",
+    "title": "Let's talk about your practice",
+    "description": "We're ready to help you transform your medical practice management. Contact us and we'll respond promptly.",
+    "methods": {
+      "email": {
+        "label": "Email",
+        "value": "info@doctore.ar"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+54 11 1234-5678"
+      },
+      "location": {
+        "label": "Location",
+        "value": "Buenos Aires, Argentina"
+      }
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+54 11 xxxx-xxxx",
+      "specialty": "Specialty",
+      "specialtyPlaceholder": "Your medical specialty",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your practice and how we can help...",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "description": "Comprehensive technology solutions for medical offices. We simplify your management so you can focus on your patients.",
+    "columns": {
+      "product": {
+        "title": "Product",
+        "links": {
+          "features": "Features",
+          "pricing": "Pricing",
+          "demo": "Demo",
+          "updates": "Updates"
+        }
+      },
+      "services": {
+        "title": "Services",
+        "links": {
+          "network": "Networks",
+          "accounting": "Accounting",
+          "consulting": "Consulting",
+          "support": "Support"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "links": {
+          "about": "About",
+          "blog": "Blog",
+          "careers": "Careers",
+          "contact": "Contact"
+        }
+      }
+    },
+    "copyright": "© 2024 doctore.ar. All rights reserved.",
+    "legal": {
+      "privacy": "Privacy",
+      "terms": "Terms"
+    }
+  }
+}

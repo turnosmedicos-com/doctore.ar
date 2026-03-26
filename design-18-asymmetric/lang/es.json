@@ -1,0 +1,247 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "product": "Producto",
+        "services": "Servicios",
+        "pricing": "Precios",
+        "about": "Nosotros",
+        "contact": "Contacto"
+    },
+    "hero": {
+        "tag": "Soluciones de Salud Digital",
+        "title": {
+            "line1": "Transformamos",
+            "line2": "la gestión",
+            "accent": "médica"
+        },
+        "description": "Creamos software innovador que simplifica la administración de consultorios y mejora la experiencia de pacientes y profesionales de la salud.",
+        "cta": {
+            "primary": "Comenzar Ahora",
+            "secondary": "Ver Demo"
+        }
+    },
+    "turnosmedicos": {
+        "badge": "Producto Estrella",
+        "title": {
+            "line1": "TurnosMedicos",
+            "line2": "Agenda Inteligente"
+        },
+        "description": "Sistema completo de gestión de turnos diseñado específicamente para profesionales de la salud. Automatiza tu agenda, reduce ausencias y mejora la comunicación con tus pacientes.",
+        "features": {
+            "feature1": "Reservas online 24/7 para tus pacientes",
+            "feature2": "Recordatorios automáticos por WhatsApp y email",
+            "feature3": "Gestión de múltiples profesionales y sucursales",
+            "feature4": "Reportes y estadísticas en tiempo real",
+            "feature5": "Historia clínica digital integrada",
+            "feature6": "Facturación y cobros automatizados"
+        },
+        "cta": {
+            "primary": "Acceder a TurnosMedicos",
+            "secondary": "Ver Características"
+        },
+        "stats": {
+            "appointments": "Turnos/día",
+            "reduction": "menos ausencias"
+        },
+        "calendar": {
+            "days": ["L", "M", "M", "J", "V", "S", "D"]
+        }
+    },
+    "services": {
+        "subtitle": "Nuestros Servicios",
+        "title": {
+            "line1": "Soluciones completas",
+            "line2": "para tu consultorio"
+        },
+        "items": {
+            "software": {
+                "title": "Software a Medida",
+                "description": "Desarrollamos aplicaciones personalizadas que se adaptan perfectamente a los procesos de tu institución médica."
+            },
+            "integration": {
+                "title": "Integraciones",
+                "description": "Conectamos tus sistemas existentes con nuevas soluciones para crear un ecosistema digital unificado."
+            },
+            "consulting": {
+                "title": "Consultoría Digital",
+                "description": "Te asesoramos en la transformación digital de tu práctica médica con estrategias probadas."
+            },
+            "support": {
+                "title": "Soporte 24/7",
+                "description": "Equipo técnico disponible las 24 horas para garantizar el funcionamiento continuo de tus sistemas."
+            },
+            "training": {
+                "title": "Capacitación",
+                "description": "Programas de formación para que tu equipo aproveche al máximo todas las herramientas."
+            },
+            "security": {
+                "title": "Seguridad de Datos",
+                "description": "Implementamos los más altos estándares de seguridad para proteger la información de tus pacientes."
+            }
+        }
+    },
+    "pricing": {
+        "subtitle": "Planes y Precios",
+        "title": {
+            "line1": "Elige el plan",
+            "line2": "ideal para ti"
+        },
+        "plans": {
+            "starter": {
+                "name": "Inicial",
+                "description": "Perfecto para consultorios pequeños",
+                "price": "4.900",
+                "period": "/mes",
+                "features": [
+                    "Hasta 100 turnos mensuales",
+                    "1 profesional",
+                    "Recordatorios por email",
+                    "Soporte por email",
+                    "Agenda online básica"
+                ],
+                "cta": "Comenzar"
+            },
+            "professional": {
+                "name": "Profesional",
+                "description": "Ideal para consultorios en crecimiento",
+                "price": "9.900",
+                "period": "/mes",
+                "popular": "Más Popular",
+                "features": [
+                    "Turnos ilimitados",
+                    "Hasta 5 profesionales",
+                    "WhatsApp + Email",
+                    "Historia clínica digital",
+                    "Reportes avanzados",
+                    "Soporte prioritario"
+                ],
+                "cta": "Comenzar"
+            },
+            "enterprise": {
+                "name": "Empresarial",
+                "description": "Para clínicas y centros médicos",
+                "price": "19.900",
+                "period": "/mes",
+                "features": [
+                    "Todo lo del plan Profesional",
+                    "Profesionales ilimitados",
+                    "Múltiples sucursales",
+                    "API e integraciones",
+                    "Facturación automática",
+                    "Gerente de cuenta dedicado"
+                ],
+                "cta": "Contactar Ventas"
+            }
+        },
+        "currency": "ARS"
+    },
+    "about": {
+        "subtitle": "Sobre Nosotros",
+        "title": {
+            "line1": "Innovación en",
+            "line2": "salud digital"
+        },
+        "description1": "En Doctore.ar nos apasiona crear tecnología que mejore la vida de profesionales de la salud y sus pacientes.",
+        "description2": "Nuestro equipo combina experiencia en desarrollo de software con profundo conocimiento del sector salud para crear soluciones que realmente marcan la diferencia.",
+        "stats": {
+            "clients": {
+                "number": "500",
+                "label": "Clientes activos"
+            },
+            "appointments": {
+                "number": "1000000",
+                "label": "Turnos gestionados"
+            },
+            "years": {
+                "number": "8",
+                "label": "Años de experiencia"
+            },
+            "satisfaction": {
+                "number": "99",
+                "label": "% satisfacción"
+            }
+        }
+    },
+    "contact": {
+        "subtitle": "Contacto",
+        "title": {
+            "line1": "Hablemos de",
+            "line2": "tu proyecto"
+        },
+        "description": "Estamos listos para ayudarte a transformar tu práctica médica. Contáctanos y descubre cómo podemos trabajar juntos.",
+        "methods": {
+            "email": {
+                "label": "Email",
+                "value": "info@doctore.ar"
+            },
+            "phone": {
+                "label": "Teléfono",
+                "value": "+54 11 5555-0123"
+            },
+            "address": {
+                "label": "Ubicación",
+                "value": "Buenos Aires, Argentina"
+            }
+        },
+        "form": {
+            "name": {
+                "label": "Nombre completo",
+                "placeholder": "Tu nombre"
+            },
+            "email": {
+                "label": "Email",
+                "placeholder": "tu@email.com"
+            },
+            "phone": {
+                "label": "Teléfono",
+                "placeholder": "+54 11 1234-5678"
+            },
+            "message": {
+                "label": "Mensaje",
+                "placeholder": "Cuéntanos sobre tu proyecto..."
+            },
+            "submit": "Enviar Mensaje"
+        }
+    },
+    "footer": {
+        "description": "Creamos software de gestión médica que transforma la manera en que los profesionales de la salud trabajan.",
+        "columns": {
+            "product": {
+                "title": "Producto",
+                "links": {
+                    "features": "Características",
+                    "pricing": "Precios",
+                    "integrations": "Integraciones",
+                    "updates": "Novedades"
+                }
+            },
+            "company": {
+                "title": "Empresa",
+                "links": {
+                    "about": "Nosotros",
+                    "careers": "Trabaja con nosotros",
+                    "blog": "Blog",
+                    "press": "Prensa"
+                }
+            },
+            "support": {
+                "title": "Soporte",
+                "links": {
+                    "help": "Centro de ayuda",
+                    "documentation": "Documentación",
+                    "status": "Estado del sistema",
+                    "contact": "Contacto"
+                }
+            }
+        },
+        "social": {
+            "follow": "Síguenos"
+        },
+        "legal": {
+            "copyright": "2024 Doctore.ar. Todos los derechos reservados.",
+            "privacy": "Privacidad",
+            "terms": "Términos",
+            "cookies": "Cookies"
+        }
+    }
+}

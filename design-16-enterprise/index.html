@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plataforma integral de gestión médica para grandes organizaciones. Seguridad, escalabilidad y cumplimiento normativo garantizado.">
+    <meta name="keywords" content="gestión médica, turnos médicos, software salud, telemedicina, historia clínica digital, enterprise">
+    <meta name="author" content="Doctore.ar">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Doctore.ar | Soluciones Empresariales de Salud Digital">
+    <meta property="og:description" content="Plataforma integral de gestión médica para grandes organizaciones.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://doctore.ar">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230ea5e9'/%3E%3Cpath d='M10 16h12M16 10v12' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+
+    <title>Doctore.ar | Soluciones Empresariales de Salud Digital</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- ========================================
+         NAVIGATION
+         ======================================== -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container navbar__container">
+            <!-- Logo -->
+            <a href="#" class="navbar__logo" aria-label="Doctore.ar Home">
+                <span class="navbar__logo-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2v20M2 12h20"/>
+                    </svg>
+                </span>
+                doctore<span>.ar</span>
+            </a>
+
+            <!-- Menu -->
+            <ul class="navbar__menu" id="navbar-menu">
+                <li><a href="#hero" class="navbar__link active" data-i18n="nav.home">Inicio</a></li>
+                <li><a href="#turnos" class="navbar__link" data-i18n="nav.turnosmedicos">TurnosMedicos</a></li>
+                <li><a href="#services" class="navbar__link" data-i18n="nav.services">Servicios</a></li>
+                <li><a href="#pricing" class="navbar__link" data-i18n="nav.pricing">Planes</a></li>
+                <li><a href="#about" class="navbar__link" data-i18n="nav.about">Nosotros</a></li>
+                <li><a href="#contact" class="navbar__link" data-i18n="nav.contact">Contacto</a></li>
+            </ul>
+
+            <!-- Actions -->
+            <div class="navbar__actions">
+                <!-- Language Switch -->
+                <button class="navbar__lang-switch" data-lang-switch aria-label="Switch language">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"/>
+                        <line x1="2" y1="12" x2="22" y2="12"/>
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                    </svg>
+                    <span data-lang-current>ES</span>
+                </button>
+
+                <!-- CTA Button -->
+                <a href="#contact" class="btn btn--primary navbar__cta" data-i18n="nav.demo">Solicitar Demo</a>
+
+                <!-- Mobile Toggle -->
+                <button class="navbar__toggle" id="navbar-toggle" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========================================
+         HERO SECTION
+         ======================================== -->
+    <section class="hero section--lg" id="hero">
+        <div class="container hero__container">
+            <!-- Content -->
+            <div class="hero__content" data-animate>
+                <div class="hero__badge">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        <path d="M9 12l2 2 4-4"/>
+                    </svg>
+                    <span data-i18n="hero.badge">Plataforma Certificada ISO 27001</span>
+                </div>
+
+                <h1 class="heading-1 hero__title">
+                    <span data-i18n="hero.title">Infraestructura Digital para la</span>
+                    <br>
+                    <span class="hero__title-highlight" data-i18n="hero.titleHighlight">Salud Corporativa</span>
+                </h1>
+
+                <p class="lead hero__description" data-i18n="hero.description">
+                    Soluciones enterprise de gestión médica diseñadas para grandes organizaciones. Seguridad de nivel bancario, escalabilidad ilimitada y soporte 24/7.
+                </p>
+
+                <div class="hero__cta">
+                    <a href="#contact" class="btn btn--primary btn--lg" data-i18n="hero.cta.primary">Agendar Demostración</a>
+                    <a href="#contact" class="btn btn--outline btn--lg" data-i18n="hero.cta.secondary">Contactar Ventas</a>
+                </div>
+
+                <div class="hero__trust">
+                    <span class="hero__trust-text" data-i18n="hero.trust.text">Más de 500 organizaciones confían en nosotros</span>
+                    <div class="hero__trust-logos">
+                        <div class="hero__trust-logo">Logo 1</div>
+                        <div class="hero__trust-logo">Logo 2</div>
+                        <div class="hero__trust-logo">Logo 3</div>
+                        <div class="hero__trust-logo">Logo 4</div>
+                        <div class="hero__trust-logo">Logo 5</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image -->
+            <div class="hero__image" data-animate data-animate-delay="2">
+                <div class="hero__image-main">
+                    <span class="hero__image-placeholder">Enterprise Dashboard Preview</span>
+                </div>
+                <div class="hero__image-badge">
+                    <div class="hero__image-badge-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22,4 12,14.01 9,11.01"/>
+                        </svg>
+                    </div>
+                    <span class="hero__image-badge-text" data-i18n="hero.badge2">Uptime 99.99%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         TURNOSMEDICOS SECTION (Star Product)
+         ======================================== -->
+    <section class="turnos section--lg" id="turnos">
+        <div class="container turnos__container">
+            <!-- Header -->
+            <div class="turnos__header" data-animate>
+                <div class="turnos__badge">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                    </svg>
+                    <span data-i18n="turnos.badge">Producto Destacado</span>
+                </div>
+                <h2 class="heading-1 turnos__title" data-i18n="turnos.title">TurnosMedicos Enterprise</h2>
+                <p class="lead turnos__subtitle" data-i18n="turnos.subtitle">
+                    Sistema de gestión de turnos líder en el mercado, diseñado para instituciones de salud de alta complejidad y redes médicas corporativas.
+                </p>
+            </div>
+
+            <!-- Features Grid -->
+            <div class="turnos__grid" data-animate data-animate-delay="1">
+                <!-- Feature 1 -->
+                <div class="turnos__feature">
+                    <div class="turnos__feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="3" width="7" height="7"/>
+                            <rect x="14" y="3" width="7" height="7"/>
+                            <rect x="14" y="14" width="7" height="7"/>
+                            <rect x="3" y="14" width="7" height="7"/>
+                        </svg>
+                    </div>
+                    <div class="turnos__feature-content">
+                        <h4 data-i18n="turnos.features.0.title">Gestión Centralizada</h4>
+                        <p data-i18n="turnos.features.0.description">Panel unificado para coordinar múltiples sedes, especialidades y profesionales desde una única interfaz.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="turnos__feature">
+                    <div class="turnos__feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                            <polyline points="15,3 21,3 21,9"/>
+                            <line x1="10" y1="14" x2="21" y2="3"/>
+                        </svg>
+                    </div>
+                    <div class="turnos__feature-content">
+                        <h4 data-i18n="turnos.features.1.title">Integración Total</h4>
+                        <p data-i18n="turnos.features.1.description">APIs robustas para integrar con sistemas HIS, ERP, facturación y obras sociales sin fricciones.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="turnos__feature">
+                    <div class="turnos__feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <div class="turnos__feature-content">
+                        <h4 data-i18n="turnos.features.2.title">Seguridad Empresarial</h4>
+                        <p data-i18n="turnos.features.2.description">Encriptación de datos, cumplimiento HIPAA, auditoría completa y control de accesos granular.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="turnos__feature">
+                    <div class="turnos__feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="20" x2="18" y2="10"/>
+                            <line x1="12" y1="20" x2="12" y2="4"/>
+                            <line x1="6" y1="20" x2="6" y2="14"/>
+                        </svg>
+                    </div>
+                    <div class="turnos__feature-content">
+                        <h4 data-i18n="turnos.features.3.title">Reportes Avanzados</h4>
+                        <p data-i18n="turnos.features.3.description">Analytics en tiempo real, KPIs personalizables y exportación a múltiples formatos para toma de decisiones.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="turnos__cta" data-animate data-animate-delay="2">
+                <div class="turnos__cta-buttons">
+                    <a href="https://login.turnosmedicos.com" class="btn btn--primary btn--lg" target="_blank" rel="noopener noreferrer" data-i18n="turnos.cta.primary">Acceder a TurnosMedicos</a>
+                    <a href="#services" class="btn btn--outline-white btn--lg" data-i18n="turnos.cta.secondary">Ver Características</a>
+                </div>
+
+                <!-- Stats -->
+                <div class="turnos__stats">
+                    <div class="turnos__stat">
+                        <span class="turnos__stat-value" data-counter="2M+" data-counter-suffix="+">0</span>
+                        <span class="turnos__stat-label" data-i18n="turnos.stats.0.label">Turnos Gestionados</span>
+                    </div>
+                    <div class="turnos__stat">
+                        <span class="turnos__stat-value" data-counter="500+" data-counter-suffix="+">0</span>
+                        <span class="turnos__stat-label" data-i18n="turnos.stats.1.label">Instituciones</span>
+                    </div>
+                    <div class="turnos__stat">
+                        <span class="turnos__stat-value">99.99%</span>
+                        <span class="turnos__stat-label" data-i18n="turnos.stats.2.label">Disponibilidad</span>
+                    </div>
+                    <div class="turnos__stat">
+                        <span class="turnos__stat-value">24/7</span>
+                        <span class="turnos__stat-label" data-i18n="turnos.stats.3.label">Soporte Técnico</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICES SECTION
+         ======================================== -->
+    <section class="services section" id="services">
+        <div class="container">
+            <!-- Header -->
+            <div class="services__header" data-animate>
+                <span class="subheading" data-i18n="services.subtitle">SOLUCIONES INTEGRALES</span>
+                <h2 class="heading-2" data-i18n="services.title">Servicios Diseñados para Escalar</h2>
+                <p class="lead" data-i18n="services.description">
+                    Ofrecemos una suite completa de herramientas digitales que se adaptan a las necesidades de su organización.
+                </p>
+            </div>
+
+            <!-- Grid -->
+            <div class="services__grid grid grid--3">
+                <!-- Service 1 -->
+                <article class="service-card" data-animate data-animate-delay="1">
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <polyline points="14,2 14,8 20,8"/>
+                            <line x1="16" y1="13" x2="8" y2="13"/>
+                            <line x1="16" y1="17" x2="8" y2="17"/>
+                            <polyline points="10,9 9,9 8,9"/>
+                        </svg>
+                    </div>
+                    <h3 class="heading-4 service-card__title" data-i18n="services.items.0.title">Historia Clínica Digital</h3>
+                    <p class="body-text service-card__description" data-i18n="services.items.0.description">
+                        Sistema de historias clínicas electrónicas con interoperabilidad total y acceso seguro desde cualquier dispositivo.
+                    </p>
+                    <ul class="service-card__features">
+                        <li class="service-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="services.items.0.features.0">Interoperabilidad HL7/FHIR</span>
+                        </li>
+                        <li class="service-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="services.items.0.features.1">Acceso multi-dispositivo</span>
+                        </li>
+                        <li class="service-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="services.items.0.features.2">Firma digital integrada</span>
+                        </li>
+                    </ul>
+                </article>
+
+                <!-- Service 2 -->
+                <article class="service-card" data-animate data-animate-delay="2">
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="23,7 16,12 23,17 23,7"/>
+                            <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="heading-4 service-card__title" data-i18n="services.items.1.title">Telemedicina Corporativa</h3>
+                    <p class="body-text service-card__description" data-i18n="services.items.1.description">
+                        Plataforma de consultas virtuales con grabación, prescripción electrónica y gestión de salas de espera virtual.
+                    </p>
+                    <ul class="service-card__features">
+                        <li class="service-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="services.items.1.features.0">Video HD encriptado</span>
+                        </li>
+                        <li class="service-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="services.items.1.features.1">Sala de espera virtual</span>
+                        </li>
+                        <li class="service-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="services.items.1.features.2">Prescripción electrónica</span>
+                        </li>
+                    </ul>
+                </article>
+
+                <!-- Service 3 -->
+                <article class="service-card" data-animate data-animate-delay="3">
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3 class="heading-4 service-card__title" data-i18n="services.items.2.title">Gestión de Recursos</h3>
+                    <p class="body-text service-card__description" data-i18n="services.items.2.description">
+                        Control integral de personal, equipamiento médico, consultorios y recursos hospitalarios en tiempo real.
+                    </p>
+                    <ul class="service-card__features">
+                        <li class="service-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="services.items.2.features.0">Planificación de turnos</span>
+                        </li>
+                        <li class="service-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="services.items.2.features.1">Control de inventario</span>
+                        </li>
+                        <li class="service-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="services.items.2.features.2">Mantenimiento preventivo</span>
+                        </li>
+                    </ul>
+                </article>
+
+                <!-- Service 4 -->
+                <article class="service-card" data-animate data-animate-delay="1">
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="1" y="4" width="22" height="16" rx="2" ry="2"/>
+                            <line x1="1" y1="10" x2="23" y2="10"/>
+                        </svg>
+                    </div>
+                    <h3 class="heading-4 service-card__title" data-i18n="services.items.3.title">Facturación Automatizada</h3>
+                    <p class="body-text service-card__description" data-i18n="services.items.3.description">
+                        Sistema de facturación integrado con obras sociales, prepagas y facturación electrónica AFIP.
+                    </p>
+                    <ul class="service-card__features">
+                        <li class="service-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="services.items.3.features.0">Liquidación automática</span>
+                        </li>
+                        <li class="service-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="services.items.3.features.1">Integración AFIP</span>
+                        </li>
+                        <li class="service-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="services.items.3.features.2">Reportes financieros</span>
+                        </li>
+                    </ul>
+                </article>
+
+                <!-- Service 5 -->
+                <article class="service-card" data-animate data-animate-delay="2">
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21.21 15.89A10 10 0 1 1 8 2.83"/>
+                            <path d="M22 12A10 10 0 0 0 12 2v10z"/>
+                        </svg>
+                    </div>
+                    <h3 class="heading-4 service-card__title" data-i18n="services.items.4.title">Business Intelligence</h3>
+                    <p class="body-text service-card__description" data-i18n="services.items.4.description">
+                        Dashboards ejecutivos con métricas clave, predicciones basadas en IA y alertas personalizables.
+                    </p>
+                    <ul class="service-card__features">
+                        <li class="service-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="services.items.4.features.0">Dashboards en tiempo real</span>
+                        </li>
+                        <li class="service-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="services.items.4.features.1">Predicciones con IA</span>
+                        </li>
+                        <li class="service-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="services.items.4.features.2">Alertas automáticas</span>
+                        </li>
+                    </ul>
+                </article>
+
+                <!-- Service 6 -->
+                <article class="service-card" data-animate data-animate-delay="3">
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16,18 22,12 16,6"/>
+                            <polyline points="8,6 2,12 8,18"/>
+                        </svg>
+                    </div>
+                    <h3 class="heading-4 service-card__title" data-i18n="services.items.5.title">Integración Empresarial</h3>
+                    <p class="body-text service-card__description" data-i18n="services.items.5.description">
+                        Conectamos su ecosistema tecnológico existente mediante APIs REST, webhooks y conectores nativos.
+                    </p>
+                    <ul class="service-card__features">
+                        <li class="service-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="services.items.5.features.0">API REST completa</span>
+                        </li>
+                        <li class="service-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="services.items.5.features.1">Webhooks configurables</span>
+                        </li>
+                        <li class="service-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="services.items.5.features.2">SSO/SAML</span>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         PRICING SECTION
+         ======================================== -->
+    <section class="pricing section" id="pricing">
+        <div class="container">
+            <!-- Header -->
+            <div class="pricing__header" data-animate>
+                <span class="subheading" data-i18n="pricing.subtitle">PLANES CORPORATIVOS</span>
+                <h2 class="heading-2" data-i18n="pricing.title">Inversión Clara, Retorno Garantizado</h2>
+                <p class="lead" data-i18n="pricing.description">
+                    Planes flexibles adaptados al tamaño y necesidades de su organización.
+                </p>
+            </div>
+
+            <!-- Grid -->
+            <div class="pricing__grid">
+                <!-- Plan 1: Professional -->
+                <article class="pricing-card" data-animate data-animate-delay="1">
+                    <div class="pricing-card__header">
+                        <h3 class="pricing-card__name" data-i18n="pricing.plans.0.name">Professional</h3>
+                        <p class="pricing-card__description" data-i18n="pricing.plans.0.description">Para clínicas medianas</p>
+                        <div class="pricing-card__price">
+                            <span class="pricing-card__currency" data-i18n="pricing.plans.0.currency">ARS</span>
+                            <span class="pricing-card__amount" data-i18n="pricing.plans.0.price">89.990</span>
+                            <span class="pricing-card__period" data-i18n="pricing.plans.0.period">/mes</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-card__features">
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.0.features.0.text">Hasta 10 profesionales</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.0.features.1.text">3 sedes incluidas</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.0.features.2.text">Turnos ilimitados</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.0.features.3.text">Historia clínica digital</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.0.features.4.text">Soporte en horario laboral</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.0.features.5.text">Integraciones básicas</span>
+                        </li>
+                        <li class="pricing-card__feature pricing-card__feature--disabled">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="18" y1="6" x2="6" y2="18"/>
+                                <line x1="6" y1="6" x2="18" y2="18"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.0.features.6.text">API personalizada</span>
+                        </li>
+                        <li class="pricing-card__feature pricing-card__feature--disabled">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="18" y1="6" x2="6" y2="18"/>
+                                <line x1="6" y1="6" x2="18" y2="18"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.0.features.7.text">Account manager dedicado</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="btn btn--outline pricing-card__cta" data-i18n="pricing.plans.0.cta">Comenzar Ahora</a>
+                </article>
+
+                <!-- Plan 2: Enterprise (Featured) -->
+                <article class="pricing-card pricing-card--featured" data-animate data-animate-delay="2">
+                    <span class="pricing-card__badge" data-i18n="pricing.plans.1.badge">Más Popular</span>
+                    <div class="pricing-card__header">
+                        <h3 class="pricing-card__name" data-i18n="pricing.plans.1.name">Enterprise</h3>
+                        <p class="pricing-card__description" data-i18n="pricing.plans.1.description">Para grandes instituciones</p>
+                        <div class="pricing-card__price">
+                            <span class="pricing-card__currency" data-i18n="pricing.plans.1.currency">ARS</span>
+                            <span class="pricing-card__amount" data-i18n="pricing.plans.1.price">249.990</span>
+                            <span class="pricing-card__period" data-i18n="pricing.plans.1.period">/mes</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-card__features">
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.1.features.0.text">Profesionales ilimitados</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.1.features.1.text">Sedes ilimitadas</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.1.features.2.text">Turnos ilimitados</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.1.features.3.text">Suite completa de módulos</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.1.features.4.text">Soporte 24/7 prioritario</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.1.features.5.text">Todas las integraciones</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.1.features.6.text">API personalizada</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.1.features.7.text">Account manager dedicado</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="btn btn--primary pricing-card__cta" data-i18n="pricing.plans.1.cta">Contactar Ventas</a>
+                </article>
+
+                <!-- Plan 3: Healthcare Network -->
+                <article class="pricing-card" data-animate data-animate-delay="3">
+                    <div class="pricing-card__header">
+                        <h3 class="pricing-card__name" data-i18n="pricing.plans.2.name">Healthcare Network</h3>
+                        <p class="pricing-card__description" data-i18n="pricing.plans.2.description">Para redes de salud</p>
+                        <div class="pricing-card__price">
+                            <span class="pricing-card__amount" data-i18n="pricing.plans.2.price">Personalizado</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-card__features">
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.2.features.0.text">Infraestructura dedicada</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.2.features.1.text">Personalización completa</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.2.features.2.text">SLA 99.99% garantizado</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.2.features.3.text">Implementación on-premise</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.2.features.4.text">Equipo de soporte exclusivo</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.2.features.5.text">Desarrollo a medida</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.2.features.6.text">Capacitación in-company</span>
+                        </li>
+                        <li class="pricing-card__feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20,6 9,17 4,12"/>
+                            </svg>
+                            <span data-i18n="pricing.plans.2.features.7.text">Consultoría estratégica</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="btn btn--secondary pricing-card__cta" data-i18n="pricing.plans.2.cta">Solicitar Propuesta</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         CLIENTS SECTION
+         ======================================== -->
+    <section class="clients section--gray" id="clients">
+        <div class="container">
+            <div class="clients__header" data-animate>
+                <h2 class="clients__title" data-i18n="clients.title">Organizaciones que confían en nosotros</h2>
+            </div>
+            <div class="clients__grid" data-animate data-animate-delay="1">
+                <div class="clients__logo">Hospital A</div>
+                <div class="clients__logo">Clínica B</div>
+                <div class="clients__logo">Sanatorio C</div>
+                <div class="clients__logo">Centro D</div>
+                <div class="clients__logo">Red E</div>
+                <div class="clients__logo">Instituto F</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         ABOUT SECTION
+         ======================================== -->
+    <section class="about section" id="about">
+        <div class="container about__container">
+            <!-- Content -->
+            <div class="about__content" data-animate>
+                <span class="subheading" data-i18n="about.subtitle">SOBRE NOSOTROS</span>
+                <h2 class="heading-2 about__title" data-i18n="about.title">Transformando la Salud Digital en Argentina</h2>
+                <p class="lead about__description" data-i18n="about.description">
+                    Desde 2018, ayudamos a instituciones de salud a digitalizar sus operaciones con soluciones robustas, seguras y escalables. Nuestro equipo combina experiencia en tecnología y salud para crear herramientas que realmente funcionan.
+                </p>
+
+                <!-- Values -->
+                <div class="about__values">
+                    <div class="about__value">
+                        <div class="about__value-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="about__value-title" data-i18n="about.values.0.title">Seguridad Primero</h4>
+                            <p class="about__value-text" data-i18n="about.values.0.text">Cumplimos con los más altos estándares internacionales de seguridad y privacidad de datos de salud.</p>
+                        </div>
+                    </div>
+                    <div class="about__value">
+                        <div class="about__value-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/>
+                                <line x1="12" y1="8" x2="12" y2="12"/>
+                                <line x1="12" y1="16" x2="12.01" y2="16"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="about__value-title" data-i18n="about.values.1.title">Innovación Constante</h4>
+                            <p class="about__value-text" data-i18n="about.values.1.text">Investigamos y desarrollamos continuamente para mantenernos a la vanguardia tecnológica.</p>
+                        </div>
+                    </div>
+                    <div class="about__value">
+                        <div class="about__value-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="about__value-title" data-i18n="about.values.2.title">Soporte Dedicado</h4>
+                            <p class="about__value-text" data-i18n="about.values.2.text">Equipo técnico especializado disponible 24/7 para garantizar la continuidad operativa.</p>
+                        </div>
+                    </div>
+                    <div class="about__value">
+                        <div class="about__value-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="23,6 13.5,15.5 8.5,10.5 1,18"/>
+                                <polyline points="17,6 23,6 23,12"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="about__value-title" data-i18n="about.values.3.title">Escalabilidad</h4>
+                            <p class="about__value-text" data-i18n="about.values.3.text">Arquitectura diseñada para crecer con su organización sin comprometer el rendimiento.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="about__certifications" data-animate data-animate-delay="2">
+                <h3 class="about__certifications-title" data-i18n="about.certifications.title">Certificaciones y Cumplimiento</h3>
+                <div class="about__certifications-grid">
+                    <div class="about__certification">
+                        <div class="about__certification-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                <path d="M9 12l2 2 4-4"/>
+                            </svg>
+                        </div>
+                        <span class="about__certification-text" data-i18n="about.certifications.items.0">ISO 27001</span>
+                    </div>
+                    <div class="about__certification">
+                        <div class="about__certification-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                            </svg>
+                        </div>
+                        <span class="about__certification-text" data-i18n="about.certifications.items.1">HIPAA Compliant</span>
+                    </div>
+                    <div class="about__certification">
+                        <div class="about__certification-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12,6 12,12 16,14"/>
+                            </svg>
+                        </div>
+                        <span class="about__certification-text" data-i18n="about.certifications.items.2">SOC 2 Type II</span>
+                    </div>
+                    <div class="about__certification">
+                        <div class="about__certification-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/>
+                                <line x1="2" y1="12" x2="22" y2="12"/>
+                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                            </svg>
+                        </div>
+                        <span class="about__certification-text" data-i18n="about.certifications.items.3">GDPR Ready</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         CONTACT SECTION
+         ======================================== -->
+    <section class="contact section--gray section" id="contact">
+        <div class="container contact__container">
+            <!-- Header -->
+            <div class="contact__header" data-animate>
+                <span class="subheading" data-i18n="contact.subtitle">CONTACTO</span>
+                <h2 class="heading-2 contact__title" data-i18n="contact.title">Hablemos de su Proyecto</h2>
+                <p class="lead contact__description" data-i18n="contact.description">
+                    Complete el formulario y un especialista se pondrá en contacto en menos de 24 horas hábiles.
+                </p>
+            </div>
+
+            <!-- Grid -->
+            <div class="contact__grid">
+                <!-- Form -->
+                <div class="contact__form-card" data-animate data-animate-delay="1">
+                    <form class="contact__form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-group__label" for="firstName" data-i18n="contact.form.firstName">Nombre</label>
+                                <input type="text" id="firstName" name="firstName" class="form-group__input" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-group__label" for="lastName" data-i18n="contact.form.lastName">Apellido</label>
+                                <input type="text" id="lastName" name="lastName" class="form-group__input" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-group__label" for="email" data-i18n="contact.form.email">Email corporativo</label>
+                                <input type="email" id="email" name="email" class="form-group__input" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-group__label" for="phone" data-i18n="contact.form.phone">Teléfono</label>
+                                <input type="tel" id="phone" name="phone" class="form-group__input">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-group__label" for="company" data-i18n="contact.form.company">Organización</label>
+                                <input type="text" id="company" name="company" class="form-group__input" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-group__label" for="employees" data-i18n="contact.form.employees">Cantidad de empleados</label>
+                                <select id="employees" name="employees" class="form-group__select" required>
+                                    <option value="" disabled selected>Seleccionar...</option>
+                                    <option value="1-50">1-50</option>
+                                    <option value="51-200">51-200</option>
+                                    <option value="201-500">201-500</option>
+                                    <option value="501-1000">501-1000</option>
+                                    <option value="1000+">1000+</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-group__label" for="message" data-i18n="contact.form.message">Mensaje</label>
+                            <textarea id="message" name="message" class="form-group__textarea" data-i18n-placeholder="contact.form.messagePlaceholder" placeholder="Cuéntenos sobre su proyecto y necesidades..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--lg" data-i18n="contact.form.submit">Enviar Solicitud</button>
+                    </form>
+                </div>
+
+                <!-- Info -->
+                <div class="contact__info" data-animate data-animate-delay="2">
+                    <div class="contact__info-item">
+                        <div class="contact__info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="contact__info-label" data-i18n="contact.info.email.label">Email de ventas</span>
+                            <span class="contact__info-value" data-i18n="contact.info.email.value">enterprise@doctore.ar</span>
+                        </div>
+                    </div>
+                    <div class="contact__info-item">
+                        <div class="contact__info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="contact__info-label" data-i18n="contact.info.phone.label">Línea corporativa</span>
+                            <span class="contact__info-value" data-i18n="contact.info.phone.value">+54 11 5555-0100</span>
+                        </div>
+                    </div>
+                    <div class="contact__info-item">
+                        <div class="contact__info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="contact__info-label" data-i18n="contact.info.address.label">Oficinas centrales</span>
+                            <span class="contact__info-value" data-i18n="contact.info.address.value">Av. del Libertador 1234, CABA</span>
+                        </div>
+                    </div>
+
+                    <!-- Schedule -->
+                    <div class="contact__schedule">
+                        <h4 class="contact__schedule-title" data-i18n="contact.schedule.title">Horario de atención</h4>
+                        <div class="contact__schedule-item">
+                            <span class="contact__schedule-day" data-i18n="contact.schedule.items.0.day">Lunes - Viernes</span>
+                            <span class="contact__schedule-time" data-i18n="contact.schedule.items.0.time">9:00 - 18:00</span>
+                        </div>
+                        <div class="contact__schedule-item">
+                            <span class="contact__schedule-day" data-i18n="contact.schedule.items.1.day">Sábados</span>
+                            <span class="contact__schedule-time" data-i18n="contact.schedule.items.1.time">9:00 - 13:00</span>
+                        </div>
+                        <div class="contact__schedule-item">
+                            <span class="contact__schedule-day" data-i18n="contact.schedule.items.2.day">Domingos</span>
+                            <span class="contact__schedule-time" data-i18n="contact.schedule.items.2.time">Cerrado</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER
+         ======================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <!-- Brand -->
+                <div class="footer__brand">
+                    <a href="#" class="footer__logo">
+                        <span class="footer__logo-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2v20M2 12h20"/>
+                            </svg>
+                        </span>
+                        doctore<span>.ar</span>
+                    </a>
+                    <p class="footer__description" data-i18n="footer.description">
+                        Soluciones enterprise de salud digital para instituciones que buscan excelencia operativa y cumplimiento normativo.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__social-link" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__social-link" aria-label="YouTube">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/>
+                                <polygon points="9.75,15.02 15.5,11.75 9.75,8.48"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Solutions Nav -->
+                <nav class="footer__nav">
+                    <h4 class="footer__nav-title" data-i18n="footer.nav.solutions.title">Soluciones</h4>
+                    <ul class="footer__nav-list">
+                        <li><a href="#turnos" class="footer__nav-link" data-i18n="footer.nav.solutions.links.0">TurnosMedicos</a></li>
+                        <li><a href="#services" class="footer__nav-link" data-i18n="footer.nav.solutions.links.1">Historia Clínica</a></li>
+                        <li><a href="#services" class="footer__nav-link" data-i18n="footer.nav.solutions.links.2">Telemedicina</a></li>
+                        <li><a href="#services" class="footer__nav-link" data-i18n="footer.nav.solutions.links.3">Facturación</a></li>
+                        <li><a href="#services" class="footer__nav-link" data-i18n="footer.nav.solutions.links.4">Business Intelligence</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Company Nav -->
+                <nav class="footer__nav">
+                    <h4 class="footer__nav-title" data-i18n="footer.nav.company.title">Empresa</h4>
+                    <ul class="footer__nav-list">
+                        <li><a href="#about" class="footer__nav-link" data-i18n="footer.nav.company.links.0">Sobre Nosotros</a></li>
+                        <li><a href="#" class="footer__nav-link" data-i18n="footer.nav.company.links.1">Casos de Éxito</a></li>
+                        <li><a href="#" class="footer__nav-link" data-i18n="footer.nav.company.links.2">Partners</a></li>
+                        <li><a href="#" class="footer__nav-link" data-i18n="footer.nav.company.links.3">Carreras</a></li>
+                        <li><a href="#" class="footer__nav-link" data-i18n="footer.nav.company.links.4">Prensa</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Resources Nav -->
+                <nav class="footer__nav">
+                    <h4 class="footer__nav-title" data-i18n="footer.nav.resources.title">Recursos</h4>
+                    <ul class="footer__nav-list">
+                        <li><a href="#" class="footer__nav-link" data-i18n="footer.nav.resources.links.0">Documentación</a></li>
+                        <li><a href="#" class="footer__nav-link" data-i18n="footer.nav.resources.links.1">API Reference</a></li>
+                        <li><a href="#" class="footer__nav-link" data-i18n="footer.nav.resources.links.2">Status</a></li>
+                        <li><a href="#" class="footer__nav-link" data-i18n="footer.nav.resources.links.3">Blog</a></li>
+                        <li><a href="#" class="footer__nav-link" data-i18n="footer.nav.resources.links.4">Soporte</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Bottom -->
+            <div class="footer__bottom">
+                <div class="footer__bottom-content">
+                    <p class="footer__copyright" data-i18n="footer.copyright">© 2024 Doctore.ar. Todos los derechos reservados.</p>
+                    <nav class="footer__legal">
+                        <a href="#" class="footer__legal-link" data-i18n="footer.legal.0">Términos de Servicio</a>
+                        <a href="#" class="footer__legal-link" data-i18n="footer.legal.1">Política de Privacidad</a>
+                        <a href="#" class="footer__legal-link" data-i18n="footer.legal.2">Seguridad</a>
+                        <a href="#" class="footer__legal-link" data-i18n="footer.legal.3">Cookies</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>

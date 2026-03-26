@@ -1,0 +1,247 @@
+{
+    "nav": {
+        "home": "Home",
+        "product": "Product",
+        "services": "Services",
+        "pricing": "Pricing",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "hero": {
+        "tag": "Digital Health Solutions",
+        "title": {
+            "line1": "We transform",
+            "line2": "medical",
+            "accent": "management"
+        },
+        "description": "We create innovative software that simplifies practice management and improves the experience for both patients and healthcare professionals.",
+        "cta": {
+            "primary": "Get Started",
+            "secondary": "View Demo"
+        }
+    },
+    "turnosmedicos": {
+        "badge": "Star Product",
+        "title": {
+            "line1": "TurnosMedicos",
+            "line2": "Smart Scheduling"
+        },
+        "description": "Complete appointment management system designed specifically for healthcare professionals. Automate your schedule, reduce no-shows, and improve communication with your patients.",
+        "features": {
+            "feature1": "24/7 online booking for your patients",
+            "feature2": "Automatic reminders via WhatsApp and email",
+            "feature3": "Multi-provider and multi-location management",
+            "feature4": "Real-time reports and statistics",
+            "feature5": "Integrated digital health records",
+            "feature6": "Automated billing and payments"
+        },
+        "cta": {
+            "primary": "Access TurnosMedicos",
+            "secondary": "View Features"
+        },
+        "stats": {
+            "appointments": "Appointments/day",
+            "reduction": "fewer no-shows"
+        },
+        "calendar": {
+            "days": ["M", "T", "W", "T", "F", "S", "S"]
+        }
+    },
+    "services": {
+        "subtitle": "Our Services",
+        "title": {
+            "line1": "Complete solutions",
+            "line2": "for your practice"
+        },
+        "items": {
+            "software": {
+                "title": "Custom Software",
+                "description": "We develop personalized applications that perfectly adapt to your medical institution's processes."
+            },
+            "integration": {
+                "title": "Integrations",
+                "description": "We connect your existing systems with new solutions to create a unified digital ecosystem."
+            },
+            "consulting": {
+                "title": "Digital Consulting",
+                "description": "We advise you on the digital transformation of your medical practice with proven strategies."
+            },
+            "support": {
+                "title": "24/7 Support",
+                "description": "Technical team available around the clock to ensure continuous operation of your systems."
+            },
+            "training": {
+                "title": "Training",
+                "description": "Training programs so your team can make the most of all the tools."
+            },
+            "security": {
+                "title": "Data Security",
+                "description": "We implement the highest security standards to protect your patients' information."
+            }
+        }
+    },
+    "pricing": {
+        "subtitle": "Plans & Pricing",
+        "title": {
+            "line1": "Choose the",
+            "line2": "perfect plan"
+        },
+        "plans": {
+            "starter": {
+                "name": "Starter",
+                "description": "Perfect for small practices",
+                "price": "49",
+                "period": "/month",
+                "features": [
+                    "Up to 100 monthly appointments",
+                    "1 professional",
+                    "Email reminders",
+                    "Email support",
+                    "Basic online scheduling"
+                ],
+                "cta": "Get Started"
+            },
+            "professional": {
+                "name": "Professional",
+                "description": "Ideal for growing practices",
+                "price": "99",
+                "period": "/month",
+                "popular": "Most Popular",
+                "features": [
+                    "Unlimited appointments",
+                    "Up to 5 professionals",
+                    "WhatsApp + Email",
+                    "Digital health records",
+                    "Advanced reports",
+                    "Priority support"
+                ],
+                "cta": "Get Started"
+            },
+            "enterprise": {
+                "name": "Enterprise",
+                "description": "For clinics and medical centers",
+                "price": "199",
+                "period": "/month",
+                "features": [
+                    "Everything in Professional",
+                    "Unlimited professionals",
+                    "Multiple locations",
+                    "API & integrations",
+                    "Automatic billing",
+                    "Dedicated account manager"
+                ],
+                "cta": "Contact Sales"
+            }
+        },
+        "currency": "USD"
+    },
+    "about": {
+        "subtitle": "About Us",
+        "title": {
+            "line1": "Innovation in",
+            "line2": "digital health"
+        },
+        "description1": "At Doctore.ar we are passionate about creating technology that improves the lives of healthcare professionals and their patients.",
+        "description2": "Our team combines software development experience with deep healthcare sector knowledge to create solutions that truly make a difference.",
+        "stats": {
+            "clients": {
+                "number": "500",
+                "label": "Active clients"
+            },
+            "appointments": {
+                "number": "1000000",
+                "label": "Appointments managed"
+            },
+            "years": {
+                "number": "8",
+                "label": "Years of experience"
+            },
+            "satisfaction": {
+                "number": "99",
+                "label": "% satisfaction"
+            }
+        }
+    },
+    "contact": {
+        "subtitle": "Contact",
+        "title": {
+            "line1": "Let's talk about",
+            "line2": "your project"
+        },
+        "description": "We're ready to help you transform your medical practice. Contact us and discover how we can work together.",
+        "methods": {
+            "email": {
+                "label": "Email",
+                "value": "info@doctore.ar"
+            },
+            "phone": {
+                "label": "Phone",
+                "value": "+54 11 5555-0123"
+            },
+            "address": {
+                "label": "Location",
+                "value": "Buenos Aires, Argentina"
+            }
+        },
+        "form": {
+            "name": {
+                "label": "Full name",
+                "placeholder": "Your name"
+            },
+            "email": {
+                "label": "Email",
+                "placeholder": "you@email.com"
+            },
+            "phone": {
+                "label": "Phone",
+                "placeholder": "+1 234 567 8900"
+            },
+            "message": {
+                "label": "Message",
+                "placeholder": "Tell us about your project..."
+            },
+            "submit": "Send Message"
+        }
+    },
+    "footer": {
+        "description": "We create medical management software that transforms the way healthcare professionals work.",
+        "columns": {
+            "product": {
+                "title": "Product",
+                "links": {
+                    "features": "Features",
+                    "pricing": "Pricing",
+                    "integrations": "Integrations",
+                    "updates": "Updates"
+                }
+            },
+            "company": {
+                "title": "Company",
+                "links": {
+                    "about": "About",
+                    "careers": "Careers",
+                    "blog": "Blog",
+                    "press": "Press"
+                }
+            },
+            "support": {
+                "title": "Support",
+                "links": {
+                    "help": "Help Center",
+                    "documentation": "Documentation",
+                    "status": "System Status",
+                    "contact": "Contact"
+                }
+            }
+        },
+        "social": {
+            "follow": "Follow us"
+        },
+        "legal": {
+            "copyright": "2024 Doctore.ar. All rights reserved.",
+            "privacy": "Privacy",
+            "terms": "Terms",
+            "cookies": "Cookies"
+        }
+    }
+}

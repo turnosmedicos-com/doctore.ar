@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "title": "Doctore.ar - Soluciones Digitales para la Salud",
+    "description": "Transformamos la gestión de consultorios médicos con tecnología de vanguardia. TurnosMedicos, nuestro producto estrella, revoluciona la administración de turnos."
+  },
+  "nav": {
+    "home": "Inicio",
+    "turnosmedicos": "TurnosMedicos",
+    "services": "Servicios",
+    "pricing": "Precios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "login": "Ingresar"
+  },
+  "hero": {
+    "date": "La revolución digital en salud",
+    "title": "DOCTORE",
+    "subtitle": "Donde la tecnología y la medicina convergen para transformar la experiencia del cuidado de la salud",
+    "intro": "En Doctore.ar desarrollamos soluciones tecnológicas que simplifican la gestión médica y mejoran la experiencia tanto de profesionales como de pacientes. Nuestro enfoque editorial hacia la innovación nos permite crear herramientas que realmente marcan la diferencia.",
+    "stats": {
+      "clinics": {
+        "number": "500+",
+        "label": "Consultorios activos"
+      },
+      "appointments": {
+        "number": "50K",
+        "label": "Turnos mensuales"
+      },
+      "satisfaction": {
+        "number": "98%",
+        "label": "Satisfacción"
+      }
+    }
+  },
+  "product": {
+    "label": "Producto Estrella",
+    "headline": "TurnosMedicos",
+    "subheadline": "El sistema de gestión de turnos que está redefiniendo la administración médica en Argentina",
+    "features": {
+      "calendar": {
+        "icon": "C",
+        "title": "Calendario Inteligente",
+        "description": "Gestión visual de turnos con vista diaria, semanal y mensual. Optimización automática de horarios."
+      },
+      "notifications": {
+        "icon": "N",
+        "title": "Notificaciones Automáticas",
+        "description": "Recordatorios por WhatsApp, SMS y email. Reduce las ausencias hasta en un 70%."
+      },
+      "patients": {
+        "icon": "P",
+        "title": "Gestión de Pacientes",
+        "description": "Historiales clínicos digitales, fichas de pacientes y seguimiento completo."
+      },
+      "reports": {
+        "icon": "R",
+        "title": "Reportes y Análisis",
+        "description": "Estadísticas detalladas de tu práctica. Toma decisiones basadas en datos."
+      }
+    },
+    "cta": {
+      "title": "Comienza hoy mismo",
+      "text": "Prueba TurnosMedicos gratis durante 14 días. Sin compromiso, sin tarjeta de crédito.",
+      "button": "Acceder a TurnosMedicos"
+    }
+  },
+  "services": {
+    "label": "Nuestros Servicios",
+    "title": "Soluciones Integrales",
+    "intro": "Un ecosistema completo de herramientas diseñadas para modernizar cada aspecto de tu práctica médica",
+    "items": {
+      "appointments": {
+        "number": "01",
+        "title": "Gestión de Turnos",
+        "description": "Sistema completo para administrar citas, horarios y disponibilidad de múltiples profesionales."
+      },
+      "records": {
+        "number": "02",
+        "title": "Historia Clínica Digital",
+        "description": "Documentación médica segura, accesible y conforme a las normativas de salud vigentes."
+      },
+      "telemedicine": {
+        "number": "03",
+        "title": "Telemedicina",
+        "description": "Consultas virtuales integradas con videollamadas HD, compartir pantalla y grabación."
+      },
+      "billing": {
+        "number": "04",
+        "title": "Facturación",
+        "description": "Generación automática de facturas, integración con obras sociales y prepagas."
+      },
+      "analytics": {
+        "number": "05",
+        "title": "Analíticas",
+        "description": "Dashboard con métricas clave, reportes personalizados y exportación de datos."
+      },
+      "integrations": {
+        "number": "06",
+        "title": "Integraciones",
+        "description": "Conexión con sistemas de laboratorio, farmacias y otros proveedores de salud."
+      }
+    }
+  },
+  "pricing": {
+    "label": "Planes y Precios",
+    "title": "Inversión Transparente",
+    "subtitle": "Elige el plan que mejor se adapte a las necesidades de tu consultorio",
+    "plans": {
+      "starter": {
+        "name": "Inicial",
+        "price": "$15.000",
+        "period": "por mes",
+        "features": [
+          "1 profesional",
+          "Hasta 200 turnos/mes",
+          "Recordatorios por email",
+          "Soporte por email",
+          "Agenda básica"
+        ],
+        "button": "Comenzar"
+      },
+      "professional": {
+        "name": "Profesional",
+        "price": "$35.000",
+        "period": "por mes",
+        "badge": "Más Popular",
+        "features": [
+          "Hasta 5 profesionales",
+          "Turnos ilimitados",
+          "WhatsApp + Email + SMS",
+          "Historia clínica digital",
+          "Reportes avanzados",
+          "Soporte prioritario"
+        ],
+        "button": "Elegir Plan"
+      },
+      "clinic": {
+        "name": "Clínica",
+        "price": "$75.000",
+        "period": "por mes",
+        "features": [
+          "Profesionales ilimitados",
+          "Multi-sucursal",
+          "Telemedicina incluida",
+          "API personalizada",
+          "Facturación integrada",
+          "Gerente de cuenta"
+        ],
+        "button": "Contactar"
+      }
+    }
+  },
+  "about": {
+    "label": "Sobre Nosotros",
+    "title": "Nuestra Historia",
+    "quote": "Creemos que la tecnología debe simplificar, no complicar. Cada línea de código que escribimos tiene un propósito: mejorar la salud.",
+    "paragraphs": [
+      "Doctore.ar nació en 2020, en medio de una pandemia que aceleró la transformación digital del sector salud. Un grupo de desarrolladores y profesionales médicos se unieron con una visión clara: crear herramientas que realmente resuelvan los problemas cotidianos de los consultorios argentinos.",
+      "Desde entonces, hemos crecido orgánicamente, escuchando a nuestros usuarios y mejorando constantemente. TurnosMedicos, nuestro producto insignia, es el resultado de miles de horas de desarrollo, pruebas y feedback de profesionales de la salud.",
+      "Hoy somos un equipo de 25 personas distribuidas en todo el país, unidos por la pasión de modernizar la atención médica en Argentina. Trabajamos con consultorios individuales, clínicas y centros de salud de todas las especialidades.",
+      "Nuestro compromiso es simple: desarrollar tecnología accesible, segura y fácil de usar. Porque cuando los médicos pueden enfocarse en lo que mejor saben hacer, los pacientes reciben mejor atención."
+    ]
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "Hablemos",
+    "text": "Estamos aquí para responder tus preguntas y ayudarte a encontrar la solución perfecta para tu consultorio.",
+    "details": {
+      "email": {
+        "icon": "@",
+        "text": "info@doctore.ar"
+      },
+      "phone": {
+        "icon": "T",
+        "text": "+54 11 5555-0000"
+      },
+      "address": {
+        "icon": "D",
+        "text": "Buenos Aires, Argentina"
+      }
+    },
+    "form": {
+      "name": {
+        "label": "Nombre",
+        "placeholder": "Tu nombre completo"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "tu@email.com"
+      },
+      "message": {
+        "label": "Mensaje",
+        "placeholder": "Cuéntanos sobre tu consultorio y cómo podemos ayudarte..."
+      },
+      "submit": "Enviar Mensaje"
+    }
+  },
+  "footer": {
+    "description": "Transformando la gestión de salud en Argentina con tecnología innovadora y un enfoque centrado en el usuario.",
+    "columns": {
+      "product": {
+        "title": "Producto",
+        "links": ["TurnosMedicos", "Características", "Precios", "Integraciones"]
+      },
+      "company": {
+        "title": "Empresa",
+        "links": ["Nosotros", "Blog", "Carreras", "Prensa"]
+      },
+      "legal": {
+        "title": "Legal",
+        "links": ["Privacidad", "Términos", "Seguridad", "GDPR"]
+      }
+    },
+    "copyright": "2024 Doctore.ar. Todos los derechos reservados.",
+    "social": {
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "pricing": "Precios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "login": "Iniciar Sesion"
+  },
+  "hero": {
+    "badge": "Soluciones Medicas Digitales",
+    "title": "Tecnologia que impulsa tu",
+    "titleHighlight": "practica medica",
+    "subtitle": "Plataforma integral de herramientas digitales disenadas especificamente para profesionales de la salud en Argentina.",
+    "cta": "Explorar Soluciones",
+    "ctaSecondary": "Contactar"
+  },
+  "featured": {
+    "badge": "Producto Principal",
+    "title": "TurnosMedicos",
+    "description": "Sistema completo de gestion de turnos y pacientes para consultorios medicos.",
+    "features": {
+      "1": "Agenda inteligente con recordatorios automaticos",
+      "2": "Historia clinica digital segura",
+      "3": "Portal de pacientes integrado",
+      "4": "Reportes y estadisticas en tiempo real"
+    },
+    "cta": "Acceder a TurnosMedicos"
+  },
+  "services": {
+    "badge": "Nuestros Servicios",
+    "title": "Soluciones para tu Consultorio",
+    "subtitle": "Un ecosistema completo de herramientas digitales para optimizar cada aspecto de tu practica medica.",
+    "network": {
+      "badge": "Red Profesional",
+      "title": "Red Medica",
+      "description": "Conecta con otros profesionales de la salud. Deriva pacientes, consulta casos y colabora con colegas de manera segura.",
+      "link": "Unirse a la Red"
+    },
+    "accounting": {
+      "badge": "Finanzas",
+      "title": "Contabilidad Medica",
+      "description": "Gestion financiera simplificada. Facturacion electronica, seguimiento de pagos y reportes fiscales automatizados.",
+      "link": "Ver Funciones"
+    },
+    "consulting": {
+      "badge": "Asesoria",
+      "title": "Consultoria Digital",
+      "description": "Acompanamiento experto para digitalizar tu consultorio. Capacitacion, implementacion y soporte continuo.",
+      "link": "Solicitar Consulta"
+    }
+  },
+  "pricing": {
+    "badge": "Precios",
+    "title": "Planes Simples y Transparentes",
+    "subtitle": "Elige el plan que mejor se adapte a tu practica. Sin costos ocultos, sin sorpresas.",
+    "basic": {
+      "name": "Basico",
+      "description": "Para consultorios individuales",
+      "price": "9.900",
+      "period": "/mes",
+      "features": {
+        "1": "Hasta 100 turnos mensuales",
+        "2": "1 profesional",
+        "3": "Historia clinica digital",
+        "4": "Recordatorios por email",
+        "5": "Soporte por email"
+      },
+      "cta": "Comenzar Gratis"
+    },
+    "professional": {
+      "name": "Profesional",
+      "description": "Para consultorios en crecimiento",
+      "popular": "Mas Popular",
+      "price": "24.900",
+      "period": "/mes",
+      "features": {
+        "1": "Turnos ilimitados",
+        "2": "Hasta 5 profesionales",
+        "3": "Historia clinica avanzada",
+        "4": "Recordatorios SMS y WhatsApp",
+        "5": "Facturacion electronica",
+        "6": "Soporte prioritario 24/7"
+      },
+      "cta": "Elegir Plan"
+    }
+  },
+  "about": {
+    "badge": "Sobre Nosotros",
+    "title": "Quienes Somos",
+    "subtitle": "Un equipo comprometido con la transformacion digital de la salud en Argentina.",
+    "company": {
+      "title": "Nuestra Mision",
+      "text1": "En doctore.ar creemos que la tecnologia debe simplificar el trabajo de los profesionales de la salud, no complicarlo. Por eso desarrollamos herramientas intuitivas que se adaptan a tu forma de trabajar.",
+      "text2": "Desde 2020 ayudamos a consultorios de toda Argentina a optimizar sus procesos, mejorar la experiencia de sus pacientes y hacer crecer sus practicas."
+    },
+    "stats": {
+      "clinics": "Consultorios",
+      "patients": "Pacientes",
+      "appointments": "Turnos/mes"
+    },
+    "team": {
+      "title": "Nuestro Equipo",
+      "member1": {
+        "name": "Dr. Martin Rodriguez",
+        "role": "Fundador y CEO"
+      },
+      "member2": {
+        "name": "Lic. Ana Garcia",
+        "role": "Dir. de Producto"
+      },
+      "member3": {
+        "name": "Ing. Carlos Lopez",
+        "role": "Dir. de Tecnologia"
+      }
+    }
+  },
+  "contact": {
+    "badge": "Contacto",
+    "title": "Hablemos",
+    "subtitle": "Estamos aqui para ayudarte a transformar tu consultorio.",
+    "info": {
+      "title": "Informacion de Contacto",
+      "subtitle": "Elige el canal que prefieras para comunicarte con nosotros.",
+      "email": {
+        "label": "Email",
+        "value": "hola@doctore.ar"
+      },
+      "phone": {
+        "label": "Telefono",
+        "value": "+54 11 4567-8900"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "value": "+54 9 11 2345-6789"
+      },
+      "address": {
+        "label": "Oficina",
+        "value": "Buenos Aires, Argentina"
+      }
+    },
+    "form": {
+      "title": "Envianos un Mensaje",
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre completo",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Como podemos ayudarte?",
+      "submit": "Enviar Mensaje"
+    }
+  },
+  "footer": {
+    "description": "Soluciones digitales para profesionales de la salud. Simplificamos la gestion de tu consultorio.",
+    "products": {
+      "title": "Productos",
+      "turnosmedicos": "TurnosMedicos",
+      "network": "Red Medica",
+      "accounting": "Contabilidad"
+    },
+    "company": {
+      "title": "Empresa",
+      "about": "Nosotros",
+      "careers": "Carreras",
+      "blog": "Blog"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacidad",
+      "terms": "Terminos",
+      "cookies": "Cookies"
+    },
+    "copyright": "2024 doctore.ar. Todos los derechos reservados."
+  }
+}

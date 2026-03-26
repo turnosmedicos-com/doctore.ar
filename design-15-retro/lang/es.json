@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "product": "Producto",
+    "services": "Servicios",
+    "pricing": "Precios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "login": "Ingresar"
+  },
+  "hero": {
+    "badge": "Software Medico",
+    "title": "Gestion medica",
+    "titleAccent": "simple y moderna",
+    "description": "Optimiza tu consultorio con herramientas digitales disenadas especialmente para profesionales de la salud. Turnos, historias clinicas y mas, todo en un solo lugar.",
+    "cta": {
+      "primary": "Comenzar Ahora",
+      "secondary": "Ver Demo"
+    }
+  },
+  "turnosmedicos": {
+    "badge": "Producto Estrella",
+    "title": "TurnosMedicos",
+    "description": "El sistema de gestion de turnos mas completo para consultorios medicos. Automatiza tus reservas, reduce ausencias y mejora la experiencia de tus pacientes.",
+    "features": {
+      "f1": "Agenda online 24/7",
+      "f2": "Recordatorios automaticos",
+      "f3": "Historia clinica digital",
+      "f4": "Reportes y estadisticas"
+    },
+    "cta": {
+      "primary": "Acceder a TurnosMedicos",
+      "secondary": "Mas Informacion"
+    },
+    "mockup": {
+      "url": "login.turnosmedicos.com",
+      "patient1": "Maria Garcia",
+      "time1": "09:00 - Consulta general",
+      "status1": "Confirmado",
+      "patient2": "Juan Perez",
+      "time2": "10:30 - Control",
+      "status2": "Pendiente"
+    }
+  },
+  "services": {
+    "badge": "Soluciones",
+    "title": "Servicios que ofrecemos",
+    "subtitle": "Todo lo que necesitas para modernizar tu practica medica",
+    "items": {
+      "s1": {
+        "title": "Gestion de Turnos",
+        "description": "Sistema completo de agendamiento con confirmaciones automaticas y recordatorios por WhatsApp y email."
+      },
+      "s2": {
+        "title": "Historia Clinica",
+        "description": "Registros medicos digitales seguros, accesibles desde cualquier dispositivo con total confidencialidad."
+      },
+      "s3": {
+        "title": "Facturacion",
+        "description": "Emision de facturas y recibos integrada con obras sociales y prepagas argentinas."
+      },
+      "s4": {
+        "title": "Soporte Tecnico",
+        "description": "Asistencia personalizada para resolver cualquier consulta o inconveniente tecnico."
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Planes",
+    "title": "Precios transparentes",
+    "subtitle": "Sin sorpresas ni costos ocultos. Elige el plan que mejor se adapte a tu consultorio.",
+    "plans": {
+      "starter": {
+        "name": "Inicial",
+        "description": "Ideal para comenzar",
+        "price": "$15.000",
+        "period": "/mes",
+        "features": {
+          "f1": "Hasta 100 turnos/mes",
+          "f2": "1 profesional",
+          "f3": "Recordatorios por email",
+          "f4": "Soporte por email"
+        },
+        "cta": "Empezar Gratis"
+      },
+      "professional": {
+        "name": "Profesional",
+        "description": "El mas popular",
+        "badge": "Recomendado",
+        "price": "$35.000",
+        "period": "/mes",
+        "features": {
+          "f1": "Turnos ilimitados",
+          "f2": "Hasta 5 profesionales",
+          "f3": "WhatsApp + Email",
+          "f4": "Historia clinica",
+          "f5": "Facturacion basica",
+          "f6": "Soporte prioritario"
+        },
+        "cta": "Elegir Plan"
+      }
+    }
+  },
+  "about": {
+    "title": "Sobre",
+    "titleAccent": "doctore.ar",
+    "description": "Somos un equipo argentino dedicado a desarrollar soluciones tecnologicas para el sector de la salud. Nuestra mision es simplificar la gestion medica para que los profesionales puedan enfocarse en lo que mejor saben hacer: cuidar pacientes.",
+    "stats": {
+      "s1": {
+        "value": "500+",
+        "label": "Consultorios"
+      },
+      "s2": {
+        "value": "50K+",
+        "label": "Turnos/mes"
+      },
+      "s3": {
+        "value": "99.9%",
+        "label": "Uptime"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contactanos",
+    "description": "Estamos aqui para ayudarte. Escribinos y te responderemos a la brevedad.",
+    "methods": {
+      "email": {
+        "label": "Email",
+        "value": "hola@doctore.ar"
+      },
+      "phone": {
+        "label": "Telefono",
+        "value": "+54 11 1234-5678"
+      },
+      "location": {
+        "label": "Ubicacion",
+        "value": "Buenos Aires, Argentina"
+      }
+    },
+    "form": {
+      "name": "Nombre completo",
+      "namePlaceholder": "Tu nombre",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Como podemos ayudarte?",
+      "submit": "Enviar Mensaje"
+    }
+  },
+  "footer": {
+    "tagline": "Tecnologia para la salud, hecha en Argentina.",
+    "links": {
+      "title": "Enlaces",
+      "home": "Inicio",
+      "services": "Servicios",
+      "pricing": "Precios",
+      "contact": "Contacto"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacidad",
+      "terms": "Terminos",
+      "cookies": "Cookies"
+    },
+    "social": {
+      "title": "Seguinos"
+    },
+    "copyright": "2024 doctore.ar. Todos los derechos reservados.",
+    "privacyLink": "Politica de Privacidad",
+    "termsLink": "Terminos de Servicio"
+  }
+}

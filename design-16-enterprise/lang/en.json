@@ -1,0 +1,290 @@
+{
+    "meta": {
+        "lang": "en",
+        "title": "Doctore.ar | Enterprise Digital Health Solutions",
+        "description": "Comprehensive medical management platform for large organizations. Security, scalability and regulatory compliance guaranteed."
+    },
+    "nav": {
+        "home": "Home",
+        "turnosmedicos": "TurnosMedicos",
+        "services": "Services",
+        "pricing": "Plans",
+        "about": "About",
+        "contact": "Contact",
+        "login": "Sign In",
+        "demo": "Request Demo"
+    },
+    "hero": {
+        "badge": "ISO 27001 Certified Platform",
+        "title": "Digital Infrastructure for",
+        "titleHighlight": "Corporate Healthcare",
+        "description": "Enterprise medical management solutions designed for large organizations. Bank-level security, unlimited scalability and 24/7 support.",
+        "cta": {
+            "primary": "Schedule Demo",
+            "secondary": "Contact Sales"
+        },
+        "trust": {
+            "text": "Trusted by over 500 organizations",
+            "logos": ["Logo 1", "Logo 2", "Logo 3", "Logo 4", "Logo 5"]
+        },
+        "badge2": "99.99% Uptime"
+    },
+    "turnos": {
+        "badge": "Featured Product",
+        "title": "TurnosMedicos Enterprise",
+        "subtitle": "Market-leading appointment management system designed for high-complexity health institutions and corporate medical networks.",
+        "features": [
+            {
+                "title": "Centralized Management",
+                "description": "Unified dashboard to coordinate multiple locations, specialties and professionals from a single interface."
+            },
+            {
+                "title": "Total Integration",
+                "description": "Robust APIs to seamlessly integrate with HIS, ERP, billing and insurance systems."
+            },
+            {
+                "title": "Enterprise Security",
+                "description": "Data encryption, HIPAA compliance, full auditing and granular access control."
+            },
+            {
+                "title": "Advanced Reporting",
+                "description": "Real-time analytics, customizable KPIs and multi-format exports for decision making."
+            }
+        ],
+        "cta": {
+            "primary": "Access TurnosMedicos",
+            "secondary": "View Features"
+        },
+        "stats": [
+            { "value": "2M+", "label": "Appointments Managed" },
+            { "value": "500+", "label": "Institutions" },
+            { "value": "99.99%", "label": "Availability" },
+            { "value": "24/7", "label": "Technical Support" }
+        ]
+    },
+    "services": {
+        "subtitle": "COMPREHENSIVE SOLUTIONS",
+        "title": "Services Designed to Scale",
+        "description": "We offer a complete suite of digital tools that adapt to your organization's needs.",
+        "items": [
+            {
+                "title": "Digital Health Records",
+                "description": "Electronic health records system with full interoperability and secure access from any device.",
+                "features": ["HL7/FHIR Interoperability", "Multi-device access", "Integrated digital signature"]
+            },
+            {
+                "title": "Corporate Telemedicine",
+                "description": "Virtual consultation platform with recording, electronic prescription and virtual waiting room management.",
+                "features": ["Encrypted HD video", "Virtual waiting room", "Electronic prescription"]
+            },
+            {
+                "title": "Resource Management",
+                "description": "Comprehensive control of staff, medical equipment, offices and hospital resources in real time.",
+                "features": ["Shift planning", "Inventory control", "Preventive maintenance"]
+            },
+            {
+                "title": "Automated Billing",
+                "description": "Billing system integrated with insurance providers, prepaid plans and electronic invoicing.",
+                "features": ["Automatic settlements", "Tax integration", "Financial reports"]
+            },
+            {
+                "title": "Business Intelligence",
+                "description": "Executive dashboards with key metrics, AI-based predictions and customizable alerts.",
+                "features": ["Real-time dashboards", "AI predictions", "Automatic alerts"]
+            },
+            {
+                "title": "Enterprise Integration",
+                "description": "We connect your existing technology ecosystem through REST APIs, webhooks and native connectors.",
+                "features": ["Complete REST API", "Configurable webhooks", "SSO/SAML"]
+            }
+        ]
+    },
+    "pricing": {
+        "subtitle": "CORPORATE PLANS",
+        "title": "Clear Investment, Guaranteed Return",
+        "description": "Flexible plans adapted to your organization's size and needs.",
+        "plans": [
+            {
+                "name": "Professional",
+                "description": "For medium clinics",
+                "price": "89,990",
+                "currency": "ARS",
+                "period": "/month",
+                "features": [
+                    { "text": "Up to 10 professionals", "included": true },
+                    { "text": "3 locations included", "included": true },
+                    { "text": "Unlimited appointments", "included": true },
+                    { "text": "Digital health records", "included": true },
+                    { "text": "Business hours support", "included": true },
+                    { "text": "Basic integrations", "included": true },
+                    { "text": "Custom API", "included": false },
+                    { "text": "Dedicated account manager", "included": false }
+                ],
+                "cta": "Get Started"
+            },
+            {
+                "name": "Enterprise",
+                "description": "For large institutions",
+                "price": "249,990",
+                "currency": "ARS",
+                "period": "/month",
+                "badge": "Most Popular",
+                "features": [
+                    { "text": "Unlimited professionals", "included": true },
+                    { "text": "Unlimited locations", "included": true },
+                    { "text": "Unlimited appointments", "included": true },
+                    { "text": "Complete module suite", "included": true },
+                    { "text": "24/7 priority support", "included": true },
+                    { "text": "All integrations", "included": true },
+                    { "text": "Custom API", "included": true },
+                    { "text": "Dedicated account manager", "included": true }
+                ],
+                "cta": "Contact Sales"
+            },
+            {
+                "name": "Healthcare Network",
+                "description": "For health networks",
+                "price": "Custom",
+                "currency": "",
+                "period": "",
+                "features": [
+                    { "text": "Dedicated infrastructure", "included": true },
+                    { "text": "Full customization", "included": true },
+                    { "text": "99.99% SLA guaranteed", "included": true },
+                    { "text": "On-premise deployment", "included": true },
+                    { "text": "Exclusive support team", "included": true },
+                    { "text": "Custom development", "included": true },
+                    { "text": "In-company training", "included": true },
+                    { "text": "Strategic consulting", "included": true }
+                ],
+                "cta": "Request Proposal"
+            }
+        ]
+    },
+    "clients": {
+        "title": "Organizations that trust us"
+    },
+    "about": {
+        "subtitle": "ABOUT US",
+        "title": "Transforming Digital Health in Argentina",
+        "description": "Since 2018, we help health institutions digitize their operations with robust, secure and scalable solutions. Our team combines technology and healthcare expertise to create tools that truly work.",
+        "values": [
+            {
+                "title": "Security First",
+                "text": "We comply with the highest international standards for health data security and privacy."
+            },
+            {
+                "title": "Constant Innovation",
+                "text": "We continuously research and develop to stay at the technological forefront."
+            },
+            {
+                "title": "Dedicated Support",
+                "text": "Specialized technical team available 24/7 to ensure operational continuity."
+            },
+            {
+                "title": "Scalability",
+                "text": "Architecture designed to grow with your organization without compromising performance."
+            }
+        ],
+        "certifications": {
+            "title": "Certifications and Compliance",
+            "items": [
+                "ISO 27001",
+                "HIPAA Compliant",
+                "SOC 2 Type II",
+                "GDPR Ready"
+            ]
+        }
+    },
+    "contact": {
+        "subtitle": "CONTACT",
+        "title": "Let's Discuss Your Project",
+        "description": "Fill out the form and a specialist will contact you within 24 business hours.",
+        "form": {
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Corporate Email",
+            "phone": "Phone",
+            "company": "Organization",
+            "employees": "Number of employees",
+            "employeesOptions": [
+                "Select...",
+                "1-50",
+                "51-200",
+                "201-500",
+                "501-1000",
+                "1000+"
+            ],
+            "message": "Message",
+            "messagePlaceholder": "Tell us about your project and needs...",
+            "submit": "Submit Request"
+        },
+        "info": {
+            "email": {
+                "label": "Sales email",
+                "value": "enterprise@doctore.ar"
+            },
+            "phone": {
+                "label": "Corporate line",
+                "value": "+54 11 5555-0100"
+            },
+            "address": {
+                "label": "Head office",
+                "value": "Av. del Libertador 1234, CABA"
+            }
+        },
+        "schedule": {
+            "title": "Business hours",
+            "items": [
+                { "day": "Monday - Friday", "time": "9:00 AM - 6:00 PM" },
+                { "day": "Saturday", "time": "9:00 AM - 1:00 PM" },
+                { "day": "Sunday", "time": "Closed" }
+            ]
+        }
+    },
+    "footer": {
+        "description": "Enterprise digital health solutions for institutions seeking operational excellence and regulatory compliance.",
+        "nav": {
+            "solutions": {
+                "title": "Solutions",
+                "links": [
+                    "TurnosMedicos",
+                    "Health Records",
+                    "Telemedicine",
+                    "Billing",
+                    "Business Intelligence"
+                ]
+            },
+            "company": {
+                "title": "Company",
+                "links": [
+                    "About Us",
+                    "Case Studies",
+                    "Partners",
+                    "Careers",
+                    "Press"
+                ]
+            },
+            "resources": {
+                "title": "Resources",
+                "links": [
+                    "Documentation",
+                    "API Reference",
+                    "Status",
+                    "Blog",
+                    "Support"
+                ]
+            }
+        },
+        "contact": {
+            "title": "Contact"
+        },
+        "copyright": "© 2024 Doctore.ar. All rights reserved.",
+        "legal": [
+            "Terms of Service",
+            "Privacy Policy",
+            "Security",
+            "Cookies"
+        ]
+    }
+}

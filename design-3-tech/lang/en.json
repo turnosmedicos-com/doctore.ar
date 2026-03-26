@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "lang": "en",
+    "title": "doctore.ar - Healthcare Technology",
+    "description": "Innovative technology solutions for healthcare professionals. Appointment management software, medical networks and more."
+  },
+  "nav": {
+    "product": "Product",
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login"
+  },
+  "hero": {
+    "badge": "Cutting-edge technology",
+    "title_1": "The future of",
+    "title_2": "medical management",
+    "title_3": "is here",
+    "description": "We empower healthcare professionals with cutting-edge software. Automate, optimize, and scale your medical practice with world-class technology.",
+    "cta_primary": "Get started",
+    "cta_secondary": "Watch demo",
+    "stat_1_value": "10K+",
+    "stat_1_label": "Active professionals",
+    "stat_2_value": "500K+",
+    "stat_2_label": "Appointments managed",
+    "stat_3_value": "99.9%",
+    "stat_3_label": "Guaranteed uptime"
+  },
+  "product": {
+    "label": "Main product",
+    "title": "TurnosMedicos",
+    "description": "Comprehensive appointment management system designed to maximize your practice's efficiency. Intuitive interface, smart automation, and advanced analytics.",
+    "feature_1": "Smart scheduling",
+    "feature_2": "Automatic reminders",
+    "feature_3": "Analytics dashboard",
+    "feature_4": "Multi-location",
+    "cta": "Access TurnosMedicos",
+    "mock_url": "login.turnosmedicos.com",
+    "mock_month": "March 2024",
+    "mock_sidebar_1": "Dashboard",
+    "mock_sidebar_2": "Calendar",
+    "mock_sidebar_3": "Patients",
+    "mock_sidebar_4": "Reports",
+    "mock_appointment_1_time": "09:00",
+    "mock_appointment_1_name": "Maria Garcia",
+    "mock_appointment_2_time": "10:30",
+    "mock_appointment_2_name": "Juan Rodriguez",
+    "mock_appointment_3_time": "14:00",
+    "mock_appointment_3_name": "Ana Martinez"
+  },
+  "services": {
+    "title": "Comprehensive services",
+    "subtitle": "Complete technology solutions for every aspect of your professional practice",
+    "network": {
+      "title": "Medical Network",
+      "description": "Connect with a network of healthcare professionals. Refer patients, share knowledge, and grow alongside colleagues in your specialty.",
+      "link": "Explore network"
+    },
+    "accounting": {
+      "title": "Medical Accounting",
+      "description": "Specialized accounting management for healthcare professionals. Electronic invoicing, insurance settlements, and automated tax reports.",
+      "link": "View solutions"
+    },
+    "consulting": {
+      "title": "IT Consulting",
+      "description": "Personalized technology consulting for your practice. Implementation, integrations, and continuous technical support from experts.",
+      "link": "Schedule consultation"
+    }
+  },
+  "pricing": {
+    "title": "Transparent pricing",
+    "subtitle": "Choose the plan that best fits the size of your practice. No hidden costs, no surprises.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "popular": "Popular",
+    "starter": {
+      "name": "Starter",
+      "description": "Ideal for individual practices",
+      "price": "0",
+      "period": "/month",
+      "feature_1": "Up to 50 appointments/month",
+      "feature_2": "1 professional",
+      "feature_3": "Email reminders",
+      "feature_4": "Email support",
+      "cta": "Start free"
+    },
+    "professional": {
+      "name": "Professional",
+      "description": "For growing practices",
+      "price": "4,900",
+      "period": "/month",
+      "feature_1": "Unlimited appointments",
+      "feature_2": "Up to 5 professionals",
+      "feature_3": "WhatsApp + Email",
+      "feature_4": "Advanced reports",
+      "feature_5": "Priority support",
+      "cta": "Choose Professional"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Complete solution for clinics",
+      "price": "12,900",
+      "period": "/month",
+      "feature_1": "Everything in Professional",
+      "feature_2": "Unlimited professionals",
+      "feature_3": "Custom API",
+      "feature_4": "Custom integrations",
+      "feature_5": "Dedicated account manager",
+      "cta": "Contact sales"
+    }
+  },
+  "about": {
+    "label": "About us",
+    "title": "Innovation at the service of health",
+    "text_1": "At doctore.ar we believe technology should simplify, not complicate. We develop solutions that allow healthcare professionals to focus on what they do best: caring for their patients.",
+    "text_2": "Our team combines software development experience with deep knowledge of the healthcare sector, creating tools that truly solve real problems.",
+    "highlight_1_value": "2018",
+    "highlight_1_label": "Year founded",
+    "highlight_2_value": "50+",
+    "highlight_2_label": "Specialties",
+    "highlight_3_value": "24/7",
+    "highlight_3_label": "Technical support",
+    "highlight_4_value": "100%",
+    "highlight_4_label": "Cloud native"
+  },
+  "contact": {
+    "title": "Let's talk",
+    "description": "We're ready to help you transform your medical practice. Contact us and discover how we can empower your office.",
+    "email_label": "Email",
+    "email_value": "hello@doctore.ar",
+    "phone_label": "Phone",
+    "phone_value": "+54 11 5555-0123",
+    "location_label": "Location",
+    "location_value": "Buenos Aires, Argentina",
+    "form_name": "Name",
+    "form_name_placeholder": "Your full name",
+    "form_email": "Email",
+    "form_email_placeholder": "you@email.com",
+    "form_subject": "Subject",
+    "form_subject_placeholder": "How can we help you?",
+    "form_message": "Message",
+    "form_message_placeholder": "Tell us about your practice and your needs...",
+    "form_submit": "Send message"
+  },
+  "footer": {
+    "description": "Innovative technology solutions for healthcare professionals.",
+    "product_title": "Product",
+    "product_link_1": "TurnosMedicos",
+    "product_link_2": "Features",
+    "product_link_3": "Integrations",
+    "product_link_4": "API",
+    "company_title": "Company",
+    "company_link_1": "About us",
+    "company_link_2": "Blog",
+    "company_link_3": "Careers",
+    "company_link_4": "Press",
+    "legal_title": "Legal",
+    "legal_link_1": "Privacy",
+    "legal_link_2": "Terms",
+    "legal_link_3": "Cookies",
+    "legal_link_4": "Licenses",
+    "copyright": "2024 doctore.ar. All rights reserved."
+  }
+}

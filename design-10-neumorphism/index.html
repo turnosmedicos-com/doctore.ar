@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Doctore.ar - Soluciones Digitales para la Salud. Transformamos la gestion de consultorios medicos con tecnologia de vanguardia.">
+  <meta name="keywords" content="turnos medicos, gestion consultorio, software medico, salud digital, argentina">
+  <meta name="author" content="Doctore.ar">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Doctore.ar - Soluciones Digitales para la Salud">
+  <meta property="og:description" content="Transformamos la gestion de consultorios medicos con tecnologia de vanguardia.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://doctore.ar">
+  <meta property="og:locale" content="es_AR">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🩺</text></svg>">
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Doctore.ar - Soluciones Digitales para la Salud</title>
+</head>
+<body>
+
+  <!-- ============================================
+       NAVIGATION
+       ============================================ -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__container container">
+      <!-- Logo -->
+      <a href="#" class="nav__logo" aria-label="Doctore.ar Home">
+        <span class="nav__logo-icon">D</span>
+        <span>Doctore.ar</span>
+      </a>
+
+      <!-- Desktop Menu -->
+      <ul class="nav__menu" role="menubar">
+        <li role="none">
+          <a href="#hero" class="nav__link nav__link--active" role="menuitem" data-i18n="nav.home">Inicio</a>
+        </li>
+        <li role="none">
+          <a href="#product" class="nav__link" role="menuitem" data-i18n="nav.product">TurnosMedicos</a>
+        </li>
+        <li role="none">
+          <a href="#services" class="nav__link" role="menuitem" data-i18n="nav.services">Servicios</a>
+        </li>
+        <li role="none">
+          <a href="#pricing" class="nav__link" role="menuitem" data-i18n="nav.pricing">Precios</a>
+        </li>
+        <li role="none">
+          <a href="#about" class="nav__link" role="menuitem" data-i18n="nav.about">Nosotros</a>
+        </li>
+        <li role="none">
+          <a href="#contact" class="nav__link" role="menuitem" data-i18n="nav.contact">Contacto</a>
+        </li>
+      </ul>
+
+      <!-- Actions -->
+      <div class="nav__actions">
+        <!-- Language Switcher -->
+        <div class="nav__lang-switch" role="group" aria-label="Language selector">
+          <button class="nav__lang-btn nav__lang-btn--active" data-lang="es" aria-label="Espanol">ES</button>
+          <button class="nav__lang-btn" data-lang="en" aria-label="English">EN</button>
+        </div>
+
+        <!-- Login Button (Desktop) -->
+        <a href="https://login.turnosmedicos.com" class="neu-btn neu-btn--primary" data-i18n="nav.login" style="display: none;">
+          Ingresar
+        </a>
+
+        <!-- Mobile Toggle -->
+        <button class="nav__mobile-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="nav__mobile-menu" id="mobile-menu" role="menu">
+      <ul class="nav__mobile-links">
+        <li role="none">
+          <a href="#hero" class="nav__mobile-link nav__mobile-link--active" role="menuitem" data-i18n="nav.home">Inicio</a>
+        </li>
+        <li role="none">
+          <a href="#product" class="nav__mobile-link" role="menuitem" data-i18n="nav.product">TurnosMedicos</a>
+        </li>
+        <li role="none">
+          <a href="#services" class="nav__mobile-link" role="menuitem" data-i18n="nav.services">Servicios</a>
+        </li>
+        <li role="none">
+          <a href="#pricing" class="nav__mobile-link" role="menuitem" data-i18n="nav.pricing">Precios</a>
+        </li>
+        <li role="none">
+          <a href="#about" class="nav__mobile-link" role="menuitem" data-i18n="nav.about">Nosotros</a>
+        </li>
+        <li role="none">
+          <a href="#contact" class="nav__mobile-link" role="menuitem" data-i18n="nav.contact">Contacto</a>
+        </li>
+        <li role="none">
+          <a href="https://login.turnosmedicos.com" class="neu-btn neu-btn--primary" style="margin-top: 1rem; width: 100%;" data-i18n="nav.login">Ingresar</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============================================
+       HERO SECTION
+       ============================================ -->
+  <section id="hero" class="hero">
+    <div class="hero__container container">
+      <div class="hero__content">
+        <span class="neu-badge hero__badge" data-i18n="hero.badge">Innovacion en Salud Digital</span>
+        <h1 class="hero__title" data-i18n="hero.title" data-i18n-html>
+          Gestion medica <span class="text-gradient">simplificada</span>
+        </h1>
+        <p class="hero__description" data-i18n="hero.description">
+          Desarrollamos soluciones tecnologicas que transforman la manera en que los profesionales de la salud gestionan sus consultorios.
+        </p>
+        <div class="hero__actions">
+          <a href="#product" class="neu-btn neu-btn--primary neu-btn--lg" data-i18n="hero.cta_primary">Comenzar Ahora</a>
+          <a href="#services" class="neu-btn neu-btn--lg" data-i18n="hero.cta_secondary">Ver Demo</a>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="hero__illustration">
+          <div class="hero__circle hero__circle--lg"></div>
+          <div class="hero__circle hero__circle--md"></div>
+          <div class="hero__circle hero__circle--sm">
+            <span class="hero__icon">🩺</span>
+          </div>
+
+          <!-- Floating Elements -->
+          <div class="hero__float hero__float--1">
+            <span>📅</span>
+          </div>
+          <div class="hero__float hero__float--2">
+            <span>💊</span>
+          </div>
+          <div class="hero__float hero__float--3">
+            <span>📊</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       TURNOSMEDICOS - STAR PRODUCT
+       ============================================ -->
+  <section id="product" class="product section">
+    <div class="product__container container">
+      <div class="product__content">
+        <span class="neu-badge neu-badge--primary product__badge" data-i18n="product.badge">Producto Estrella</span>
+        <h2 class="product__title text-gradient" data-i18n="product.title">TurnosMedicos</h2>
+        <p class="product__description" data-i18n="product.description">
+          Sistema integral de gestion de turnos disenado especificamente para profesionales de la salud. Optimiza tu agenda, reduce ausencias y mejora la experiencia de tus pacientes.
+        </p>
+
+        <div class="product__features">
+          <div class="product__feature">
+            <span class="product__feature-icon">📅</span>
+            <span class="product__feature-text" data-i18n="product.features.agenda">Agenda inteligente 24/7</span>
+          </div>
+          <div class="product__feature">
+            <span class="product__feature-icon">🔔</span>
+            <span class="product__feature-text" data-i18n="product.features.reminders">Recordatorios automaticos</span>
+          </div>
+          <div class="product__feature">
+            <span class="product__feature-icon">📋</span>
+            <span class="product__feature-text" data-i18n="product.features.history">Historial de pacientes</span>
+          </div>
+          <div class="product__feature">
+            <span class="product__feature-icon">📈</span>
+            <span class="product__feature-text" data-i18n="product.features.reports">Reportes y estadisticas</span>
+          </div>
+        </div>
+
+        <div class="product__actions">
+          <a href="https://login.turnosmedicos.com" class="neu-btn neu-btn--primary neu-btn--lg" data-i18n="product.cta_primary">Acceder a TurnosMedicos</a>
+          <a href="#pricing" class="neu-btn neu-btn--lg" data-i18n="product.cta_secondary">Saber Mas</a>
+        </div>
+      </div>
+
+      <div class="product__visual">
+        <div class="product__mockup">
+          <div class="product__screen">
+            <div class="product__screen-header">
+              <span class="product__screen-dot"></span>
+              <span class="product__screen-dot"></span>
+              <span class="product__screen-dot"></span>
+            </div>
+            <div class="product__screen-content">
+              <div class="product__screen-row">
+                <div class="product__screen-avatar"></div>
+                <div class="product__screen-lines">
+                  <div class="product__screen-line"></div>
+                  <div class="product__screen-line product__screen-line--short"></div>
+                </div>
+              </div>
+              <div class="product__screen-row">
+                <div class="product__screen-avatar"></div>
+                <div class="product__screen-lines">
+                  <div class="product__screen-line"></div>
+                  <div class="product__screen-line product__screen-line--short"></div>
+                </div>
+              </div>
+              <div class="product__screen-calendar">
+                <div class="product__screen-day">1</div>
+                <div class="product__screen-day">2</div>
+                <div class="product__screen-day">3</div>
+                <div class="product__screen-day product__screen-day--active">4</div>
+                <div class="product__screen-day">5</div>
+                <div class="product__screen-day">6</div>
+                <div class="product__screen-day">7</div>
+                <div class="product__screen-day">8</div>
+                <div class="product__screen-day">9</div>
+                <div class="product__screen-day">10</div>
+                <div class="product__screen-day">11</div>
+                <div class="product__screen-day product__screen-day--active">12</div>
+                <div class="product__screen-day">13</div>
+                <div class="product__screen-day">14</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       SERVICES SECTION
+       ============================================ -->
+  <section id="services" class="services section">
+    <div class="container">
+      <h2 class="section-title" data-i18n="services.title">Nuestros Servicios</h2>
+      <p class="section-subtitle" data-i18n="services.subtitle">Soluciones completas para digitalizar y optimizar tu practica medica</p>
+
+      <div class="services__grid">
+        <!-- Service 1 -->
+        <article class="neu-card service-card">
+          <div class="service-card__icon">💻</div>
+          <h3 class="service-card__title" data-i18n="services.items.development.title">Desarrollo a Medida</h3>
+          <p class="service-card__description" data-i18n="services.items.development.description">
+            Creamos aplicaciones personalizadas que se adaptan perfectamente a las necesidades unicas de tu consultorio.
+          </p>
+        </article>
+
+        <!-- Service 2 -->
+        <article class="neu-card service-card">
+          <div class="service-card__icon">🎯</div>
+          <h3 class="service-card__title" data-i18n="services.items.consulting.title">Consultoria Digital</h3>
+          <p class="service-card__description" data-i18n="services.items.consulting.description">
+            Te asesoramos en la transformacion digital de tu practica medica con estrategias probadas.
+          </p>
+        </article>
+
+        <!-- Service 3 -->
+        <article class="neu-card service-card">
+          <div class="service-card__icon">🔗</div>
+          <h3 class="service-card__title" data-i18n="services.items.integration.title">Integracion de Sistemas</h3>
+          <p class="service-card__description" data-i18n="services.items.integration.description">
+            Conectamos todas tus herramientas digitales para crear un ecosistema eficiente y unificado.
+          </p>
+        </article>
+
+        <!-- Service 4 -->
+        <article class="neu-card service-card">
+          <div class="service-card__icon">🛠</div>
+          <h3 class="service-card__title" data-i18n="services.items.support.title">Soporte Tecnico</h3>
+          <p class="service-card__description" data-i18n="services.items.support.description">
+            Asistencia tecnica continua para garantizar el funcionamiento optimo de tus sistemas.
+          </p>
+        </article>
+
+        <!-- Service 5 -->
+        <article class="neu-card service-card">
+          <div class="service-card__icon">📚</div>
+          <h3 class="service-card__title" data-i18n="services.items.training.title">Capacitacion</h3>
+          <p class="service-card__description" data-i18n="services.items.training.description">
+            Programas de formacion para que tu equipo aproveche al maximo cada herramienta.
+          </p>
+        </article>
+
+        <!-- Service 6 -->
+        <article class="neu-card service-card">
+          <div class="service-card__icon">🔒</div>
+          <h3 class="service-card__title" data-i18n="services.items.security.title">Seguridad de Datos</h3>
+          <p class="service-card__description" data-i18n="services.items.security.description">
+            Proteccion avanzada de informacion medica cumpliendo con todas las normativas vigentes.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       PRICING SECTION
+       ============================================ -->
+  <section id="pricing" class="pricing section">
+    <div class="container">
+      <h2 class="section-title" data-i18n="pricing.title">Planes y Precios</h2>
+      <p class="section-subtitle" data-i18n="pricing.subtitle">Elige el plan que mejor se adapte a tu practica medica</p>
+
+      <div class="pricing__grid">
+        <!-- Basic Plan -->
+        <article class="neu-card pricing-card">
+          <h3 class="pricing-card__name" data-i18n="pricing.plans.basic.name">Basico</h3>
+          <div class="pricing-card__price">
+            <span class="pricing-card__currency">$</span>
+            <span class="pricing-card__amount" data-i18n="pricing.plans.basic.price">2.900</span>
+          </div>
+          <p class="pricing-card__period" data-i18n="pricing.period">/mes</p>
+
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature">
+              <span class="pricing-card__feature-icon">✓</span>
+              <span data-i18n="pricing.plans.basic.features.appointments">Hasta 100 turnos/mes</span>
+            </li>
+            <li class="pricing-card__feature">
+              <span class="pricing-card__feature-icon">✓</span>
+              <span data-i18n="pricing.plans.basic.features.reminders">Recordatorios SMS</span>
+            </li>
+            <li class="pricing-card__feature">
+              <span class="pricing-card__feature-icon">✓</span>
+              <span data-i18n="pricing.plans.basic.features.calendar">Calendario online</span>
+            </li>
+            <li class="pricing-card__feature">
+              <span class="pricing-card__feature-icon">✓</span>
+              <span data-i18n="pricing.plans.basic.features.support">Soporte por email</span>
+            </li>
+            <li class="pricing-card__feature pricing-card__feature--disabled">
+              <span class="pricing-card__feature-icon">-</span>
+              <span data-i18n="pricing.plans.basic.features.reports">Reportes basicos</span>
+            </li>
+            <li class="pricing-card__feature pricing-card__feature--disabled">
+              <span class="pricing-card__feature-icon">-</span>
+              <span data-i18n="pricing.plans.basic.features.integration">Sin integraciones</span>
+            </li>
+          </ul>
+
+          <a href="https://login.turnosmedicos.com" class="neu-btn" data-i18n="pricing.cta">Comenzar</a>
+        </article>
+
+        <!-- Professional Plan (Featured) -->
+        <article class="neu-card pricing-card pricing-card--featured">
+          <span class="neu-badge neu-badge--primary pricing-card__badge" data-i18n="pricing.popular">Mas Popular</span>
+          <h3 class="pricing-card__name" data-i18n="pricing.plans.professional.name">Profesional</h3>
+          <div class="pricing-card__price">
+            <span class="pricing-card__currency">$</span>
+            <span class="pricing-card__amount" data-i18n="pricing.plans.professional.price">5.900</span>
+          </div>
+          <p class="pricing-card__period" data-i18n="pricing.period">/mes</p>
+
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature">
+              <span class="pricing-card__feature-icon">✓</span>
+              <span data-i18n="pricing.plans.professional.features.appointments">Turnos ilimitados</span>
+            </li>
+            <li class="pricing-card__feature">
+              <span class="pricing-card__feature-icon">✓</span>
+              <span data-i18n="pricing.plans.professional.features.reminders">SMS + WhatsApp</span>
+            </li>
+            <li class="pricing-card__feature">
+              <span class="pricing-card__feature-icon">✓</span>
+              <span data-i18n="pricing.plans.professional.features.calendar">Multi-agenda</span>
+            </li>
+            <li class="pricing-card__feature">
+              <span class="pricing-card__feature-icon">✓</span>
+              <span data-i18n="pricing.plans.professional.features.support">Soporte prioritario</span>
+            </li>
+            <li class="pricing-card__feature">
+              <span class="pricing-card__feature-icon">✓</span>
+              <span data-i18n="pricing.plans.professional.features.reports">Reportes avanzados</span>
+            </li>
+            <li class="pricing-card__feature">
+              <span class="pricing-card__feature-icon">✓</span>
+              <span data-i18n="pricing.plans.professional.features.integration">API disponible</span>
+            </li>
+          </ul>
+
+          <a href="https://login.turnosmedicos.com" class="neu-btn neu-btn--primary" data-i18n="pricing.cta">Comenzar</a>
+        </article>
+
+        <!-- Enterprise Plan -->
+        <article class="neu-card pricing-card">
+          <h3 class="pricing-card__name" data-i18n="pricing.plans.enterprise.name">Empresarial</h3>
+          <div class="pricing-card__price">
+            <span class="pricing-card__currency">$</span>
+            <span class="pricing-card__amount" data-i18n="pricing.plans.enterprise.price">9.900</span>
+          </div>
+          <p class="pricing-card__period" data-i18n="pricing.period">/mes</p>
+
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature">
+              <span class="pricing-card__feature-icon">✓</span>
+              <span data-i18n="pricing.plans.enterprise.features.appointments">Turnos ilimitados</span>
+            </li>
+            <li class="pricing-card__feature">
+              <span class="pricing-card__feature-icon">✓</span>
+              <span data-i18n="pricing.plans.enterprise.features.reminders">Todos los canales</span>
+            </li>
+            <li class="pricing-card__feature">
+              <span class="pricing-card__feature-icon">✓</span>
+              <span data-i18n="pricing.plans.enterprise.features.calendar">Multi-sucursal</span>
+            </li>
+            <li class="pricing-card__feature">
+              <span class="pricing-card__feature-icon">✓</span>
+              <span data-i18n="pricing.plans.enterprise.features.support">Soporte 24/7</span>
+            </li>
+            <li class="pricing-card__feature">
+              <span class="pricing-card__feature-icon">✓</span>
+              <span data-i18n="pricing.plans.enterprise.features.reports">Analytics completo</span>
+            </li>
+            <li class="pricing-card__feature">
+              <span class="pricing-card__feature-icon">✓</span>
+              <span data-i18n="pricing.plans.enterprise.features.integration">Integraciones custom</span>
+            </li>
+          </ul>
+
+          <a href="https://login.turnosmedicos.com" class="neu-btn" data-i18n="pricing.cta">Comenzar</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       ABOUT SECTION
+       ============================================ -->
+  <section id="about" class="about section">
+    <div class="about__container container">
+      <div class="about__visual">
+        <div class="about__image-wrapper">
+          <div class="about__image-card">
+            <div class="about__image-circle">🏥</div>
+            <div class="about__stats">
+              <div class="about__stat">
+                <div class="about__stat-value">500+</div>
+                <div class="about__stat-label" data-i18n="about.stats.clients">Clientes</div>
+              </div>
+              <div class="about__stat">
+                <div class="about__stat-value">50K</div>
+                <div class="about__stat-label" data-i18n="about.stats.appointments">Turnos/mes</div>
+              </div>
+              <div class="about__stat">
+                <div class="about__stat-value">98%</div>
+                <div class="about__stat-label" data-i18n="about.stats.satisfaction">Satisfaccion</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about__content">
+        <h2 class="about__title" data-i18n="about.title" data-i18n-html>Sobre <span class="text-gradient">Nosotros</span></h2>
+        <p class="about__text" data-i18n="about.text1">
+          En Doctore.ar nos dedicamos a crear soluciones tecnologicas innovadoras para el sector de la salud. Nuestro equipo combina experiencia en desarrollo de software con un profundo entendimiento de las necesidades del sector medico.
+        </p>
+        <p class="about__text" data-i18n="about.text2">
+          Creemos que la tecnologia debe simplificar la vida de los profesionales de la salud, permitiendoles enfocarse en lo que realmente importa: el cuidado de sus pacientes.
+        </p>
+
+        <div class="about__values">
+          <div class="about__value">
+            <span class="about__value-icon">💡</span>
+            <span class="about__value-text" data-i18n="about.values.innovation">Innovacion constante</span>
+          </div>
+          <div class="about__value">
+            <span class="about__value-icon">✨</span>
+            <span class="about__value-text" data-i18n="about.values.quality">Calidad garantizada</span>
+          </div>
+          <div class="about__value">
+            <span class="about__value-icon">🔐</span>
+            <span class="about__value-text" data-i18n="about.values.security">Maxima seguridad</span>
+          </div>
+          <div class="about__value">
+            <span class="about__value-icon">🤝</span>
+            <span class="about__value-text" data-i18n="about.values.support">Soporte dedicado</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CONTACT SECTION
+       ============================================ -->
+  <section id="contact" class="contact section">
+    <div class="contact__container container">
+      <div class="contact__info">
+        <h2 class="contact__title" data-i18n="contact.title">Contactanos</h2>
+        <p class="contact__description" data-i18n="contact.description">
+          Estamos aqui para ayudarte. Contactanos y descubre como podemos transformar tu practica medica.
+        </p>
+
+        <div class="contact__methods">
+          <div class="contact__method">
+            <span class="contact__method-icon">📧</span>
+            <div class="contact__method-content">
+              <p class="contact__method-label" data-i18n="contact.methods.email.label">Email</p>
+              <p class="contact__method-value" data-i18n="contact.methods.email.value">info@doctore.ar</p>
+            </div>
+          </div>
+
+          <div class="contact__method">
+            <span class="contact__method-icon">📞</span>
+            <div class="contact__method-content">
+              <p class="contact__method-label" data-i18n="contact.methods.phone.label">Telefono</p>
+              <p class="contact__method-value" data-i18n="contact.methods.phone.value">+54 11 5555-0123</p>
+            </div>
+          </div>
+
+          <div class="contact__method">
+            <span class="contact__method-icon">📍</span>
+            <div class="contact__method-content">
+              <p class="contact__method-label" data-i18n="contact.methods.location.label">Ubicacion</p>
+              <p class="contact__method-value" data-i18n="contact.methods.location.value">Buenos Aires, Argentina</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact__form-wrapper">
+        <form class="contact__form" action="#" method="POST" novalidate>
+          <div class="form-group__row">
+            <div class="form-group">
+              <label class="form-group__label" for="contact-name" data-i18n="contact.form.name">Nombre completo</label>
+              <input type="text" id="contact-name" name="name" class="neu-input" required
+                     data-i18n="contact.form.name_placeholder" placeholder="Tu nombre">
+            </div>
+
+            <div class="form-group">
+              <label class="form-group__label" for="contact-email" data-i18n="contact.form.email">Correo electronico</label>
+              <input type="email" id="contact-email" name="email" class="neu-input" required
+                     data-i18n="contact.form.email_placeholder" placeholder="tu@email.com">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-group__label" for="contact-subject" data-i18n="contact.form.subject">Asunto</label>
+            <input type="text" id="contact-subject" name="subject" class="neu-input"
+                   data-i18n="contact.form.subject_placeholder" placeholder="En que podemos ayudarte?">
+          </div>
+
+          <div class="form-group">
+            <label class="form-group__label" for="contact-message" data-i18n="contact.form.message">Mensaje</label>
+            <textarea id="contact-message" name="message" class="neu-textarea" required
+                      data-i18n="contact.form.message_placeholder" placeholder="Escribe tu mensaje aqui..."></textarea>
+          </div>
+
+          <button type="submit" class="neu-btn neu-btn--primary neu-btn--lg" data-i18n="contact.form.submit">Enviar Mensaje</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <!-- Brand -->
+        <div class="footer__brand">
+          <a href="#" class="footer__logo">
+            <span class="footer__logo-icon">D</span>
+            <span>Doctore.ar</span>
+          </a>
+          <p class="footer__description" data-i18n="footer.description">
+            Transformando la gestion de consultorios medicos con tecnologia innovadora.
+          </p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Facebook">f</a>
+            <a href="#" class="footer__social-link" aria-label="Twitter">t</a>
+            <a href="#" class="footer__social-link" aria-label="Instagram">i</a>
+            <a href="#" class="footer__social-link" aria-label="LinkedIn">in</a>
+          </div>
+        </div>
+
+        <!-- Product Links -->
+        <div class="footer__column">
+          <h4 class="footer__column-title" data-i18n="footer.columns.product.title">Producto</h4>
+          <ul class="footer__links">
+            <li><a href="#product" class="footer__link" data-i18n="footer.columns.product.links.features">Caracteristicas</a></li>
+            <li><a href="#pricing" class="footer__link" data-i18n="footer.columns.product.links.pricing">Precios</a></li>
+            <li><a href="#" class="footer__link" data-i18n="footer.columns.product.links.demo">Demo</a></li>
+            <li><a href="#" class="footer__link" data-i18n="footer.columns.product.links.updates">Actualizaciones</a></li>
+          </ul>
+        </div>
+
+        <!-- Company Links -->
+        <div class="footer__column">
+          <h4 class="footer__column-title" data-i18n="footer.columns.company.title">Empresa</h4>
+          <ul class="footer__links">
+            <li><a href="#about" class="footer__link" data-i18n="footer.columns.company.links.about">Nosotros</a></li>
+            <li><a href="#" class="footer__link" data-i18n="footer.columns.company.links.blog">Blog</a></li>
+            <li><a href="#" class="footer__link" data-i18n="footer.columns.company.links.careers">Carreras</a></li>
+            <li><a href="#contact" class="footer__link" data-i18n="footer.columns.company.links.contact">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Support Links -->
+        <div class="footer__column">
+          <h4 class="footer__column-title" data-i18n="footer.columns.support.title">Soporte</h4>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link" data-i18n="footer.columns.support.links.help">Centro de ayuda</a></li>
+            <li><a href="#" class="footer__link" data-i18n="footer.columns.support.links.docs">Documentacion</a></li>
+            <li><a href="#" class="footer__link" data-i18n="footer.columns.support.links.status">Estado del sistema</a></li>
+            <li><a href="#" class="footer__link" data-i18n="footer.columns.support.links.api">API</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">
+          &copy; <span id="current-year">2024</span> <span data-i18n="footer.copyright">Doctore.ar. Todos los derechos reservados.</span>
+        </p>
+        <div class="footer__legal">
+          <a href="#" class="footer__legal-link" data-i18n="footer.legal.privacy">Privacidad</a>
+          <a href="#" class="footer__legal-link" data-i18n="footer.legal.terms">Terminos</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top" aria-label="Scroll to top">
+    <span>↑</span>
+  </button>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script>
+    // Update copyright year
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
