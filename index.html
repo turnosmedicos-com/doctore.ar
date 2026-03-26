@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="doctore.ar">
-    <title>doctore.ar</title>
+    <meta name="description" content="doctore.ar - Design Preview">
+    <title>doctore.ar - Design Options</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --color-bg: #0a0a0a;
+            --color-surface: #141414;
+            --color-surface-hover: #1a1a1a;
+            --color-border: #262626;
+            --color-text: #ffffff;
+            --color-text-muted: #737373;
+            --color-primary: #0ea5e9;
+            --color-secondary: #14b8a6;
+            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -13,50 +28,297 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: #0a0a0a;
+            font-family: var(--font-family);
+            background: var(--color-bg);
             min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
+            padding: 2rem;
+            color: var(--color-text);
         }
 
-        .logo {
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
             text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--color-border);
         }
 
         h1 {
-            font-size: 4rem;
+            font-size: 3rem;
             font-weight: 300;
-            color: #ffffff;
             letter-spacing: -0.03em;
-            margin: 0;
+            margin-bottom: 0.5rem;
         }
 
         .subtitle {
             font-size: 1rem;
-            color: #666666;
-            margin-top: 1.5rem;
-            font-weight: 400;
-            letter-spacing: 0.02em;
+            color: var(--color-text-muted);
+            margin-bottom: 1rem;
+        }
+
+        .badge {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+            color: white;
+            padding: 0.35rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            color: var(--color-text-muted);
+        }
+
+        .designs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1rem;
+        }
+
+        .design-card {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: 0.75rem;
+            padding: 1.25rem;
+            text-decoration: none;
+            color: var(--color-text);
+            transition: all 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .design-card:hover {
+            background: var(--color-surface-hover);
+            border-color: var(--color-primary);
+            transform: translateY(-2px);
+        }
+
+        .design-number {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--color-primary);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .design-name {
+            font-size: 1.125rem;
+            font-weight: 600;
+        }
+
+        .design-description {
+            font-size: 0.875rem;
+            color: var(--color-text-muted);
+            line-height: 1.5;
+        }
+
+        .design-folder {
+            font-size: 0.75rem;
+            color: var(--color-text-muted);
+            font-family: monospace;
+            background: var(--color-bg);
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            margin-top: 0.5rem;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--color-border);
+            text-align: center;
+            color: var(--color-text-muted);
+            font-size: 0.875rem;
+        }
+
+        footer code {
+            background: var(--color-surface);
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            font-size: 0.8125rem;
         }
 
         @media (max-width: 768px) {
-            h1 {
-                font-size: 2.5rem;
+            body {
+                padding: 1rem;
             }
 
-            .subtitle {
-                font-size: 0.875rem;
+            h1 {
+                font-size: 2rem;
+            }
+
+            .designs-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
 </head>
 <body>
-    <div class="logo">
-        <h1>doctore.ar</h1>
-        <p class="subtitle">Próximamente</p>
+    <div class="container">
+        <header>
+            <h1>doctore.ar</h1>
+            <p class="subtitle">Landing Page Design Options</p>
+            <span class="badge">Team Preview</span>
+        </header>
+
+        <h2>20 Design Options</h2>
+
+        <div class="designs-grid">
+            <a href="./design-1-corporate/index.html" class="design-card">
+                <span class="design-number">Design 01</span>
+                <span class="design-name">Corporate Clean</span>
+                <span class="design-description">Minimal, whitespace-focused, subtle animations, professional</span>
+                <span class="design-folder">design-1-corporate/</span>
+            </a>
+
+            <a href="./design-2-medical/index.html" class="design-card">
+                <span class="design-number">Design 02</span>
+                <span class="design-name">Medical Trust</span>
+                <span class="design-description">Soft curves, wave dividers, warm healthcare feel, trust badges</span>
+                <span class="design-folder">design-2-medical/</span>
+            </a>
+
+            <a href="./design-3-tech/index.html" class="design-card">
+                <span class="design-number">Design 03</span>
+                <span class="design-name">Tech Forward</span>
+                <span class="design-description">Glassmorphism, animated gradient orbs, dark theme, neon glows</span>
+                <span class="design-folder">design-3-tech/</span>
+            </a>
+
+            <a href="./design-4-cards/index.html" class="design-card">
+                <span class="design-number">Design 04</span>
+                <span class="design-name">Card Grid</span>
+                <span class="design-description">Modular cards, lift animations, organized visual hierarchy</span>
+                <span class="design-folder">design-4-cards/</span>
+            </a>
+
+            <a href="./design-5-narrative/index.html" class="design-card">
+                <span class="design-number">Design 05</span>
+                <span class="design-name">Narrative Flow</span>
+                <span class="design-description">Story-driven, chapter markers, before/after, journey progression</span>
+                <span class="design-folder">design-5-narrative/</span>
+            </a>
+
+            <a href="./design-6-minimalist-dark/index.html" class="design-card">
+                <span class="design-number">Design 06</span>
+                <span class="design-name">Minimalist Dark</span>
+                <span class="design-description">Dark mode, high contrast, elegant simplicity, typography-driven</span>
+                <span class="design-folder">design-6-minimalist-dark/</span>
+            </a>
+
+            <a href="./design-7-gradient-wave/index.html" class="design-card">
+                <span class="design-number">Design 07</span>
+                <span class="design-name">Gradient Wave</span>
+                <span class="design-description">Flowing gradients, SVG wave dividers, fluid and dynamic</span>
+                <span class="design-folder">design-7-gradient-wave/</span>
+            </a>
+
+            <a href="./design-8-split-screen/index.html" class="design-card">
+                <span class="design-number">Design 08</span>
+                <span class="design-name">Split Screen</span>
+                <span class="design-description">50/50 layouts, bold color blocks, alternating splits</span>
+                <span class="design-folder">design-8-split-screen/</span>
+            </a>
+
+            <a href="./design-9-editorial/index.html" class="design-card">
+                <span class="design-number">Design 09</span>
+                <span class="design-name">Editorial</span>
+                <span class="design-description">Newspaper style, serif headlines, multi-column, drop caps</span>
+                <span class="design-folder">design-9-editorial/</span>
+            </a>
+
+            <a href="./design-10-neumorphism/index.html" class="design-card">
+                <span class="design-number">Design 10</span>
+                <span class="design-name">Neumorphism</span>
+                <span class="design-description">Soft UI, embossed elements, tactile feel, soft shadows</span>
+                <span class="design-folder">design-10-neumorphism/</span>
+            </a>
+
+            <a href="./design-11-timeline/index.html" class="design-card">
+                <span class="design-number">Design 11</span>
+                <span class="design-name">Timeline</span>
+                <span class="design-description">Vertical journey, progressive disclosure, animated nodes</span>
+                <span class="design-folder">design-11-timeline/</span>
+            </a>
+
+            <a href="./design-12-dashboard/index.html" class="design-card">
+                <span class="design-number">Design 12</span>
+                <span class="design-name">Dashboard Preview</span>
+                <span class="design-description">Widget-style sections, stats and metrics, data-focused</span>
+                <span class="design-folder">design-12-dashboard/</span>
+            </a>
+
+            <a href="./design-13-geometric/index.html" class="design-card">
+                <span class="design-number">Design 13</span>
+                <span class="design-name">Geometric</span>
+                <span class="design-description">Bold shapes, clip-path, angular dividers, architectural</span>
+                <span class="design-folder">design-13-geometric/</span>
+            </a>
+
+            <a href="./design-14-nature/index.html" class="design-card">
+                <span class="design-number">Design 14</span>
+                <span class="design-name">Nature Organic</span>
+                <span class="design-description">Blob shapes, greens and earth tones, calming wellness feel</span>
+                <span class="design-folder">design-14-nature/</span>
+            </a>
+
+            <a href="./design-15-retro/index.html" class="design-card">
+                <span class="design-number">Design 15</span>
+                <span class="design-name">Retro Modern</span>
+                <span class="design-description">70s/80s revival, offset shadows, chunky borders, warm tones</span>
+                <span class="design-folder">design-15-retro/</span>
+            </a>
+
+            <a href="./design-16-enterprise/index.html" class="design-card">
+                <span class="design-number">Design 16</span>
+                <span class="design-name">Enterprise</span>
+                <span class="design-description">Corporate navy, trust badges, formal, compliance-ready</span>
+                <span class="design-folder">design-16-enterprise/</span>
+            </a>
+
+            <a href="./design-17-parallax/index.html" class="design-card">
+                <span class="design-number">Design 17</span>
+                <span class="design-name">Parallax</span>
+                <span class="design-description">Layered depth, immersive scroll, full-viewport sections</span>
+                <span class="design-folder">design-17-parallax/</span>
+            </a>
+
+            <a href="./design-18-asymmetric/index.html" class="design-card">
+                <span class="design-number">Design 18</span>
+                <span class="design-name">Asymmetric</span>
+                <span class="design-description">Off-center layouts, overlapping elements, artistic, creative</span>
+                <span class="design-folder">design-18-asymmetric/</span>
+            </a>
+
+            <a href="./design-19-mono/index.html" class="design-card">
+                <span class="design-number">Design 19</span>
+                <span class="design-name">Monochrome</span>
+                <span class="design-description">Grayscale with single blue accent, elegant, high contrast</span>
+                <span class="design-folder">design-19-mono/</span>
+            </a>
+
+            <a href="./design-20-animated/index.html" class="design-card">
+                <span class="design-number">Design 20</span>
+                <span class="design-name">Animated</span>
+                <span class="design-description">Rich micro-interactions, scroll animations, lively and engaging</span>
+                <span class="design-folder">design-20-animated/</span>
+            </a>
+        </div>
+
+        <footer>
+            <p>Serve locally: <code>python3 -m http.server 8080</code> then open <code>http://localhost:8080</code></p>
+        </footer>
     </div>
 </body>
 </html>
