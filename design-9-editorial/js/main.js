@@ -81,8 +81,8 @@
   function applyTranslations() {
     if (!translations[currentLang]) return;
 
-    const elements = document.querySelectorAll('[data-i18n]');
-    elements.forEach(element => {
+    const i18nElements = document.querySelectorAll('[data-i18n]');
+    i18nElements.forEach(element => {
       const key = element.getAttribute('data-i18n');
       const value = getNestedValue(translations[currentLang], key);
 

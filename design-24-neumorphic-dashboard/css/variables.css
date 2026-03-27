@@ -1,0 +1,190 @@
+/* ==============================================
+   DOCTORE.AR - Design 24: Neumorphic Dashboard
+   CSS Variables
+   ============================================== */
+
+:root {
+    /* ==========================================
+       NEUMORPHIC BASE COLORS
+       ========================================== */
+    --color-base: #e0e5ec;
+    --color-base-light: #f0f5fc;
+    --color-base-dark: #d1d9e6;
+
+    /* ==========================================
+       NEUMORPHIC SHADOWS
+       ========================================== */
+    --shadow-light: rgba(255, 255, 255, 0.8);
+    --shadow-dark: rgba(163, 177, 198, 0.6);
+    --shadow-light-strong: rgba(255, 255, 255, 1);
+    --shadow-dark-strong: rgba(163, 177, 198, 0.9);
+
+    /* Raised element shadows */
+    --shadow-raised: 8px 8px 16px var(--shadow-dark),
+                     -8px -8px 16px var(--shadow-light);
+    --shadow-raised-sm: 4px 4px 8px var(--shadow-dark),
+                        -4px -4px 8px var(--shadow-light);
+    --shadow-raised-lg: 12px 12px 24px var(--shadow-dark),
+                        -12px -12px 24px var(--shadow-light);
+
+    /* Pressed/Inset element shadows */
+    --shadow-inset: inset 4px 4px 8px var(--shadow-dark),
+                    inset -4px -4px 8px var(--shadow-light);
+    --shadow-inset-sm: inset 2px 2px 4px var(--shadow-dark),
+                       inset -2px -2px 4px var(--shadow-light);
+    --shadow-inset-lg: inset 6px 6px 12px var(--shadow-dark),
+                       inset -6px -6px 12px var(--shadow-light);
+
+    /* ==========================================
+       PRIMARY & ACCENT COLORS
+       ========================================== */
+    --color-primary: #0ea5e9;
+    --color-primary-light: #38bdf8;
+    --color-primary-dark: #0284c7;
+    --color-primary-rgb: 14, 165, 233;
+
+    --color-secondary: #14b8a6;
+    --color-secondary-light: #2dd4bf;
+    --color-secondary-dark: #0d9488;
+    --color-secondary-rgb: 20, 184, 166;
+
+    --color-accent: #8b5cf6;
+    --color-accent-light: #a78bfa;
+    --color-accent-dark: #7c3aed;
+
+    /* ==========================================
+       STATUS COLORS
+       ========================================== */
+    --color-success: #22c55e;
+    --color-success-light: #4ade80;
+    --color-warning: #f59e0b;
+    --color-warning-light: #fbbf24;
+    --color-error: #ef4444;
+    --color-error-light: #f87171;
+    --color-info: #3b82f6;
+    --color-info-light: #60a5fa;
+
+    /* ==========================================
+       TEXT COLORS
+       ========================================== */
+    --color-text-primary: #2d3748;
+    --color-text-secondary: #4a5568;
+    --color-text-muted: #718096;
+    --color-text-light: #a0aec0;
+    --color-text-inverse: #ffffff;
+
+    /* ==========================================
+       TYPOGRAPHY
+       ========================================== */
+    --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-family-display: 'Poppins', var(--font-family-primary);
+    --font-family-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+    /* Font Sizes */
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 1.875rem;
+    --font-size-4xl: 2.25rem;
+    --font-size-5xl: 3rem;
+    --font-size-6xl: 3.75rem;
+
+    /* Font Weights */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Line Heights */
+    --line-height-tight: 1.25;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+
+    /* ==========================================
+       SPACING
+       ========================================== */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-2xl: 3rem;
+    --spacing-3xl: 4rem;
+    --spacing-4xl: 6rem;
+    --spacing-5xl: 8rem;
+
+    /* ==========================================
+       BORDER RADIUS
+       ========================================== */
+    --radius-sm: 0.375rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 0.75rem;
+    --radius-xl: 1rem;
+    --radius-2xl: 1.5rem;
+    --radius-3xl: 2rem;
+    --radius-full: 9999px;
+
+    /* ==========================================
+       TRANSITIONS
+       ========================================== */
+    --transition-fast: 150ms ease;
+    --transition-base: 250ms ease;
+    --transition-slow: 350ms ease;
+    --transition-slower: 500ms ease;
+
+    /* ==========================================
+       Z-INDEX SCALE
+       ========================================== */
+    --z-dropdown: 100;
+    --z-sticky: 200;
+    --z-fixed: 300;
+    --z-modal-backdrop: 400;
+    --z-modal: 500;
+    --z-popover: 600;
+    --z-tooltip: 700;
+
+    /* ==========================================
+       LAYOUT
+       ========================================== */
+    --container-max-width: 1280px;
+    --container-padding: var(--spacing-lg);
+    --header-height: 80px;
+    --header-height-mobile: 64px;
+
+    /* ==========================================
+       DASHBOARD GRID
+       ========================================== */
+    --grid-gap: var(--spacing-lg);
+    --card-padding: var(--spacing-xl);
+    --widget-padding: var(--spacing-lg);
+}
+
+/* ==============================================
+   RESPONSIVE VARIABLES
+   ============================================== */
+
+@media (max-width: 768px) {
+    :root {
+        --font-size-5xl: 2.25rem;
+        --font-size-6xl: 2.75rem;
+        --spacing-4xl: 4rem;
+        --spacing-5xl: 5rem;
+        --container-padding: var(--spacing-md);
+        --grid-gap: var(--spacing-md);
+        --card-padding: var(--spacing-lg);
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --font-size-4xl: 1.875rem;
+        --font-size-5xl: 2rem;
+        --font-size-6xl: 2.25rem;
+        --card-padding: var(--spacing-md);
+        --widget-padding: var(--spacing-md);
+    }
+}

@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Doctore.ar - Plataforma integral de gestion medica. Automatiza turnos, historiales clinicos y facturacion.">
+    <meta name="keywords" content="gestion medica, turnos medicos, software medico, consultorio, Argentina">
+    <meta name="author" content="Doctore.ar">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Doctore.ar - Gestion Medica Inteligente">
+    <meta property="og:description" content="Automatiza tu consultorio con la plataforma #1 de Argentina">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://doctore.ar">
+
+    <title>Doctore.ar | Gestion Medica Inteligente</title>
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%230ea5e9' rx='20' width='100' height='100'/><text x='50' y='70' font-size='60' text-anchor='middle' fill='white'>D</text></svg>">
+</head>
+<body>
+    <!-- SVG Gradients Definition -->
+    <svg width="0" height="0" style="position: absolute;">
+        <defs>
+            <linearGradient id="gradient-wave" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#0ea5e9"/>
+                <stop offset="100%" style="stop-color:#14b8a6"/>
+            </linearGradient>
+        </defs>
+    </svg>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container nav__container">
+            <a href="#" class="nav__logo">
+                <span class="nav__logo-icon">D</span>
+                <span>Doctore<span class="text-gradient">.ar</span></span>
+            </a>
+
+            <ul class="nav__links">
+                <li><a href="#turnos" class="nav__link" data-i18n="nav.services">Servicios</a></li>
+                <li><a href="#pricing" class="nav__link" data-i18n="nav.pricing">Precios</a></li>
+                <li><a href="#about" class="nav__link" data-i18n="nav.about">Nosotros</a></li>
+                <li><a href="#contact" class="nav__link" data-i18n="nav.contact">Contacto</a></li>
+            </ul>
+
+            <div class="nav__actions">
+                <button class="nav__lang-toggle" aria-label="Cambiar idioma">
+                    <span>🌐</span>
+                    <span class="nav__lang-text">ES</span>
+                </button>
+                <a href="#contact" class="btn btn--primary">
+                    <span data-i18n="nav.demo">Ver Demo</span>
+                </a>
+            </div>
+
+            <button class="nav__mobile-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero__background"></div>
+
+        <div class="hero__shapes">
+            <div class="hero__shape hero__shape--1"></div>
+            <div class="hero__shape hero__shape--2"></div>
+            <div class="hero__shape hero__shape--3"></div>
+        </div>
+
+        <div class="wave-divider wave-divider--bottom wave-divider--lg">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path class="wave-fill" d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25"></path>
+                <path class="wave-fill" d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5"></path>
+                <path class="wave-fill" d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,googl172.46-45.71,248.8-84.81V0Z"></path>
+            </svg>
+        </div>
+
+        <div class="container hero__content">
+            <div class="hero__text">
+                <div class="hero__badge">
+                    <span class="hero__badge-dot"></span>
+                    <span data-i18n="hero.badge">Plataforma #1 en Argentina</span>
+                </div>
+
+                <h1 class="hero__title" data-i18n="hero.title">Gestiona tu consultorio con inteligencia</h1>
+
+                <p class="hero__subtitle" data-i18n="hero.subtitle">
+                    Automatiza turnos, historiales clinicos y facturacion. Todo integrado en una sola plataforma diseñada para profesionales de la salud.
+                </p>
+
+                <div class="hero__buttons">
+                    <a href="#contact" class="btn btn--primary btn--lg">
+                        <span data-i18n="hero.cta_primary">Comenzar Gratis</span>
+                    </a>
+                    <a href="#turnos" class="btn btn--secondary btn--lg">
+                        <span data-i18n="hero.cta_secondary">Ver Como Funciona</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero__visual">
+                <div class="hero__card">
+                    <div class="hero__card-header">
+                        <div class="hero__card-avatar">👩‍⚕️</div>
+                        <div class="hero__card-info">
+                            <h4 data-i18n="hero.card.doctor">Dr. Maria Garcia</h4>
+                            <p data-i18n="hero.card.specialty">Cardiologia</p>
+                        </div>
+                    </div>
+                    <div class="hero__card-slots">
+                        <div class="hero__card-slot">
+                            <span class="hero__card-slot-time">09:00</span>
+                            <span class="hero__card-slot-status" data-i18n="hero.card.available">Disponible</span>
+                        </div>
+                        <div class="hero__card-slot hero__card-slot--booked">
+                            <span class="hero__card-slot-time">09:30</span>
+                            <span class="hero__card-slot-status" data-i18n="hero.card.booked">Reservado</span>
+                        </div>
+                        <div class="hero__card-slot">
+                            <span class="hero__card-slot-time">10:00</span>
+                            <span class="hero__card-slot-status" data-i18n="hero.card.available">Disponible</span>
+                        </div>
+                        <div class="hero__card-slot">
+                            <span class="hero__card-slot-time">10:30</span>
+                            <span class="hero__card-slot-status" data-i18n="hero.card.available">Disponible</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="trust-badges">
+        <div class="trust-badge">
+            <span class="trust-badge-icon">🔒</span>
+            <span data-i18n="trust.hipaa">HIPAA Compliant</span>
+        </div>
+        <div class="trust-badge">
+            <span class="trust-badge-icon">🛡️</span>
+            <span data-i18n="trust.ssl">SSL Encriptado</span>
+        </div>
+        <div class="trust-badge">
+            <span class="trust-badge-icon">💬</span>
+            <span data-i18n="trust.support">Soporte 24/7</span>
+        </div>
+        <div class="trust-badge">
+            <span class="trust-badge-icon">☁️</span>
+            <span data-i18n="trust.backup">Backup Diario</span>
+        </div>
+    </section>
+
+    <!-- TurnosMedicos Section -->
+    <section id="turnos" class="turnos">
+        <div class="wave-divider wave-divider--top">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path class="wave-fill" d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"></path>
+            </svg>
+        </div>
+
+        <div class="container">
+            <div class="turnos__header fade-in">
+                <span class="turnos__label">
+                    <span>📅</span>
+                    <span data-i18n="turnos.label">TurnosMedicos</span>
+                </span>
+                <h2 class="turnos__title">
+                    <span data-i18n="turnos.title">Sistema de Turnos </span>
+                    <span class="text-gradient">Inteligente</span>
+                </h2>
+                <p class="turnos__subtitle" data-i18n="turnos.subtitle">
+                    Automatiza la gestion de citas y reduce las ausencias hasta un 80% con recordatorios automaticos.
+                </p>
+            </div>
+
+            <div class="turnos__showcase">
+                <div class="turnos__features">
+                    <div class="turnos__feature stagger-1">
+                        <div class="turnos__feature-icon">📆</div>
+                        <div>
+                            <h4 data-i18n="turnos.features.calendar.title">Calendario Inteligente</h4>
+                            <p data-i18n="turnos.features.calendar.description">Vista diaria, semanal y mensual con sincronizacion en tiempo real.</p>
+                        </div>
+                    </div>
+
+                    <div class="turnos__feature stagger-2">
+                        <div class="turnos__feature-icon">🔔</div>
+                        <div>
+                            <h4 data-i18n="turnos.features.reminders.title">Recordatorios Automaticos</h4>
+                            <p data-i18n="turnos.features.reminders.description">WhatsApp, SMS y email para reducir ausencias significativamente.</p>
+                        </div>
+                    </div>
+
+                    <div class="turnos__feature stagger-3">
+                        <div class="turnos__feature-icon">🌐</div>
+                        <div>
+                            <h4 data-i18n="turnos.features.booking.title">Reserva Online 24/7</h4>
+                            <p data-i18n="turnos.features.booking.description">Tus pacientes reservan cuando quieran, desde cualquier dispositivo.</p>
+                        </div>
+                    </div>
+
+                    <div class="turnos__feature stagger-4">
+                        <div class="turnos__feature-icon">📋</div>
+                        <div>
+                            <h4 data-i18n="turnos.features.management.title">Gestion de Espera</h4>
+                            <p data-i18n="turnos.features.management.description">Lista de espera automatica para cancelaciones de ultimo momento.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="turnos__demo fade-in-right">
+                    <div class="turnos__demo-card">
+                        <div class="turnos__demo-header">
+                            <h4 data-i18n="turnos.demo.title">Reservar Turno</h4>
+                            <p data-i18n="turnos.demo.subtitle">Selecciona fecha y horario disponible</p>
+                        </div>
+
+                        <div class="turnos__demo-calendar">
+                            <div class="turnos__demo-days">
+                                <span class="turnos__demo-day turnos__demo-day--header">L</span>
+                                <span class="turnos__demo-day turnos__demo-day--header">M</span>
+                                <span class="turnos__demo-day turnos__demo-day--header">M</span>
+                                <span class="turnos__demo-day turnos__demo-day--header">J</span>
+                                <span class="turnos__demo-day turnos__demo-day--header">V</span>
+                                <span class="turnos__demo-day turnos__demo-day--header">S</span>
+                                <span class="turnos__demo-day turnos__demo-day--header">D</span>
+
+                                <span class="turnos__demo-day turnos__demo-day--disabled">28</span>
+                                <span class="turnos__demo-day turnos__demo-day--disabled">29</span>
+                                <span class="turnos__demo-day turnos__demo-day--disabled">30</span>
+                                <span class="turnos__demo-day turnos__demo-day--available">1</span>
+                                <span class="turnos__demo-day turnos__demo-day--available">2</span>
+                                <span class="turnos__demo-day turnos__demo-day--disabled">3</span>
+                                <span class="turnos__demo-day turnos__demo-day--disabled">4</span>
+
+                                <span class="turnos__demo-day turnos__demo-day--available">5</span>
+                                <span class="turnos__demo-day turnos__demo-day--available turnos__demo-day--selected">6</span>
+                                <span class="turnos__demo-day turnos__demo-day--available">7</span>
+                                <span class="turnos__demo-day turnos__demo-day--available">8</span>
+                                <span class="turnos__demo-day turnos__demo-day--available">9</span>
+                                <span class="turnos__demo-day turnos__demo-day--disabled">10</span>
+                                <span class="turnos__demo-day turnos__demo-day--disabled">11</span>
+
+                                <span class="turnos__demo-day turnos__demo-day--available">12</span>
+                                <span class="turnos__demo-day turnos__demo-day--available">13</span>
+                                <span class="turnos__demo-day turnos__demo-day--available">14</span>
+                                <span class="turnos__demo-day turnos__demo-day--available">15</span>
+                                <span class="turnos__demo-day turnos__demo-day--available">16</span>
+                                <span class="turnos__demo-day turnos__demo-day--disabled">17</span>
+                                <span class="turnos__demo-day turnos__demo-day--disabled">18</span>
+                            </div>
+
+                            <div class="turnos__demo-times">
+                                <span class="turnos__demo-time">09:00</span>
+                                <span class="turnos__demo-time turnos__demo-time--selected">10:30</span>
+                                <span class="turnos__demo-time">11:00</span>
+                                <span class="turnos__demo-time">14:00</span>
+                                <span class="turnos__demo-time">15:30</span>
+                                <span class="turnos__demo-time">17:00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="turnos__floating turnos__floating--1">
+                        <div class="turnos__floating-icon">
+                            <span>✓</span>
+                            <span data-i18n="turnos.floating.confirmed">Turno Confirmado</span>
+                        </div>
+                    </div>
+
+                    <div class="turnos__floating turnos__floating--2">
+                        <div class="turnos__floating-icon">
+                            <span>📱</span>
+                            <span data-i18n="turnos.floating.reminder">Recordatorio Enviado</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Timeline Section -->
+    <section id="services" class="services">
+        <div class="wave-divider wave-divider--top wave-divider--white">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path class="wave-fill" d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,googl906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+            </svg>
+        </div>
+
+        <div class="container">
+            <div class="services__header fade-in">
+                <span class="services__label">
+                    <span>⚡</span>
+                    <span data-i18n="services.label">Servicios</span>
+                </span>
+                <h2 class="services__title">
+                    <span data-i18n="services.title">Todo lo que </span>
+                    <span class="text-gradient">Necesitas</span>
+                </h2>
+                <p class="services__subtitle" data-i18n="services.subtitle">
+                    Una plataforma completa que evoluciona con tu practica medica.
+                </p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline__item">
+                    <div class="timeline__content">
+                        <div class="timeline__card">
+                            <div class="timeline__card-icon">📁</div>
+                            <h3 data-i18n="services.items.records.title">Historias Clinicas Digitales</h3>
+                            <p data-i18n="services.items.records.description">Acceso seguro a expedientes desde cualquier dispositivo. Cumple con normativas HIPAA y locales.</p>
+                        </div>
+                    </div>
+                    <div class="timeline__node">1</div>
+                    <div></div>
+                </div>
+
+                <div class="timeline__item">
+                    <div></div>
+                    <div class="timeline__node">2</div>
+                    <div class="timeline__content">
+                        <div class="timeline__card">
+                            <div class="timeline__card-icon">💳</div>
+                            <h3 data-i18n="services.items.billing.title">Facturacion Integrada</h3>
+                            <p data-i18n="services.items.billing.description">Genera facturas electronicas, gestiona cobros y conecta con obras sociales automaticamente.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline__item">
+                    <div class="timeline__content">
+                        <div class="timeline__card">
+                            <div class="timeline__card-icon">📊</div>
+                            <h3 data-i18n="services.items.analytics.title">Analiticas y Reportes</h3>
+                            <p data-i18n="services.items.analytics.description">Dashboards en tiempo real para entender tu practica y tomar mejores decisiones.</p>
+                        </div>
+                    </div>
+                    <div class="timeline__node">3</div>
+                    <div></div>
+                </div>
+
+                <div class="timeline__item">
+                    <div></div>
+                    <div class="timeline__node">4</div>
+                    <div class="timeline__content">
+                        <div class="timeline__card">
+                            <div class="timeline__card-icon">💬</div>
+                            <h3 data-i18n="services.items.communication.title">Comunicacion Multicanal</h3>
+                            <p data-i18n="services.items.communication.description">WhatsApp, email y SMS integrados para mantener contacto con tus pacientes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wave-divider wave-divider--bottom wave-divider--gradient">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path fill="url(#gradient-wave)" d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25"></path>
+                <path fill="url(#gradient-wave)" d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5"></path>
+                <path fill="url(#gradient-wave)" d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="pricing__shapes">
+            <div class="pricing__shape pricing__shape--1"></div>
+            <div class="pricing__shape pricing__shape--2"></div>
+        </div>
+
+        <div class="container">
+            <div class="pricing__header fade-in">
+                <span class="pricing__label">
+                    <span>💎</span>
+                    <span data-i18n="pricing.label">Precios Transparentes</span>
+                </span>
+                <h2 class="pricing__title" data-i18n="pricing.title">Planes para Cada Necesidad</h2>
+                <p class="pricing__subtitle" data-i18n="pricing.subtitle">Sin costos ocultos. Cancela cuando quieras.</p>
+            </div>
+
+            <div class="pricing__grid">
+                <!-- Starter Plan -->
+                <div class="pricing__card fade-in stagger-1">
+                    <div class="pricing__card-icon">🚀</div>
+                    <h3 data-i18n="pricing.plans.starter.name">Inicial</h3>
+                    <p class="pricing__card-desc" data-i18n="pricing.plans.starter.description">Perfecto para comenzar</p>
+                    <div class="pricing__card-price">
+                        <span class="amount">$<span data-i18n="pricing.plans.starter.price">0</span></span>
+                        <span class="period" data-i18n="pricing.plans.starter.period">/ mes</span>
+                    </div>
+                    <ul class="pricing__card-features">
+                        <li data-i18n="pricing.plans.starter.features.0">Hasta 50 turnos mensuales</li>
+                        <li data-i18n="pricing.plans.starter.features.1">1 profesional</li>
+                        <li data-i18n="pricing.plans.starter.features.2">Calendario basico</li>
+                        <li data-i18n="pricing.plans.starter.features.3">Recordatorios por email</li>
+                        <li data-i18n="pricing.plans.starter.features.4">Soporte por email</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--secondary" data-i18n="pricing.plans.starter.cta">Comenzar Gratis</a>
+                </div>
+
+                <!-- Professional Plan -->
+                <div class="pricing__card pricing__card--featured fade-in stagger-2">
+                    <span class="pricing__card-badge" data-i18n="pricing.plans.professional.badge">Popular</span>
+                    <div class="pricing__card-icon">⭐</div>
+                    <h3 data-i18n="pricing.plans.professional.name">Profesional</h3>
+                    <p class="pricing__card-desc" data-i18n="pricing.plans.professional.description">Para consultorios activos</p>
+                    <div class="pricing__card-price">
+                        <span class="amount">$<span data-i18n="pricing.plans.professional.price">4.900</span></span>
+                        <span class="period" data-i18n="pricing.plans.professional.period">/ mes</span>
+                    </div>
+                    <ul class="pricing__card-features">
+                        <li data-i18n="pricing.plans.professional.features.0">Turnos ilimitados</li>
+                        <li data-i18n="pricing.plans.professional.features.1">Hasta 3 profesionales</li>
+                        <li data-i18n="pricing.plans.professional.features.2">Historias clinicas</li>
+                        <li data-i18n="pricing.plans.professional.features.3">WhatsApp + SMS + Email</li>
+                        <li data-i18n="pricing.plans.professional.features.4">Facturacion electronica</li>
+                        <li data-i18n="pricing.plans.professional.features.5">Soporte prioritario</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--primary" data-i18n="pricing.plans.professional.cta">Elegir Plan</a>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="pricing__card fade-in stagger-3">
+                    <div class="pricing__card-icon">🏥</div>
+                    <h3 data-i18n="pricing.plans.enterprise.name">Clinica</h3>
+                    <p class="pricing__card-desc" data-i18n="pricing.plans.enterprise.description">Para grandes centros</p>
+                    <div class="pricing__card-price">
+                        <span class="amount">$<span data-i18n="pricing.plans.enterprise.price">12.900</span></span>
+                        <span class="period" data-i18n="pricing.plans.enterprise.period">/ mes</span>
+                    </div>
+                    <ul class="pricing__card-features">
+                        <li data-i18n="pricing.plans.enterprise.features.0">Todo en Profesional</li>
+                        <li data-i18n="pricing.plans.enterprise.features.1">Profesionales ilimitados</li>
+                        <li data-i18n="pricing.plans.enterprise.features.2">Multiples sedes</li>
+                        <li data-i18n="pricing.plans.enterprise.features.3">API personalizada</li>
+                        <li data-i18n="pricing.plans.enterprise.features.4">Gerente de cuenta dedicado</li>
+                        <li data-i18n="pricing.plans.enterprise.features.5">SLA garantizado</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--secondary" data-i18n="pricing.plans.enterprise.cta">Contactar Ventas</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="wave-divider wave-divider--bottom">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path class="wave-fill" d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about__content">
+                <div class="about__visual fade-in-left">
+                    <div class="about__image-wrapper">
+                        <div class="about__image-placeholder">
+                            <span>🏥</span>
+                        </div>
+                    </div>
+                    <div class="about__stats">
+                        <div class="about__stat">
+                            <div class="about__stat-number" data-i18n="about.stats.doctors">5.000+</div>
+                            <div class="about__stat-label" data-i18n="about.stats.doctors_label">Medicos</div>
+                        </div>
+                        <div class="about__stat">
+                            <div class="about__stat-number" data-i18n="about.stats.appointments">1M+</div>
+                            <div class="about__stat-label" data-i18n="about.stats.appointments_label">Turnos</div>
+                        </div>
+                        <div class="about__stat">
+                            <div class="about__stat-number" data-i18n="about.stats.patients">500K+</div>
+                            <div class="about__stat-label" data-i18n="about.stats.patients_label">Pacientes</div>
+                        </div>
+                        <div class="about__stat">
+                            <div class="about__stat-number" data-i18n="about.stats.uptime">99.9%</div>
+                            <div class="about__stat-label" data-i18n="about.stats.uptime_label">Uptime</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about__text fade-in-right">
+                    <span class="about__label">
+                        <span>❤️</span>
+                        <span data-i18n="about.label">Sobre Nosotros</span>
+                    </span>
+                    <h2 class="about__title" data-i18n="about.title">Construido por y para profesionales de la salud</h2>
+                    <p class="about__description" data-i18n="about.description">
+                        Nacimos de la necesidad real de simplificar la gestion medica. Nuestro equipo combina experiencia clinica con tecnologia de vanguardia para crear herramientas que realmente funcionan.
+                    </p>
+                    <div class="about__values">
+                        <div class="about__value">
+                            <div class="about__value-icon">💡</div>
+                            <span data-i18n="about.values.innovation">Innovacion constante</span>
+                        </div>
+                        <div class="about__value">
+                            <div class="about__value-icon">🔐</div>
+                            <span data-i18n="about.values.security">Seguridad garantizada</span>
+                        </div>
+                        <div class="about__value">
+                            <div class="about__value-icon">🤝</div>
+                            <span data-i18n="about.values.support">Soporte humano 24/7</span>
+                        </div>
+                        <div class="about__value">
+                            <div class="about__value-icon">📈</div>
+                            <span data-i18n="about.values.growth">Crecimiento conjunto</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="wave-divider wave-divider--top wave-divider--white">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path class="wave-fill" d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+            </svg>
+        </div>
+
+        <div class="container">
+            <div class="contact__content">
+                <div class="contact__info fade-in-left">
+                    <span class="contact__label">
+                        <span>📬</span>
+                        <span data-i18n="contact.label">Contacto</span>
+                    </span>
+                    <h2 class="contact__title" data-i18n="contact.title">Hablemos de tu Consultorio</h2>
+                    <p class="contact__description" data-i18n="contact.description">
+                        Estamos aqui para ayudarte a transformar tu practica. Agenda una demo personalizada o escribenos directamente.
+                    </p>
+
+                    <div class="contact__methods">
+                        <div class="contact__method">
+                            <div class="contact__method-icon">📞</div>
+                            <div>
+                                <h4 data-i18n="contact.methods.phone.label">Telefono</h4>
+                                <p data-i18n="contact.methods.phone.value">+54 11 5555-0123</p>
+                            </div>
+                        </div>
+                        <div class="contact__method">
+                            <div class="contact__method-icon">✉️</div>
+                            <div>
+                                <h4 data-i18n="contact.methods.email.label">Email</h4>
+                                <p data-i18n="contact.methods.email.value">hola@doctore.ar</p>
+                            </div>
+                        </div>
+                        <div class="contact__method">
+                            <div class="contact__method-icon">📍</div>
+                            <div>
+                                <h4 data-i18n="contact.methods.address.label">Oficina</h4>
+                                <p data-i18n="contact.methods.address.value">Buenos Aires, Argentina</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__form-wrapper fade-in-right">
+                    <form class="contact__form">
+                        <div class="contact__form-row">
+                            <div class="contact__form-group">
+                                <label for="name" data-i18n="contact.form.name">Nombre completo</label>
+                                <input type="text" id="name" name="name" required data-i18n="contact.form.name">
+                            </div>
+                            <div class="contact__form-group">
+                                <label for="email" data-i18n="contact.form.email">Email</label>
+                                <input type="email" id="email" name="email" required data-i18n="contact.form.email">
+                            </div>
+                        </div>
+                        <div class="contact__form-row">
+                            <div class="contact__form-group">
+                                <label for="phone" data-i18n="contact.form.phone">Telefono</label>
+                                <input type="tel" id="phone" name="phone" data-i18n="contact.form.phone">
+                            </div>
+                            <div class="contact__form-group">
+                                <label for="specialty" data-i18n="contact.form.specialty">Especialidad</label>
+                                <input type="text" id="specialty" name="specialty" data-i18n="contact.form.specialty">
+                            </div>
+                        </div>
+                        <div class="contact__form-group">
+                            <label for="message" data-i18n="contact.form.message">Tu mensaje</label>
+                            <textarea id="message" name="message" rows="5" data-i18n="contact.form.message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--lg">
+                            <span data-i18n="contact.form.submit">Enviar Mensaje</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="wave-divider wave-divider--top">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path fill="#1e293b" d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25"></path>
+                <path fill="#1e293b" d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5"></path>
+                <path fill="#1e293b" d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"></path>
+            </svg>
+        </div>
+
+        <div class="footer__content">
+            <div class="container">
+                <div class="footer__grid">
+                    <div class="footer__brand">
+                        <a href="#" class="footer__logo">
+                            <span class="footer__logo-icon">D</span>
+                            <span>Doctore.ar</span>
+                        </a>
+                        <p data-i18n="footer.description">
+                            Plataforma integral de gestion medica para profesionales de la salud en Argentina y Latinoamerica.
+                        </p>
+                        <div class="footer__social">
+                            <a href="#" class="footer__social-link" aria-label="Facebook">f</a>
+                            <a href="#" class="footer__social-link" aria-label="Twitter">t</a>
+                            <a href="#" class="footer__social-link" aria-label="LinkedIn">in</a>
+                            <a href="#" class="footer__social-link" aria-label="Instagram">ig</a>
+                        </div>
+                    </div>
+
+                    <div class="footer__column">
+                        <h4 data-i18n="footer.product.title">Producto</h4>
+                        <ul class="footer__links">
+                            <li><a href="#services" class="footer__link" data-i18n="footer.product.features">Caracteristicas</a></li>
+                            <li><a href="#pricing" class="footer__link" data-i18n="footer.product.pricing">Precios</a></li>
+                            <li><a href="#" class="footer__link" data-i18n="footer.product.integrations">Integraciones</a></li>
+                            <li><a href="#" class="footer__link" data-i18n="footer.product.updates">Actualizaciones</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__column">
+                        <h4 data-i18n="footer.company.title">Empresa</h4>
+                        <ul class="footer__links">
+                            <li><a href="#about" class="footer__link" data-i18n="footer.company.about">Nosotros</a></li>
+                            <li><a href="#" class="footer__link" data-i18n="footer.company.careers">Carreras</a></li>
+                            <li><a href="#" class="footer__link" data-i18n="footer.company.blog">Blog</a></li>
+                            <li><a href="#" class="footer__link" data-i18n="footer.company.press">Prensa</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__column">
+                        <h4 data-i18n="footer.support.title">Soporte</h4>
+                        <ul class="footer__links">
+                            <li><a href="#" class="footer__link" data-i18n="footer.support.help">Centro de Ayuda</a></li>
+                            <li><a href="#" class="footer__link" data-i18n="footer.support.docs">Documentacion</a></li>
+                            <li><a href="#" class="footer__link" data-i18n="footer.support.api">API</a></li>
+                            <li><a href="#" class="footer__link" data-i18n="footer.support.status">Estado del Sistema</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="container footer__bottom-content">
+                <p data-i18n="footer.copyright">&copy; 2024 Doctore.ar. Todos los derechos reservados.</p>
+                <div class="footer__legal">
+                    <a href="#" data-i18n="footer.legal.privacy">Privacidad</a>
+                    <a href="#" data-i18n="footer.legal.terms">Terminos</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>

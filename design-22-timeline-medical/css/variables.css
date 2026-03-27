@@ -1,0 +1,166 @@
+/* ============================================
+   DESIGN 22 - TIMELINE MEDICAL
+   CSS Variables
+   Hybrid: Timeline + Medical + Gradient Wave
+   ============================================ */
+
+:root {
+    /* === PRIMARY COLORS === */
+    --color-primary: #0ea5e9;
+    --color-primary-light: #38bdf8;
+    --color-primary-dark: #0284c7;
+    --color-primary-rgb: 14, 165, 233;
+
+    /* === SECONDARY COLORS === */
+    --color-secondary: #14b8a6;
+    --color-secondary-light: #2dd4bf;
+    --color-secondary-dark: #0d9488;
+    --color-secondary-rgb: 20, 184, 166;
+
+    /* === MEDICAL ACCENT COLORS === */
+    --color-mint: #a7f3d0;
+    --color-mint-light: #d1fae5;
+    --color-mint-dark: #6ee7b7;
+
+    --color-lavender: #ddd6fe;
+    --color-lavender-light: #ede9fe;
+    --color-lavender-dark: #c4b5fd;
+
+    --color-peach: #fed7aa;
+    --color-peach-light: #ffedd5;
+    --color-peach-dark: #fdba74;
+
+    /* === NEUTRAL COLORS === */
+    --color-white: #ffffff;
+    --color-gray-50: #f9fafb;
+    --color-gray-100: #f3f4f6;
+    --color-gray-200: #e5e7eb;
+    --color-gray-300: #d1d5db;
+    --color-gray-400: #9ca3af;
+    --color-gray-500: #6b7280;
+    --color-gray-600: #4b5563;
+    --color-gray-700: #374151;
+    --color-gray-800: #1f2937;
+    --color-gray-900: #111827;
+
+    /* === SURFACE COLORS (Warm) === */
+    --surface-primary: #fffbf7;
+    --surface-secondary: #fef7f0;
+    --surface-tertiary: #fdf4ed;
+    --surface-card: #ffffff;
+    --surface-elevated: #ffffff;
+
+    /* === GRADIENT DEFINITIONS === */
+    --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+    --gradient-primary-soft: linear-gradient(135deg, rgba(var(--color-primary-rgb), 0.1) 0%, rgba(var(--color-secondary-rgb), 0.1) 100%);
+    --gradient-hero: linear-gradient(180deg, var(--surface-primary) 0%, var(--color-mint-light) 50%, var(--surface-secondary) 100%);
+    --gradient-wave-1: linear-gradient(180deg, var(--color-mint-light) 0%, var(--surface-primary) 100%);
+    --gradient-wave-2: linear-gradient(180deg, var(--surface-primary) 0%, var(--color-lavender-light) 100%);
+    --gradient-wave-3: linear-gradient(180deg, var(--color-lavender-light) 0%, var(--color-peach-light) 100%);
+    --gradient-timeline: linear-gradient(180deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+
+    /* === TYPOGRAPHY === */
+    --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-family-heading: 'Poppins', var(--font-family-primary);
+
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 1.875rem;
+    --font-size-4xl: 2.25rem;
+    --font-size-5xl: 3rem;
+    --font-size-6xl: 3.75rem;
+
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    --line-height-tight: 1.25;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+
+    /* === SPACING === */
+    --spacing-1: 0.25rem;
+    --spacing-2: 0.5rem;
+    --spacing-3: 0.75rem;
+    --spacing-4: 1rem;
+    --spacing-5: 1.25rem;
+    --spacing-6: 1.5rem;
+    --spacing-8: 2rem;
+    --spacing-10: 2.5rem;
+    --spacing-12: 3rem;
+    --spacing-16: 4rem;
+    --spacing-20: 5rem;
+    --spacing-24: 6rem;
+    --spacing-32: 8rem;
+
+    /* === BORDER RADIUS === */
+    --radius-sm: 0.375rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 0.75rem;
+    --radius-xl: 1rem;
+    --radius-2xl: 1.5rem;
+    --radius-3xl: 2rem;
+    --radius-full: 9999px;
+
+    /* === SHADOWS (Soft Medical Style) === */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+    --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+    --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.06);
+    --shadow-card-hover: 0 8px 30px rgba(0, 0, 0, 0.1);
+    --shadow-timeline-node: 0 0 0 4px var(--surface-primary), 0 0 20px rgba(var(--color-primary-rgb), 0.3);
+
+    /* === TRANSITIONS === */
+    --transition-fast: 150ms ease;
+    --transition-base: 250ms ease;
+    --transition-slow: 350ms ease;
+    --transition-slower: 500ms ease;
+
+    /* === Z-INDEX === */
+    --z-base: 1;
+    --z-dropdown: 10;
+    --z-sticky: 50;
+    --z-fixed: 100;
+    --z-modal-backdrop: 200;
+    --z-modal: 300;
+    --z-tooltip: 400;
+
+    /* === LAYOUT === */
+    --container-max-width: 1280px;
+    --container-padding: var(--spacing-6);
+    --header-height: 5rem;
+    --timeline-width: 4px;
+    --timeline-node-size: 1.25rem;
+    --timeline-node-size-lg: 2rem;
+    --wave-height: 100px;
+
+    /* === BREAKPOINTS (for reference) === */
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+}
+
+/* === RESPONSIVE ADJUSTMENTS === */
+@media (min-width: 768px) {
+    :root {
+        --container-padding: var(--spacing-8);
+        --timeline-node-size: 1.5rem;
+        --timeline-node-size-lg: 2.5rem;
+        --wave-height: 150px;
+    }
+}
+
+@media (min-width: 1024px) {
+    :root {
+        --container-padding: var(--spacing-12);
+        --wave-height: 200px;
+    }
+}

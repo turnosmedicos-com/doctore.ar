@@ -1,0 +1,213 @@
+{
+    "nav": {
+        "services": "Services",
+        "pricing": "Pricing",
+        "about": "About",
+        "contact": "Contact",
+        "demo": "View Demo"
+    },
+    "hero": {
+        "badge": "#1 Platform in Argentina",
+        "title": "Manage your practice with intelligence",
+        "subtitle": "Automate appointments, medical records, and billing. Everything integrated into a single platform designed for healthcare professionals.",
+        "cta_primary": "Start Free",
+        "cta_secondary": "See How It Works",
+        "card": {
+            "doctor": "Dr. Maria Garcia",
+            "specialty": "Cardiology",
+            "available": "Available",
+            "booked": "Booked"
+        }
+    },
+    "turnos": {
+        "label": "TurnosMedicos",
+        "title": "Smart Appointment System",
+        "subtitle": "Automate appointment management and reduce no-shows by up to 80% with automatic reminders.",
+        "features": {
+            "calendar": {
+                "title": "Smart Calendar",
+                "description": "Daily, weekly, and monthly views with real-time synchronization."
+            },
+            "reminders": {
+                "title": "Automatic Reminders",
+                "description": "WhatsApp, SMS, and email to significantly reduce no-shows."
+            },
+            "booking": {
+                "title": "24/7 Online Booking",
+                "description": "Your patients book whenever they want, from any device."
+            },
+            "management": {
+                "title": "Waitlist Management",
+                "description": "Automatic waitlist for last-minute cancellations."
+            }
+        },
+        "demo": {
+            "title": "Book Appointment",
+            "subtitle": "Select available date and time",
+            "days": ["M", "T", "W", "T", "F", "S", "S"]
+        },
+        "floating": {
+            "confirmed": "Appointment Confirmed",
+            "reminder": "Reminder Sent"
+        }
+    },
+    "services": {
+        "label": "Services",
+        "title": "Everything You Need",
+        "subtitle": "A complete platform that evolves with your medical practice.",
+        "items": {
+            "records": {
+                "title": "Digital Medical Records",
+                "description": "Secure access to records from any device. HIPAA and local regulation compliant."
+            },
+            "billing": {
+                "title": "Integrated Billing",
+                "description": "Generate electronic invoices, manage payments, and connect with insurance automatically."
+            },
+            "analytics": {
+                "title": "Analytics & Reports",
+                "description": "Real-time dashboards to understand your practice and make better decisions."
+            },
+            "communication": {
+                "title": "Multichannel Communication",
+                "description": "Integrated WhatsApp, email, and SMS to keep in touch with your patients."
+            }
+        }
+    },
+    "pricing": {
+        "label": "Transparent Pricing",
+        "title": "Plans for Every Need",
+        "subtitle": "No hidden costs. Cancel anytime.",
+        "plans": {
+            "starter": {
+                "name": "Starter",
+                "description": "Perfect to get started",
+                "price": "0",
+                "period": "/ month",
+                "features": [
+                    "Up to 50 monthly appointments",
+                    "1 professional",
+                    "Basic calendar",
+                    "Email reminders",
+                    "Email support"
+                ],
+                "cta": "Start Free"
+            },
+            "professional": {
+                "name": "Professional",
+                "description": "For active practices",
+                "price": "4,900",
+                "period": "/ month",
+                "badge": "Popular",
+                "features": [
+                    "Unlimited appointments",
+                    "Up to 3 professionals",
+                    "Medical records",
+                    "WhatsApp + SMS + Email",
+                    "Electronic billing",
+                    "Priority support"
+                ],
+                "cta": "Choose Plan"
+            },
+            "enterprise": {
+                "name": "Clinic",
+                "description": "For large centers",
+                "price": "12,900",
+                "period": "/ month",
+                "features": [
+                    "Everything in Professional",
+                    "Unlimited professionals",
+                    "Multiple locations",
+                    "Custom API",
+                    "Dedicated account manager",
+                    "Guaranteed SLA"
+                ],
+                "cta": "Contact Sales"
+            }
+        }
+    },
+    "about": {
+        "label": "About Us",
+        "title": "Built by and for healthcare professionals",
+        "description": "We were born from the real need to simplify medical management. Our team combines clinical experience with cutting-edge technology to create tools that really work.",
+        "values": {
+            "innovation": "Constant innovation",
+            "security": "Guaranteed security",
+            "support": "24/7 human support",
+            "growth": "Growing together"
+        },
+        "stats": {
+            "doctors": "5,000+",
+            "doctors_label": "Doctors",
+            "appointments": "1M+",
+            "appointments_label": "Appointments",
+            "patients": "500K+",
+            "patients_label": "Patients",
+            "uptime": "99.9%",
+            "uptime_label": "Uptime"
+        }
+    },
+    "contact": {
+        "label": "Contact",
+        "title": "Let's Talk About Your Practice",
+        "description": "We're here to help you transform your practice. Schedule a personalized demo or write to us directly.",
+        "methods": {
+            "phone": {
+                "label": "Phone",
+                "value": "+54 11 5555-0123"
+            },
+            "email": {
+                "label": "Email",
+                "value": "hello@doctore.ar"
+            },
+            "address": {
+                "label": "Office",
+                "value": "Buenos Aires, Argentina"
+            }
+        },
+        "form": {
+            "name": "Full name",
+            "email": "Email",
+            "phone": "Phone",
+            "specialty": "Specialty",
+            "message": "Your message",
+            "submit": "Send Message"
+        },
+        "success": "Message sent! We'll contact you soon."
+    },
+    "trust": {
+        "hipaa": "HIPAA Compliant",
+        "ssl": "SSL Encrypted",
+        "support": "24/7 Support",
+        "backup": "Daily Backup"
+    },
+    "footer": {
+        "description": "Comprehensive medical management platform for healthcare professionals in Argentina and Latin America.",
+        "product": {
+            "title": "Product",
+            "features": "Features",
+            "pricing": "Pricing",
+            "integrations": "Integrations",
+            "updates": "Updates"
+        },
+        "company": {
+            "title": "Company",
+            "about": "About Us",
+            "careers": "Careers",
+            "blog": "Blog",
+            "press": "Press"
+        },
+        "support": {
+            "title": "Support",
+            "help": "Help Center",
+            "docs": "Documentation",
+            "api": "API",
+            "status": "System Status"
+        },
+        "legal": {
+            "privacy": "Privacy",
+            "terms": "Terms"
+        },
+        "copyright": "© 2024 Doctore.ar. All rights reserved."
+    }
+}

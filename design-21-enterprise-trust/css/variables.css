@@ -1,0 +1,296 @@
+/* ============================================
+   DOCTORE.AR - DESIGN 21: ENTERPRISE TRUST
+   CSS Variables
+   Hybrid: Enterprise + Medical + Dashboard
+   ============================================ */
+
+:root {
+    /* ========================================
+       PRIMARY COLORS - Corporate Navy
+       From: design-16-enterprise
+       ======================================== */
+    --color-primary: #1e3a5f;
+    --color-primary-light: #2d4a6f;
+    --color-primary-dark: #152a47;
+    --color-primary-50: #f0f4f8;
+    --color-primary-100: #dbe4ed;
+    --color-primary-200: #b7c9db;
+    --color-primary-300: #8aa4c0;
+    --color-primary-400: #5d7fa5;
+    --color-primary-500: #3a5a80;
+    --color-primary-600: #1e3a5f;
+    --color-primary-700: #152a47;
+    --color-primary-800: #0d1a2f;
+    --color-primary-900: #060b17;
+
+    /* ========================================
+       SECONDARY COLORS - Teal
+       From: design-12-dashboard
+       ======================================== */
+    --color-secondary: #14b8a6;
+    --color-secondary-light: #2dd4bf;
+    --color-secondary-dark: #0d9488;
+    --color-secondary-50: #f0fdfa;
+    --color-secondary-100: #ccfbf1;
+    --color-secondary-200: #99f6e4;
+    --color-secondary-300: #5eead4;
+    --color-secondary-400: #2dd4bf;
+    --color-secondary-500: #14b8a6;
+    --color-secondary-600: #0d9488;
+    --color-secondary-700: #0f766e;
+    --color-secondary-800: #115e59;
+    --color-secondary-900: #134e4a;
+
+    /* ========================================
+       ACCENT COLORS - Medical Warmth
+       From: design-2-medical
+       ======================================== */
+    --color-accent-mint: #a7f3d0;
+    --color-accent-mint-light: #d1fae5;
+    --color-accent-mint-dark: #6ee7b7;
+    --color-accent-peach: #fed7aa;
+    --color-accent-peach-light: #ffedd5;
+    --color-accent-peach-dark: #fdba74;
+
+    /* ========================================
+       NEUTRAL COLORS
+       ======================================== */
+    --color-white: #ffffff;
+    --color-gray-50: #f9fafb;
+    --color-gray-100: #f3f4f6;
+    --color-gray-200: #e5e7eb;
+    --color-gray-300: #d1d5db;
+    --color-gray-400: #9ca3af;
+    --color-gray-500: #6b7280;
+    --color-gray-600: #4b5563;
+    --color-gray-700: #374151;
+    --color-gray-800: #1f2937;
+    --color-gray-900: #111827;
+
+    /* ========================================
+       SEMANTIC COLORS
+       ======================================== */
+    --color-success: #22c55e;
+    --color-success-light: #86efac;
+    --color-success-dark: #16a34a;
+    --color-warning: #f59e0b;
+    --color-warning-light: #fcd34d;
+    --color-warning-dark: #d97706;
+    --color-error: #ef4444;
+    --color-error-light: #fca5a5;
+    --color-error-dark: #dc2626;
+    --color-info: #3b82f6;
+    --color-info-light: #93c5fd;
+    --color-info-dark: #2563eb;
+
+    /* ========================================
+       BACKGROUND COLORS
+       ======================================== */
+    --bg-body: #faf9f7;
+    --bg-warm: #fdfcfb;
+    --bg-section: var(--color-white);
+    --bg-section-alt: var(--color-gray-50);
+    --bg-dark: var(--color-primary);
+    --bg-card: var(--color-white);
+    --bg-widget: var(--color-white);
+
+    /* ========================================
+       TEXT COLORS
+       ======================================== */
+    --text-primary: var(--color-gray-900);
+    --text-secondary: var(--color-gray-600);
+    --text-tertiary: var(--color-gray-500);
+    --text-inverse: var(--color-white);
+    --text-muted: var(--color-gray-400);
+    --text-heading: var(--color-primary);
+
+    /* ========================================
+       TYPOGRAPHY
+       ======================================== */
+    --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    --font-family-display: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-family-mono: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+
+    /* Font Sizes */
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 3rem;
+    --text-6xl: 3.75rem;
+
+    /* Font Weights */
+    --font-light: 300;
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+    --font-extrabold: 800;
+
+    /* Line Heights */
+    --leading-none: 1;
+    --leading-tight: 1.25;
+    --leading-snug: 1.375;
+    --leading-normal: 1.5;
+    --leading-relaxed: 1.625;
+    --leading-loose: 2;
+
+    /* Letter Spacing */
+    --tracking-tighter: -0.05em;
+    --tracking-tight: -0.025em;
+    --tracking-normal: 0;
+    --tracking-wide: 0.025em;
+    --tracking-wider: 0.05em;
+    --tracking-widest: 0.1em;
+
+    /* ========================================
+       SPACING
+       ======================================== */
+    --space-0: 0;
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+    --space-20: 5rem;
+    --space-24: 6rem;
+    --space-32: 8rem;
+    --space-40: 10rem;
+    --space-48: 12rem;
+
+    /* ========================================
+       LAYOUT
+       ======================================== */
+    --container-sm: 640px;
+    --container-md: 768px;
+    --container-lg: 1024px;
+    --container-xl: 1280px;
+    --container-2xl: 1440px;
+    --container-padding: var(--space-6);
+
+    /* 12 Column Grid from Enterprise */
+    --grid-columns: 12;
+    --grid-gap: var(--space-6);
+
+    /* Navigation */
+    --nav-height: 80px;
+    --nav-height-mobile: 70px;
+
+    /* ========================================
+       BORDERS
+       ======================================== */
+    --border-width-1: 1px;
+    --border-width-2: 2px;
+    --border-width-3: 3px;
+    --border-color: var(--color-gray-200);
+    --border-color-light: var(--color-gray-100);
+    --border-color-dark: var(--color-gray-300);
+
+    /* Border Radius - Soft curves from Medical */
+    --radius-none: 0;
+    --radius-sm: 0.25rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 0.75rem;
+    --radius-xl: 1rem;
+    --radius-2xl: 1.5rem;
+    --radius-3xl: 2rem;
+    --radius-full: 9999px;
+
+    /* ========================================
+       SHADOWS - Soft from Medical
+       ======================================== */
+    --shadow-xs: 0 1px 2px 0 rgba(30, 58, 95, 0.03);
+    --shadow-sm: 0 1px 3px 0 rgba(30, 58, 95, 0.05), 0 1px 2px -1px rgba(30, 58, 95, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(30, 58, 95, 0.07), 0 2px 4px -2px rgba(30, 58, 95, 0.05);
+    --shadow-lg: 0 10px 15px -3px rgba(30, 58, 95, 0.08), 0 4px 6px -4px rgba(30, 58, 95, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(30, 58, 95, 0.1), 0 8px 10px -6px rgba(30, 58, 95, 0.05);
+    --shadow-2xl: 0 25px 50px -12px rgba(30, 58, 95, 0.15);
+    --shadow-inner: inset 0 2px 4px 0 rgba(30, 58, 95, 0.05);
+
+    /* Glow shadows */
+    --shadow-glow-primary: 0 0 30px rgba(30, 58, 95, 0.15);
+    --shadow-glow-secondary: 0 0 30px rgba(20, 184, 166, 0.2);
+    --shadow-glow-mint: 0 0 30px rgba(167, 243, 208, 0.3);
+
+    /* Card shadows - Soft and warm */
+    --shadow-card: 0 2px 8px -2px rgba(30, 58, 95, 0.06), 0 4px 16px -4px rgba(30, 58, 95, 0.08);
+    --shadow-card-hover: 0 8px 24px -8px rgba(30, 58, 95, 0.12), 0 16px 40px -12px rgba(30, 58, 95, 0.1);
+
+    /* ========================================
+       TRANSITIONS
+       ======================================== */
+    --transition-fast: 150ms ease;
+    --transition-default: 250ms ease;
+    --transition-slow: 350ms ease;
+    --transition-bounce: 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    /* ========================================
+       Z-INDEX SCALE
+       ======================================== */
+    --z-base: 0;
+    --z-dropdown: 100;
+    --z-sticky: 200;
+    --z-fixed: 300;
+    --z-modal-backdrop: 400;
+    --z-modal: 500;
+    --z-popover: 600;
+    --z-tooltip: 700;
+    --z-max: 9999;
+
+    /* ========================================
+       BUTTON STYLES
+       ======================================== */
+    --btn-padding-x: var(--space-6);
+    --btn-padding-y: var(--space-3);
+    --btn-font-size: var(--text-sm);
+    --btn-font-weight: var(--font-semibold);
+    --btn-radius: var(--radius-lg);
+
+    /* ========================================
+       FORM STYLES
+       ======================================== */
+    --input-padding-x: var(--space-4);
+    --input-padding-y: var(--space-3);
+    --input-border-color: var(--color-gray-300);
+    --input-border-radius: var(--radius-lg);
+    --input-focus-ring: 0 0 0 3px rgba(20, 184, 166, 0.15);
+
+    /* ========================================
+       WIDGET STYLES (Dashboard)
+       ======================================== */
+    --widget-padding: var(--space-6);
+    --widget-radius: var(--radius-xl);
+    --widget-bg: var(--color-white);
+    --widget-border: var(--border-color-light);
+}
+
+/* ============================================
+   RESPONSIVE BREAKPOINTS
+   ============================================ */
+@media (min-width: 640px) {
+    :root {
+        --container-padding: var(--space-8);
+    }
+}
+
+@media (min-width: 1024px) {
+    :root {
+        --nav-height: 88px;
+        --container-padding: var(--space-12);
+    }
+}
+
+@media (min-width: 1280px) {
+    :root {
+        --container-padding: var(--space-16);
+    }
+}

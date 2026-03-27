@@ -1,0 +1,213 @@
+{
+    "nav": {
+        "services": "Servicios",
+        "pricing": "Precios",
+        "about": "Nosotros",
+        "contact": "Contacto",
+        "demo": "Ver Demo"
+    },
+    "hero": {
+        "badge": "Plataforma #1 en Argentina",
+        "title": "Gestiona tu consultorio con inteligencia",
+        "subtitle": "Automatiza turnos, historiales clinicos y facturacion. Todo integrado en una sola plataforma diseñada para profesionales de la salud.",
+        "cta_primary": "Comenzar Gratis",
+        "cta_secondary": "Ver Como Funciona",
+        "card": {
+            "doctor": "Dr. Maria Garcia",
+            "specialty": "Cardiologia",
+            "available": "Disponible",
+            "booked": "Reservado"
+        }
+    },
+    "turnos": {
+        "label": "TurnosMedicos",
+        "title": "Sistema de Turnos Inteligente",
+        "subtitle": "Automatiza la gestion de citas y reduce las ausencias hasta un 80% con recordatorios automaticos.",
+        "features": {
+            "calendar": {
+                "title": "Calendario Inteligente",
+                "description": "Vista diaria, semanal y mensual con sincronizacion en tiempo real."
+            },
+            "reminders": {
+                "title": "Recordatorios Automaticos",
+                "description": "WhatsApp, SMS y email para reducir ausencias significativamente."
+            },
+            "booking": {
+                "title": "Reserva Online 24/7",
+                "description": "Tus pacientes reservan cuando quieran, desde cualquier dispositivo."
+            },
+            "management": {
+                "title": "Gestion de Espera",
+                "description": "Lista de espera automatica para cancelaciones de ultimo momento."
+            }
+        },
+        "demo": {
+            "title": "Reservar Turno",
+            "subtitle": "Selecciona fecha y horario disponible",
+            "days": ["L", "M", "M", "J", "V", "S", "D"]
+        },
+        "floating": {
+            "confirmed": "Turno Confirmado",
+            "reminder": "Recordatorio Enviado"
+        }
+    },
+    "services": {
+        "label": "Servicios",
+        "title": "Todo lo que Necesitas",
+        "subtitle": "Una plataforma completa que evoluciona con tu practica medica.",
+        "items": {
+            "records": {
+                "title": "Historias Clinicas Digitales",
+                "description": "Acceso seguro a expedientes desde cualquier dispositivo. Cumple con normativas HIPAA y locales."
+            },
+            "billing": {
+                "title": "Facturacion Integrada",
+                "description": "Genera facturas electronicas, gestiona cobros y conecta con obras sociales automaticamente."
+            },
+            "analytics": {
+                "title": "Analiticas y Reportes",
+                "description": "Dashboards en tiempo real para entender tu practica y tomar mejores decisiones."
+            },
+            "communication": {
+                "title": "Comunicacion Multicanal",
+                "description": "WhatsApp, email y SMS integrados para mantener contacto con tus pacientes."
+            }
+        }
+    },
+    "pricing": {
+        "label": "Precios Transparentes",
+        "title": "Planes para Cada Necesidad",
+        "subtitle": "Sin costos ocultos. Cancela cuando quieras.",
+        "plans": {
+            "starter": {
+                "name": "Inicial",
+                "description": "Perfecto para comenzar",
+                "price": "0",
+                "period": "/ mes",
+                "features": [
+                    "Hasta 50 turnos mensuales",
+                    "1 profesional",
+                    "Calendario basico",
+                    "Recordatorios por email",
+                    "Soporte por email"
+                ],
+                "cta": "Comenzar Gratis"
+            },
+            "professional": {
+                "name": "Profesional",
+                "description": "Para consultorios activos",
+                "price": "4.900",
+                "period": "/ mes",
+                "badge": "Popular",
+                "features": [
+                    "Turnos ilimitados",
+                    "Hasta 3 profesionales",
+                    "Historias clinicas",
+                    "WhatsApp + SMS + Email",
+                    "Facturacion electronica",
+                    "Soporte prioritario"
+                ],
+                "cta": "Elegir Plan"
+            },
+            "enterprise": {
+                "name": "Clinica",
+                "description": "Para grandes centros",
+                "price": "12.900",
+                "period": "/ mes",
+                "features": [
+                    "Todo en Profesional",
+                    "Profesionales ilimitados",
+                    "Multiples sedes",
+                    "API personalizada",
+                    "Gerente de cuenta dedicado",
+                    "SLA garantizado"
+                ],
+                "cta": "Contactar Ventas"
+            }
+        }
+    },
+    "about": {
+        "label": "Sobre Nosotros",
+        "title": "Construido por y para profesionales de la salud",
+        "description": "Nacimos de la necesidad real de simplificar la gestion medica. Nuestro equipo combina experiencia clinica con tecnologia de vanguardia para crear herramientas que realmente funcionan.",
+        "values": {
+            "innovation": "Innovacion constante",
+            "security": "Seguridad garantizada",
+            "support": "Soporte humano 24/7",
+            "growth": "Crecimiento conjunto"
+        },
+        "stats": {
+            "doctors": "5.000+",
+            "doctors_label": "Medicos",
+            "appointments": "1M+",
+            "appointments_label": "Turnos",
+            "patients": "500K+",
+            "patients_label": "Pacientes",
+            "uptime": "99.9%",
+            "uptime_label": "Uptime"
+        }
+    },
+    "contact": {
+        "label": "Contacto",
+        "title": "Hablemos de tu Consultorio",
+        "description": "Estamos aqui para ayudarte a transformar tu practica. Agenda una demo personalizada o escribenos directamente.",
+        "methods": {
+            "phone": {
+                "label": "Telefono",
+                "value": "+54 11 5555-0123"
+            },
+            "email": {
+                "label": "Email",
+                "value": "hola@doctore.ar"
+            },
+            "address": {
+                "label": "Oficina",
+                "value": "Buenos Aires, Argentina"
+            }
+        },
+        "form": {
+            "name": "Nombre completo",
+            "email": "Email",
+            "phone": "Telefono",
+            "specialty": "Especialidad",
+            "message": "Tu mensaje",
+            "submit": "Enviar Mensaje"
+        },
+        "success": "¡Mensaje enviado! Te contactaremos pronto."
+    },
+    "trust": {
+        "hipaa": "HIPAA Compliant",
+        "ssl": "SSL Encriptado",
+        "support": "Soporte 24/7",
+        "backup": "Backup Diario"
+    },
+    "footer": {
+        "description": "Plataforma integral de gestion medica para profesionales de la salud en Argentina y Latinoamerica.",
+        "product": {
+            "title": "Producto",
+            "features": "Caracteristicas",
+            "pricing": "Precios",
+            "integrations": "Integraciones",
+            "updates": "Actualizaciones"
+        },
+        "company": {
+            "title": "Empresa",
+            "about": "Nosotros",
+            "careers": "Carreras",
+            "blog": "Blog",
+            "press": "Prensa"
+        },
+        "support": {
+            "title": "Soporte",
+            "help": "Centro de Ayuda",
+            "docs": "Documentacion",
+            "api": "API",
+            "status": "Estado del Sistema"
+        },
+        "legal": {
+            "privacy": "Privacidad",
+            "terms": "Terminos"
+        },
+        "copyright": "© 2024 Doctore.ar. Todos los derechos reservados."
+    }
+}

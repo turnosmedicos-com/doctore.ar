@@ -1,0 +1,174 @@
+/* ==========================================================================
+   Design 23 - Narrative Mono (Hybrid)
+   CSS Variables
+   Combines: Narrative (5) + Mono (19) + Enterprise (16)
+   ========================================================================== */
+
+:root {
+    /* ===== MONOCHROME PALETTE ===== */
+    /* Pure values */
+    --color-black: #0a0a0a;
+    --color-white: #ffffff;
+
+    /* Dark grays */
+    --color-gray-950: #0a0a0a;
+    --color-gray-900: #171717;
+    --color-gray-800: #262626;
+    --color-gray-700: #404040;
+
+    /* Mid grays */
+    --color-gray-600: #525252;
+    --color-gray-500: #737373;
+    --color-gray-400: #a3a3a3;
+
+    /* Light grays */
+    --color-gray-300: #d4d4d4;
+    --color-gray-200: #e5e5e5;
+    --color-gray-100: #f5f5f5;
+    --color-gray-50: #fafafa;
+
+    /* ===== SINGLE ACCENT COLOR ===== */
+    /* Used ONLY on CTAs and key highlights */
+    --color-accent: #0ea5e9;
+    --color-accent-hover: #0284c7;
+    --color-accent-light: rgba(14, 165, 233, 0.1);
+    --color-accent-subtle: rgba(14, 165, 233, 0.05);
+    --color-accent-rgb: 14, 165, 233;
+
+    /* ===== SEMANTIC COLORS ===== */
+    --color-text-primary: var(--color-gray-900);
+    --color-text-secondary: var(--color-gray-600);
+    --color-text-muted: var(--color-gray-500);
+    --color-text-inverse: var(--color-white);
+
+    --color-bg-primary: var(--color-white);
+    --color-bg-secondary: var(--color-gray-50);
+    --color-bg-tertiary: var(--color-gray-100);
+    --color-bg-dark: var(--color-gray-900);
+    --color-bg-black: var(--color-black);
+
+    --color-border: var(--color-gray-200);
+    --color-border-dark: var(--color-gray-300);
+    --color-border-light: var(--color-gray-100);
+
+    /* Error color for problem cards */
+    --color-error: var(--color-gray-500);
+    --color-error-bg: var(--color-gray-100);
+
+    /* ===== TYPOGRAPHY ===== */
+    --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-family-display: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+    /* Font Sizes - Fluid Typography using clamp() */
+    --font-size-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+    --font-size-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+    --font-size-base: clamp(1rem, 0.9rem + 0.5vw, 1.125rem);
+    --font-size-lg: clamp(1.125rem, 1rem + 0.625vw, 1.25rem);
+    --font-size-xl: clamp(1.25rem, 1.1rem + 0.75vw, 1.5rem);
+    --font-size-2xl: clamp(1.5rem, 1.25rem + 1.25vw, 2rem);
+    --font-size-3xl: clamp(1.875rem, 1.5rem + 1.875vw, 2.5rem);
+    --font-size-4xl: clamp(2.25rem, 1.75rem + 2.5vw, 3.5rem);
+    --font-size-5xl: clamp(3rem, 2rem + 5vw, 4.5rem);
+    --font-size-6xl: clamp(3.75rem, 2.5rem + 6.25vw, 6rem);
+
+    /* Font Weights */
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+    --font-weight-black: 900;
+
+    /* Line Heights */
+    --line-height-tight: 1.1;
+    --line-height-snug: 1.25;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.625;
+    --line-height-loose: 2;
+
+    /* Letter Spacing */
+    --letter-spacing-tight: -0.025em;
+    --letter-spacing-normal: 0;
+    --letter-spacing-wide: 0.025em;
+    --letter-spacing-wider: 0.05em;
+    --letter-spacing-widest: 0.1em;
+
+    /* ===== SPACING ===== */
+    --spacing-0: 0;
+    --spacing-1: 0.25rem;
+    --spacing-2: 0.5rem;
+    --spacing-3: 0.75rem;
+    --spacing-4: 1rem;
+    --spacing-5: 1.25rem;
+    --spacing-6: 1.5rem;
+    --spacing-8: 2rem;
+    --spacing-10: 2.5rem;
+    --spacing-12: 3rem;
+    --spacing-16: 4rem;
+    --spacing-20: 5rem;
+    --spacing-24: 6rem;
+    --spacing-32: 8rem;
+    --spacing-40: 10rem;
+
+    /* Section Spacing */
+    --section-padding-y: clamp(5rem, 10vw, 8rem);
+
+    /* ===== LAYOUT ===== */
+    --container-max-width: 1280px;
+    --container-padding: clamp(1.5rem, 5vw, 2rem);
+    --content-max-width: 720px;
+    --nav-height: 80px;
+
+    /* ===== BORDERS ===== */
+    --border-width-thin: 1px;
+    --border-width-medium: 2px;
+    --border-width-thick: 4px;
+
+    --radius-none: 0;
+    --radius-sm: 0.25rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 0.75rem;
+    --radius-xl: 1rem;
+    --radius-2xl: 1.5rem;
+    --radius-3xl: 2rem;
+    --radius-full: 9999px;
+
+    /* ===== SHADOWS ===== */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+    /* Accent Shadow - for CTAs only */
+    --shadow-accent: 0 4px 14px 0 rgba(14, 165, 233, 0.3);
+    --shadow-accent-lg: 0 10px 30px 0 rgba(14, 165, 233, 0.35);
+
+    /* ===== TRANSITIONS ===== */
+    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slower: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Animation */
+    --animation-duration: 0.6s;
+    --animation-timing: cubic-bezier(0.16, 1, 0.3, 1);
+
+    /* ===== Z-INDEX ===== */
+    --z-dropdown: 100;
+    --z-sticky: 200;
+    --z-fixed: 300;
+    --z-modal-backdrop: 400;
+    --z-modal: 500;
+}
+
+/* ===== DARK SECTION OVERRIDES ===== */
+.section--dark {
+    --color-text-primary: var(--color-white);
+    --color-text-secondary: var(--color-gray-300);
+    --color-text-muted: var(--color-gray-400);
+    --color-border: var(--color-gray-700);
+    --color-border-light: var(--color-gray-800);
+    --color-bg-primary: var(--color-gray-900);
+}
