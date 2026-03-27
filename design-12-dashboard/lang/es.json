@@ -5,9 +5,7 @@
     "services": "Servicios",
     "pricing": "Precios",
     "about": "Nosotros",
-    "contact": "Contacto",
-    "login": "Iniciar Sesion",
-    "getStarted": "Comenzar"
+    "contact": "Contacto"
   },
   "hero": {
     "badge": "Plataforma de Gestion Medica",

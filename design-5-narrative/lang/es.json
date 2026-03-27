@@ -3,9 +3,7 @@
     "title": "doctore.ar - Transformamos tu Consultorio Medico",
     "description": "Plataforma integral para la gestion de consultorios medicos. Turnos, facturacion, red de derivaciones y consultoria para profesionales de la salud."
   },
-  "nav": {
-    "cta": "Comenzar Ahora"
-  },
+  "nav": {},
   "hero": {
     "badge": "Una nueva era para tu consultorio",
     "title": "Tu practica medica merece algo mejor",

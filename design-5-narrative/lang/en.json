@@ -3,9 +3,7 @@
     "title": "doctore.ar - Transforming Your Medical Practice",
     "description": "Comprehensive platform for medical practice management. Appointments, billing, referral network and consulting for healthcare professionals."
   },
-  "nav": {
-    "cta": "Get Started"
-  },
+  "nav": {},
   "hero": {
     "badge": "A new era for your practice",
     "title": "Your medical practice deserves better",

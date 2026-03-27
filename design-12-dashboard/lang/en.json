@@ -5,9 +5,7 @@
     "services": "Services",
     "pricing": "Pricing",
     "about": "About",
-    "contact": "Contact",
-    "login": "Log In",
-    "getStarted": "Get Started"
+    "contact": "Contact"
   },
   "hero": {
     "badge": "Medical Management Platform",
